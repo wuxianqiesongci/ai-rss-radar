@@ -1,0 +1,38 @@
+name: 每日 AI 前沿更新
+
+on:
+  schedule:
+    - cron: '0 22 * * *'   # 北京时间早上6点
+  workflow_dispatch:        # 允许手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 安装依赖
+        run: npm install
+
+      - name: 生成 feed.json (抓取+AI摘要)
+        env:
+          GH_MODELS_TOKEN: ${{ secrets.GH_MODELS_TOKEN }}
+        run: node scripts/generate-feed.mjs
+
+      - name: 构建前端
+        run: |
+          cd frontend
+          npm install
+          npm run build
+
+      - name: 部署到 GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./frontend/dist
