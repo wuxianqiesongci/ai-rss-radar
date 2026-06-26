@@ -43,7 +43,7 @@ async function summarize(text, token, retries = 3) {
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
       const response = await fetchWithTimeout(
-        'https://ws-avzcagnzcgjgeye1.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions',
+        'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions',
         {
           method: 'POST',
           headers: {
@@ -70,9 +70,9 @@ async function summarize(text, token, retries = 3) {
       const data = await response.json();
       return data.choices?.[0]?.message?.content?.trim() || '摘要生成失败';
     } catch (err) {
-      console.error(`摘要失败 (尝试 ${attempt}/${retries}): ${err.message}`);
-      if (attempt === retries) return '摘要生成失败';
-      await new Promise(r => setTimeout(r, 2000));
+  console.error(`摘要失败 (尝试 ${attempt}/${retries}): ${err.message} (原因: ${err.cause || '未知'})`);
+  if (attempt === retries) return '摘要生成失败';
+  await new Promise(r => setTimeout(r, 2000));
     }
   }
 }
