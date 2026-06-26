@@ -6,7 +6,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/feed.json')
+    fetch('./feed.json')
       .then(res => res.json())
       .then(data => {
         setItems(data);
