@@ -4,209 +4,239 @@
     "link": "https://code.visualstudio.com/updates/v1_127",
     "pubDate": "2026-07-01T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "标题：Visual Studio Code 1.127 更新简介\n\n\nVisual Studio Code 1.127的更新带来了几个重要的功能和改进。开发者们已经发布了这个版本，旨在提升用户的编码体验和开发效率。以下是这个版本的主要更新内容：\n\n1. **性能改进**：通过优化内存使用和代码执行效率，Visual Studio Code 1.127在处理大型项目时表现更佳。\n\n2. **新功能**"
+    "summary": "Visual Studio Code 1.127版本发布。",
+    "contentSnippet": "Learn what's new in Visual Studio Code 1.127 (Insiders)\nRead the full article"
+  },
+  {
+    "title": "Transitioning as a hubber",
+    "link": "https://github.blog/developer-skills/career-growth/transitioning-as-a-hubber/",
+    "pubDate": "Fri, 26 Jun 2026 12:00:00 +0000",
+    "source": "GitHub",
+    "summary": "转型为中心枢纽节点。",
+    "contentSnippet": "How GitHub's culture and benefits helped me be the best version of myself.\nThe post Transitioning as a hubber appeared first on The GitHub Blog."
+  },
+  {
+    "title": "GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
+    "link": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+    "pubDate": "Fri, 26 Jun 2026 10:32:58 +0000",
+    "source": "GitHub Changelog",
+    "summary": "GitHub桌面版3.6新增工作树与深度Copilot集成。",
+    "contentSnippet": "GitHub Desktop 3.6 brings more of your day-to-day Git flow into one place with GitHub Copilot now powering commit authoring and merge conflict resolution, plus new Git worktree support. The…\nThe post GitHub Desktop 3.6: Worktrees and deeper Copilot integration appeared first on The GitHub Blog."
   },
   {
     "title": "Physics-guided Convolutional Neural Network for Domain Growth Prediction in Systems with Conserved Kinetics",
     "link": "https://arxiv.org/abs/2606.26128",
     "pubDate": "Fri, 26 Jun 2026 00:00:00 -0400",
     "source": "arXiv",
-    "summary": "Title: Physics-Guided Convolutional Neural Network for Domain Growth Prediction in Systems with Conserved Kinetics\n\nAbstract:\nIn the realm of materials science and condensed matter physics, predicting the growth patterns of domains in systems with conserved kinetics is crucial for understanding phase transformations and material properties. Traditional predictive models often fall short in capturing the complex interplay between physical laws and empirical data. This study introduces a novel Physics-Guided Convolutional Neural Network (PG-CNN) framework that integrates physical principles"
+    "summary": "物理引导卷积神经网络预测守恒动力学系统的畴生长",
+    "contentSnippet": "arXiv:2606.26128v1 Announce Type: new \nAbstract: The spatiotemporal evolution of many physical, chemical, and biological systems is described by nonlinear partial differential equations (PDEs). Recently, deep neural network-based surrogate models have gained increasing interest as efficient alternatives to computationally expensive traditional numerical solvers. In this work, we propose an attention-based, physics-guided convolutional neural network as a surrogate model to learn the microstructural evolution of such systems. We train the model to accurately predict the full time-evolution of phase separation in binary mixtures governed by the Cahn-Hilliard equation. We show that predictions from our trained surrogate model remain stable and accurate over long-time rollouts for both critical and off-critical mixtures and preserve the mixture composition throughout evolution. We also show that our model accurately captures the growth of domain size and is consistent with the Lifshitz-Slyozov domain-growth law. The prediction results demonstrate the effectiveness of the proposed framework for modeling systems with conserved kinetics and can be extended to other complex dynamical systems."
   },
   {
     "title": "Detecting and Controlling Sycophancy with Cascading Linear Features",
     "link": "https://arxiv.org/abs/2606.26155",
     "pubDate": "Fri, 26 Jun 2026 00:00:00 -0400",
     "source": "arXiv",
-    "summary": "标题：Detecting and Controlling Sycophancy with Cascading Linear Features\n\n摘要：\n本研究旨在开发一种创新的人工智能系统，用于检测和控制在组织内部的过度奉承行为（sycophancy）。我们提出了一种基于递归线性特征的模型，该模型通过识别和分析员工之间的互动模式来识别sycophancy行为。该系统利用机器学习算法以动态调整其检测能力，并通过提供"
+    "summary": "基于级联线性特征的模型迎合行为检测与控制。",
+    "contentSnippet": "arXiv:2606.26155v1 Announce Type: new \nAbstract: Interpreting and controlling model behaviors through activation steering methods requires many pairs of contrastive samples that clearly exhibit desired or undesired behavior. These data pairs determine the degree to which interpretability frameworks can reliably detect model features responsible for a behavior, and therefore the ability to steer models toward or away from such behavior. In this work, we present an iterative data generation pipeline that isolates cascading linear features responsible for a behavior. Specifically, we show how moving beyond simple binary pairs of samples, and instead isolating samples that show degrees of features that scale linearly with behavior, allows for better disentanglement of features. We focus on detecting and steering away from sycophancy -- the tendency of language models to prioritize user validation. We demonstrate that sycophancy features discovered through cascading samples form linearly separable subspaces, and allow for selection of model activations that more clearly correspond to the desired behavior than baseline approaches. We also evaluate their ability to enable detection, deterministic scoring, and robust steering, and see that they either match or outperform LLM-as-a-judge and system prompting baselines while providing lower computational demand and more interpretability guarantees. Code & Data: https://cascading-feats.github.io/"
   },
   {
     "title": "Life After Benchmark Saturation: A Case Study of CORE-Bench",
     "link": "https://arxiv.org/abs/2606.26158",
     "pubDate": "Fri, 26 Jun 2026 00:00:00 -0400",
     "source": "arXiv",
-    "summary": "标题：Life After Benchmark Saturation: A Case Study of CORE-Bench\n\n摘要：\n随着计算机视觉（CV）领域的快速发展，模型的性能不断突破，导致了性能评估标准的不断更新。CORE-Bench是一个旨在提供高效、可扩展和标准化的计算机视觉评估平台。本文探讨了CORE-Bench在性能评估标准达到“标凑点”后如何继续发挥作用的情况。通过分析"
+    "summary": "基准饱和后的演进：CORE-Bench案例研究",
+    "contentSnippet": "arXiv:2606.26158v1 Announce Type: new \nAbstract: When a benchmark's accuracy saturates, it is often retired and replaced with a more challenging version. We show that this approach privileges accuracy and misses the opportunity to study six other key dimensions of agent performance: construct validity issues such as shortcuts, out-of-distribution generalizability, efficiency, reliability, the relative importance of the model versus the scaffold, and uplift from human-agent collaboration. We use CORE-Bench Hard, a benchmark for computational reproducibility of scientific code, as a case study to demonstrate that measuring agents along these dimensions yields meaningful insights into agent performance even after accuracy saturates. First, we surface threats to construct validity in CORE-Bench Hard that are difficult to anticipate with less capable agents. We introduce an improved benchmark, CORE-Bench v1.1, and an out-of-distribution task suite, CORE-Bench OOD. Second, we find that despite accuracy saturation, CORE-Bench v1.1 remains useful for measuring efficiency, reliability, model performance, and scaffold performance. Finally, we conduct a small-scale randomized experiment to measure uplift from human-agent collaboration on real-world computational reproducibility tasks. We find a statistically significant speedup by about a factor of two -- likely underestimated due to one-fifth of human-only reproductions reaching the time limit before completing -- and describe various other findings. Together, our contributions present a more rigorous alternative to the dominant accuracy-centric evaluation paradigm."
   },
   {
     "title": "Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks",
     "link": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
     "pubDate": "Thu, 25 Jun 2026 22:59:45 +0000",
     "source": "GitHub",
-    "summary": "Evaluating the performance and efficiency of the GitHub Copilot agentic harness across models and tasks involves a comprehensive analysis of its capabilities, accuracy, and overall utility in various programming contexts. Here is a structured approach to conducting such an evaluation:\n\n### 1. Define Evaluation Metrics\nEstablish clear metrics to assess the performance and efficiency of the GitHub Copilot agentic harness. Common metrics include:\n- **Accuracy**: Correctness of the code suggestions.\n- **Relevance**: How relevant"
+    "summary": "评估GitHub Copilot智能体跨模型任务效能",
+    "contentSnippet": "Explore how the GitHub Copilot agentic harness delivers strong results across multiple benchmarks and leading token efficiency, while maintaining flexibility to choose among more than 20 models.\nThe post Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks appeared first on The GitHub Blog."
   },
   {
     "title": "Copilot code review: Analysis depth and efficiency updates",
     "link": "https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates",
     "pubDate": "Thu, 25 Jun 2026 21:41:18 +0000",
     "source": "GitHub Changelog",
-    "summary": "标题：Copilot Code Review: Enhancements in Analysis Depth and Efficiency\n\n\nSummary:\n\nThe latest iteration of the Copilot code review tool has been updated to provide deeper analysis and improved efficiency in reviewing code. The new features include more comprehensive static and dynamic analysis, better integration with existing development tools, and an optimized algorithm that reduces the time required for code reviews without compromising on thoroughness.\n\n\nKey Features:\n\n1. Enhanced Static Code Analysis: The updated Copilot now includes advanced pattern recognition and anomaly detection,"
+    "summary": "Copilot代码审查升级：深化分析并提升效率",
+    "contentSnippet": "Copilot code review now uses the built-in file exploration tools available in the Copilot CLI and SDK, significantly improving review cost efficiency with no change to your existing workflow. If…\nThe post Copilot code review: Analysis depth and efficiency updates appeared first on The GitHub Blog."
   },
   {
     "title": "Enterprise-managed settings now support strictKnownMarketplaces in VS Code and GitHub Copilot CLI",
     "link": "https://github.blog/changelog/2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli",
     "pubDate": "Thu, 25 Jun 2026 21:30:42 +0000",
     "source": "GitHub Changelog",
-    "summary": "标题：VS Code & GitHub Copilot CLI：支持 strictKnownMarketplaces 的 Enterprise 级设置管理\n\n更新摘要：\nVisual Studio Code (VS Code) 和 GitHub Copilot CLI 的 Enterprise 级设置管理功能现在已纳入支持 strictKnownMarketplaces 的选项。这一更新旨在增强开发者的安全性和合规性，确保在使用 Copilot 生成的代码时，能够严格限定所使用的市场和资源。\n\n主要功能：\n1."
+    "summary": "VS Code与Copilot CLI企业设置现支持严格市场管控",
+    "contentSnippet": "Enterprises can now control which plugins their users can install in GitHub Copilot CLI and VS Code. This setting is now available in public preview. Add strictKnownMarketplaces to your enterprise-managed…\nThe post Enterprise-managed settings now support strictKnownMarketplaces in VS Code and GitHub Copilot CLI appeared first on The GitHub Blog."
   },
   {
     "title": "From test bench to lakehouse: how AVL modernizes measurement data analytics with Impulse",
     "link": "https://www.databricks.com/blog/test-bench-lakehouse-how-avl-modernizes-measurement-data-analytics-impulse",
     "pubDate": "Thu, 25 Jun 2026 19:30:00 GMT",
     "source": "Databricks",
-    "summary": "Title: From Test Bench to Lakehouse: How AVL Modernizes Measurement Data Analytics with Impulse\n\nAbstract:\nThe advent of AVL (Advanced Vehicle Labs) has revolutionized the way measurement data analytics is conducted, particularly in the automotive industry. By integrating Impulse, AVL has transitioned from traditional test benches to a more sophisticated lakehouse architecture, enabling real-time data processing, enhanced collaboration, and improved decision-making. This paper explores the transformation brought about by AVL's modernization efforts, the role of Impulse"
-  },
-  {
-    "title": "Saved views for repository issues – Public Preview and adjustable row heights in projects",
-    "link": "https://github.blog/changelog/2026-06-25-saved-views-for-repository-issues-and-adjustable-row-heights-in-projects",
-    "pubDate": "Thu, 25 Jun 2026 18:29:01 +0000",
-    "source": "GitHub Changelog",
-    "summary": "Title: Enhanced Repository Issue Management: Public Preview of Saved Views and Customizable Row Heights\n\nDescription:\n\nWe are excited to announce the public preview of a new feature designed to revolutionize the way you manage repository issues. This feature introduces two key enhancements: the ability to save and quickly access your preferred views of repository issues, and the flexibility to adjust row heights for a more personalized and efficient workspace.\n\nSaved Views for Repository Issues:\n\nThe saved views feature allows you to customize and save your preferred way of viewing"
+    "summary": "AVL借Impulse实现测量数据分析湖仓化转型。",
+    "contentSnippet": "1. Introduction - Impulse: time-series analytics for measurement dataA single automotive..."
   },
   {
     "title": "Our latest Google Finance upgrades, including a new app",
     "link": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
     "pubDate": "Thu, 25 Jun 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "标题：Discover the New Features in Our Latest Google Finance App Upgrade!\n\n更新通知\n\n大家好！\n\n我们在不断努力改进您的金融体验。为此，我们为Google Finance应用程序带来了令人兴奋的更新。我们相信这些新功能将增强您的投资决策能力和便利性。以下是我们最新的应用程序升级内容：\n\n1. **现代化的用户界面**：我们重新设计了应用程序的界面，使其更直观、易用"
+    "summary": "谷歌财经最新升级含全新应用。",
+    "contentSnippet": "The new Google Finance is coming out of beta and launching a new Android app."
   },
   {
     "title": "Understanding the brain with AI-driven explanations and experiments",
     "link": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/",
     "pubDate": "Thu, 25 Jun 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "标题：AI-Driven Insights: Decoding Brain Function Through Advanced Experiments and Explanations\n\n在这个时代，人工智能（AI）已经成为理解复杂系统的强大工具。它的应用范围广泛，从自然语言处理到图像识别，再到生物学领域的神经科学。本文将探讨AI如何帮助我们更深入地理解大脑功能，通过先进的实验和解释。\n\n### 1. AI在神经科学中的应用\n\nAI"
+    "summary": "借助AI驱动的解释与实验理解大脑",
+    "contentSnippet": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language.\nThe post Understanding the brain with AI-driven explanations and experiments appeared first on Microsoft Research."
   },
   {
     "title": "How agents are transforming work",
     "link": "https://openai.com/index/how-agents-are-transforming-work",
     "pubDate": "Thu, 25 Jun 2026 02:00:00 GMT",
     "source": "OpenAI",
-    "summary": "标题：AI-Agenten: Die Transformation der Arbeitswelt\n\nEinleitung:\nIn der heutigen schnelllebigen Welt sind künstliche Intelligenz-Agenten (KI-Agenten) zu einem bedeutenden Faktor geworden, der die Art und Weise, wie wir arbeiten, grundlegend verändert. Diese hochentwickelten Systeme, die auf maschinellem Lernen und Datenanalyse basieren, können Aufgaben automatisieren, die Effizienz steigern und neue Möglichkeiten für Innovationen eröffnen. In diesem Artikel werden wir untersuchen"
+    "summary": "智能体如何重塑工作方式。",
+    "contentSnippet": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles."
   },
   {
     "title": "The Rise of Sports Intelligence: How the Lakehouse Turns Tracking Data into Competitive Advantage",
     "link": "https://www.databricks.com/blog/rise-sports-intelligence-how-lakehouse-turns-tracking-data-competitive-advantage",
     "pubDate": "Wed, 24 Jun 2026 22:00:00 GMT",
     "source": "Databricks",
-    "summary": "The Rise of Sports Intelligence: How the Lakehouse Turns Tracking Data into Competitive Advantage\n\nIn the modern era of sports, data analytics has become an indispensable tool for teams looking to gain a competitive edge. The advent of the Lakehouse architecture, a hybrid data storage and processing system, has revolutionized the way sports organizations handle and analyze tracking data. This article delves into the transformative impact of the Lakehouse on sports intelligence, exploring how it turns raw tracking data into actionable insights that can propel teams to"
+    "summary": "湖仓一体将体育追踪数据转化为竞争优势。",
+    "contentSnippet": "Every second of a professional basketball game now generates more than 20,000 data..."
   },
   {
     "title": "How Daikin Applied Americas builds consistent data pipelines at scale with Genie Code",
     "link": "https://www.databricks.com/blog/how-daikin-applied-americas-builds-consistent-data-pipelines-scale-genie-code",
     "pubDate": "Wed, 24 Jun 2026 18:00:00 GMT",
     "source": "Databricks",
-    "summary": "标题：如何在规模上使用Genie Code构建Daikin Applied Americas的数据流\n\n摘要：\nDaikin Applied Americas，Daikin Applied Inc.的美国分公司，利用Genie Code平台建立了一个强大的、可靠且可扩展的数据流，以支持其日益增长的业务需求。Genie Code作为Daikin Applied Americas的核心数据处理工具，允许公司有效地收集、分析和管理来自各种来源的数据。本文将详细介绍Daikin Applied"
+    "summary": "大金应用美洲借Genie Code构建一致数据管道",
+    "contentSnippet": "Agentic data engineering is changing how pipelines are builtDaikin Applied Americas..."
   },
   {
     "title": "Visual Studio Code 1.126",
     "link": "https://code.visualstudio.com/updates/v1_126",
     "pubDate": "2026-06-24T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "标题：Visual Studio Code 1.126 - 轻松编辑和开发的代码编辑器更新\n\n\nVisual Studio Code 1.126 - 轻松编辑和开发的代码编辑器更新\n\n更新Visual Studio Code 1.126，增强你的编码体验。这个版本带来了新的功能、性能改进和错误修复，确保你在编写代码时更加高效。\n\n\n新功能:\n\n- 增加了新的代码补全建议，帮助你更快"
+    "summary": "Visual Studio Code 1.126版本发布",
+    "contentSnippet": "Learn what is new in Visual Studio Code 1.126\nRead the full article"
   },
   {
     "title": "Introducing computer use in Gemini 3.5 Flash",
     "link": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
     "pubDate": "Wed, 24 Jun 2026 16:30:01 +0000",
     "source": "DeepMind",
-    "summary": "标题：引入 Gemini 3.5 Flash 的计算机使用\n\nGemini 3.5 Flash 是一种先进的 Flash 驱动器，旨在提高计算机性能和功能。它的引入标志着计算机技术的一个重要进步，提供了更快的数据处理、更高效的存储和增强的用户体验。以下是 Gemini 3.5 Flash 的计算机使用：\n\n1. 加速性能：Gemini 3.5"
+    "summary": "Gemini 3.5 Flash支持操控电脑",
+    "contentSnippet": ""
   },
   {
     "title": "Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis",
     "link": "https://www.microsoft.com/en-us/research/blog/talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis/",
     "pubDate": "Wed, 24 Jun 2026 14:00:14 +0000",
     "source": "Microsoft Research",
-    "summary": "\"Talos: Scaling Rare Disease Diagnosis with Automated, Iterative Genomic Reanalysis\" - A Novel Approach to Precision Medicine\n\nAbstract:\nThe diagnosis of rare diseases often presents a significant challenge due to their low prevalence and the complexity of their genetic underpinnings. Traditional diagnostic methods are time-consuming and require extensive expertise, which can delay treatment and negatively impact patient outcomes. To address this issue, we introduce Talos, an innovative system designed to automate and scale the diagnostic process for rare diseases through iterative"
+    "summary": "Talos：自动化迭代基因组重分析实现罕见病规模化诊断",
+    "contentSnippet": "Talos was built to help resolve a major bottleneck in genomic medicine: human review time. The open-source system recovered 90% of in-scope diagnoses while surfacing just 1.3 candidate variants per patient for expert review. \nThe post Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis appeared first on Microsoft Research."
   },
   {
     "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
     "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
     "pubDate": "Wed, 24 Jun 2026 06:00:00 GMT",
     "source": "OpenAI",
-    "summary": "\"OpenAI and Broadcom unveil LLM-optimized inference chip: A leap forward in AI efficiency and performance\""
+    "summary": "开放人工智能与博通发布专为大模型优化的推理芯片",
+    "contentSnippet": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems."
   },
   {
     "title": "I automated my job (and it made me a better leader)",
     "link": "https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader/",
     "pubDate": "Tue, 23 Jun 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "标题：从自动化中获得的领导力提升\n\n正文：\n随着自动化技术的不断进步，许多行业正在经历一场重大的变革。作为一名曾经依靠手工操作的工厂经理，我决定将我的工作流程中的重复性任务转移到自动化系统中。这一决策不仅提高了生产效率，还为我提供了宝贵的时间和空间来专注于领导力和战略规划。\n\n在自动化的"
-  },
-  {
-    "title": "GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source",
-    "link": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source/",
-    "pubDate": "Tue, 23 Jun 2026 15:48:00 +0000",
-    "source": "GitHub",
-    "summary": "标题：GitHub 加盟倡导团体，支持修正加州 AI 透明度法以保护开源\n\nGitHub，一家全球领先的开源代码托管平台，已加入一个倡导团体，支持修正加州 AI 透明度法，以确保该法律不会对开源社区产生负面影响。该团体致力于确保 AI 开发和部署的透明度和责任，同时保护开源项目的自由使用和贡献。"
+    "summary": "自动化日常工作，助我成为更好领导者。",
+    "contentSnippet": "Explore how my day as a senior leader looks now that I use 40 automations to help, and learn more about some of my favorites.\nThe post I automated my job (and it made me a better leader) appeared first on The GitHub Blog."
   },
   {
     "title": "Helping build shared standards for advanced AI",
     "link": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
     "pubDate": "Tue, 23 Jun 2026 13:00:00 GMT",
     "source": "OpenAI",
-    "summary": "标题：共同努力：为高级AI建立共享标准\n\n简介：\n在人工智能（AI）技术迅速发展的今天，制定共享的标准对于确保先进AI系统的可靠性、透明度和伦理性至关重要。通过合作，行业领袖、研究机构、政策制定者和利益相关者可以共同努力，建立一致的指导原则和最佳实践，以促进创新，同时保护公众利益。\n\n目标：\n1. 促进行业内部的对话和合作，建立"
+    "summary": "助力构建先进人工智能共享标准。",
+    "contentSnippet": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation."
   },
   {
     "title": "What 50,000 Runs of a 5-Line Eval Taught Us",
     "link": "https://code.visualstudio.com/blogs/2026/06/19/what-50000-runs-taught-us",
     "pubDate": "2026-06-19T00:00:00.000Z",
     "source": "VS Code",
-    "summary": "I'm sorry, but I can't generate a detailed analysis or content based on a specific request for 50,000 runs of a 5-line evaluation without knowing the context or the specific scenario you're referring to. However, I can help you understand how to analyze a large number of runs in a 5-line evaluation, typically used in poker or similar games. If you provide more details, I'd be happy to assist further!"
+    "summary": "五万次极简评估实验的启示。",
+    "contentSnippet": "How AI coding models calibrate effort, token cost, and tool use on even the simplest task, and what that means for model selection and cost.\nRead the full article"
   },
   {
     "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
     "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
     "pubDate": "Wed, 17 Jun 2026 15:00:00 +0000",
     "source": "Google AI",
-    "summary": "New research shows how AMIE, our medical AI, could help manage health conditions. This groundbreaking study highlights the potential of artificial intelligence in revolutionizing the healthcare industry. AMIE, or Artificial Medical Intelligence, is a cutting-edge AI system designed to assist healthcare professionals in diagnosing and treating various medical conditions. The research demonstrates how AMIE can analyze vast amounts of medical data, identify patterns, and provide accurate and timely recommendations to doctors and patients. By leveraging the power of AI, AMIE can help reduce"
+    "summary": "新研究显示AMIE医疗AI可辅助健康管理。",
+    "contentSnippet": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management."
   },
   {
     "title": "Unlocking UK house-building with AI-accelerated planning",
     "link": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
     "pubDate": "Tue, 16 Jun 2026 21:29:50 +0000",
     "source": "DeepMind",
-    "summary": "Unlocking UK house-building with AI-accelerated planning\n\nThe UK housing market has long been characterized by a shortage of homes, with demand consistently outstripping supply. This has led to rising prices and increased pressure on the planning system. However, the advent of artificial intelligence (AI) presents an opportunity to revolutionize house-building planning in the UK, making it faster, more efficient, and more sustainable.\n\nAI-accelerated planning involves the use of advanced algorithms and machine learning techniques to optimize the"
+    "summary": "人工智能加速规划助力英国住房建设",
+    "contentSnippet": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions."
   },
   {
     "title": "Securing the future of AI agents",
     "link": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
     "pubDate": "Tue, 16 Jun 2026 15:46:31 +0000",
     "source": "DeepMind",
-    "summary": "Securing the future of AI agents is a multifaceted endeavor that involves addressing ethical, technical, and regulatory challenges to ensure that artificial intelligence systems are developed and deployed in a manner that is safe, fair, and beneficial for society. Here are some key strategies to consider:\n\n1. Ethical Guidelines and Standards:\n   - Establish clear ethical guidelines for AI development and use, including principles of transparency, accountability, fairness, and respect for human rights.\n   - Encourage collaboration between AI researchers, ethicists, policymakers"
+    "summary": "保障AI智能体未来安全发展。",
+    "contentSnippet": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring."
   },
   {
     "title": "We’re strengthening our presence in Alabama through new investments and community support.",
     "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
     "pubDate": "Mon, 15 Jun 2026 15:00:00 +0000",
     "source": "Google AI",
-    "summary": "We're strengthening our presence in Alabama through new investments and community support. Our commitment to the state is reflected in our latest initiatives, which aim to foster growth, innovation, and collaboration. By investing in local businesses, infrastructure, and educational programs, we are dedicated to creating a thriving environment for all residents. Our efforts are focused on building lasting relationships and contributing to the economic and social well-being of Alabama communities. We look forward to working together with local leaders, organizations, and citizens to achieve our shared goals"
+    "summary": "通过新投资与社区支持，强化在阿拉巴马州的布局。",
+    "contentSnippet": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…"
   },
   {
     "title": "Ire identifies another LOTUSLITE specimen",
     "link": "https://www.microsoft.com/en-us/research/blog/ire-identifies-another-lotuslite-specimen/",
     "pubDate": "Fri, 12 Jun 2026 20:30:48 +0000",
     "source": "Microsoft Research",
-    "summary": "标题：Ire identifies another LOTUSLITE specimen\n\n在这篇文章中，Ire，可能是一个科学家、研究人员或探险家，报告了在某个特定地点发现了另一个LOTUSLITE样本。LOTUSLITE是指在特定环境中发现的矿物或化石，通常与特定类型的植物或生物有关。Ire的发现可能对科学界来说具有重要意义，因为它可能会"
+    "summary": "爱尔兰发现又一LOTUSLITE标本",
+    "contentSnippet": "Project Ire examined a timely malware sample and determined its intent through reverse engineering—identifying LOTUSLITE characteristics even as most major EDR tools did not detect it.\nThe post Ire identifies another LOTUSLITE specimen appeared first on Microsoft Research."
   },
   {
     "title": "What the GSoC Mentor Summit Reminded Me About Open Source",
     "link": "https://news.apache.org/foundation/entry/what-the-gsoc-mentor-summit-reminded-me-about-open-source",
     "pubDate": "Tue, 09 Jun 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "The Google Summer of Code (GSoC) Mentor Summit is a gathering of mentors from around the world who share their experiences, challenges, and best practices in guiding student developers through the GSoC program. Attending or learning about this summit can offer valuable insights into the world of open source development. Here are some key takeaways that the GSoC Mentor Summit might remind you about open source:\n\n1. **Mentorship is Crucial**: One of the most important lessons is the importance"
+    "summary": "GSoC导师峰会带来的开源启示。",
+    "contentSnippet": "By: Priya Sharma As a Google Summer of Code (GSoC) organization admin representing the Apache Software Foundation, I had the privilege of attending the GSoC Mentor Summit 2025, and it was an incredible experience! The Mentor Summit is a unique opportunity to connect with amazing mentors and discuss open source topics in an unconference format […]\nThe post What the GSoC Mentor Summit Reminded Me About Open Source appeared first on The ASF Blog."
   },
   {
     "title": "The Apache® Software Foundation Announces New Top-Level Project",
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-project-4",
     "pubDate": "Thu, 04 Jun 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "The Apache® Software Foundation Announces New Top-Level Project\n\nIn a significant development for the open-source community, the Apache Software Foundation (ASF) has announced the initiation of a new top-level project. This project is set to contribute to the growing landscape of open-source software, providing developers and organizations with a robust platform for collaboration and innovation.\n\nThe ASF, a non-profit organization that oversees some of the most widely-used open-source projects, including the Apache HTTP Server, has a history of fostering a collaborative environment"
+    "summary": "Apache基金会宣布新增顶级项目",
+    "contentSnippet": "Apache® Livy, a REST service for Apache Spark™, becomes a Top-Level Project Wilmington, DE –  June 4, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that Apachy Livy has become a Top-Level Project (TLP).  Apache Livy is a service that enables easy interaction […]\nThe post The Apache® Software Foundation Announces New Top-Level Project appeared first on The ASF Blog."
   },
   {
     "title": "ASF Plus One Newsletter: May 2026",
     "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-may-2026",
     "pubDate": "Thu, 28 May 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "ASF Plus One Newsletter: May 2026\n\nDear ASF Members,\n\nWe are thrilled to share with you the highlights and updates from the ASF Plus One Newsletter for May 2026. This edition brings you the latest developments, insightful articles, and exciting opportunities within the ASF community.\n\n**Key Highlights:**\n\n1. **ASF Annual Conference 2026:**\n   - The ASF Annual Conference will take place from June 15-17, 2026, in San Francisco, California. This year's"
+    "summary": "ASF Plus One 2026年5月通讯",
+    "contentSnippet": "From the rise of Apache Iceberg and the modernization of Apache Geode, to a behind-the-scenes look at the rebuild of Apache STeVe v3, this month’s Plus One highlights how open collaboration continues driving innovation across the ASF ecosystem. We’re also gearing up for Community Over Code Glasgow 2026; sharing important ecosystem updates; celebrating ASF project […]\nThe post ASF Plus One Newsletter: May 2026 appeared first on The ASF Blog."
   }
 ]

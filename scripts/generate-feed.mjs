@@ -29,7 +29,7 @@ const RSS_SOURCES = [
 
 // ==================== 调用 GitHub Models API 生成摘要 ====================
 // 带超时和重试的 fetch
-async function fetchWithTimeout(url, options, timeout = 30000) {
+async function fetchWithTimeout(url, options, timeout = 60000) {
   const controller = new AbortController();
   const id = setTimeout(() => controller.abort(), timeout);
   try {
@@ -39,12 +39,11 @@ async function fetchWithTimeout(url, options, timeout = 30000) {
     clearTimeout(id);
   }
 }
-
 async function summarize(text, token, retries = 3) {
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
       const response = await fetchWithTimeout(
-        'https://models.inference.ai.azure.com/chat/completions',
+        'https://ws-avzcagnzcgjgeye1.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions',
         {
           method: 'POST',
           headers: {
@@ -52,16 +51,16 @@ async function summarize(text, token, retries = 3) {
             'Authorization': `Bearer ${token}`
           },
           body: JSON.stringify({
-            model: 'Phi-4-mini-instruct',
+            model: 'qwen3.6-flash',
             messages: [
-              { role: 'system', content: '你是一个技术摘要助手。用一句中文总结以下技术文章的核心贡献，不超过40字。' },
+              { role: 'system', content: '你只能用中文回复。请把下面的技术标题总结成一句中文，不超过25字。直接给出总结，不要解释。' },
               { role: 'user', content: text }
             ],
-            max_tokens: 100,
+            max_tokens: 50,
             temperature: 0.3
           })
         },
-        30000 // 30秒超时
+        60000 // 60秒超时
       );
 
       if (!response.ok) {
@@ -73,7 +72,6 @@ async function summarize(text, token, retries = 3) {
     } catch (err) {
       console.error(`摘要失败 (尝试 ${attempt}/${retries}): ${err.message}`);
       if (attempt === retries) return '摘要生成失败';
-      // 等待 2 秒后重试
       await new Promise(r => setTimeout(r, 2000));
     }
   }
@@ -85,7 +83,7 @@ async function main() {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Accept': 'application/rss+xml, application/xml, text/xml, */*'
   },
-  timeout: 30000
+  timeout: 60000
 });
   const allItems = [];
 
@@ -101,6 +99,7 @@ async function main() {
           pubDate: item.pubDate || item.isoDate,
           source,
           summary: '',  // 稍后填充
+          contentSnippet: item.contentSnippet || item.content || ''   // ✅ 保存摘要
         });
       }
       console.log(`✅ ${source} 抓取成功，获得 ${items.length} 篇`);
@@ -111,7 +110,6 @@ async function main() {
 
   // 按发布日期倒序排列
   allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-
   const token = process.env.GH_MODELS_TOKEN;
   if (!token) {
     console.error('❌ 未设置 GH_MODELS_TOKEN 环境变量，无法生成摘要');
@@ -123,13 +121,14 @@ async function main() {
   }
 
   console.log(`\n开始为 ${allItems.length} 篇文章生成 AI 摘要...`);
-  for (let i = 0; i < allItems.length; i++) {
-    const contentToSummarize = `标题：${allItems[i].title}`;
-    allItems[i].summary = await summarize(contentToSummarize, token);
-    // 稍作延迟，避免请求太频繁
+for (let i = 0; i < allItems.length; i++) {
+    // 获取文章摘要（如果有的话）
+    const snippet = allItems[i].contentSnippet || allItems[i].content || '';
+    const textToSummarize = allItems[i].title //+ (snippet ? '。摘要：' + snippet : '');
+    allItems[i].summary = await summarize(textToSummarize, token);
     await new Promise(r => setTimeout(r, 800));
     console.log(`进度：${i + 1}/${allItems.length}`);
-  }
+}
 
   // 输出到前端可读取的位置
   const outputPath = join(__dirname, '..', 'frontend', 'public', 'feed.json');
