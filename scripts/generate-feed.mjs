@@ -55,7 +55,7 @@ async function summarize(text, token, retries = 3) {
     { role: 'system', content: '你只能用中文回复，直接输出最终总结，不要推理过程。请把下面的技术标题总结成一句中文，不超过25字。直接给出总结，不要解释。' },
     { role: 'user', content: text }
   ],
-  max_tokens: 200,
+  max_tokens: 2000,
   temperature: 0.3
 })
         },
@@ -132,6 +132,7 @@ async function main() {
 
   console.log(`\n开始为 ${allItems.length} 篇文章生成 AI 摘要...`);
   for (let i = 0; i < allItems.length; i++) {
+    //if (i >= 3) break;
     const snippet = allItems[i].contentSnippet || allItems[i].content || '';
     const textToSummarize = allItems[i].title + (snippet ? '。摘要：' + snippet : '');
     allItems[i].summary = await summarize(textToSummarize, token);
