@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Visual Studio Code 1.127 (Insiders)",
+    "link": "https://code.visualstudio.com/updates/v1_127",
+    "pubDate": "2026-07-01T17:00:00.000Z",
+    "source": "VS Code",
+    "summary": "VS Code 1.127 内部版新功能",
+    "contentSnippet": "Learn what's new in Visual Studio Code 1.127 (Insiders)\nRead the full article"
+  },
+  {
+    "title": "Track total merges by adoption phase in enterprise and organization reports",
+    "link": "https://github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports",
+    "pubDate": "Fri, 26 Jun 2026 20:55:03 +0000",
+    "source": "GitHub Changelog",
+    "summary": "跟踪企业及组织报告中按采用阶段的合并总数",
+    "contentSnippet": "Building on the AI adoption phase cohorts added to the Copilot usage metrics API, organization and enterprise reports now report the total number of pull requests merged by each adoption…\nThe post Track total merges by adoption phase in enterprise and organization reports appeared first on The GitHub Blog."
+  },
+  {
+    "title": "How Databricks is turning video into searchable, actionable intelligence",
+    "link": "https://www.databricks.com/blog/how-databricks-turning-video-searchable-actionable-intelligence",
+    "pubDate": "Fri, 26 Jun 2026 20:30:00 GMT",
+    "source": "Databricks",
+    "summary": "Databricks将视频转化为可搜索智能",
+    "contentSnippet": "A utility company deploys drones to inspect hundreds of miles of power lines. A police..."
+  },
+  {
+    "title": "A Decision Framework for ETL Migration to Databricks",
+    "link": "https://www.databricks.com/blog/decision-framework-etl-migration-databricks",
+    "pubDate": "Fri, 26 Jun 2026 20:20:00 GMT",
+    "source": "Databricks",
+    "summary": "",
+    "contentSnippet": "Your team has hundreds of stored procedures, a couple of schedulers, permissions..."
+  },
+  {
+    "title": "How the English Office for Students leverages Databricks to enhance higher education standards and drive better student outcomes",
+    "link": "https://www.databricks.com/blog/how-english-office-students-leverages-databricks-enhance-higher-education-standards-and-drive",
+    "pubDate": "Fri, 26 Jun 2026 20:15:00 GMT",
+    "source": "Databricks",
+    "summary": "",
+    "contentSnippet": "8 hours → minutes | Processing time for a 300-million-record data job after moving..."
+  },
+  {
+    "title": "GitHub and UNDP team up to advance development priorities in Ghana with open source",
+    "link": "https://github.blog/open-source/social-impact/github-and-undp-team-up-to-advance-development-priorities-in-ghana-with-open-source/",
+    "pubDate": "Fri, 26 Jun 2026 16:53:57 +0000",
+    "source": "GitHub",
+    "summary": "",
+    "contentSnippet": "GitHub joined the United Nations Development Programme in Ghana to explore how open source governance can support one of West Africa's most ambitious digital reform efforts. \nThe post GitHub and UNDP team up to advance development priorities in Ghana with open source appeared first on The GitHub Blog."
+  },
+  {
+    "title": "MAI-Code-1-Flash for Copilot Business and Copilot Enterprise",
+    "link": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise",
+    "pubDate": "Fri, 26 Jun 2026 16:35:06 +0000",
+    "source": "GitHub Changelog",
+    "summary": "",
+    "contentSnippet": "MAI-Code-1-Flash, Microsoft AI’s in-house coding model, is now generally available for GitHub Copilot Business and Copilot Enterprise, building on its recent expansion across Copilot surfaces. Purpose-built for coding and optimized…\nThe post MAI-Code-1-Flash for Copilot Business and Copilot Enterprise appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Transitioning as a Hubber",
+    "link": "https://github.blog/developer-skills/career-growth/transitioning-as-a-hubber/",
+    "pubDate": "Fri, 26 Jun 2026 12:00:00 +0000",
+    "source": "GitHub",
+    "summary": "",
+    "contentSnippet": "How GitHub's culture and benefits helped me be the best version of myself.\nThe post Transitioning as a Hubber appeared first on The GitHub Blog."
+  },
+  {
+    "title": "GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
+    "link": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+    "pubDate": "Fri, 26 Jun 2026 10:32:58 +0000",
+    "source": "GitHub Changelog",
+    "summary": "",
+    "contentSnippet": "GitHub Desktop 3.6 brings more of your day-to-day Git flow into one place with GitHub Copilot now powering commit authoring and merge conflict resolution, plus new Git worktree support. The…\nThe post GitHub Desktop 3.6: Worktrees and deeper Copilot integration appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Previewing GPT-5.6 Sol: a next-generation model",
+    "link": "https://openai.com/index/previewing-gpt-5-6-sol",
+    "pubDate": "Fri, 26 Jun 2026 10:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "",
+    "contentSnippet": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack."
+  },
+  {
+    "title": "Iterating faster with TypeScript 7",
+    "link": "https://code.visualstudio.com/blogs/2026/06/26/iterating-faster-with-ts-7",
+    "pubDate": "2026-06-26T00:00:00.000Z",
+    "source": "VS Code",
+    "summary": "",
+    "contentSnippet": "How the VS Code and TypeScript teams collaborated to adopt TypeScript 7 and speed up VS Code development\nRead the full article"
+  },
+  {
+    "title": "Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks",
+    "link": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
+    "pubDate": "Thu, 25 Jun 2026 22:59:45 +0000",
+    "source": "GitHub",
+    "summary": "",
+    "contentSnippet": "Explore how the GitHub Copilot agentic harness delivers strong results across multiple benchmarks and leading token efficiency, while maintaining flexibility to choose among more than 20 models.\nThe post Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Our latest Google Finance upgrades, including a new app",
+    "link": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+    "pubDate": "Thu, 25 Jun 2026 16:00:00 +0000",
+    "source": "Google AI",
+    "summary": "",
+    "contentSnippet": "The new Google Finance is coming out of beta and launching a new Android app."
+  },
+  {
+    "title": "Understanding the brain with AI-driven explanations and experiments",
+    "link": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/",
+    "pubDate": "Thu, 25 Jun 2026 16:00:00 +0000",
+    "source": "Microsoft Research",
+    "summary": "",
+    "contentSnippet": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language.\nThe post Understanding the brain with AI-driven explanations and experiments appeared first on Microsoft Research."
+  },
+  {
+    "title": "How agents are transforming work",
+    "link": "https://openai.com/index/how-agents-are-transforming-work",
+    "pubDate": "Thu, 25 Jun 2026 02:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "",
+    "contentSnippet": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles."
+  },
+  {
+    "title": "Visual Studio Code 1.126",
+    "link": "https://code.visualstudio.com/updates/v1_126",
+    "pubDate": "2026-06-24T17:00:00.000Z",
+    "source": "VS Code",
+    "summary": "",
+    "contentSnippet": "Learn what is new in Visual Studio Code 1.126\nRead the full article"
+  },
+  {
+    "title": "Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis",
+    "link": "https://www.microsoft.com/en-us/research/blog/talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis/",
+    "pubDate": "Wed, 24 Jun 2026 14:00:14 +0000",
+    "source": "Microsoft Research",
+    "summary": "",
+    "contentSnippet": "Talos was built to help resolve a major bottleneck in genomic medicine: human review time. The open-source system recovered 90% of in-scope diagnoses while surfacing just 1.3 candidate variants per patient for expert review. \nThe post Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis appeared first on Microsoft Research."
+  },
+  {
+    "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+    "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+    "pubDate": "Wed, 24 Jun 2026 06:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "",
+    "contentSnippet": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems."
+  },
+  {
+    "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+    "pubDate": "Wed, 17 Jun 2026 15:00:00 +0000",
+    "source": "Google AI",
+    "summary": "",
+    "contentSnippet": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management."
+  },
+  {
+    "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+    "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+    "pubDate": "Mon, 15 Jun 2026 15:00:00 +0000",
+    "source": "Google AI",
+    "summary": "",
+    "contentSnippet": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…"
+  },
+  {
+    "title": "Ire identifies another LOTUSLITE specimen",
+    "link": "https://www.microsoft.com/en-us/research/blog/ire-identifies-another-lotuslite-specimen/",
+    "pubDate": "Fri, 12 Jun 2026 20:30:48 +0000",
+    "source": "Microsoft Research",
+    "summary": "",
+    "contentSnippet": "Project Ire examined a timely malware sample and determined its intent through reverse engineering—identifying LOTUSLITE characteristics even as most major EDR tools did not detect it.\nThe post Ire identifies another LOTUSLITE specimen appeared first on Microsoft Research."
+  },
+  {
+    "title": "What the GSoC Mentor Summit Reminded Me About Open Source",
+    "link": "https://news.apache.org/foundation/entry/what-the-gsoc-mentor-summit-reminded-me-about-open-source",
+    "pubDate": "Tue, 09 Jun 2026 16:00:00 +0000",
+    "source": "Apache",
+    "summary": "",
+    "contentSnippet": "By: Priya Sharma As a Google Summer of Code (GSoC) organization admin representing the Apache Software Foundation, I had the privilege of attending the GSoC Mentor Summit 2025, and it was an incredible experience! The Mentor Summit is a unique opportunity to connect with amazing mentors and discuss open source topics in an unconference format […]\nThe post What the GSoC Mentor Summit Reminded Me About Open Source appeared first on The ASF Blog."
+  },
+  {
+    "title": "The Apache® Software Foundation Announces New Top-Level Project",
+    "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-project-4",
+    "pubDate": "Thu, 04 Jun 2026 13:00:00 +0000",
+    "source": "Apache",
+    "summary": "",
+    "contentSnippet": "Apache® Livy, a REST service for Apache Spark™, becomes a Top-Level Project Wilmington, DE –  June 4, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that Apachy Livy has become a Top-Level Project (TLP).  Apache Livy is a service that enables easy interaction […]\nThe post The Apache® Software Foundation Announces New Top-Level Project appeared first on The ASF Blog."
+  },
+  {
+    "title": "ASF Plus One Newsletter: May 2026",
+    "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-may-2026",
+    "pubDate": "Thu, 28 May 2026 16:00:00 +0000",
+    "source": "Apache",
+    "summary": "",
+    "contentSnippet": "From the rise of Apache Iceberg and the modernization of Apache Geode, to a behind-the-scenes look at the rebuild of Apache STeVe v3, this month’s Plus One highlights how open collaboration continues driving innovation across the ASF ecosystem. We’re also gearing up for Community Over Code Glasgow 2026; sharing important ecosystem updates; celebrating ASF project […]\nThe post ASF Plus One Newsletter: May 2026 appeared first on The ASF Blog."
+  }
+]
