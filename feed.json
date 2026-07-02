@@ -1,10 +1,90 @@
 [
   {
+    "title": "Issue fields are now generally available",
+    "link": "https://github.blog/changelog/2026-07-02-issue-fields-are-now-generally-available",
+    "pubDate": "Thu, 02 Jul 2026 08:17:17 +0000",
+    "source": "GitHub Changelog",
+    "summary": "问题字段现已全面可用",
+    "contentSnippet": "Issue fields are now generally available for all GitHub organizations on Free, Team, Enterprise, and GitHub Enterprise Cloud with data residency plans and will ship in GitHub Enterprise Server 3.23.…\nThe post Issue fields are now generally available appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Constructive Alignment: Governing Preference Dynamics in Human-AI Interaction",
+    "link": "https://arxiv.org/abs/2607.00001",
+    "pubDate": "Thu, 02 Jul 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "建设性对齐治理人机交互偏好动态",
+    "contentSnippet": "arXiv:2607.00001v1 Announce Type: new \nAbstract: Most approaches to AI alignment treat human preferences as fixed targets to be inferred and optimized. This assumption conflicts with extensive empirical evidence showing that preferences are layered, dynamic, and constructed through interaction--particularly with adaptive technologies. As AI systems become more persistent, personalized, and socially embedded, they increasingly participate in shaping what people attend to, value, and endorse over time. We introduce Constructive Alignment, a paradigm that reframes alignment as a control problem over evolving human preference trajectories rather than static preference satisfaction. Drawing on behavioral economics, psychology, and constructivist social theory, we model preferences as layered state variables that evolve under interaction with AI systems. We formalize this view using a control-theoretic framework in which system actions and interaction design jointly influence both world states and human evaluative states. We argue that alignment is not primarily about controlling AI behavior, but about regulating how AI systems influence the evolution of human preferences--ensuring that value trajectories remain coherent, reflectively endorsed, epistemically grounded, bounded against manipulation, and empowering under uncertainty. Alignment thus becomes a problem of governing long-term value formation rather than simply satisfying static preferences."
+  },
+  {
+    "title": "Bounded Morality: Defining the Space of Moral Computation",
+    "link": "https://arxiv.org/abs/2607.00002",
+    "pubDate": "Thu, 02 Jul 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "有界道德：定义道德计算空间",
+    "contentSnippet": "arXiv:2607.00002v1 Announce Type: new \nAbstract: Moral cognition has traditionally been modeled as adherence to fixed ethical theories--deontology, consequentialism, virtue ethics--implemented as static rules or value functions. We propose Bounded Morality, a formal framework for analyzing the computational demands of moral problems faced by finite agents. Extending Herbert Simon's notion of bounded rationality, we formalize moral situations along two orthogonal dimensions: moral breadth, the scope of entities treated as morally relevant, and moral depth, the inferential integration required to evaluate their interactions. Limited resources impose an unavoidable tradeoff between these dimensions, defining a feasible space of moral computation. Within this space, ethical theories correspond to locally efficient strategies adapted to different demand regimes rather than competing accounts of moral truth. The framework yields a formal notion of moral regret and moral progress under constraint, and implies that moral alignment in artificial systems depends on the scaling and allocation of moral reasoning capacity rather than on direct imitation of human judgments."
+  },
+  {
+    "title": "The MMM Data Model -- A Normative Specification for Knowledge Interoperability in a Decentralisable Knowledge Commons",
+    "link": "https://arxiv.org/abs/2607.00032",
+    "pubDate": "Thu, 02 Jul 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "MMM数据模型：去中心化知识互操作规范",
+    "contentSnippet": "arXiv:2607.00032v1 Announce Type: new \nAbstract: Many information systems are built around documents: self-contained units optimised for print production and linear reading. While effective for large-scale dissemination, the document-centric organisation constrains how knowledge can be structured, updated, shared, and reused. Formal approaches address some of these limitations but struggle to achieve widespread contribution and adoption due to their prioritisation of formal structure over other system properties such as human usability and scope. AI systems are reshaping document production, but without providing a unified portable alternative to traditional documents for humans' expression and exchange of knowledge. This paper presents MMM, a data model for knowledge documentation that emerged from the practical needs of interdisciplinary collaborative research, and positioned here within a comparative analysis of the design space of information systems. MMM combines a small set of normative constraints with the expressive freedom of free-text labels. It is designed for interoperability across disciplines, applications and deployments without requiring semantic convergence. A reference implementation and pilot deployment data demonstrate implementability and early usability."
+  },
+  {
+    "title": "Secret scanning public monitoring for enterprises",
+    "link": "https://github.blog/changelog/2026-07-01-secret-scanning-public-monitoring-for-enterprises",
+    "pubDate": "Thu, 02 Jul 2026 00:37:55 +0000",
+    "source": "GitHub Changelog",
+    "summary": "面向企业的秘密扫描公共监控",
+    "contentSnippet": "GitHub is committed to empowering the developer community by helping organizations recognize and address the risks of secret leaks wherever they happen. We believe every enterprise should know the moment…\nThe post Secret scanning public monitoring for enterprises appeared first on The GitHub Blog."
+  },
+  {
+    "title": "How we keep GPUs reliable across Databricks AI",
+    "link": "https://www.databricks.com/blog/how-we-keep-gpus-reliable-across-databricks-ai",
+    "pubDate": "Wed, 01 Jul 2026 23:00:00 GMT",
+    "source": "Databricks",
+    "summary": "Databricks AI中GPU可靠性保障方法",
+    "contentSnippet": "Distributed GPU training has become routine across the industry. Teams now train..."
+  },
+  {
+    "title": "Enterprises can default to auto model selection",
+    "link": "https://github.blog/changelog/2026-07-01-enterprises-can-default-to-auto-model-selection",
+    "pubDate": "Wed, 01 Jul 2026 22:27:16 +0000",
+    "source": "GitHub Changelog",
+    "summary": "企业可默认自动选择模型",
+    "contentSnippet": "Enterprise administrators can now set model to auto in the enterprise managed-settings.json to make Copilot auto model selection the default for new conversations. Add auto to .github-private/.github/copilot/managed-settings.json in your source…\nThe post Enterprises can default to auto model selection appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Celebrating the Winners of the 2026 Built-On Databricks Startup Challenge",
+    "link": "https://www.databricks.com/blog/celebrating-winners-2026-built-databricks-startup-challenge",
+    "pubDate": "Wed, 01 Jul 2026 22:00:00 GMT",
+    "source": "Databricks",
+    "summary": "庆祝2026年Databricks创业挑战赛获奖者",
+    "contentSnippet": "We are excited to announce the winners of the 2026 Built-On Databricks Startup Challenge..."
+  },
+  {
+    "title": "Granular Usage Attribution for dbt Pipelines with Query Tags",
+    "link": "https://www.databricks.com/blog/granular-usage-attribution-dbt-pipelines-query-tags",
+    "pubDate": "Wed, 01 Jul 2026 19:23:01 GMT",
+    "source": "Databricks",
+    "summary": "查询标签实现dbt管道细粒度归因",
+    "contentSnippet": "Your dbt project runs 80 models every night. The warehouse bill doubled last quarter...."
+  },
+  {
+    "title": "The latest AI news we announced in June 2026",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+    "pubDate": "Wed, 01 Jul 2026 18:15:00 +0000",
+    "source": "Google AI",
+    "summary": "谷歌2026年6月AI最新动态",
+    "contentSnippet": "Here are Google’s latest AI updates from June 2026."
+  },
+  {
     "title": "Visual Studio Code 1.127",
     "link": "https://code.visualstudio.com/updates/v1_127",
     "pubDate": "2026-07-01T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "Visual Studio Code 1.127新功能介绍",
+    "summary": "VS Code 1.127 新功能介绍",
     "contentSnippet": "Learn what is new in Visual Studio Code 1.127\nRead the full article"
   },
   {
@@ -12,87 +92,47 @@
     "link": "https://code.visualstudio.com/updates/v1_128",
     "pubDate": "2026-07-01T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.128 内测版新特性",
+    "summary": "VS Code 1.128 内部版新特性发布",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.128 (Insiders)\nRead the full article"
   },
   {
-    "title": "Joint discovery of governing partial differential equations from multi-source datasets by competitive optimization",
-    "link": "https://arxiv.org/abs/2606.30699",
-    "pubDate": "Wed, 01 Jul 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "竞争优化联合发现多源数据集的偏微分方程",
-    "contentSnippet": "arXiv:2606.30699v1 Announce Type: new \nAbstract: Discovering governing equations directly from observational data is a key step towards interpretable scientific machine learning. Current data-driven approaches typically operate on a single dataset, inherently limiting their performance when faced with restricted observations. In practice, multiple datasets are often available for the same physical system, distinguished only by distinct initial conditions or boundary configurations. Here, we present a competitive optimization framework designed to discover shared partial differential equations (PDEs) from multi-source datasets, termed MCO-PDE. The framework first trains independent neural surrogates for each data source, and then employs a soft-competitive weighting mechanism to dynamically assess dataset credibility and aggregate a consensus global coefficient. Integrated with a genetic algorithm for structural search, this approach simultaneously identifies the functional forms and parameters of the governing laws. We demonstrate that fusing as few as 50 observations per dataset across seven cases recovers canonical equations with high accuracy. The framework inherently handles two- and three-dimensional domains characterized by irregular boundaries and heterogeneous coefficients, and successfully extracts physically meaningful laws from real-world wave-tank experiments. Overall, this work establishes a promising route for automated scientific discovery via heterogeneous data fusion."
+    "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+    "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+    "pubDate": "Wed, 01 Jul 2026 16:00:00 +0000",
+    "source": "Google AI",
+    "summary": "纽约教育领袖与业界在谷歌共商AI课堂未来",
+    "contentSnippet": "Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders."
   },
   {
-    "title": "Accelerometry-Derived Digital Biomarkers for Cardiometabolic Risk: A Population-Representative Tabular Benchmark with Uncertainty Quantification",
-    "link": "https://arxiv.org/abs/2606.30702",
-    "pubDate": "Wed, 01 Jul 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "加速度计数字生物标志物心脏代谢风险基准",
-    "contentSnippet": "arXiv:2606.30702v1 Announce Type: new \nAbstract: Structured tabular data dominates clinical medicine, yet existing benchmarks fail to reflect real-world properties like complex survey sampling, demographic oversampling, and subgroup fairness. We introduce the NHANES Accelerometry Cardiometabolic Benchmark, derived from NHANES 2003-2006, comprising 1,381 adults with hip-worn accelerometry, fasting laboratory biomarkers, dietary intake, and anthropometrics. We evaluate three tabular learning methods -- ridge regression, XGBoost, and the foundation model TabPFN v2 -- to predict glycated haemoglobin (HbA1c), fasting triglycerides, and C-reactive protein (CRP) from activity phenotypes and lifestyle covariates. TabPFN v2 achieves the best overall performance (HbA1c R^2=0.156, CRP R^2=0.383), while triglycerides remain largely unpredictable (R^2 < 0.05), consistent with known genetic dominance. We apply split conformal prediction to generate distribution-free 90% prediction intervals and evaluate demographic coverage equity across sex and race/ethnicity subgroups. Marginal coverage aligns with the 90% target for CRP and HbA1c but falls below for triglycerides. At the subgroup level, we observe localized undercoverage (e.g., HbA1c for Mexican American participants), illustrating the gap between marginal guarantees and the conditional coverage required for clinical fairness. Code and data are at https://github.com/felizzi/nhanes-accel-cardiometabolic-benchmark."
-  },
-  {
-    "title": "From Search to Synthesis: Training LLMs as Zero-Shot Workflow Generators",
-    "link": "https://arxiv.org/abs/2606.30704",
-    "pubDate": "Wed, 01 Jul 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "从搜索到综合训练LLM为零样本工作流生成器",
-    "contentSnippet": "arXiv:2606.30704v1 Announce Type: new \nAbstract: Large language models (LLMs) excel across a wide range of tasks, yet their instance-specific solutions often lack the structural consistency needed for reliable deployment. Workflows that encode recurring algorithmic patterns at the task level provide a principled framework, offering robustness across instance variations, interpretable traces for debugging, and reusability across problem instances. However, manually designing such workflows requires significant expertise and effort, limiting their broader application. While automatic workflow generation could address this bottleneck, existing methods either produce instance-specific solutions without learning task-level patterns, or cannot generalize beyond their training configurations. We present MetaFlow, which casts workflow generation as a meta-learning problem: given a task and an operator set, the model learns to compose solution strategies. MetaFlow trains in two stages: supervised fine-tuning on synthetic workflow data, followed by reinforcement learning with verifiable rewards (RLVR) that uses execution feedback across problem instances in the task to improve end-to-end success. The resulting model produces effective workflows for trained tasks and exhibits strong generalization to untrained tasks and novel operator sets. Across benchmarks in question answering, code generation, and mathematical reasoning, MetaFlow achieves performance comparable to state-of-the-art baselines on in-domain tasks with single inference, while demonstrating remarkable zero-shot generalization capabilities on out-of-domain tasks and operator sets."
-  },
-  {
-    "title": "From monolith to Lakebase to LTAP: rethinking the database from storage up",
-    "link": "https://www.databricks.com/blog/lakebase-ltap-rethinking-database-storage",
-    "pubDate": "Tue, 30 Jun 2026 18:05:48 GMT",
-    "source": "Databricks",
-    "summary": "从单体到Lakebase到LTAP：重新思考数据库存储",
-    "contentSnippet": "When I started my PhD at UC Berkeley 16 years ago, my advisor told me: \"OLTP databases..."
+    "title": "6 security settings every GitHub maintainer should enable this week",
+    "link": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
+    "pubDate": "Wed, 01 Jul 2026 15:59:29 +0000",
+    "source": "GitHub",
+    "summary": "摘要生成失败",
+    "contentSnippet": "These six free settings will not make your project unhackable. Nothing will. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder to attack than it was before.\nThe post 6 security settings every GitHub maintainer should enable this week appeared first on The GitHub Blog."
   },
   {
     "title": "How GitHub maintains compliance for open source dependencies",
     "link": "https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies/",
     "pubDate": "Tue, 30 Jun 2026 17:28:16 +0000",
     "source": "GitHub",
-    "summary": "GitHub维护开源依赖合规",
+    "summary": "GitHub维护开源依赖合规的方法",
     "contentSnippet": "Explore how the Open Source Program Office uses GitHub’s new license compliance product to manage open source dependencies at scale.\nThe post How GitHub maintains compliance for open source dependencies appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Claude Sonnet 5 is generally available for GitHub Copilot",
-    "link": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
-    "pubDate": "Tue, 30 Jun 2026 17:25:51 +0000",
-    "source": "GitHub Changelog",
-    "summary": "Claude Sonnet 5 正式在GitHub Copilot上线。",
-    "contentSnippet": "Claude Sonnet 5 is Anthropic’s latest Sonnet-class model, now available in GitHub Copilot. It brings strong coding performance to everyday development and agentic workflows, giving developers a new Sonnet-class option…\nThe post Claude Sonnet 5 is generally available for GitHub Copilot appeared first on The GitHub Blog."
   },
   {
     "title": "SkillOpt: Agent skills as trainable parameters",
     "link": "https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/",
     "pubDate": "Tue, 30 Jun 2026 16:50:02 +0000",
     "source": "Microsoft Research",
-    "summary": "SkillOpt：将技能视为可训练参数",
+    "summary": "SkillOpt将智能体技能变为可训练参数。",
     "contentSnippet": "AI agents often fail because their instructions, or skills, are manually modified with no guarantee of improvement. Learn how SkillOpt turns skill editing into a training process, making agent behavior more reliable without changing model weights.\nThe post SkillOpt: Agent skills as trainable parameters appeared first on Microsoft Research."
-  },
-  {
-    "title": "GitHub code coverage merge protection for pull requests",
-    "link": "https://github.blog/changelog/2026-06-30-github-code-coverage-merge-protection-for-pull-requests",
-    "pubDate": "Tue, 30 Jun 2026 16:42:21 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub推出PR合并代码覆盖率保护",
-    "contentSnippet": "You can now use branch rulesets to block pull requests from merging when test coverage drops below thresholds you set. You can set a minimum coverage percentage, a maximum allowed…\nThe post GitHub code coverage merge protection for pull requests appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Releases: Sidebar navigation and per-asset download counts",
-    "link": "https://github.blog/changelog/2026-06-30-releases-sidebar-navigation-and-per-asset-download-counts",
-    "pubDate": "Tue, 30 Jun 2026 16:36:06 +0000",
-    "source": "GitHub Changelog",
-    "summary": "新增侧边栏导航与每资产下载计数",
-    "contentSnippet": "You can now scan and navigate release pages more easily with a dedicated sidebar table of contents. We also updated release metadata placement for a more consistent layout so it’s…\nThe post Releases: Sidebar navigation and per-asset download counts appeared first on The GitHub Blog."
   },
   {
     "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
     "link": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
     "pubDate": "Tue, 30 Jun 2026 16:02:40 +0000",
     "source": "DeepMind",
-    "summary": "开始使用纳米香蕉2精简版和双子座全能闪构建",
+    "summary": "摘要生成失败",
     "contentSnippet": ""
   },
   {
@@ -100,7 +140,7 @@
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-project-5",
     "pubDate": "Tue, 30 Jun 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache软件基金会宣布新顶级项目",
+    "summary": "Apache软件基金会宣布新顶级项目。",
     "contentSnippet": "Apache® Magpie provides open source maintainers with platform infrastructure for agent-assisted repository maintainership Wilmington, DE –  June 29, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that Apache Magpie has become a Top-Level Project (TLP).  Apache Magpie provides open source maintainers with platform […]\nThe post The Apache® Software Foundation Announces New Top-Level Project appeared first on The ASF Blog."
   },
   {
@@ -108,7 +148,7 @@
     "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
     "pubDate": "Tue, 30 Jun 2026 09:00:00 GMT",
     "source": "OpenAI",
-    "summary": "ChatGPT全球采用增长加速。",
+    "summary": "ChatGPT全球采用率持续增长。",
     "contentSnippet": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages."
   },
   {
@@ -116,31 +156,31 @@
     "link": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
     "pubDate": "Tue, 30 Jun 2026 06:00:00 +0000",
     "source": "Google AI",
-    "summary": "英国打造AI先驱，开启生产力新时代",
+    "summary": "英国AI生产力新纪元：培养国家先驱。",
     "contentSnippet": "Google UK shares its latest Economic Impact Report and how to enable more people to unlock the benefits of AI-powered technologies."
+  },
+  {
+    "title": "Inside Genebench-Pro",
+    "link": "https://openai.com/index/genebench-pro/case-studies",
+    "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "Genebench-Pro内部解析",
+    "contentSnippet": ""
   },
   {
     "title": "Introducing GeneBench-Pro",
     "link": "https://openai.com/index/introducing-genebench-pro",
     "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
     "source": "OpenAI",
-    "summary": "GeneBench-Pro：AI在基因组学和生物学中的新基准",
+    "summary": "新基准GeneBench-Pro用真实数据集评估AI基因组学性能。",
     "contentSnippet": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets."
-  },
-  {
-    "title": "Core dump epidemiology: fixing an 18-year-old bug",
-    "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-    "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "用核心转储分析修复18年bug",
-    "contentSnippet": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug."
   },
   {
     "title": "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
     "link": "https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/",
     "pubDate": "Mon, 29 Jun 2026 21:14:22 +0000",
     "source": "Microsoft Research",
-    "summary": "Memora：平衡抽象与具体的谐波记忆表示",
+    "summary": "Memora：和谐记忆中抽象与具体的平衡",
     "contentSnippet": "AI agents can't remember past conversations. They must constantly reload or retrieve context, which grows less efficient as tasks get longer and more complex. Memora solves this with a scalable memory system separating what’s stored from how it's retrieved.\nThe post Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity appeared first on Microsoft Research."
   },
   {
@@ -148,63 +188,23 @@
     "link": "https://github.blog/open-source/git/highlights-from-git-2-55/",
     "pubDate": "Mon, 29 Jun 2026 17:25:25 +0000",
     "source": "GitHub",
-    "summary": "Git 2.55 新特性亮点",
+    "summary": "Git 2.55新特性亮点",
     "contentSnippet": "The open source Git project just released Git 2.55. Here is GitHub’s look at some of the most interesting features and changes introduced since last time.\nThe post Highlights from Git 2.55 appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Inside the Advisory Database and what happens when vulnerability volume breaks records",
-    "link": "https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/",
-    "pubDate": "Mon, 29 Jun 2026 16:10:20 +0000",
-    "source": "GitHub",
-    "summary": "漏洞量破纪录，GitHub数据库应对",
-    "contentSnippet": "The GitHub Advisory Database is processing more vulnerability reports than ever before. Here's what's driving the surge, how we're responding, and how the community can help.\nThe post Inside the Advisory Database and what happens when vulnerability volume breaks records appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Ask an AI expert: What exactly is the full stack?",
-    "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
-    "pubDate": "Mon, 29 Jun 2026 16:00:00 +0000",
-    "source": "Google AI",
-    "summary": "谷歌专家解释全栈AI方法及其重要性。",
-    "contentSnippet": "A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundation of our AI work for so long."
-  },
-  {
-    "title": "How Databricks is turning video into searchable, actionable intelligence",
-    "link": "https://www.databricks.com/blog/how-databricks-turning-video-searchable-actionable-intelligence",
-    "pubDate": "Fri, 26 Jun 2026 20:30:00 GMT",
-    "source": "Databricks",
-    "summary": "Databricks将视频转化为可搜索、可操作的智能。",
-    "contentSnippet": "A utility company deploys drones to inspect hundreds of miles of power lines. A police..."
-  },
-  {
-    "title": "A Decision Framework for ETL Migration to Databricks",
-    "link": "https://www.databricks.com/blog/decision-framework-etl-migration-databricks",
-    "pubDate": "Fri, 26 Jun 2026 20:20:00 GMT",
-    "source": "Databricks",
-    "summary": "ETL迁移至Databricks的决策框架",
-    "contentSnippet": "Your team has hundreds of stored procedures, a couple of schedulers, permissions..."
   },
   {
     "title": "Iterating faster with TypeScript 7",
     "link": "https://code.visualstudio.com/blogs/2026/06/26/iterating-faster-with-ts-7",
     "pubDate": "2026-06-26T00:00:00.000Z",
     "source": "VS Code",
-    "summary": "TypeScript 7 加速 VS Code 迭代。",
+    "summary": "TypeScript 7助力VS Code加速迭代",
     "contentSnippet": "How the VS Code and TypeScript teams collaborated to adopt TypeScript 7 and speed up VS Code development\nRead the full article"
-  },
-  {
-    "title": "Our latest Google Finance upgrades, including a new app",
-    "link": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
-    "pubDate": "Thu, 25 Jun 2026 16:00:00 +0000",
-    "source": "Google AI",
-    "summary": "谷歌金融升级推出新安卓应用",
-    "contentSnippet": "The new Google Finance is coming out of beta and launching a new Android app."
   },
   {
     "title": "Understanding the brain with AI-driven explanations and experiments",
     "link": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/",
     "pubDate": "Thu, 25 Jun 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "AI驱动解释实验理解大脑",
+    "summary": "AI驱动解释与实验理解大脑",
     "contentSnippet": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language.\nThe post Understanding the brain with AI-driven explanations and experiments appeared first on Microsoft Research."
   },
   {
@@ -212,7 +212,7 @@
     "link": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
     "pubDate": "Wed, 24 Jun 2026 16:30:01 +0000",
     "source": "DeepMind",
-    "summary": "Gemini 3.5 Flash引入计算机使用",
+    "summary": "Gemini 3.5 Flash新增计算机使用功能",
     "contentSnippet": ""
   },
   {
@@ -220,7 +220,7 @@
     "link": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
     "pubDate": "Tue, 16 Jun 2026 21:29:50 +0000",
     "source": "DeepMind",
-    "summary": "英国用AI加速住房规划审批。",
+    "summary": "英政府联手DeepMind用AI加速建房规划",
     "contentSnippet": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions."
   },
   {
@@ -228,7 +228,7 @@
     "link": "https://news.apache.org/foundation/entry/what-the-gsoc-mentor-summit-reminded-me-about-open-source",
     "pubDate": "Tue, 09 Jun 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "GSoC导师峰会启示：开源的真谛",
+    "summary": "GSoC导师峰会反思开源本质",
     "contentSnippet": "By: Priya Sharma As a Google Summer of Code (GSoC) organization admin representing the Apache Software Foundation, I had the privilege of attending the GSoC Mentor Summit 2025, and it was an incredible experience! The Mentor Summit is a unique opportunity to connect with amazing mentors and discuss open source topics in an unconference format […]\nThe post What the GSoC Mentor Summit Reminded Me About Open Source appeared first on The ASF Blog."
   },
   {
@@ -236,7 +236,7 @@
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-project-4",
     "pubDate": "Thu, 04 Jun 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache Livy成为Apache顶级项目",
+    "summary": "Apache Livy成为顶级项目。",
     "contentSnippet": "Apache® Livy, a REST service for Apache Spark™, becomes a Top-Level Project Wilmington, DE –  June 4, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that Apachy Livy has become a Top-Level Project (TLP).  Apache Livy is a service that enables easy interaction […]\nThe post The Apache® Software Foundation Announces New Top-Level Project appeared first on The ASF Blog."
   }
 ]
