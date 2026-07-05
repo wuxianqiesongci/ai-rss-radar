@@ -1,178 +1,210 @@
 [
   {
-    "title": "Visual Studio Code 1.127 (Insiders)",
+    "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+    "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+    "pubDate": "Fri, 03 Jul 2026 14:25:43 +0000",
+    "source": "DeepMind",
+    "summary": "谷歌DeepMind与A24达成首次研究合作",
+    "contentSnippet": ""
+  },
+  {
+    "title": "Improved accuracy and coverage in Copilot usage metrics reports",
+    "link": "https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports",
+    "pubDate": "Thu, 02 Jul 2026 23:19:06 +0000",
+    "source": "GitHub Changelog",
+    "summary": "提升Copilot指标报告准确性与覆盖率",
+    "contentSnippet": "We’ve made three improvements to the Copilot usage metrics API that make its reports more complete and accurate: GitHub Copilot CLI now reports suggested lines of code, users seen only…\nThe post Improved accuracy and coverage in Copilot usage metrics reports appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash",
+    "link": "https://github.blog/changelog/2026-07-02-upcoming-deprecation-of-gemini-2-5-pro-and-gemini-3-flash",
+    "pubDate": "Thu, 02 Jul 2026 23:07:06 +0000",
+    "source": "GitHub Changelog",
+    "summary": "Gemini 2.5 Pro和3 Flash即将弃用",
+    "contentSnippet": "We will deprecate Gemini 2.5 Pro and Gemini 3 Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on July 31st,…\nThe post Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Copilot CLI no longer needs a personal access token in GitHub Actions",
+    "link": "https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions",
+    "pubDate": "Thu, 02 Jul 2026 20:25:32 +0000",
+    "source": "GitHub Changelog",
+    "summary": "Copilot CLI在GitHub Actions中无需个人访问令牌",
+    "contentSnippet": "You can now run GitHub Copilot CLI in GitHub Actions using the built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT),…\nThe post Copilot CLI no longer needs a personal access token in GitHub Actions appeared first on The GitHub Blog."
+  },
+  {
+    "title": "The 3 questions to answer to take AI from experimentation to impact",
+    "link": "https://www.databricks.com/blog/3-questions-answer-take-ai-experimentation-impact",
+    "pubDate": "Thu, 02 Jul 2026 17:04:19 GMT",
+    "source": "Databricks",
+    "summary": "三个问题让AI从实验走向影响。",
+    "contentSnippet": "Companies are starting to see the potential of AI in their businesses. Today, 60%..."
+  },
+  {
+    "title": "Inside the infrastructure strategies propelling AI leaders",
+    "link": "https://www.databricks.com/blog/inside-infrastructure-strategies-propelling-ai-leaders",
+    "pubDate": "Thu, 02 Jul 2026 16:47:56 GMT",
+    "source": "Databricks",
+    "summary": "AI领导者基础设施策略揭秘",
+    "contentSnippet": "AI adoption is starting to translate into real-world returns. But as efforts accelerate,..."
+  },
+  {
+    "title": "How GitHub used secret scanning to reach inbox zero",
+    "link": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
+    "pubDate": "Thu, 02 Jul 2026 16:00:00 +0000",
+    "source": "GitHub",
+    "summary": "GitHub用秘密扫描实现收件箱归零",
+    "contentSnippet": "GitHub had 20,000+ secret scanning alerts across 15,000 repositories. Here's how we separated signal from noise, built remediation workflows, and reached inbox zero in nine months.\nThe post How GitHub used secret scanning to reach inbox zero appeared first on The GitHub Blog."
+  },
+  {
+    "title": "How we keep GPUs reliable across Databricks AI",
+    "link": "https://www.databricks.com/blog/how-we-keep-gpus-reliable-across-databricks-ai",
+    "pubDate": "Wed, 01 Jul 2026 23:00:00 GMT",
+    "source": "Databricks",
+    "summary": "Databricks AI中GPU可靠性保障方法",
+    "contentSnippet": "Distributed GPU training has become routine across the industry. Teams now train..."
+  },
+  {
+    "title": "The latest AI news we announced in June 2026",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+    "pubDate": "Wed, 01 Jul 2026 18:15:00 +0000",
+    "source": "Google AI",
+    "summary": "2026年6月谷歌AI最新更新",
+    "contentSnippet": "Here are Google’s latest AI updates from June 2026."
+  },
+  {
+    "title": "Visual Studio Code 1.127",
     "link": "https://code.visualstudio.com/updates/v1_127",
     "pubDate": "2026-07-01T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.127 内部版新功能",
-    "contentSnippet": "Learn what's new in Visual Studio Code 1.127 (Insiders)\nRead the full article"
+    "summary": "Visual Studio Code 1.127 新功能",
+    "contentSnippet": "Learn what is new in Visual Studio Code 1.127\nRead the full article"
   },
   {
-    "title": "Track total merges by adoption phase in enterprise and organization reports",
-    "link": "https://github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports",
-    "pubDate": "Fri, 26 Jun 2026 20:55:03 +0000",
-    "source": "GitHub Changelog",
-    "summary": "跟踪企业及组织报告中按采用阶段的合并总数",
-    "contentSnippet": "Building on the AI adoption phase cohorts added to the Copilot usage metrics API, organization and enterprise reports now report the total number of pull requests merged by each adoption…\nThe post Track total merges by adoption phase in enterprise and organization reports appeared first on The GitHub Blog."
+    "title": "Visual Studio Code 1.128 (Insiders)",
+    "link": "https://code.visualstudio.com/updates/v1_128",
+    "pubDate": "2026-07-01T17:00:00.000Z",
+    "source": "VS Code",
+    "summary": "VS Code 1.128 Insiders 新功能概览",
+    "contentSnippet": "Learn what's new in Visual Studio Code 1.128 (Insiders)\nRead the full article"
   },
   {
-    "title": "How Databricks is turning video into searchable, actionable intelligence",
-    "link": "https://www.databricks.com/blog/how-databricks-turning-video-searchable-actionable-intelligence",
-    "pubDate": "Fri, 26 Jun 2026 20:30:00 GMT",
-    "source": "Databricks",
-    "summary": "Databricks将视频转化为可搜索智能",
-    "contentSnippet": "A utility company deploys drones to inspect hundreds of miles of power lines. A police..."
+    "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+    "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+    "pubDate": "Wed, 01 Jul 2026 16:00:00 +0000",
+    "source": "Google AI",
+    "summary": "谷歌举办AI峰会，探讨课堂AI未来。",
+    "contentSnippet": "Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders."
   },
   {
-    "title": "A Decision Framework for ETL Migration to Databricks",
-    "link": "https://www.databricks.com/blog/decision-framework-etl-migration-databricks",
-    "pubDate": "Fri, 26 Jun 2026 20:20:00 GMT",
-    "source": "Databricks",
-    "summary": "",
-    "contentSnippet": "Your team has hundreds of stored procedures, a couple of schedulers, permissions..."
-  },
-  {
-    "title": "How the English Office for Students leverages Databricks to enhance higher education standards and drive better student outcomes",
-    "link": "https://www.databricks.com/blog/how-english-office-students-leverages-databricks-enhance-higher-education-standards-and-drive",
-    "pubDate": "Fri, 26 Jun 2026 20:15:00 GMT",
-    "source": "Databricks",
-    "summary": "",
-    "contentSnippet": "8 hours → minutes | Processing time for a 300-million-record data job after moving..."
-  },
-  {
-    "title": "GitHub and UNDP team up to advance development priorities in Ghana with open source",
-    "link": "https://github.blog/open-source/social-impact/github-and-undp-team-up-to-advance-development-priorities-in-ghana-with-open-source/",
-    "pubDate": "Fri, 26 Jun 2026 16:53:57 +0000",
+    "title": "6 security settings every GitHub maintainer should enable this week",
+    "link": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
+    "pubDate": "Wed, 01 Jul 2026 15:59:29 +0000",
     "source": "GitHub",
-    "summary": "",
-    "contentSnippet": "GitHub joined the United Nations Development Programme in Ghana to explore how open source governance can support one of West Africa's most ambitious digital reform efforts. \nThe post GitHub and UNDP team up to advance development priorities in Ghana with open source appeared first on The GitHub Blog."
+    "summary": "本周GitHub维护者应启用六项安全设置",
+    "contentSnippet": "These six free settings will not make your project unhackable. Nothing will. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder to attack than it was before.\nThe post 6 security settings every GitHub maintainer should enable this week appeared first on The GitHub Blog."
   },
   {
-    "title": "MAI-Code-1-Flash for Copilot Business and Copilot Enterprise",
-    "link": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise",
-    "pubDate": "Fri, 26 Jun 2026 16:35:06 +0000",
-    "source": "GitHub Changelog",
-    "summary": "",
-    "contentSnippet": "MAI-Code-1-Flash, Microsoft AI’s in-house coding model, is now generally available for GitHub Copilot Business and Copilot Enterprise, building on its recent expansion across Copilot surfaces. Purpose-built for coding and optimized…\nThe post MAI-Code-1-Flash for Copilot Business and Copilot Enterprise appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Transitioning as a Hubber",
-    "link": "https://github.blog/developer-skills/career-growth/transitioning-as-a-hubber/",
-    "pubDate": "Fri, 26 Jun 2026 12:00:00 +0000",
+    "title": "How GitHub maintains compliance for open source dependencies",
+    "link": "https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies/",
+    "pubDate": "Tue, 30 Jun 2026 17:28:16 +0000",
     "source": "GitHub",
-    "summary": "",
-    "contentSnippet": "How GitHub's culture and benefits helped me be the best version of myself.\nThe post Transitioning as a Hubber appeared first on The GitHub Blog."
+    "summary": "GitHub使用合规产品管理开源依赖。",
+    "contentSnippet": "Explore how the Open Source Program Office uses GitHub’s new license compliance product to manage open source dependencies at scale.\nThe post How GitHub maintains compliance for open source dependencies appeared first on The GitHub Blog."
   },
   {
-    "title": "GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
-    "link": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
-    "pubDate": "Fri, 26 Jun 2026 10:32:58 +0000",
-    "source": "GitHub Changelog",
-    "summary": "",
-    "contentSnippet": "GitHub Desktop 3.6 brings more of your day-to-day Git flow into one place with GitHub Copilot now powering commit authoring and merge conflict resolution, plus new Git worktree support. The…\nThe post GitHub Desktop 3.6: Worktrees and deeper Copilot integration appeared first on The GitHub Blog."
+    "title": "SkillOpt: Agent skills as trainable parameters",
+    "link": "https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/",
+    "pubDate": "Tue, 30 Jun 2026 16:50:02 +0000",
+    "source": "Microsoft Research",
+    "summary": "SkillOpt将智能体技能视为可训练参数。",
+    "contentSnippet": "AI agents often fail because their instructions, or skills, are manually modified with no guarantee of improvement. Learn how SkillOpt turns skill editing into a training process, making agent behavior more reliable without changing model weights.\nThe post SkillOpt: Agent skills as trainable parameters appeared first on Microsoft Research."
   },
   {
-    "title": "Previewing GPT-5.6 Sol: a next-generation model",
-    "link": "https://openai.com/index/previewing-gpt-5-6-sol",
-    "pubDate": "Fri, 26 Jun 2026 10:00:00 GMT",
+    "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+    "link": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+    "pubDate": "Tue, 30 Jun 2026 16:02:40 +0000",
+    "source": "DeepMind",
+    "summary": "用Nano Banana 2 Lite和Gemini Omni Flash开始构建。",
+    "contentSnippet": ""
+  },
+  {
+    "title": "The Apache® Software Foundation Announces New Top-Level Project",
+    "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-project-5",
+    "pubDate": "Tue, 30 Jun 2026 13:00:00 +0000",
+    "source": "Apache",
+    "summary": "Apache软件基金会宣布新顶级项目",
+    "contentSnippet": "Apache® Magpie provides open source maintainers with platform infrastructure for agent-assisted repository maintainership Wilmington, DE –  June 29, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that Apache Magpie has become a Top-Level Project (TLP).  Apache Magpie provides open source maintainers with platform […]\nThe post The Apache® Software Foundation Announces New Top-Level Project appeared first on The ASF Blog."
+  },
+  {
+    "title": "How ChatGPT adoption has expanded",
+    "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+    "pubDate": "Tue, 30 Jun 2026 09:00:00 GMT",
     "source": "OpenAI",
-    "summary": "",
-    "contentSnippet": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack."
+    "summary": "ChatGPT全球采用率增长，用户使用增加。",
+    "contentSnippet": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages."
+  },
+  {
+    "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+    "link": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
+    "pubDate": "Tue, 30 Jun 2026 06:00:00 +0000",
+    "source": "Google AI",
+    "summary": "英国通过AI先锋建设开启生产力新时代",
+    "contentSnippet": "Google UK shares its latest Economic Impact Report and how to enable more people to unlock the benefits of AI-powered technologies."
+  },
+  {
+    "title": "Inside Genebench-Pro",
+    "link": "https://openai.com/index/genebench-pro/case-studies",
+    "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "深入探索Genebench-Pro",
+    "contentSnippet": ""
+  },
+  {
+    "title": "Introducing GeneBench-Pro",
+    "link": "https://openai.com/index/introducing-genebench-pro",
+    "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "GeneBench-Pro：AI基因组学与生物学新基准",
+    "contentSnippet": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets."
+  },
+  {
+    "title": "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
+    "link": "https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/",
+    "pubDate": "Mon, 29 Jun 2026 21:14:22 +0000",
+    "source": "Microsoft Research",
+    "summary": "Memora：平衡抽象与具体性的记忆表示",
+    "contentSnippet": "AI agents can't remember past conversations. They must constantly reload or retrieve context, which grows less efficient as tasks get longer and more complex. Memora solves this with a scalable memory system separating what’s stored from how it's retrieved.\nThe post Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity appeared first on Microsoft Research."
   },
   {
     "title": "Iterating faster with TypeScript 7",
     "link": "https://code.visualstudio.com/blogs/2026/06/26/iterating-faster-with-ts-7",
     "pubDate": "2026-06-26T00:00:00.000Z",
     "source": "VS Code",
-    "summary": "",
+    "summary": "TypeScript 7加速VS Code迭代",
     "contentSnippet": "How the VS Code and TypeScript teams collaborated to adopt TypeScript 7 and speed up VS Code development\nRead the full article"
-  },
-  {
-    "title": "Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks",
-    "link": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
-    "pubDate": "Thu, 25 Jun 2026 22:59:45 +0000",
-    "source": "GitHub",
-    "summary": "",
-    "contentSnippet": "Explore how the GitHub Copilot agentic harness delivers strong results across multiple benchmarks and leading token efficiency, while maintaining flexibility to choose among more than 20 models.\nThe post Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Our latest Google Finance upgrades, including a new app",
-    "link": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
-    "pubDate": "Thu, 25 Jun 2026 16:00:00 +0000",
-    "source": "Google AI",
-    "summary": "",
-    "contentSnippet": "The new Google Finance is coming out of beta and launching a new Android app."
   },
   {
     "title": "Understanding the brain with AI-driven explanations and experiments",
     "link": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/",
     "pubDate": "Thu, 25 Jun 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "",
+    "summary": "AI驱动解释与实验揭示大脑语言区域",
     "contentSnippet": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language.\nThe post Understanding the brain with AI-driven explanations and experiments appeared first on Microsoft Research."
   },
   {
-    "title": "How agents are transforming work",
-    "link": "https://openai.com/index/how-agents-are-transforming-work",
-    "pubDate": "Thu, 25 Jun 2026 02:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "",
-    "contentSnippet": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles."
-  },
-  {
-    "title": "Visual Studio Code 1.126",
-    "link": "https://code.visualstudio.com/updates/v1_126",
-    "pubDate": "2026-06-24T17:00:00.000Z",
-    "source": "VS Code",
-    "summary": "",
-    "contentSnippet": "Learn what is new in Visual Studio Code 1.126\nRead the full article"
-  },
-  {
-    "title": "Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis",
-    "link": "https://www.microsoft.com/en-us/research/blog/talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis/",
-    "pubDate": "Wed, 24 Jun 2026 14:00:14 +0000",
-    "source": "Microsoft Research",
-    "summary": "",
-    "contentSnippet": "Talos was built to help resolve a major bottleneck in genomic medicine: human review time. The open-source system recovered 90% of in-scope diagnoses while surfacing just 1.3 candidate variants per patient for expert review. \nThe post Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis appeared first on Microsoft Research."
-  },
-  {
-    "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-    "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-    "pubDate": "Wed, 24 Jun 2026 06:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "",
-    "contentSnippet": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems."
-  },
-  {
-    "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-    "pubDate": "Wed, 17 Jun 2026 15:00:00 +0000",
-    "source": "Google AI",
-    "summary": "",
-    "contentSnippet": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management."
-  },
-  {
-    "title": "We’re strengthening our presence in Alabama through new investments and community support.",
-    "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
-    "pubDate": "Mon, 15 Jun 2026 15:00:00 +0000",
-    "source": "Google AI",
-    "summary": "",
-    "contentSnippet": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…"
-  },
-  {
-    "title": "Ire identifies another LOTUSLITE specimen",
-    "link": "https://www.microsoft.com/en-us/research/blog/ire-identifies-another-lotuslite-specimen/",
-    "pubDate": "Fri, 12 Jun 2026 20:30:48 +0000",
-    "source": "Microsoft Research",
-    "summary": "",
-    "contentSnippet": "Project Ire examined a timely malware sample and determined its intent through reverse engineering—identifying LOTUSLITE characteristics even as most major EDR tools did not detect it.\nThe post Ire identifies another LOTUSLITE specimen appeared first on Microsoft Research."
+    "title": "Introducing computer use in Gemini 3.5 Flash",
+    "link": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+    "pubDate": "Wed, 24 Jun 2026 16:30:01 +0000",
+    "source": "DeepMind",
+    "summary": "Gemini 3.5 Flash引入计算机使用",
+    "contentSnippet": ""
   },
   {
     "title": "What the GSoC Mentor Summit Reminded Me About Open Source",
     "link": "https://news.apache.org/foundation/entry/what-the-gsoc-mentor-summit-reminded-me-about-open-source",
     "pubDate": "Tue, 09 Jun 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "",
+    "summary": "GSoC导师峰会提醒我的开源感悟",
     "contentSnippet": "By: Priya Sharma As a Google Summer of Code (GSoC) organization admin representing the Apache Software Foundation, I had the privilege of attending the GSoC Mentor Summit 2025, and it was an incredible experience! The Mentor Summit is a unique opportunity to connect with amazing mentors and discuss open source topics in an unconference format […]\nThe post What the GSoC Mentor Summit Reminded Me About Open Source appeared first on The ASF Blog."
   },
   {
@@ -180,15 +212,7 @@
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-project-4",
     "pubDate": "Thu, 04 Jun 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "",
+    "summary": "Apache Livy成为Apache顶级项目",
     "contentSnippet": "Apache® Livy, a REST service for Apache Spark™, becomes a Top-Level Project Wilmington, DE –  June 4, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that Apachy Livy has become a Top-Level Project (TLP).  Apache Livy is a service that enables easy interaction […]\nThe post The Apache® Software Foundation Announces New Top-Level Project appeared first on The ASF Blog."
-  },
-  {
-    "title": "ASF Plus One Newsletter: May 2026",
-    "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-may-2026",
-    "pubDate": "Thu, 28 May 2026 16:00:00 +0000",
-    "source": "Apache",
-    "summary": "",
-    "contentSnippet": "From the rise of Apache Iceberg and the modernization of Apache Geode, to a behind-the-scenes look at the rebuild of Apache STeVe v3, this month’s Plus One highlights how open collaboration continues driving innovation across the ASF ecosystem. We’re also gearing up for Community Over Code Glasgow 2026; sharing important ecosystem updates; celebrating ASF project […]\nThe post ASF Plus One Newsletter: May 2026 appeared first on The ASF Blog."
   }
 ]
