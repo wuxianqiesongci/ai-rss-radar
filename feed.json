@@ -1,58 +1,114 @@
 [
   {
-    "title": "iFLYTEK-Embodied-Omni Technical Report",
-    "link": "https://arxiv.org/abs/2607.02542",
-    "pubDate": "Tue, 07 Jul 2026 00:00:00 -0400",
+    "title": "Add review cycles and time to adoption phases in the usage API",
+    "link": "https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api",
+    "pubDate": "Wed, 08 Jul 2026 04:53:01 +0000",
+    "source": "GitHub Changelog",
+    "summary": "用量API新增审查周期和采纳阶段时间",
+    "contentSnippet": "The Copilot usage metrics API now reports two additional code-review velocity metrics for each AI adoption phase, extending the adoption phase cohorts fields available in the enterprise and organization reports.…\nThe post Add review cycles and time to adoption phases in the usage API appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Statistically Meaningful Geometry and Gauge Symmetry Breaking: A Geometric Foundation for Scientific Discovery and Intelligence Emergence",
+    "link": "https://arxiv.org/abs/2607.05436",
+    "pubDate": "Wed, 08 Jul 2026 00:00:00 -0400",
     "source": "arXiv",
-    "summary": "讯飞具身全向统一模型技术报告",
-    "contentSnippet": "arXiv:2607.02542v1 Announce Type: new \nAbstract: General-purpose embodied agents must understand multimodal instructions, anticipate how their environment will evolve, and produce precise control actions over extended horizons. Existing approaches typically specialize in visual-language reasoning, video-based world modeling, or action generation, while cascaded pipelines that first synthesize future observations and then infer actions can introduce interface bottlenecks and compound prediction errors. We present iFLYTEK-Embodied-Omni, a unified multimodal foundation model that jointly models vision(videos and images), language, and action within a single Omni framework. Its modality-specific visual-language, video-generation, and action-generation components communicate through shared multimodal self-attention. This design establishes brain-cerebellum collaboration: the vision-language modeland video generation model form a high-level brain for instruction understanding, task planning, progress tracking, and future visual-state prediction, whereas the action generation modelserves as a low-level cerebellum that directly converts planned subgoals and shared multimodal context into executable action chunks. To develop these capabilities, we combine action-annotated and action-free embodied videos from human demonstrations and robot interactions with embodied reasoning, embodied perception, and general-purpose image-text data to construct a comprehensive dataset. We further adopt a four-stage strategy that progressively trains the VLM, VGM, and AGM before jointly fine-tuning the complete model."
+    "summary": "统计几何与规范对称破缺：科学发现与智能涌现的几何基础。",
+    "contentSnippet": "arXiv:2607.05436v1 Announce Type: new \nAbstract: The rapid scaling of over-parameterized machine learning architectures, particularly LLMs, raises a profound crisis: do these systems exhibit genuine intelligence, or are they merely sophisticated statistical pattern matchers? Classical flat Euclidean statistics cannot differentiate continuous interpolation from the autonomous discovery of novel causal laws. To resolve this, we introduce Statistically Meaningful Geometry (SMG), a framework modeling over-parameterized learning systems as infinite-dimensional non-parametric Orlicz fiber bundles. We prove that under persistent out-of-distribution (OOD) stimuli governed by unmodeled causal mechanisms, continuous optimization fails. Unmodeled variance is rejected by the visible horizontal base manifold, leaking into the unobservable vertical fiber space and generating an accumulation of Active Acausal Tension. Driven by the statistical manifold's non-linear curvature, this tension inevitably strikes a conjugate focal boundary ($T_{\\text{crit}} = \\pi^2 / K_{\\text{max}}$), triggering localized volumetric collapse and a catastrophic matrix singularity ($[G_f]^{-1} \\to \\infty$). We demonstrate this geometric breakdown acts as the strict non-equilibrium trigger for a Gauge Symmetry Break (GSB). The system purges hidden tension from unobservable gauge redundancies, spontaneously crystallizing a new, mathematically independent horizontal coordinate axis. This non-parametric phase transition registers as a discrete $+1.0$ integer step-jump in observable Structural G-Entropy. By decoupling parameter charts and subjecting emergent axes to a Minimal Energy Path Criterion and a Causal Invariance Filter, we distinguish genuine discovery from malignant hallucinations. Ultimately, SMG provides a parameter-free, falsifiable dashboard to mathematically certify true intelligence, transforming AI for Science into an engine of autonomous paradigm shifts."
   },
   {
-    "title": "CORA: Per-Slice Coherent Orthogonal Rotation for SVD-based Low-Rank Adaptation",
-    "link": "https://arxiv.org/abs/2607.02576",
-    "pubDate": "Tue, 07 Jul 2026 00:00:00 -0400",
+    "title": "Design-CP: Context Parallelism for Design of Protein Nanoparticles",
+    "link": "https://arxiv.org/abs/2607.05439",
+    "pubDate": "Wed, 08 Jul 2026 00:00:00 -0400",
     "source": "arXiv",
-    "summary": "CORA：用于SVD低秩适应的逐片相干正交旋转",
-    "contentSnippet": "arXiv:2607.02576v1 Announce Type: new \nAbstract: Parameter-Efficient Fine-Tuning (PEFT) commonly adapts pretrained weights through low-rank updates, and recent methods further exploit the singular value decomposition (SVD) of the base weight for initialization or subspace selection. However, these methods do not explicitly preserve the coupled geometry between the pretrained left and right singular bases. Motivated by recent minimum-perturbation theory, which shows that stable finetuning follows a coherent SVD rotation in which a single orthogonal $Q$ acts on both the left singular basis $U_0$ and the right singular basis $V_0$, we prove a per-slice analogue: each row slice of $W_0$ can be adapted by a shared orthogonal rotation $Q_i$ on its left basis $U_i$ and right basis $V_i$ together with a diagonal spectrum shift. We implement this form as CORA (Coherent Orthogonal Rotation Adaptation), which applies per-slice orthogonal rotations and a per-layer diagonal scale to the rank-$r$ SVD truncation of $W_0$. CORA uses $\\tfrac{1}{2}m(r{-}1)$ trainable parameters per linear layer, about $4{\\times}$ fewer than LoRA at the same rank. CORA outperforms LoRA, DoRA, PiSSA, and MiLoRA on commonsense reasoning and code generation while using about $8{\\times}$ fewer parameters."
+    "summary": "Design-CP: 上下文并行设计蛋白质纳米颗粒",
+    "contentSnippet": "arXiv:2607.05439v1 Announce Type: new \nAbstract: Many all-atom generative protein models can in principle design large multimeric complexes by jointly modelling all chains, but their quadratic token- and atom-pair representations quickly exceed single-GPU memory as the number of chains and residues modelled grows. We introduce Design-CP, two context-parallel (CP) inference strategies for RFdiffusion 3 (1D row-sharding and 2D grid sharding with ring attention) that distribute the quadratic activations across a multi-GPU mesh while preserving pretrained weights. We characterise their scaling when sampling icosahedral assemblies, showing that the maximum feasible asymmetric subunit (ASU) size grows with the expected square-root trend in GPU count and that 2D sharding achieves better wall-clock scaling. Moreover, we show how strong point-group symmetry constraints make CP usable out of the box for end-to-end, all-atom design of icosahedral nanoparticles, yielding favourable in silico structural and interface metrics. Finally, we demonstrate octahedral nanoparticle design on a small cluster of workstation-grade 16GB GPUs, illustrating how Design-CP can be a practical path towards democratising large-assembly protein design."
   },
   {
-    "title": "Auditing the Audit: Five Failure Modes in Benchmark-Validity Audits",
-    "link": "https://arxiv.org/abs/2607.02586",
-    "pubDate": "Tue, 07 Jul 2026 00:00:00 -0400",
+    "title": "Geometry-Aware Infrastructure-Anchored Denoiser for UWB Sensing and Work-Zone Reconstruction",
+    "link": "https://arxiv.org/abs/2607.05449",
+    "pubDate": "Wed, 08 Jul 2026 00:00:00 -0400",
     "source": "arXiv",
-    "summary": "审计审计：基准有效性审计的五种失败模式",
-    "contentSnippet": "arXiv:2607.02586v1 Announce Type: new \nAbstract: Governance frameworks ask AI providers and auditors for documented evaluation evidence, and perturbation-based construct-validity audits are a common form of that evidence. We argue the audits are themselves fragile: their conclusions can be silently manufactured by implementation details that readers cannot see in the reported numbers. We name five classes of pipeline failure and demonstrate each in a self-audit over safety benchmarks and open-weight instruction-tuned models. Under a unified six-point due-diligence gate, every cell lands in a non-confirmatory bucket, and no cell reaches confirmatory. The evidence here is a single two-model, five-benchmark case study, and F1--F5 is an illustrative, deliberately non-exhaustive starting taxonomy -- not a comprehensive partition of audit failures. We position the gate as a withholding and disclosure protocol for assurance-grade evidence, supplementary to (not a replacement for) classical construct-validity evidence, and not as a route to benchmark-validity verdicts."
+    "summary": "几何感知锚定去噪用于UWB感知与工作区重建",
+    "contentSnippet": "arXiv:2607.05449v1 Announce Type: new \nAbstract: Accurate work-zone geometry perception is critical for intelligent transportation systems, and ultra-wideband sensing offers a low-cost approach for infrastructure-aided reconstruction. However, outdoor UWB ranging is often degraded by non-line-of-sight propagation, burst noise, and long-tail errors, which can distort downstream spatial reconstruction. We present GAIA, a geometry-aware, infrastructure-anchored learning framework that couples temporal range modeling with latent anchor-layout estimation and deterministic distance projection. GAIA preserves range denoising as the supervised task while orienting the learned distances toward boundary-consistent reconstruction. We evaluate GAIA on a real-world outdoor UWB dataset with synchronized UWB, GNSS, and IMU measurements, and further test robustness using a real-data-calibrated stress-test simulator. GAIA achieves the lowest overall range MSE and highest polygon IoU among evaluated filtering-based and learning-based baselines, reducing MSE by 18.4% and improving polygon IoU by 15.5% over PoseMLP. These results show that geometry-aware range denoising provides an effective path toward spatially coherent work-zone reconstruction."
   },
   {
-    "title": "Automatic Upgrades: best practice features for your lakehouse tables",
-    "link": "https://www.databricks.com/blog/automatic-upgrades-best-practice-features-your-lakehouse-tables",
-    "pubDate": "Mon, 06 Jul 2026 23:10:00 GMT",
-    "source": "Databricks",
-    "summary": "湖仓表自动升级最佳实践",
-    "contentSnippet": "Your Unity Catalog (UC) managed tables now get better on their own. Automatic (Auto)..."
+    "title": "Kimi K2.7 now available for Copilot Business and Enterprise",
+    "link": "https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise",
+    "pubDate": "Wed, 08 Jul 2026 00:05:35 +0000",
+    "source": "GitHub Changelog",
+    "summary": "Kimi K2.7 登陆 Copilot 企业版",
+    "contentSnippet": "On July 1, 2026, we announced Kimi K2.7 would be available to Copilot Pro, Pro+, and Max plans. The model is now additionally available on Copilot Business and Copilot Enterprise…\nThe post Kimi K2.7 now available for Copilot Business and Enterprise appeared first on The GitHub Blog."
   },
   {
-    "title": "Reimagining Data Modeling on the Lakehouse: Introducing Vibe Data Modeling",
-    "link": "https://www.databricks.com/blog/reimagining-data-modeling-lakehouse-introducing-vibe-data-modeling",
-    "pubDate": "Mon, 06 Jul 2026 20:40:00 GMT",
+    "title": "How Imperial College London is accelerating dementia research with a modern data platform",
+    "link": "https://www.databricks.com/blog/how-imperial-college-london-accelerating-dementia-research-modern-data-platform",
+    "pubDate": "Tue, 07 Jul 2026 19:20:00 GMT",
     "source": "Databricks",
-    "summary": "湖仓一体数据建模新范式：Vibe",
-    "contentSnippet": "The challenges with Data ModelingIn every analytics stack, the Silver layer is where..."
+    "summary": "帝国理工用数据平台加速痴呆研究",
+    "contentSnippet": "Imagine being unable to tell your doctor whether you're in pain or running a fever..."
   },
   {
-    "title": "Scaling Security Alert Triage With Specialized Agents on Databricks",
-    "link": "https://www.databricks.com/blog/scaling-security-alert-triage-specialized-agents-databricks",
-    "pubDate": "Mon, 06 Jul 2026 18:00:00 GMT",
+    "title": "Contextual Policies in Omnigent: Using session state to better govern AI agents",
+    "link": "https://www.databricks.com/blog/contextual-policies-omnigent-using-session-state-better-govern-ai-agents",
+    "pubDate": "Tue, 07 Jul 2026 17:42:58 GMT",
     "source": "Databricks",
-    "summary": "在 Databricks 上使用专用代理扩展安全警报分类",
-    "contentSnippet": "What if low severity didn't mean low priority?Databricks ingests petabytes of security..."
+    "summary": "Omnigent用会话状态更好管理AI代理",
+    "contentSnippet": "We recently launched Omnigent, an open source meta-harness for AI agents. It lets..."
+  },
+  {
+    "title": "Per-user budgets for cost centers in the billing UI",
+    "link": "https://github.blog/changelog/2026-07-07-per-user-budgets-for-cost-centers-in-the-billing-ui",
+    "pubDate": "Tue, 07 Jul 2026 17:09:29 +0000",
+    "source": "GitHub Changelog",
+    "summary": "计费界面支持成本中心按用户预算",
+    "contentSnippet": "Enterprise admins can now create cost center user-level budgets directly in the billing UI where you manage cost centers and budgets. This feature is available for GitHub Enterprise Cloud. This…\nThe post Per-user budgets for cost centers in the billing UI appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide",
+    "link": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/",
+    "pubDate": "Tue, 07 Jul 2026 16:00:00 +0000",
+    "source": "GitHub",
+    "summary": "2026年Q1创新图显示全球开源协作加速",
+    "contentSnippet": "New Innovation Graph data shows global developer communities growing faster than ever, with collaboration reaching new highs across many economies.\nThe post Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+    "pubDate": "Tue, 07 Jul 2026 08:54:00 +0000",
+    "source": "Google AI",
+    "summary": "Gemini API 扩展后台任务与远程 MCP 等能力",
+    "contentSnippet": "We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents."
+  },
+  {
+    "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+    "link": "https://openai.com/index/australian-payments-plus",
+    "pubDate": "Tue, 07 Jul 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "澳大利亚支付Plus借助ChatGPT和Codex提速",
+    "contentSnippet": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central."
+  },
+  {
+    "title": "MUFG aims to become AI-native with OpenAI",
+    "link": "https://openai.com/index/mufg",
+    "pubDate": "Tue, 07 Jul 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "三菱日联借助OpenAI打造AI原生组织",
+    "contentSnippet": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale."
+  },
+  {
+    "title": "Barracuda makes security logs conversational with Genie",
+    "link": "https://www.databricks.com/blog/barracuda-makes-security-logs-conversational-genie",
+    "pubDate": "Mon, 06 Jul 2026 23:15:23 GMT",
+    "source": "Databricks",
+    "summary": "Barracuda用Genie实现安全日志对话。",
+    "contentSnippet": "When a security analyst is alerted to a suspicious login or an unusual firewall block..."
   },
   {
     "title": "How Prompt Tuning Improved GPT-5.5 in VS Code",
     "link": "https://code.visualstudio.com/blogs/2026/07/06/optimizing-vscode-coding-harness-model-providers",
     "pubDate": "2026-07-06T00:00:00.000Z",
     "source": "VS Code",
-    "summary": "提示调优优化VS Code中GPT-5.5性能",
+    "summary": "提示调优提升VS Code中GPT-5.5效率",
     "contentSnippet": "See how VS Code and OpenAI tested GPT-5.5 system prompt changes in a two-week experiment, cutting tool calls and tail-end token usage while speeding up edits.\nRead the full article"
   },
   {
@@ -60,39 +116,15 @@
     "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
     "pubDate": "Fri, 03 Jul 2026 14:25:43 +0000",
     "source": "DeepMind",
-    "summary": "谷歌DeepMind与A24达成首次研究合作",
+    "summary": "Google DeepMind与A24首次研究合作",
     "contentSnippet": ""
-  },
-  {
-    "title": "Improved accuracy and coverage in Copilot usage metrics reports",
-    "link": "https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports",
-    "pubDate": "Thu, 02 Jul 2026 23:19:06 +0000",
-    "source": "GitHub Changelog",
-    "summary": "Copilot使用指标报告提升准确性与覆盖度",
-    "contentSnippet": "We’ve made three improvements to the Copilot usage metrics API that make its reports more complete and accurate: GitHub Copilot CLI now reports suggested lines of code, users seen only…\nThe post Improved accuracy and coverage in Copilot usage metrics reports appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash",
-    "link": "https://github.blog/changelog/2026-07-02-upcoming-deprecation-of-gemini-2-5-pro-and-gemini-3-flash",
-    "pubDate": "Thu, 02 Jul 2026 23:07:06 +0000",
-    "source": "GitHub Changelog",
-    "summary": "摘要生成失败",
-    "contentSnippet": "We will deprecate Gemini 2.5 Pro and Gemini 3 Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on July 31st,…\nThe post Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Copilot CLI no longer needs a personal access token in GitHub Actions",
-    "link": "https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions",
-    "pubDate": "Thu, 02 Jul 2026 20:25:32 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub Actions中Copilot CLI无需个人令牌",
-    "contentSnippet": "You can now run GitHub Copilot CLI in GitHub Actions using the built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT),…\nThe post Copilot CLI no longer needs a personal access token in GitHub Actions appeared first on The GitHub Blog."
   },
   {
     "title": "How GitHub used secret scanning to reach inbox zero",
     "link": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
     "pubDate": "Thu, 02 Jul 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "GitHub用秘密扫描实现收件箱清零",
+    "summary": "GitHub用秘密扫描实现收件箱清零。",
     "contentSnippet": "GitHub had 20,000+ secret scanning alerts across 15,000 repositories. Here's how we separated signal from noise, built remediation workflows, and reached inbox zero in nine months.\nThe post How GitHub used secret scanning to reach inbox zero appeared first on The GitHub Blog."
   },
   {
@@ -100,7 +132,7 @@
     "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
     "pubDate": "Wed, 01 Jul 2026 18:15:00 +0000",
     "source": "Google AI",
-    "summary": "2026年6月谷歌AI最新动态",
+    "summary": "谷歌2026年6月AI最新动态",
     "contentSnippet": "Here are Google’s latest AI updates from June 2026."
   },
   {
@@ -108,7 +140,7 @@
     "link": "https://code.visualstudio.com/updates/v1_127",
     "pubDate": "2026-07-01T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "Visual Studio Code 1.127新特性介绍",
+    "summary": "VS Code 1.127 新功能介绍",
     "contentSnippet": "Learn what is new in Visual Studio Code 1.127\nRead the full article"
   },
   {
@@ -116,7 +148,7 @@
     "link": "https://code.visualstudio.com/updates/v1_128",
     "pubDate": "2026-07-01T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.128 Insiders 新特性介绍",
+    "summary": "了解VS Code 1.128 Insiders新功能",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.128 (Insiders)\nRead the full article"
   },
   {
@@ -124,7 +156,7 @@
     "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
     "pubDate": "Wed, 01 Jul 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "纽约教育领袖齐聚谷歌共商AI课堂未来。",
+    "summary": "纽约教育领袖齐聚谷歌探讨AI课堂未来",
     "contentSnippet": "Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders."
   },
   {
@@ -132,23 +164,15 @@
     "link": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
     "pubDate": "Wed, 01 Jul 2026 15:59:29 +0000",
     "source": "GitHub",
-    "summary": "GitHub维护者本周需启用六项安全设置",
+    "summary": "GitHub维护者本周应启用六项安全设置",
     "contentSnippet": "These six free settings will not make your project unhackable. Nothing will. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder to attack than it was before.\nThe post 6 security settings every GitHub maintainer should enable this week appeared first on The GitHub Blog."
-  },
-  {
-    "title": "How GitHub maintains compliance for open source dependencies",
-    "link": "https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies/",
-    "pubDate": "Tue, 30 Jun 2026 17:28:16 +0000",
-    "source": "GitHub",
-    "summary": "GitHub用合规产品管理开源依赖",
-    "contentSnippet": "Explore how the Open Source Program Office uses GitHub’s new license compliance product to manage open source dependencies at scale.\nThe post How GitHub maintains compliance for open source dependencies appeared first on The GitHub Blog."
   },
   {
     "title": "SkillOpt: Agent skills as trainable parameters",
     "link": "https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/",
     "pubDate": "Tue, 30 Jun 2026 16:50:02 +0000",
     "source": "Microsoft Research",
-    "summary": "SkillOpt将智能体技能视为可训练参数。",
+    "summary": "SkillOpt：将智能体技能转化为可训练参数",
     "contentSnippet": "AI agents often fail because their instructions, or skills, are manually modified with no guarantee of improvement. Learn how SkillOpt turns skill editing into a training process, making agent behavior more reliable without changing model weights.\nThe post SkillOpt: Agent skills as trainable parameters appeared first on Microsoft Research."
   },
   {
@@ -156,7 +180,7 @@
     "link": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
     "pubDate": "Tue, 30 Jun 2026 16:02:40 +0000",
     "source": "DeepMind",
-    "summary": "基于Nano Banana 2 Lite与Gemini Omni Flash开始构建",
+    "summary": "使用Nano Banana 2 Lite和Gemini Omni Flash开始构建。",
     "contentSnippet": ""
   },
   {
@@ -164,7 +188,7 @@
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-project-5",
     "pubDate": "Tue, 30 Jun 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache基金会宣布Magpie成为顶级项目",
+    "summary": "Apache Magpie成为ASF顶级项目",
     "contentSnippet": "Apache® Magpie provides open source maintainers with platform infrastructure for agent-assisted repository maintainership Wilmington, DE –  June 29, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that Apache Magpie has become a Top-Level Project (TLP).  Apache Magpie provides open source maintainers with platform […]\nThe post The Apache® Software Foundation Announces New Top-Level Project appeared first on The ASF Blog."
   },
   {
@@ -172,39 +196,15 @@
     "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
     "pubDate": "Tue, 30 Jun 2026 09:00:00 GMT",
     "source": "OpenAI",
-    "summary": "ChatGPT全球采用增长，覆盖多语言多地区。",
+    "summary": "ChatGPT全球采用率增长显著",
     "contentSnippet": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages."
-  },
-  {
-    "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
-    "link": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
-    "pubDate": "Tue, 30 Jun 2026 06:00:00 +0000",
-    "source": "Google AI",
-    "summary": "英国AI开拓者引领生产力新时代",
-    "contentSnippet": "Google UK shares its latest Economic Impact Report and how to enable more people to unlock the benefits of AI-powered technologies."
-  },
-  {
-    "title": "Core dump epidemiology: fixing an 18-year-old bug",
-    "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-    "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "核心转储分析修复18年旧漏洞",
-    "contentSnippet": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug."
-  },
-  {
-    "title": "Introducing GeneBench-Pro",
-    "link": "https://openai.com/index/introducing-genebench-pro",
-    "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "推出GeneBench-Pro基准测试AI性能",
-    "contentSnippet": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets."
   },
   {
     "title": "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
     "link": "https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/",
     "pubDate": "Mon, 29 Jun 2026 21:14:22 +0000",
     "source": "Microsoft Research",
-    "summary": "Memora：平衡抽象与具体性的谐波记忆表示",
+    "summary": "Memora：平衡抽象与具体的内存表示",
     "contentSnippet": "AI agents can't remember past conversations. They must constantly reload or retrieve context, which grows less efficient as tasks get longer and more complex. Memora solves this with a scalable memory system separating what’s stored from how it's retrieved.\nThe post Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity appeared first on Microsoft Research."
   },
   {
@@ -212,7 +212,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/",
     "pubDate": "Thu, 25 Jun 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "AI驱动解释实验理解大脑",
+    "summary": "AI驱动的解释与实验理解大脑",
     "contentSnippet": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language.\nThe post Understanding the brain with AI-driven explanations and experiments appeared first on Microsoft Research."
   },
   {
@@ -220,7 +220,7 @@
     "link": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
     "pubDate": "Wed, 24 Jun 2026 16:30:01 +0000",
     "source": "DeepMind",
-    "summary": "Gemini 3.5 Flash新增计算机使用功能",
+    "summary": "Gemini 3.5 Flash 引入计算机使用",
     "contentSnippet": ""
   },
   {
@@ -228,7 +228,7 @@
     "link": "https://news.apache.org/foundation/entry/what-the-gsoc-mentor-summit-reminded-me-about-open-source",
     "pubDate": "Tue, 09 Jun 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "GSoC导师峰会关于开源的启示",
+    "summary": "GSoC导师峰会启示：开源真谛",
     "contentSnippet": "By: Priya Sharma As a Google Summer of Code (GSoC) organization admin representing the Apache Software Foundation, I had the privilege of attending the GSoC Mentor Summit 2025, and it was an incredible experience! The Mentor Summit is a unique opportunity to connect with amazing mentors and discuss open source topics in an unconference format […]\nThe post What the GSoC Mentor Summit Reminded Me About Open Source appeared first on The ASF Blog."
   },
   {
@@ -236,7 +236,7 @@
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-project-4",
     "pubDate": "Thu, 04 Jun 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache Livy成为顶级项目。",
+    "summary": "Apache Livy成为ASF顶级项目",
     "contentSnippet": "Apache® Livy, a REST service for Apache Spark™, becomes a Top-Level Project Wilmington, DE –  June 4, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that Apachy Livy has become a Top-Level Project (TLP).  Apache Livy is a service that enables easy interaction […]\nThe post The Apache® Software Foundation Announces New Top-Level Project appeared first on The ASF Blog."
   }
 ]
