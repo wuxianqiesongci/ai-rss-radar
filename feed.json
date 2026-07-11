@@ -1,10 +1,58 @@
 [
   {
-    "title": "The Ambulatory Intelligence Gap",
+    "title": "CodeQL 2.26.0 adds Kotlin 2.4.0 support and AI prompt injection detection",
+    "link": "https://github.blog/changelog/2026-07-10-codeql-2-26-0-adds-kotlin-2-4-0-support-and-ai-prompt-injection-detection",
+    "pubDate": "Fri, 10 Jul 2026 20:40:56 +0000",
+    "source": "GitHub Changelog",
+    "summary": "摘要生成失败",
+    "contentSnippet": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.0, which adds support for Kotlin 2.4.0,…\nThe post CodeQL 2.26.0 adds Kotlin 2.4.0 support and AI prompt injection detection appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Clearer names for secret scanning detector types",
+    "link": "https://github.blog/changelog/2026-07-10-clearer-names-for-secret-scanning-detector-types",
+    "pubDate": "Fri, 10 Jul 2026 20:06:10 +0000",
+    "source": "GitHub Changelog",
+    "summary": "更新秘密扫描检测器类型名称。",
+    "contentSnippet": "To make secret scanning easier to understand, we’re updating the names we use for our detector types to better reflect how each one finds secrets. This is a naming change…\nThe post Clearer names for secret scanning detector types appeared first on The GitHub Blog."
+  },
+  {
+    "title": "The agentic marketing stack starts with the data layer",
+    "link": "https://www.databricks.com/blog/agentic-marketing-stack-starts-data-layer",
+    "pubDate": "Fri, 10 Jul 2026 19:00:00 GMT",
+    "source": "Databricks",
+    "summary": "智能营销堆栈始于数据层。",
+    "contentSnippet": "There's a version of the AI modernization story that goes: build the platform, then..."
+  },
+  {
+    "title": "Introducing Feature Views",
+    "link": "https://www.databricks.com/blog/introducing-feature-views",
+    "pubDate": "Fri, 10 Jul 2026 16:46:11 GMT",
+    "source": "Databricks",
+    "summary": "介绍特征视图功能，实现ML特征复用。",
+    "contentSnippet": "In a perfect world, ML Features are built only once. But for many teams, a feature..."
+  },
+  {
+    "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
+    "link": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
+    "pubDate": "Fri, 10 Jul 2026 15:57:47 +0000",
+    "source": "GitHub",
+    "summary": "迁移到Unix工具改善Copilot代码审查",
+    "contentSnippet": "How migrating Copilot code review to shared Unix-style code exploration tools reduced review cost by reshaping agent workflows around pull request evidence.\nThe post Better tools made Copilot code review worse. Here’s how we actually improved it. appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Per-user states for multi-user budgets in the REST API",
+    "link": "https://github.blog/changelog/2026-07-10-per-user-states-for-multi-user-budgets-in-the-rest-api",
+    "pubDate": "Fri, 10 Jul 2026 15:07:23 +0000",
+    "source": "GitHub Changelog",
+    "summary": "REST API中多人预算的每个用户状态",
+    "contentSnippet": "You can now retrieve every user’s progress against a multi-user budget from a single REST API endpoint. This makes it much faster to find who is close to their limit…\nThe post Per-user states for multi-user budgets in the REST API appeared first on The GitHub Blog."
+  },
+  {
+    "title": "The ambulatory intelligence gap",
     "link": "https://www.databricks.com/blog/ambulatory-intelligence-gap",
     "pubDate": "Fri, 10 Jul 2026 09:00:00 GMT",
     "source": "Databricks",
-    "summary": "门诊智能鸿沟",
+    "summary": "门诊智能差距",
     "contentSnippet": "Ambulatory care, the outpatient clinics and physician practices where most patients..."
   },
   {
@@ -12,72 +60,24 @@
     "link": "https://openai.com/index/deutsche-telekom",
     "pubDate": "Fri, 10 Jul 2026 07:00:00 GMT",
     "source": "OpenAI",
-    "summary": "德国电信用AI重塑电信成为AI原生",
+    "summary": "德国电信用OpenAI成为AI原生电信公司",
     "contentSnippet": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice."
-  },
-  {
-    "title": "Towards the Explainability of Temporal Graph Networks via Memory Backtracking and Topological Attribution",
-    "link": "https://arxiv.org/abs/2607.07716",
-    "pubDate": "Fri, 10 Jul 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "通过记忆回溯与拓扑归因解释时序图网络。",
-    "contentSnippet": "arXiv:2607.07716v1 Announce Type: new \nAbstract: Temporal graphs are ubiquitous in real-world applications and Temporal Graph Networks (TGNs) have achieved superior predictive accuracy. Understanding which historical events drive model predictions can enhance trustworthiness of TGNs. Existing explanation methods overlook the memory module, the core component that records and updates node histories, leaving the influence of past events unexplored. To address this, we attribute TGNs predictions through the topology attribution tree and memory backtracking tree. The topology attribution tree captures the influence of neighbors and their memory vectors, then the memory backtracking tree quantifies how historical events shape node memory vectors. We apply the LRP in TGNs, ensuring that the total contribution of events equals the logits of model. Finally, top-k selection may be unfaithful due to the nonlinear mapping from logits to probabilities, we design optimization objectives to identify the important events. Experiments on nine temporal graph datasets, spanning node property prediction, link prediction tasks and graph classification tasks, show that our method provides faithful explanations and outperforms state-of-the-art baselines. The code is available at https://github.com/yazhengliu/MemExplainer"
-  },
-  {
-    "title": "Who Gets Missed in the Tail? Thresholded Subgroup Underdiagnosis in Long-Tailed Chest X-ray Classification",
-    "link": "https://arxiv.org/abs/2607.07717",
-    "pubDate": "Fri, 10 Jul 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "长尾胸片分类中亚组阈值漏诊问题",
-    "contentSnippet": "arXiv:2607.07717v1 Announce Type: new \nAbstract: In chest X-ray (CXR) classification, acceptable ranking performance can still leave rare-positive patients below threshold, especially within subgroups. We study this pre-deployment fairness problem as an audit question: after a long-tailed multi-label CXR model is converted from scores into decisions, who is missed? Across VinDr-CXR and MIMIC-CXR/CXR-LT, we use a diagnostic ladder to separate class-level long-tail losses, subgroup-aware weighting, group robustness, and threshold selection. On VinDr-CXR, group-tail weighting followed by tail-aware thresholding reduces tail FNR from 0.665 to 0.269, sex worst-group FNR from 0.705 to 0.157, and age worst-group FNR from 0.822 to 0.133, while macro-mAP increases from 0.611 to 0.635. On MIMIC-CXR/CXR-LT, the same score-to-threshold comparison reduces tail FNR from 0.866 to 0.741 and lowers worst-group FNR across sex, age, race, and insurance; residual missed-positive rates nevertheless remain high. Paired bootstrap contrasts on VinDr support the thresholded FNR reductions, and GroupDRO reference runs indicate that aggregate group robustness alone does not remove rare subgroup misses in this setting. The study supports a narrow audit claim: rare-label fairness in CXR depends jointly on the finding, subgroup, and operating threshold, not on label frequency or ranking metrics alone."
-  },
-  {
-    "title": "LLT: Local Linear Transformer for PDE Operator Learning",
-    "link": "https://arxiv.org/abs/2607.07718",
-    "pubDate": "Fri, 10 Jul 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "LLT：局部线性Transformer学习PDE算子",
-    "contentSnippet": "arXiv:2607.07718v1 Announce Type: new \nAbstract: Neural operators have become a common approach for learning PDE solution maps and accelerating numerical simulations. Transformer-based neural operators are of particular interest, since attention can learn long-range dependencies in the computational domain. However, standard attention has two major limitations when applied to PDEs: it scales quadratically with the number of computational nodes, and it lacks an explicit bias toward local interactions. To address these issues, we introduce Local Linear Transformer (LLT) for PDE operator learning. The architecture combines linear global attention with local spatial mixing, and incorporates coordinate and geometry information. We evaluate LLT on several PDE problems, including elasticity, plasticity, airfoil flow, pipe flow, and Darcy flow. The reference data for these problems span finite-element, finite-volume, and finite-difference discretizations on structured and unstructured meshes. Compared with other neural-operator and transformer baselines from prior studies, LLT achieves competitive or lower relative $L_2$ error across these problems. On matched structured discretizations, wall-clock time per training iteration is reduced by factors of 1.8 to 2.5 relative to Transolver. We also scale the approach and apply it to a three-dimensional car aerodynamics dataset with 32,186 unstructured mesh points per sample. Together, these results indicate that LLT provides an accurate and computationally efficient operator for PDE problems across discretizations, mesh types, and problem settings."
   },
   {
     "title": "Aurora 1.5: Extending open foundation models for weather and Earth-system applications",
     "link": "https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/",
     "pubDate": "Thu, 09 Jul 2026 16:46:22 +0000",
     "source": "Microsoft Research",
-    "summary": "Aurora 1.5：扩展开放基础模型用于天气与地球系统应用",
+    "summary": "Aurora 1.5扩展天气与地球系统开放基础模型",
     "contentSnippet": "Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model, making it more useful for real-world weather, climate, and energy applications.\nThe post Aurora 1.5: Extending open foundation models for weather and Earth-system applications appeared first on Microsoft Research."
-  },
-  {
-    "title": "OpenAI’s GPT-5.6 Sol, Terra, and Luna are now available in GitHub Copilot",
-    "link": "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
-    "pubDate": "Thu, 09 Jul 2026 16:41:29 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GPT-5.6三模型现已登陆GitHub Copilot",
-    "contentSnippet": "OpenAI’s GPT-5.6 family is now rolling out in GitHub Copilot. GPT-5.6 comes in three variants, Sol, Terra, and Luna, so you can match the model to the job, whether that’s…\nThe post OpenAI’s GPT-5.6 Sol, Terra, and Luna are now available in GitHub Copilot appeared first on The GitHub Blog."
   },
   {
     "title": "How GitHub gave every repository a durable owner",
     "link": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
     "pubDate": "Thu, 09 Jul 2026 16:29:37 +0000",
     "source": "GitHub",
-    "summary": "GitHub为每个仓库赋予持久所有者",
+    "summary": "GitHub为每个仓库分配了永久所有者。",
     "contentSnippet": "GitHub had over 14,000 repositories. Fewer than half had clear ownership. Here's how we gave every active repository a validated owner in under 45 days, archived the rest, and made ownership the foundation for everything that followed.\nThe post How GitHub gave every repository a durable owner appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Organization-level targeting for GitHub Code Quality",
-    "link": "https://github.blog/changelog/2026-07-09-organization-level-targeting-for-github-code-quality",
-    "pubDate": "Thu, 09 Jul 2026 15:54:01 +0000",
-    "source": "GitHub Changelog",
-    "summary": "组织级代码质量支持按仓库选择性配置",
-    "contentSnippet": "Organization owners can now target a subset of repositories when enabling or disabling GitHub Code Quality, rather than applying it to every repository at once. This gives you more granular…\nThe post Organization-level targeting for GitHub Code Quality appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Ask Copilot for a repository overview",
-    "link": "https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview",
-    "pubDate": "Thu, 09 Jul 2026 14:25:33 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub Copilot现可提供仓库概览。",
-    "contentSnippet": "You can now ask GitHub Copilot for a high-level overview of any repository you’re exploring for the first time. When you visit the home page of a repository you haven’t…\nThe post Ask Copilot for a repository overview appeared first on The GitHub Blog."
   },
   {
     "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
@@ -92,7 +92,7 @@
     "link": "https://openai.com/index/gpt-5-6",
     "pubDate": "Thu, 09 Jul 2026 10:00:00 GMT",
     "source": "OpenAI",
-    "summary": "GPT-5.6：前沿智能，随需扩展",
+    "summary": "GPT-5.6：前沿智能与性能随需扩展",
     "contentSnippet": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work."
   },
   {
@@ -100,39 +100,23 @@
     "link": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
     "pubDate": "Wed, 08 Jul 2026 21:11:56 +0000",
     "source": "GitHub",
-    "summary": "用GitHub工作流自动跨仓库文档更新",
+    "summary": "使用GitHub工作流自动跨仓库文档",
     "contentSnippet": "Explore how the Aspire team turns merged product changes into SME-reviewed docs pull requests, closing the gap between release and documentation.\nThe post Automating cross-repo documentation with GitHub Agentic Workflows appeared first on The GitHub Blog."
-  },
-  {
-    "title": "GitHub availability report: June 2026",
-    "link": "https://github.blog/news-insights/company-news/github-availability-report-june-2026/",
-    "pubDate": "Wed, 08 Jul 2026 19:35:51 +0000",
-    "source": "GitHub",
-    "summary": "GitHub六月可用性报告：六次服务事故",
-    "contentSnippet": "In June, we experienced six incidents that resulted in degraded performance across GitHub services.\nThe post GitHub availability report: June 2026 appeared first on The GitHub Blog."
   },
   {
     "title": "ASF Plus One Newsletter: June 2026",
     "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-june-2026",
     "pubDate": "Wed, 08 Jul 2026 19:16:53 +0000",
     "source": "Apache",
-    "summary": "ASF六月通讯：聚焦社区项目与新人",
+    "summary": "ASF Plus One 2026年6月简报",
     "contentSnippet": "This month’s Plus One celebrates the people and projects shaping the ASF community. We reflect on the role of mentorship through the Google Summer of Code Mentor Summit, share the latest for Community Over Code Glasgow 2026, and welcome Apache Livy and Apache Magpie as ASF’s newest Top-Level Projects. We also recognize new committers and […]\nThe post ASF Plus One Newsletter: June 2026 appeared first on The ASF Blog."
-  },
-  {
-    "title": "Navigating a Synapse Migration to Databricks",
-    "link": "https://www.databricks.com/blog/navigating-synapse-migration-databricks",
-    "pubDate": "Wed, 08 Jul 2026 19:00:00 GMT",
-    "source": "Databricks",
-    "summary": "将Synapse迁移至Databricks的指南",
-    "contentSnippet": "Azure Synapse has served as a reliable foundation for SQL analytics at scale, and..."
   },
   {
     "title": "Visual Studio Code 1.128",
     "link": "https://code.visualstudio.com/updates/v1_128",
     "pubDate": "2026-07-08T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.128 新特性简介",
+    "summary": "Visual Studio Code 1.128 新特性介绍",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.128\nRead the full article"
   },
   {
@@ -140,23 +124,15 @@
     "link": "https://code.visualstudio.com/updates/v1_129",
     "pubDate": "2026-07-08T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "了解VS Code 1.129预览版新特性",
+    "summary": "Visual Studio Code 1.129 预览版新功能",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.129 (Insiders)\nRead the full article"
-  },
-  {
-    "title": "Benchmarking Coding Agents on Databricks’ Multi-Million Line Codebase ",
-    "link": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
-    "pubDate": "Wed, 08 Jul 2026 16:30:51 GMT",
-    "source": "Databricks",
-    "summary": "Databricks百万行代码库上的编码代理基准测试",
-    "contentSnippet": "At Databricks, the way we build software is changing quickly as we aggressively adopt..."
   },
   {
     "title": "Flint: A visualization language for the AI era",
     "link": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era/",
     "pubDate": "Wed, 08 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Flint：面向AI时代的可视化开源语言",
+    "summary": "Flint：面向AI时代的可视化语言",
     "contentSnippet": "Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language that offers a middle path, letting AI agents create expressive charts from compact, human-editable specifications.\nThe post Flint: A visualization language for the AI era appeared first on Microsoft Research."
   },
   {
@@ -164,7 +140,7 @@
     "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
     "pubDate": "Tue, 07 Jul 2026 08:54:00 +0000",
     "source": "Google AI",
-    "summary": "Gemini API托管代理新增后台任务和远程MCP",
+    "summary": "Gemini API扩展托管代理，支持后台任务与远程MCP等功能。",
     "contentSnippet": "We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents."
   },
   {
@@ -172,7 +148,7 @@
     "link": "https://code.visualstudio.com/blogs/2026/07/06/optimizing-vscode-coding-harness-model-providers",
     "pubDate": "2026-07-06T00:00:00.000Z",
     "source": "VS Code",
-    "summary": "提示调优改进VS Code中GPT-5.5",
+    "summary": "提示调优改进GPT-5.5在VS Code性能",
     "contentSnippet": "See how VS Code and OpenAI tested GPT-5.5 system prompt changes in a two-week experiment, cutting tool calls and tail-end token usage while speeding up edits.\nRead the full article"
   },
   {
@@ -180,7 +156,7 @@
     "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
     "pubDate": "Fri, 03 Jul 2026 14:25:43 +0000",
     "source": "DeepMind",
-    "summary": "谷歌DeepMind与A24达成首次研究合作",
+    "summary": "谷歌DeepMind与A24宣布首次研究合作",
     "contentSnippet": ""
   },
   {
@@ -188,7 +164,7 @@
     "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
     "pubDate": "Wed, 01 Jul 2026 18:15:00 +0000",
     "source": "Google AI",
-    "summary": "谷歌2026年6月AI最新更新",
+    "summary": "谷歌2026年6月AI最新动态",
     "contentSnippet": "Here are Google’s latest AI updates from June 2026."
   },
   {
@@ -196,7 +172,7 @@
     "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
     "pubDate": "Wed, 01 Jul 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "纽约教育及行业领袖共商课堂AI未来。",
+    "summary": "谷歌举办AI峰会，探讨课堂AI未来。",
     "contentSnippet": "Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders."
   },
   {
@@ -212,7 +188,7 @@
     "link": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
     "pubDate": "Tue, 30 Jun 2026 16:02:40 +0000",
     "source": "DeepMind",
-    "summary": "开始用Nano Banana 2 Lite和Gemini Omni Flash开发",
+    "summary": "用Nano Banana 2 Lite和Gemini Omni Flash开始构建",
     "contentSnippet": ""
   },
   {
@@ -220,7 +196,7 @@
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-project-5",
     "pubDate": "Tue, 30 Jun 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache Magpie成为ASF顶级项目",
+    "summary": "Apache软件基金会宣布新顶级项目",
     "contentSnippet": "Apache® Magpie provides open source maintainers with platform infrastructure for agent-assisted repository maintainership Wilmington, DE –  June 29, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that Apache Magpie has become a Top-Level Project (TLP).  Apache Magpie provides open source maintainers with platform […]\nThe post The Apache® Software Foundation Announces New Top-Level Project appeared first on The ASF Blog."
   },
   {
@@ -228,7 +204,7 @@
     "link": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
     "pubDate": "Wed, 24 Jun 2026 16:30:01 +0000",
     "source": "DeepMind",
-    "summary": "Gemini 3.5 Flash引入计算机使用",
+    "summary": "Gemini 3.5 Flash引入电脑使用",
     "contentSnippet": ""
   },
   {
@@ -236,7 +212,7 @@
     "link": "https://news.apache.org/foundation/entry/what-the-gsoc-mentor-summit-reminded-me-about-open-source",
     "pubDate": "Tue, 09 Jun 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "GSoC导师峰会提醒开源本质。",
+    "summary": "GSoC导师峰会启发对开源的思考。",
     "contentSnippet": "By: Priya Sharma As a Google Summer of Code (GSoC) organization admin representing the Apache Software Foundation, I had the privilege of attending the GSoC Mentor Summit 2025, and it was an incredible experience! The Mentor Summit is a unique opportunity to connect with amazing mentors and discuss open source topics in an unconference format […]\nThe post What the GSoC Mentor Summit Reminded Me About Open Source appeared first on The ASF Blog."
   }
 ]
