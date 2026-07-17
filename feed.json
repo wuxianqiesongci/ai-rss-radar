@@ -4,79 +4,135 @@
     "link": "https://code.visualstudio.com/updates/v1_130",
     "pubDate": "2026-07-22T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "了解VS Code 1.130 Insiders新功能",
+    "summary": "VS Code 1.130 Insiders 新功能一览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.130 (Insiders)\nRead the full article"
+  },
+  {
+    "title": "Intelligent Three Level Learning Architecture for Autonomous UAV Swarms in Search and Rescue",
+    "link": "https://arxiv.org/abs/2607.14093",
+    "pubDate": "Fri, 17 Jul 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "智能三层学习架构用于自主无人机群搜救",
+    "contentSnippet": "arXiv:2607.14093v1 Announce Type: new \nAbstract: This paper presents a novel three level hierarchical learning architecture for autonomous UAV swarms performing search and rescue operations. Unlike conventional approaches that apply a single learning paradigm across all hierarchy levels, the proposed architecture integrates three qualitatively different learning mechanisms corresponding to the biological hierarchy of reflexes, skills, and reasoning such as Hebbian neuroplasticity for individual agent adaptation, multi agent reinforcement learning with graph neural networks and behavior trees for tactical coordination, and model agnostic meta learning with BDI reasoning and a digital twin for strategic decision making.\n  The architecture is formalized through twenty two architectural contracts organized across six components such as BDI, Behavior Trees, GNN, MARL, Neuroplasticity, Meta Learning that collectively provide six classes of formal guarantees such as safety, budget correctness, optimality, liveness, starvation freedom, and inter level consistency.\n  We introduce Swarm Meta Cognition as a compositional property arising from the structured interaction of all three levels, enabling the swarm to monitor its own cognitive state and switch between cognitive strategies. Five constructive progress functions for SAR task types bridge the gap between abstract optimization theory and concrete operational scenarios.\n  The main integration theorem establishes that when all contracts are satisfied, the hybrid neuro-symbolic system preserves all six guarantee classes. For the dynamic case with active learning, five new contracts extend the framework with three additional guarantees such as cognitive resilience, graceful degradation, and monotonic meta improvement. Theoretical analysis demonstrates that the architecture addresses five fundamental limitations of existing hierarchical RL approaches."
+  },
+  {
+    "title": "HG-RAG: Hierarchy-Guided Retrieval-Augmented Generation for Structured Knowledge Graphs",
+    "link": "https://arxiv.org/abs/2607.14095",
+    "pubDate": "Fri, 17 Jul 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "层级引导的检索增强生成用于结构化知识图谱",
+    "contentSnippet": "arXiv:2607.14095v1 Announce Type: new \nAbstract: Retrieval Augmented Generation (RAG) has proven to be a widely successful process at improving the quality of outputs from a Large Language Model (LLM) for wider context. However, RAG systems typically retrieve context from flat document stores, which struggles when queries require hierarchical or relational reasoning across structured knowledge. I present HG-RAG (Hierarchy-Guided RAG), a framework that performs graph-traversal over a hierarchical knowledge graph to deliver structured context to a language model. My retrieval pipeline resolves a named entity anchor from the query, then expands context upward through parent nodes, laterally through relational neighbors, and downward through child nodes when needed. I evaluate HG-RAG against a dense retrieval baseline across three world scales (18-800 nodes) with four query types: local fact, hierarchical, neighborhood, and multi-hop. Results show HG-RAG consistently outperforms the flat baseline on hierarchical, relational, and multi-hop reasoning tasks, while reducing hallucination and maintaining locality coherence."
+  },
+  {
+    "title": "IMEX Interaction-Based Model Explanation",
+    "link": "https://arxiv.org/abs/2607.14096",
+    "pubDate": "Fri, 17 Jul 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "IMEX：基于交互的模型解释",
+    "contentSnippet": "arXiv:2607.14096v1 Announce Type: new \nAbstract: In predictive modeling, the ability to explain why a model produces a given target prediction has become increasingly important [5, 10]. Black-box models do not provide a transparent description of the internal mechanisms that generate the prediction, making even accurate predictions difficult to interpret and validate. In critical contexts, predictive accuracy alone is not a sufficient validation metric if the reasons underlying model decisions remain unexplained. The IMEX (Interaction-Based Model Explanation) approach represents a methodological direction within explainable predictive modeling. IMEX is designed to identify which variables contribute most to the target prediction and which interactions among variables are significant in determining the target. The method does not impose limitations on higher-order interaction analysis, allowing the investigation of feature subsets with cardinality greater than two. Beyond the identification of feature importance, IMEX enables the exploration of interaction patterns that may be consistent with latent mechanisms influencing the outcome. Through the application of the IMEX algorithm, it is possible to construct an interpretability map of the predictions. The IMEX framework is built on two complementary metrics: Static Correlation Power (PCS), which quantifies the contribution of individual features, and Interaction Correlation Power (PCI), which captures non-additive effects among features. In the present work, the PCS component is experimentally validated through a comparison with INVASE [18] on three synthetic datasets with known structures. The results indicate that IMEX can recover relevant feature-level structures in the presence of non-linear, conditional, and multicollinear relationships between input features and prediction targets."
+  },
+  {
+    "title": "Your AI is ready. Your data foundation probably isn’t",
+    "link": "https://www.databricks.com/blog/your-ai-ready-your-data-foundation-probably-isnt",
+    "pubDate": "Thu, 16 Jul 2026 22:00:00 GMT",
+    "source": "Databricks",
+    "summary": "AI就绪但数据基础不足。",
+    "contentSnippet": "For most large enterprises, AI transformation is a story of silos — business units..."
+  },
+  {
+    "title": "From experiment to insight: how Dotmatics Luma and Databricks make AI-ready science a reality",
+    "link": "https://www.databricks.com/blog/experiment-insight-how-dotmatics-luma-and-databricks-make-ai-ready-science-reality",
+    "pubDate": "Thu, 16 Jul 2026 21:07:45 GMT",
+    "source": "Databricks",
+    "summary": "Dotmatics Luma与Databricks实现AI就绪科学",
+    "contentSnippet": "The gap between scientific data and scientific insightModern scientific workflows..."
+  },
+  {
+    "title": "Advanced search for Projects is generally available",
+    "link": "https://github.blog/changelog/2026-07-16-advanced-search-for-projects-is-generally-available",
+    "pubDate": "Thu, 16 Jul 2026 19:07:14 +0000",
+    "source": "GitHub Changelog",
+    "summary": "项目高级搜索功能全面可用",
+    "contentSnippet": "The filter bar in GitHub Projects views now supports advanced search, so you can build the exact view you need with logical AND and OR instead of maintaining a separate…\nThe post Advanced search for Projects is generally available appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Repository admins can archive pull requests",
+    "link": "https://github.blog/changelog/2026-07-16-repository-admins-can-archive-pull-requests",
+    "pubDate": "Thu, 16 Jul 2026 19:01:09 +0000",
+    "source": "GitHub Changelog",
+    "summary": "仓库管理员可归档拉取请求",
+    "contentSnippet": "Repository admins can now archive pull requests to remove them from public view without permanently deleting them. When a pull request is archived, it is closed and locked. Pull requests…\nThe post Repository admins can archive pull requests appeared first on The GitHub Blog."
+  },
+  {
+    "title": "REST API endpoints for Visual Studio Subscription management",
+    "link": "https://github.blog/changelog/2026-07-16-rest-api-endpoints-for-visual-studio-subscription-management",
+    "pubDate": "Thu, 16 Jul 2026 18:06:52 +0000",
+    "source": "GitHub Changelog",
+    "summary": "Visual Studio订阅的REST API管理端点",
+    "contentSnippet": "GitHub Enterprise Cloud admins can now use the following REST API endpoints to programmatically manage Visual Studio Subscription (VSS) assignments: GET /enterprises/{enterprise}/visual-studio-subscriptions: Returns all VSS assignments for an enterprise, including…\nThe post REST API endpoints for Visual Studio Subscription management appeared first on The GitHub Blog."
+  },
+  {
+    "title": "What happens in the milliseconds after you tap pay",
+    "link": "https://www.databricks.com/blog/what-happens-milliseconds-after-you-tap-pay",
+    "pubDate": "Thu, 16 Jul 2026 18:00:00 GMT",
+    "source": "Databricks",
+    "summary": "轻触支付后的毫秒级进程",
+    "contentSnippet": "You're standing at the register. You tap your card. A tiny spinner appears for maybe..."
+  },
+  {
+    "title": "Why teens deserve access to safe AI",
+    "link": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+    "pubDate": "Thu, 16 Jul 2026 16:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "青少年应获得安全AI访问权",
+    "contentSnippet": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships."
+  },
+  {
+    "title": "Connect more of your apps to Search",
+    "link": "https://blog.google/products-and-platforms/products/search/connected-apps/",
+    "pubDate": "Thu, 16 Jul 2026 16:00:00 +0000",
+    "source": "Google AI",
+    "summary": "AI模式中安全连接常用应用。",
+    "contentSnippet": "You’ll be able to securely link and interact with your go-to services directly in AI Mode."
+  },
+  {
+    "title": "Create, edit and star in videos with two Google Vids updates",
+    "link": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+    "pubDate": "Thu, 16 Jul 2026 16:00:00 +0000",
+    "source": "Google AI",
+    "summary": "谷歌Vids两大更新：Gemini Omni和虚拟化身，轻松创作视频。",
+    "contentSnippet": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever."
+  },
+  {
+    "title": "Our approach to bioresilience",
+    "link": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+    "pubDate": "Thu, 16 Jul 2026 09:30:42 +0000",
+    "source": "DeepMind",
+    "summary": "谷歌DeepMind与Isomorphic Labs联合生物弹性方法。",
+    "contentSnippet": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models."
   },
   {
     "title": "Beyond the Hardware Hub: How ALC Taipei Turned Computex 2026 into a Milestone for the Apache Way",
     "link": "https://news.apache.org/foundation/entry/beyond-the-hardware-hub-how-alc-taipei-turned-computex-2026-into-a-milestone-for-the-apache-way",
     "pubDate": "Thu, 16 Jul 2026 05:20:06 +0000",
     "source": "Apache",
-    "summary": "ALC台北让Computex 2026成为Apache Way里程碑。",
+    "summary": "ALC台北将Computex 2026化为Apache之道里程碑。",
     "contentSnippet": "By Chia-Ping TsaiALC Taipei Lead [Figure 1] Long-time Apache Kafka contributors Jiunn-Yang and Chih-Yuan introducing ALC Taipei’s contributions to open-source veterans Brian Behlendorf and Justin McLean Introduction With the globally renowned Computex Taipei now behind us, it’s the perfect time to look back at how ALC Taipei has brought the Apache Way to life in […]\nThe post Beyond the Hardware Hub: How ALC Taipei Turned Computex 2026 into a Milestone for the Apache Way appeared first on The ASF Blog."
   },
   {
-    "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
-    "link": "https://arxiv.org/abs/2607.13037",
-    "pubDate": "Thu, 16 Jul 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "OriginBlame: 面向AI训练数据的记录与令牌级溯源",
-    "contentSnippet": "arXiv:2607.13037v1 Announce Type: new \nAbstract: When a data contributor requests removal, model trainers face a practical gap: unlearning algorithms require a forget set, yet no tool can locate which training records belong to a given author. Existing provenance systems operate at file or dataset level, forcing catastrophic over-deletion. We present ob, a record- and token-level data provenance system that propagates author identity through data processing pipelines and resolves revocation requests into precise forget sets via deterministic queries. Evaluation on 219,555 Wikipedia pages demonstrates that record-level provenance eliminates dataset-level over-deletion (from 101x to 1.3x), while integration adds 1.3-4.0% throughput overhead (HuggingFace) and 2.1-19.0% (Datatrove) on wiki data. On a 1.7B model, provenance-based forget sets improve unlearning by 42% over random baselines."
-  },
-  {
-    "title": "Automatic Differentiation from Scratch: How PyTorch Computes Gradients in Physics-Informed Neural Networks",
-    "link": "https://arxiv.org/abs/2607.13042",
-    "pubDate": "Thu, 16 Jul 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "从零实现自动微分：PyTorch计算PINN梯度",
-    "contentSnippet": "arXiv:2607.13042v1 Announce Type: new \nAbstract: This paper traces, with explicit numerical values, how PyTorch's automatic differentiation (AD) engine computes gradients for Physics-Informed Neural Network (PINN) training -- a setting that requires two levels of differentiation: computing the physics derivative $\\hat{y}'(t)=d\\hat{y}/dt$ through the network, and computing parameter gradients $\\nabla_\\theta L$ of a loss that itself depends on $\\hat{y}'(t)$. Using a 1-3-3-1 multilayer perceptron and the initial value problem $y'(t)+y(t)=0$, $y(0)=1$, we trace the complete pipeline at every node: the computational graph built during the forward pass, the reverse-mode backward traversal that computes all 22 parameter gradients in a single pass, and the graph-on-graph mechanism by which \\texttt{create\\_graph=True} enables correct differentiation through the physics-informed residual. Every adjoint value is verified against the hand derivations of Tahimi (2026), connecting the $P/Q$ sensitivity framework to the vector--Jacobian products used by PyTorch's autograd engine."
-  },
-  {
-    "title": "Beyond Backbone Backpropagation: A Decoupled Strategy for Efficient Transfer Learning",
-    "link": "https://arxiv.org/abs/2607.13043",
-    "pubDate": "Thu, 16 Jul 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "解耦策略实现高效迁移学习",
-    "contentSnippet": "arXiv:2607.13043v1 Announce Type: new \nAbstract: Deep learning models achieve state-of-the-art image classification but face deployment challenges due to computational costs and energy demands. We propose a lightweight training strategy that adapts normalization layers of the model to the new domain and decouples feature extraction from classifier optimization, reducing overhead by precomputing features only once. A redesigned classifier head with margin-based weighted loss further minimizes ambiguity without end-to-end backpropagation. Evaluated across four CNN architectures (ResNet18, ResNet50, MobileNet, DenseNet121), three Transformer models (ViT, Swin and DeiT) and three medical datasets (Brain Cancer MRI, BreakHis and PatchCamelyon), our approach significantly reduces the required training time with only a marginal accuracy trade-off, often matching or surpassing baseline performance. This efficiency translates to reducing CO2 by orders of magnitude, offering a practical and environmentally sustainable solution for resource-constrained clinical or prototyping environments."
-  },
-  {
-    "title": "Improvements to secret scanning and public monitoring",
-    "link": "https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring",
-    "pubDate": "Wed, 15 Jul 2026 22:38:16 +0000",
-    "source": "GitHub Changelog",
-    "summary": "秘密扫描与公共监控的改进",
-    "contentSnippet": "This week, we’re rolling out several improvements to secret scanning and public monitoring: Resend is now a GitHub secret scanning partner. Secret scanning now detects new secret types from APIclub…\nThe post Improvements to secret scanning and public monitoring appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Inkling model from Thinking Machines Lab now on Databricks",
-    "link": "https://www.databricks.com/blog/inkling-thinking-machines-lab-now-databricks",
-    "pubDate": "Wed, 15 Jul 2026 18:30:00 GMT",
-    "source": "Databricks",
-    "summary": "TML的Inkling模型上线Databricks",
-    "contentSnippet": "We are excited to announce Databricks as a day zero launch partner for Thinking Machines Lab (TML)..."
-  },
-  {
-    "title": "Data-Native AI Agents: Why Agents Must Move to Your Data",
-    "link": "https://www.databricks.com/blog/data-native-ai-agents-why-agents-must-move-your-data",
-    "pubDate": "Wed, 15 Jul 2026 17:30:00 GMT",
-    "source": "Databricks",
-    "summary": "AI智能体必须迁移至数据",
-    "contentSnippet": "Most enterprise AI pilots clear the same low bar: connect an LLM to your data, drop..."
-  },
-  {
-    "title": "AI-Enabled Advisory Services for Higher Education",
-    "link": "https://www.databricks.com/blog/ai-enabled-advisory-services-higher-education",
-    "pubDate": "Wed, 15 Jul 2026 17:30:00 GMT",
-    "source": "Databricks",
-    "summary": "高等教育AI咨询服务",
-    "contentSnippet": "The ProblemCall centers are a key student support tool for higher education. Advisors..."
+    "title": "How Cars24 scales conversations and builds faster with OpenAI",
+    "link": "https://openai.com/index/cars24",
+    "pubDate": "Thu, 16 Jul 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "Cars24用OpenAI扩展对话并加速构建",
+    "contentSnippet": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company."
   },
   {
     "title": "GitHub for Beginners: Your roadmap to mastering the GitHub essentials",
     "link": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
     "pubDate": "Wed, 15 Jul 2026 17:29:31 +0000",
     "source": "GitHub",
-    "summary": "GitHub初学者基础指南",
+    "summary": "GitHub入门：掌握版本控制与仓库协作基础。",
     "contentSnippet": "New to GitHub? This beginner's guide explains version control, repositories, and pull requests—plus everything else you need to start working confidently on GitHub.\nThe post GitHub for Beginners: Your roadmap to mastering the GitHub essentials appeared first on The GitHub Blog."
   },
   {
@@ -84,7 +140,7 @@
     "link": "https://code.visualstudio.com/updates/v1_129",
     "pubDate": "2026-07-15T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "了解VS Code 1.129新特性",
+    "summary": "Visual Studio Code 1.129 版本新功能。",
     "contentSnippet": "Learn what is new in Visual Studio Code 1.129.\nRead the full article"
   },
   {
@@ -92,32 +148,8 @@
     "link": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
     "pubDate": "Wed, 15 Jul 2026 12:00:00 GMT",
     "source": "OpenAI",
-    "summary": "美国采用反向联邦主义推进AI安全。",
+    "summary": "美国通过州联邦协作推进AI安全框架",
     "contentSnippet": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI."
-  },
-  {
-    "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
-    "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-    "pubDate": "Wed, 15 Jul 2026 10:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "GPT-Red：自我博弈提升鲁棒性",
-    "contentSnippet": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness."
-  },
-  {
-    "title": "GitHub Copilot in Visual Studio — June update",
-    "link": "https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update",
-    "pubDate": "Wed, 15 Jul 2026 00:01:24 +0000",
-    "source": "GitHub Changelog",
-    "summary": "Visual Studio中Copilot六月更新：提升可见性与信任",
-    "contentSnippet": "June 2026 is about visibility and trust with a clearer view of your GitHub Copilot usage, a new trust layer for MCP servers, and the first C++ scenarios for the…\nThe post GitHub Copilot in Visual Studio — June update appeared first on The GitHub Blog."
-  },
-  {
-    "title": "GitHub Copilot for JetBrains expands BYOK capabilities",
-    "link": "https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities",
-    "pubDate": "Tue, 14 Jul 2026 23:37:29 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub Copilot for JetBrains增强BYOK功能",
-    "contentSnippet": "This update brings major advances in customization and model provider flexibility to all tiers of GitHub Copilot for JetBrains IDEs. With richer plugin and provider experiences, improved conversational interactions, and…\nThe post GitHub Copilot for JetBrains expands BYOK capabilities appeared first on The GitHub Blog."
   },
   {
     "title": "Celebrating 25 years of visual search innovation",
@@ -128,19 +160,11 @@
     "contentSnippet": "Google Images is turning 25. Here’s a look back at some major milestones — and new ways to explore and create visual content."
   },
   {
-    "title": "How to manage AI investments in the agentic era",
-    "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
-    "pubDate": "Tue, 14 Jul 2026 10:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "代理时代管理AI投资衡量每美元工作并扩大高价值流程",
-    "contentSnippet": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows."
-  },
-  {
     "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
     "link": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
     "pubDate": "Mon, 13 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "SymCrypt中Rust密码学从标准到代码的验证",
+    "summary": "在SymCrypt中从标准到代码验证Rust加密",
     "contentSnippet": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves.\nThe post Verifying Rust cryptography in SymCrypt, from standards to code appeared first on Microsoft Research."
   },
   {
@@ -148,7 +172,7 @@
     "link": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
     "pubDate": "Mon, 13 Jul 2026 12:37:28 +0000",
     "source": "DeepMind",
-    "summary": "谷歌AIM推出ATL Saathi赋能印度教育",
+    "summary": "谷歌与AIM推出AI工具赋能印度教育者。",
     "contentSnippet": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs."
   },
   {
@@ -156,7 +180,7 @@
     "link": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
     "pubDate": "Fri, 10 Jul 2026 15:57:47 +0000",
     "source": "GitHub",
-    "summary": "迁移至Unix风格工具改进Copilot代码审查并降低成本",
+    "summary": "迁移到共享Unix工具降低Copilot代码审查成本",
     "contentSnippet": "How migrating Copilot code review to shared Unix-style code exploration tools reduced review cost by reshaping agent workflows around pull request evidence.\nThe post Better tools made Copilot code review worse. Here’s how we actually improved it. appeared first on The GitHub Blog."
   },
   {
@@ -164,7 +188,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/",
     "pubDate": "Thu, 09 Jul 2026 16:46:22 +0000",
     "source": "Microsoft Research",
-    "summary": "Aurora 1.5扩展气象基础模型，新增变量与小时级预报。",
+    "summary": "Aurora 1.5扩展开放模型用于天气及地球系统",
     "contentSnippet": "Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model, making it more useful for real-world weather, climate, and energy applications.\nThe post Aurora 1.5: Extending open foundation models for weather and Earth-system applications appeared first on Microsoft Research."
   },
   {
@@ -172,7 +196,7 @@
     "link": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
     "pubDate": "Thu, 09 Jul 2026 16:29:37 +0000",
     "source": "GitHub",
-    "summary": "GitHub为每个仓库分配持久所有者",
+    "summary": "GitHub为每个仓库指定了永久所有者",
     "contentSnippet": "GitHub had over 14,000 repositories. Fewer than half had clear ownership. Here's how we gave every active repository a validated owner in under 45 days, archived the rest, and made ownership the foundation for everything that followed.\nThe post How GitHub gave every repository a durable owner appeared first on The GitHub Blog."
   },
   {
@@ -180,7 +204,7 @@
     "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-june-2026",
     "pubDate": "Wed, 08 Jul 2026 19:16:53 +0000",
     "source": "Apache",
-    "summary": "ASF六月刊：社区动态与新顶级项目",
+    "summary": "ASF Plus One 2026年6月简报",
     "contentSnippet": "This month’s Plus One celebrates the people and projects shaping the ASF community. We reflect on the role of mentorship through the Google Summer of Code Mentor Summit, share the latest for Community Over Code Glasgow 2026, and welcome Apache Livy and Apache Magpie as ASF’s newest Top-Level Projects. We also recognize new committers and […]\nThe post ASF Plus One Newsletter: June 2026 appeared first on The ASF Blog."
   },
   {
@@ -188,7 +212,7 @@
     "link": "https://code.visualstudio.com/updates/v1_128",
     "pubDate": "2026-07-08T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.128新特性概览。",
+    "summary": "Visual Studio Code 1.128 新特性",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.128\nRead the full article"
   },
   {
@@ -196,39 +220,15 @@
     "link": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era/",
     "pubDate": "Wed, 08 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Flint：AI时代的可视化语言。",
+    "summary": "Flint：面向AI时代的开源可视化语言。",
     "contentSnippet": "Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language that offers a middle path, letting AI agents create expressive charts from compact, human-editable specifications.\nThe post Flint: A visualization language for the AI era appeared first on Microsoft Research."
-  },
-  {
-    "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
-    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-    "pubDate": "Tue, 07 Jul 2026 08:54:00 +0000",
-    "source": "Google AI",
-    "summary": "Gemini API托管代理新增后台任务和远程MCP等功能。",
-    "contentSnippet": "We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents."
   },
   {
     "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
     "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
     "pubDate": "Fri, 03 Jul 2026 14:25:43 +0000",
     "source": "DeepMind",
-    "summary": "DeepMind与A24宣布首次研究合作",
-    "contentSnippet": ""
-  },
-  {
-    "title": "The latest AI news we announced in June 2026",
-    "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
-    "pubDate": "Wed, 01 Jul 2026 18:15:00 +0000",
-    "source": "Google AI",
-    "summary": "谷歌2026年6月最新AI更新",
-    "contentSnippet": "Here are Google’s latest AI updates from June 2026."
-  },
-  {
-    "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-    "link": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-    "pubDate": "Tue, 30 Jun 2026 16:02:40 +0000",
-    "source": "DeepMind",
-    "summary": "使用Nano Banana 2 Lite和Gemini Omni Flash开始构建",
+    "summary": "谷歌DeepMind与A24宣布首次研究合作",
     "contentSnippet": ""
   },
   {
@@ -236,7 +236,7 @@
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-project-5",
     "pubDate": "Tue, 30 Jun 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache软件基金会宣布新顶级项目Magpie",
+    "summary": "Apache宣布Magpie成为顶级项目。",
     "contentSnippet": "Apache® Magpie provides open source maintainers with platform infrastructure for agent-assisted repository maintainership Wilmington, DE –  June 29, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that Apache Magpie has become a Top-Level Project (TLP).  Apache Magpie provides open source maintainers with platform […]\nThe post The Apache® Software Foundation Announces New Top-Level Project appeared first on The ASF Blog."
   }
 ]
