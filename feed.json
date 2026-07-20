@@ -4,15 +4,39 @@
     "link": "https://code.visualstudio.com/updates/v1_130",
     "pubDate": "2026-07-22T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "Visual Studio Code 1.130 内测版新功能",
+    "summary": "Visual Studio Code 1.130 内测版新功能概览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.130 (Insiders)\nRead the full article"
+  },
+  {
+    "title": "GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis",
+    "link": "https://arxiv.org/abs/2607.15280",
+    "pubDate": "Mon, 20 Jul 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "成本感知知识增强的多智能体序贯诊断框架",
+    "contentSnippet": "arXiv:2607.15280v1 Announce Type: new \nAbstract: Sequential diagnosis requires balancing diagnostic accuracy against resource costs through iterative information gathering. Existing Large Language Model (LLM) approaches exhibit a critical knowledge-reasoning gap: despite encoding extensive medical knowledge, they struggle to reason systematically under cost constraints, often resorting to excessive testing. We propose GraphDx, a knowledge-enhanced framework with two core innovations. First, we design an automated pipeline that leverages LLMs to construct Medical Diagnosis Knowledge Graphs (MDKGs) with quantized typicality, action-centric topology, and dual-objective attributes for both diagnostic relevance and cost-sensitivity. Second, we introduce three collaborative agents (Perception, Reasoning, and Decision) where the Perception and Decision Agents handle language understanding and generation, while the Reasoning Agent performs deterministic evidence scoring and cost-aware planning on the MDKG. Experiments on MedQA and MIMIC-IV across three LLM backbones (DeepSeek-V3, Kimi-k2, Llama-3.3) show that GraphDx improves diagnostic success rates from 50--68% to 79--93% while reducing test costs by 20--54%, providing a robust, economical, and interpretable solution for automated clinical diagnosis."
+  },
+  {
+    "title": "Causal-Audit: Explicit and Auditable Graph-based Reasoning via Target-Aware Causal Chain Construction",
+    "link": "https://arxiv.org/abs/2607.15281",
+    "pubDate": "Mon, 20 Jul 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "基于目标感知因果链的可审计图推理",
+    "contentSnippet": "arXiv:2607.15281v1 Announce Type: new \nAbstract: Causal and intervention-based question answering is fundamental to advancing large language models (LLMs) toward reasoning beyond surface-level correlations and understanding underlying causal mechanisms. However, existing LLM-based methods often rely on implicit language-level reasoning, resulting in opaque causal assumptions, unverifiable reasoning paths, and fragile predictions under complex interventions, particularly in context-free settings. In this paper, we propose an explicit and auditable causal reasoning framework for context-free intervention-based question answering. Our method formulates causal inference as structured reasoning over an explicit causal graph through four modular stages, rather than implicit end-to-end prediction. A key innovation is a target-aware causal graph construction strategy that treats the target variable as a core constraint during graph expansion, effectively suppressing irrelevant variables, spurious causal relations, and reasoning noise. We further introduce a path-level causal evidence aggregation mechanism that combines multiple causal paths while modeling both reinforcing and counteracting effects, enabling robust decision-making beyond single-chain reasoning. Extensive experiments on three benchmarks demonstrate that our framework consistently outperforms existing LLM-based methods while providing interpretable and auditable causal reasoning traces."
+  },
+  {
+    "title": "Structure of the Circular-Dyadic Convolution Error",
+    "link": "https://arxiv.org/abs/2607.15293",
+    "pubDate": "Mon, 20 Jul 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "循环二进卷积误差结构分析",
+    "contentSnippet": "arXiv:2607.15293v1 Announce Type: new \nAbstract: Dyadic and circular convolution can both be computed in $O(N\\log N)$ time using the Hadamard transform and the FFT-computed discrete Fourier transform (DFT), respectively. The Hadamard transform is preferable for its real-valued sign flips, yet its substitution for the DFT introduces algebraic error. We present three complementary results that characterize this error. First, we identify exact error cancellation: two input and two output positions are universally error-free, and no reordering of the output can eliminate this error. Second, the error operator is nearly full rank, while its null space has only logarithmic dimension. Third, the expected error is governed by a single alignment scalar, with a closed-form expression obtained by averaging over random filters. In general, the substitution error asymptotically doubles the output energy, except for filters in the universal zero-error subspace, which incur no error. Collectively, these results show that the substitution error is structured, predictable, and governed by alignment."
   },
   {
     "title": "Repository-level GitHub Copilot usage metrics generally available",
     "link": "https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
     "pubDate": "Fri, 17 Jul 2026 22:05:18 +0000",
     "source": "GitHub Changelog",
-    "summary": "GitHub Copilot仓库级用量指标正式上线",
+    "summary": "GitHub Copilot仓库级使用指标正式发布",
     "contentSnippet": "The Copilot usage metrics REST API now reports repository-level activity. Two new endpoints return a daily, per-repository breakdown of pull request activity for Copilot coding agent and Copilot code review.…\nThe post Repository-level GitHub Copilot usage metrics generally available appeared first on The GitHub Blog."
   },
   {
@@ -20,7 +44,7 @@
     "link": "https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api",
     "pubDate": "Fri, 17 Jul 2026 22:05:11 +0000",
     "source": "GitHub Changelog",
-    "summary": "GitHub Copilot应用现可用于使用指标API。",
+    "summary": "Copilot应用现可在使用指标API中查看",
     "contentSnippet": "The Copilot usage metrics API now reports the GitHub Copilot app usage in the enterprise and organization 1-day and 28-day reports. This gives enterprise and organization admins visibility into the…\nThe post GitHub Copilot app now available in the usage metrics API appeared first on The GitHub Blog."
   },
   {
@@ -28,7 +52,7 @@
     "link": "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements",
     "pubDate": "Fri, 17 Jul 2026 21:08:30 +0000",
     "source": "GitHub Changelog",
-    "summary": "Copilot代码审查增强定制与配置",
+    "summary": "Copilot代码审查自定义与配置改进",
     "contentSnippet": "Copilot code review now utilizes a firewall, custom setup steps, and independent runner configurations. It now reads custom instructions from the head branch to allow for easy testing and validation…\nThe post Copilot code review: Customization and configurability improvements appeared first on The GitHub Blog."
   },
   {
@@ -36,7 +60,7 @@
     "link": "https://www.databricks.com/blog/tech-builds-ai-finance-protects-margin",
     "pubDate": "Fri, 17 Jul 2026 19:26:20 GMT",
     "source": "Databricks",
-    "summary": "技术靠AI，财务保利润。",
+    "summary": "技术依托AI，金融守护利润。",
     "contentSnippet": "Ask a tech company CFO where the quarter's margin is landing, and you will get a..."
   },
   {
@@ -52,7 +76,7 @@
     "link": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
     "pubDate": "Fri, 17 Jul 2026 16:46:47 +0000",
     "source": "GitHub",
-    "summary": "说\"是\"的成本变了，拥有代码的成本未变。",
+    "summary": "AI时代代码成本降，拥有成本未变",
     "contentSnippet": "The cost of writing code dropped; the cost of owning it didn't. A framework for deciding which changes are actually cheap in the AI era.\nThe post The cost of saying yes has changed appeared first on The GitHub Blog."
   },
   {
@@ -60,7 +84,7 @@
     "link": "https://www.databricks.com/blog/metas-spark-muse-11-now-available-databricks-fully-governed-unity-ai-gateway",
     "pubDate": "Fri, 17 Jul 2026 13:08:01 GMT",
     "source": "Databricks",
-    "summary": "Meta Muse 1.1 上线 Databricks，由 Unity AI 网关管理。",
+    "summary": "Meta Spark Muse 1.1登陆Databricks，由Unity AI Gateway管理。",
     "contentSnippet": "Every new model release promises better reasoning, lower costs, or new capabilities,..."
   },
   {
@@ -68,7 +92,7 @@
     "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
     "pubDate": "Fri, 17 Jul 2026 10:00:00 GMT",
     "source": "OpenAI",
-    "summary": "AI时代记分卡：衡量ROI的四项指标",
+    "summary": "AI时代的记分卡",
     "contentSnippet": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute."
   },
   {
@@ -76,7 +100,7 @@
     "link": "https://openai.com/index/why-teens-deserve-access-safe-ai",
     "pubDate": "Thu, 16 Jul 2026 16:00:00 GMT",
     "source": "OpenAI",
-    "summary": "OpenAI为青少年提供安全AI访问权限",
+    "summary": "青少年应享有安全AI使用权限",
     "contentSnippet": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships."
   },
   {
@@ -84,7 +108,7 @@
     "link": "https://blog.google/products-and-platforms/products/search/connected-apps/",
     "pubDate": "Thu, 16 Jul 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "AI模式安全连接更多应用与服务",
+    "summary": "在AI模式下安全连接更多应用至搜索",
     "contentSnippet": "You’ll be able to securely link and interact with your go-to services directly in AI Mode."
   },
   {
@@ -92,7 +116,7 @@
     "link": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
     "pubDate": "Thu, 16 Jul 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "Google Vids更新：用Gemini和虚拟形象轻松制作视频",
+    "summary": "Google Vids推出Gemini Omni和个人头像更新",
     "contentSnippet": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever."
   },
   {
@@ -100,7 +124,7 @@
     "link": "https://deepmind.google/blog/our-approach-to-bioresilience/",
     "pubDate": "Thu, 16 Jul 2026 09:30:42 +0000",
     "source": "DeepMind",
-    "summary": "DeepMind与Isomorphic Labs的联合生物韧性方法",
+    "summary": "谷歌DeepMind与Isomorphic Labs的生物韧性方法",
     "contentSnippet": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models."
   },
   {
@@ -108,7 +132,7 @@
     "link": "https://news.apache.org/foundation/entry/beyond-the-hardware-hub-how-alc-taipei-turned-computex-2026-into-a-milestone-for-the-apache-way",
     "pubDate": "Thu, 16 Jul 2026 05:20:06 +0000",
     "source": "Apache",
-    "summary": "ALC台北使Computex 2026成为Apache Way里程碑",
+    "summary": "ALC Taipei使Computex成为Apache Way里程碑",
     "contentSnippet": "By Chia-Ping TsaiALC Taipei Lead [Figure 1] Long-time Apache Kafka contributors Jiunn-Yang and Chih-Yuan introducing ALC Taipei’s contributions to open-source veterans Brian Behlendorf and Justin McLean Introduction With the globally renowned Computex Taipei now behind us, it’s the perfect time to look back at how ALC Taipei has brought the Apache Way to life in […]\nThe post Beyond the Hardware Hub: How ALC Taipei Turned Computex 2026 into a Milestone for the Apache Way appeared first on The ASF Blog."
   },
   {
@@ -116,7 +140,7 @@
     "link": "https://openai.com/index/cars24",
     "pubDate": "Thu, 16 Jul 2026 00:00:00 GMT",
     "source": "OpenAI",
-    "summary": "Cars24借助OpenAI扩展对话并加速构建。",
+    "summary": "Cars24借助OpenAI扩展对话、加速构建。",
     "contentSnippet": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company."
   },
   {
@@ -124,7 +148,7 @@
     "link": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
     "pubDate": "Wed, 15 Jul 2026 17:29:31 +0000",
     "source": "GitHub",
-    "summary": "GitHub新手入门：掌握版本控制与仓库基础",
+    "summary": "GitHub初学者必备指南：掌握核心技能",
     "contentSnippet": "New to GitHub? This beginner's guide explains version control, repositories, and pull requests—plus everything else you need to start working confidently on GitHub.\nThe post GitHub for Beginners: Your roadmap to mastering the GitHub essentials appeared first on The GitHub Blog."
   },
   {
@@ -132,7 +156,7 @@
     "link": "https://code.visualstudio.com/updates/v1_129",
     "pubDate": "2026-07-15T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.129 版本新功能摘要。",
+    "summary": "VS Code 1.129新特性概览",
     "contentSnippet": "Learn what is new in Visual Studio Code 1.129.\nRead the full article"
   },
   {
@@ -140,7 +164,7 @@
     "link": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
     "pubDate": "Tue, 14 Jul 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "视觉搜索创新25周年庆祝",
+    "summary": "庆祝视觉搜索创新25周年",
     "contentSnippet": "Google Images is turning 25. Here’s a look back at some major milestones — and new ways to explore and create visual content."
   },
   {
@@ -148,7 +172,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
     "pubDate": "Mon, 13 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "在SymCrypt中验证Rust密码学标准至代码",
+    "summary": "验证SymCrypt中Rust密码学从标准到代码",
     "contentSnippet": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves.\nThe post Verifying Rust cryptography in SymCrypt, from standards to code appeared first on Microsoft Research."
   },
   {
@@ -156,7 +180,7 @@
     "link": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
     "pubDate": "Mon, 13 Jul 2026 12:37:28 +0000",
     "source": "DeepMind",
-    "summary": "谷歌与AIM推出AI工具ATL Saathi赋能印度教育。",
+    "summary": "ATL Saathi用AI赋能印度教育者",
     "contentSnippet": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs."
   },
   {
@@ -164,7 +188,7 @@
     "link": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
     "pubDate": "Fri, 10 Jul 2026 15:57:47 +0000",
     "source": "GitHub",
-    "summary": "更好工具使Copilot代码审查变差及改进方法",
+    "summary": "迁移至Unix工具优化了Copilot代码审查。",
     "contentSnippet": "How migrating Copilot code review to shared Unix-style code exploration tools reduced review cost by reshaping agent workflows around pull request evidence.\nThe post Better tools made Copilot code review worse. Here’s how we actually improved it. appeared first on The GitHub Blog."
   },
   {
@@ -172,7 +196,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/",
     "pubDate": "Thu, 09 Jul 2026 16:46:22 +0000",
     "source": "Microsoft Research",
-    "summary": "Aurora 1.5扩展开放基础模型，增强天气与地球系统应用",
+    "summary": "Aurora 1.5扩展天气与地球系统应用基础模型",
     "contentSnippet": "Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model, making it more useful for real-world weather, climate, and energy applications.\nThe post Aurora 1.5: Extending open foundation models for weather and Earth-system applications appeared first on Microsoft Research."
   },
   {
@@ -180,7 +204,7 @@
     "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-june-2026",
     "pubDate": "Wed, 08 Jul 2026 19:16:53 +0000",
     "source": "Apache",
-    "summary": "ASF Plus One 2026年6月简讯",
+    "summary": "ASF六月通讯：庆祝社区与新顶级项目",
     "contentSnippet": "This month’s Plus One celebrates the people and projects shaping the ASF community. We reflect on the role of mentorship through the Google Summer of Code Mentor Summit, share the latest for Community Over Code Glasgow 2026, and welcome Apache Livy and Apache Magpie as ASF’s newest Top-Level Projects. We also recognize new committers and […]\nThe post ASF Plus One Newsletter: June 2026 appeared first on The ASF Blog."
   },
   {
@@ -188,7 +212,7 @@
     "link": "https://code.visualstudio.com/updates/v1_128",
     "pubDate": "2026-07-08T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.128 新功能概览",
+    "summary": "VS Code 1.128新特性概览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.128\nRead the full article"
   },
   {
@@ -196,7 +220,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era/",
     "pubDate": "Wed, 08 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Flint：AI时代的可视化语言",
+    "summary": "Flint：面向AI时代的可视化语言",
     "contentSnippet": "Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language that offers a middle path, letting AI agents create expressive charts from compact, human-editable specifications.\nThe post Flint: A visualization language for the AI era appeared first on Microsoft Research."
   },
   {
@@ -204,7 +228,7 @@
     "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
     "pubDate": "Fri, 03 Jul 2026 14:25:43 +0000",
     "source": "DeepMind",
-    "summary": "谷歌DeepMind与A24首次达成研究合作",
+    "summary": "DeepMind与A24达成首次研究合作",
     "contentSnippet": ""
   },
   {
@@ -212,7 +236,7 @@
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-project-5",
     "pubDate": "Tue, 30 Jun 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache软件基金会宣布Magpie成为顶级项目",
+    "summary": "Apache软件基金会宣布新顶级项目",
     "contentSnippet": "Apache® Magpie provides open source maintainers with platform infrastructure for agent-assisted repository maintainership Wilmington, DE –  June 29, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that Apache Magpie has become a Top-Level Project (TLP).  Apache Magpie provides open source maintainers with platform […]\nThe post The Apache® Software Foundation Announces New Top-Level Project appeared first on The ASF Blog."
   }
 ]
