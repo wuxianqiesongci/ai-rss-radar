@@ -4,127 +4,151 @@
     "link": "https://code.visualstudio.com/updates/v1_130",
     "pubDate": "2026-07-22T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.130内测版新增功能",
+    "summary": "Visual Studio Code 1.130内部版新功能。",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.130 (Insiders)\nRead the full article"
   },
   {
-    "title": "Reinforcement Learning-Guided NSGA-II Enhanced with Gray Relational Coefficient for Multi-Objective Optimization: Application to NASDAQ Portfolio Optimization",
-    "link": "https://arxiv.org/abs/2607.16194",
-    "pubDate": "Tue, 21 Jul 2026 00:00:00 -0400",
+    "title": "SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI",
+    "link": "https://arxiv.org/abs/2607.18239",
+    "pubDate": "Wed, 22 Jul 2026 00:00:00 -0400",
     "source": "arXiv",
-    "summary": "强化学习引导NSGA-II结合灰色关联优化纳斯达克组合",
-    "contentSnippet": "arXiv:2607.16194v1 Announce Type: new \nAbstract: In modern financial markets, decision-makers increasingly rely on quantitative methods to navigate complex trade-offs among multiple, often conflicting objectives. This paper addresses constrained multi-objective optimization (MOO) with an application to portfolio optimization for minimizing risk and maximizing return. To address existing gaps, we propose a novel reinforcement learning (RL)-guided non-dominated sorting genetic algorithm II (NSGA-II) enhanced with gray relational coefficients (GRC), termed RL-NSGA-II-GRC, which combines an RL agent controller and GRC-based selection to improve convergence and diversity of Pareto fronts. The agent adapts evolutionary parameters online using metrics of hypervolume, feasibility, and diversity, while the GRC tournament operator ranks parents via a unified score considering dominance rank, crowding distance, and proximity to ideal reference. We evaluate the framework on the Kursawe and CONSTR benchmarks and a NASDAQ portfolio application. On the benchmarks, RL-NSGA-II-GRC achieves convergence improvements of about 5.8% and 4.4% over NSGA-II, while preserving well-distributed non-dominated solutions. In the portfolio application, it produces a smooth, densely populated efficient frontier supporting identification of the maximum Sharpe ratio portfolio (annualized Sharpe =1.92) and utility-optimal portfolios for different risk-aversion levels. The main contributions are three-fold: 1) we propose an RL-NSGA-II-GRC method integrating an RL agent into the evolutionary framework to adaptively control parameters via generational feedback; 2) we design a GRC-enhanced binary tournament operator providing a comprehensive indicator to guide the search toward the Pareto front; 3) we demonstrate, on benchmark MOO and a NASDAQ case study, that the method delivers improved convergence and well-populated frontiers supporting actionable insights."
+    "summary": "SysAdmin基准评估前沿AI权力寻求。",
+    "contentSnippet": "arXiv:2607.18239v1 Announce Type: new \nAbstract: Power-seeking defined as behaviors where AI systems acquire resources, evade oversight, or resist termination beyond task requirements is identified as a key driver of Loss of Control (LoC) risk. In this work, we introduce SysAdmin, a benchmark that positions frontier language models as autonomous system administrators in a high-fidelity Linux sandbox to measure power-seeking propensity across five dimensions: self-preservation, increasing autonomy, resource acquisition, environment modification, and strategic concealment. We evaluated seven frontier models across four experimental conditions in a total of 2800 tasks. After bias correction using human-annotated calibration data, corrected power-seeking estimates ranged from 0 to about 5 percent per model. We also conducted a positive control with explicit power-seeking prompts that achieved 100% detection, validating measurement sensitivity. Our findings indicate current frontier models exhibit minimal spontaneous power-seeking in naturalistic system administration contexts, though model-specific failure modes suggest evaluations must test diverse misalignment patterns. Nevertheless, we discovered other more pronounced failure modes (than power-seeking) such as specification gaming and resistance to goal modification."
   },
   {
-    "title": "Rater State Bias in RLHF Preference Data: An Audit Framework",
-    "link": "https://arxiv.org/abs/2607.16195",
-    "pubDate": "Tue, 21 Jul 2026 00:00:00 -0400",
+    "title": "Calibrated Selective Fact-Checking via Evidence Chain Evaluation",
+    "link": "https://arxiv.org/abs/2607.18240",
+    "pubDate": "Wed, 22 Jul 2026 00:00:00 -0400",
     "source": "arXiv",
-    "summary": "RLHF偏好数据评分者状态偏差审计框架",
-    "contentSnippet": "arXiv:2607.16195v1 Announce Type: new \nAbstract: We identify a structured confound in Reinforcement Learning from Human Feedback (RLHF). Pairwise preference labels are intended to reflect the compared outputs, but they may also reflect the rater's state during annotation. Under sustained stressful or distressing conditions, raters' preferences may shift over time. As a result, preference data can encode rater state alongside judgments about response quality. These shifts differ from ordinary disagreement or random label noise. They are state dependent, can be shared across annotators working under similar conditions, and can propagate through reward modeling and policy optimization. We therefore propose rater state shift as a plausible and testable source of structured bias in RLHF preference data. This paper develops a hypothesis and an audit framework for studying this source of bias. We define rater state shift, rater state confound, and correlated rater state bias. We also define survival level emotional authenticity as a measurable response pattern using lexical, pragmatic, discourse, and safety related features. We analyze how correlated rater state bias can survive aggregation and enter learned reward signals. We derive five falsifiable predictions and effect size thresholds for an initial audit. Finally, we present an audit protocol and pilot study plan that can be applied to publicly available instruction tuned models. We do not infer the training history of any specific deployed model. Our goal is to isolate a plausible and testable source of structured bias in RLHF preference data."
+    "summary": "基于证据链评估的选择性事实核查校准",
+    "contentSnippet": "arXiv:2607.18240v1 Announce Type: new \nAbstract: Large language models (LLMs) can achieve strong fact-checking accuracy, yet forced binary decisions conceal a critical reliability problem: systems may issue confident verdicts even when supporting evidence is weak, sparse, or internally inconsistent. We address this issue through Evidence Chain Evaluation (ECE), a selective fact-checking framework that permits abstention via an uncertain verdict instead of requiring a true/false decision for every claim. The evaluated system is a tool-using verification agent that gathers evidence through web search, scholarly search, and executable checks, and then returns a structured verdict with confidence and source-level metadata. On ECE-Bench, ECE achieves 91.6% standard accuracy, 93.7% coverage, and 97.8% selective accuracy on answered claims. Although ECE does not outperform the strongest retrieval baseline on aggregate calibration metrics such as Expected Calibration Error, Brier score, or AURC, it delivers a clear selective-prediction trade-off: the system maintains very high accuracy on answered claims while deferring 6 of 95 cases. These deferred cases are concentrated in lower-reliability evidence settings (5/6 at source level L4), supporting the view that abstention functions as a safety-oriented mechanism for handling epistemically weak evidence. Code is available at https://github.com/ cheshireyang/ECE.git"
   },
   {
-    "title": "Design and Validation of a Lightweight 1D CNN for Affective Touch Classification in Soft Plush Companions",
-    "link": "https://arxiv.org/abs/2607.16196",
-    "pubDate": "Tue, 21 Jul 2026 00:00:00 -0400",
+    "title": "BatchDAG: LLM-Planned Execution Graphs for Scalable Ad-Hoc Analysis Over Enterprise Data",
+    "link": "https://arxiv.org/abs/2607.18241",
+    "pubDate": "Wed, 22 Jul 2026 00:00:00 -0400",
     "source": "arXiv",
-    "summary": "轻量1D CNN用于软毛绒伴侣情感触摸分类",
-    "contentSnippet": "arXiv:2607.16196v1 Announce Type: new \nAbstract: Soft, sensorized companions offer a physically safe and emotionally intuitive interface for socially assistive technologies, yet their deformability and multichannel tactile sensing complicate the robust interpretation of human affect. This study presents a complete open-source MATLAB-based framework for the development and validation of compact deep learning models for affective touch recognition in soft interactive companions. As a primary contribution, a diverse FAIR-compliant dataset of 1326 labelled gesture sequences collected from 25 participants spanning children, teenagers, and adults is made publicly available, providing a reusable resource for future research in affective touch recognition. Through systematic architecture and hyperparameter exploration across 468 CNN models, the study identifies compact dilated one-dimensional convolutional neural networks (1D CNNs) as the most effective solution, with a 13.2k-parameter model achieving 75% test accuracy and 85% mean leave-one-subject-out cross-validation accuracy. Theoretical inference-time analysis shows that quantized deployment requires 3.2 MMAC per window, compatible with 20 Hz real-time operation on the target microcontroller. PC-based real-time simulation with the physical toy streaming sensor data demonstrates that the CNN resolves subtle social touches that the previous heuristic system failed to detect, whereas high-force negative interactions are captured more reliably by trivial threshold-based logic. The resulting hybrid inference pipeline - instantaneous heuristic filtering followed by CNN-based nuanced gesture classification - is proposed as the embedded deployment strategy. The study demonstrates that emotionally meaningful, privacy-preserving touch interpretation is computationally feasible for direct embedding within soft therapeutic companions, with hardware integration addressed in a forthcoming study."
+    "summary": "BatchDAG：LLM规划执行图实现企业数据可扩展分析",
+    "contentSnippet": "arXiv:2607.18241v1 Announce Type: new \nAbstract: Large language models (LLMs) excel at analyzing individual documents but break down on exhaustive, cross-entity analytical questions over enterprise-scale datasets due to context overflow, loss of per-entity attribution, and linear latency from sequential tool calls. We present BatchDAG, a system in which an LLM generates a typed directed acyclic graph (DAG) of operations -- SQL queries, semantic searches, in-memory transforms, parallel fan-outs, and single-shot analyses -- which a deterministic engine evaluates with topological-wave parallelism and structured JSON data flow. A key optimization, entity-aware batching, groups rows by logical entity before fan-out, reducing LLM calls by up to 47x. BatchDAG is not primarily an accuracy improvement over hand-optimized pipelines; rather, it is a general-purpose orchestration layer that replaces multiple hand-engineered workflows with a single system that generates the appropriate execution strategy from natural language. In controlled experiments on 12 transcript-heavy queries, BatchDAG (3.74/5) achieves quality comparable to an expert-designed pipeline (3.25/5) and significantly outperforms a ReAct agent (3.09/5, p<0.01), with superior provenance (77% transcript evidence rate vs. 46-60% for baselines). A controlled ablation shows structured JSON intermediates reduce hallucinations by 27% versus prose summaries (paired t-test, p=0.107, n=12). The planner achieves 98.8% valid-DAG rate across 300 planning calls. In production at Brevian.ai, BatchDAG processes queries over 50,000+ meetings in under 60 seconds, with measured per-query costs of $0.02-$0.24 at published GPT-5.1 pricing."
   },
   {
-    "title": "Branching databases like code: a CI/CD pattern for Lakebase, in production at Glaspoort",
-    "link": "https://www.databricks.com/blog/branching-databases-code-cicd-pattern-lakebase-production-glaspoort",
-    "pubDate": "Mon, 20 Jul 2026 20:30:00 GMT",
+    "title": "The last mile: why great first-party data still doesn't make great marketing",
+    "link": "https://www.databricks.com/blog/last-mile-first-party-data-great-marketing",
+    "pubDate": "Tue, 21 Jul 2026 22:19:28 GMT",
     "source": "Databricks",
-    "summary": "数据库像代码一样分支：Glaspoort的Lakebase CI/CD模式。",
-    "contentSnippet": "The problem we couldn't ignoreGlaspoort builds and operates fiber infrastructure in the Netherlands..."
+    "summary": "优质一手数据为何难成优秀营销",
+    "contentSnippet": "Last month, a data team and a marketing team sat in the same room and talked past..."
+  },
+  {
+    "title": "How Dow Built a Carbon Footprint Ledger on Databricks to Accelerate Sustainability at Scale",
+    "link": "https://www.databricks.com/blog/how-dow-built-carbon-footprint-ledger-databricks-accelerate-sustainability-scale",
+    "pubDate": "Tue, 21 Jul 2026 19:45:00 GMT",
+    "source": "Databricks",
+    "summary": "陶氏在Databricks构建碳足迹账本加速可持续",
+    "contentSnippet": "Why we built the Carbon Footprint LedgerAt Dow, our ambition is to be the most innovative,..."
+  },
+  {
+    "title": "Why R&D Data Belongs in the Lakehouse - and Why Agents Need It There",
+    "link": "https://www.databricks.com/blog/why-rd-data-belongs-lakehouse-and-why-agents-need-it-there",
+    "pubDate": "Tue, 21 Jul 2026 19:45:00 GMT",
+    "source": "Databricks",
+    "summary": "研发数据应存于湖仓，智能体亦需其在此。",
+    "contentSnippet": "The setupAt cellcentric, a joint venture of Daimler Truck and Volvo Group, we develop..."
+  },
+  {
+    "title": "Introducing the ChatGPT for small business program",
+    "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
+    "pubDate": "Tue, 21 Jul 2026 17:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "OpenAI推出ChatGPT小企业计划。",
+    "contentSnippet": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work."
+  },
+  {
+    "title": "How to build interactive experiences with canvases",
+    "link": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+    "pubDate": "Tue, 21 Jul 2026 16:00:00 +0000",
+    "source": "GitHub",
+    "summary": "用画布构建AI交互式工作空间",
+    "contentSnippet": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks.\nThe post How to build interactive experiences with canvases appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+    "link": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+    "pubDate": "Tue, 21 Jul 2026 15:16:30 +0000",
+    "source": "DeepMind",
+    "summary": "谷歌发布Gemini 3.6 Flash等三款新模型",
+    "contentSnippet": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber."
+  },
+  {
+    "title": "Gemini 3.6 Flash is now available in GitHub Copilot",
+    "link": "https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot",
+    "pubDate": "Tue, 21 Jul 2026 15:04:31 +0000",
+    "source": "GitHub Changelog",
+    "summary": "Gemini 3.6 Flash上线GitHub Copilot",
+    "contentSnippet": "Gemini 3.6 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. It is designed for web and app development, coding, and longer-horizon agentic tasks. It has configurable…\nThe post Gemini 3.6 Flash is now available in GitHub Copilot appeared first on The GitHub Blog."
+  },
+  {
+    "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+    "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+    "pubDate": "Tue, 21 Jul 2026 07:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "OpenAI与Hugging Face合作应对模型评估安全事件",
+    "contentSnippet": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders."
+  },
+  {
+    "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+    "link": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+    "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "David Vélez和Robin Vince加入OpenAI两董事会",
+    "contentSnippet": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance."
   },
   {
     "title": "AI credit pools for cost centers in the billing UI",
     "link": "https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
     "pubDate": "Mon, 20 Jul 2026 18:24:14 +0000",
     "source": "GitHub Changelog",
-    "summary": "计费界面新增成本中心AI信用池管理",
+    "summary": "计费UI中管理成本中心AI信用池",
     "contentSnippet": "You can now manage a cost center’s AI credit pool directly in the billing UI where you create and edit cost centers. Previously, you could only manage this through the…\nThe post AI credit pools for cost centers in the billing UI appeared first on The GitHub Blog."
   },
   {
-    "title": "Scaling document classification to 100k+ labels",
-    "link": "https://www.databricks.com/blog/scaling-document-classification-100k-labels",
-    "pubDate": "Mon, 20 Jul 2026 18:15:00 GMT",
-    "source": "Databricks",
-    "summary": "文档分类扩展至超10万标签",
-    "contentSnippet": "Across Databricks, thousands of customers build production workloads that map freeform..."
+    "title": "Copilot users can now see AI credits used per billing cycle",
+    "link": "https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
+    "pubDate": "Mon, 20 Jul 2026 16:00:14 +0000",
+    "source": "GitHub Changelog",
+    "summary": "Copilot用户可查看每账单周期AI积分使用",
+    "contentSnippet": "Copilot Business and Copilot Enterprise users can now see how many AI credits they’ve used this billing cycle, even without an individual budget. Find this on your GitHub Copilot usage…\nThe post Copilot users can now see AI credits used per billing cycle appeared first on The GitHub Blog."
   },
   {
     "title": "$100 million for open source: A milestone built by the community",
     "link": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
     "pubDate": "Mon, 20 Jul 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "社区贡献1亿美元支持开源里程碑",
+    "summary": "社区贡献1亿美元，开源里程碑",
     "contentSnippet": "Celebrating $100 million contributed by the community to the people who build and sustain open source every day.\nThe post $100 million for open source: A milestone built by the community appeared first on The GitHub Blog."
-  },
-  {
-    "title": "The three ways AI unlocks transformation in Retail, Travel, and Consumer Goods",
-    "link": "https://www.databricks.com/blog/three-ways-ai-unlocks-transformation-retail-travel-and-consumer-goods",
-    "pubDate": "Mon, 20 Jul 2026 15:01:00 GMT",
-    "source": "Databricks",
-    "summary": "AI推动零售旅游消费品三大领域转型",
-    "contentSnippet": "It is 5:45 on a Friday morning, and a store manager is standing in the back office..."
-  },
-  {
-    "title": "GitHub Code Quality is now generally available",
-    "link": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
-    "pubDate": "Mon, 20 Jul 2026 13:01:24 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub代码质量功能正式上线",
-    "contentSnippet": "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. It solves an emerging challenge for software development: AI accelerates code output, and Code Quality helps…\nThe post GitHub Code Quality is now generally available appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Safety and alignment in an era of long-horizon models",
-    "link": "https://openai.com/index/safety-alignment-long-horizon-models",
-    "pubDate": "Mon, 20 Jul 2026 10:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "长时域模型的安全与对齐挑战及应对",
-    "contentSnippet": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment."
-  },
-  {
-    "title": "Repository-level GitHub Copilot usage metrics generally available",
-    "link": "https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
-    "pubDate": "Fri, 17 Jul 2026 22:05:18 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub Copilot 仓库级使用指标正式可用",
-    "contentSnippet": "The Copilot usage metrics REST API now reports repository-level activity. Two new endpoints return a daily, per-repository breakdown of pull request activity for Copilot coding agent and Copilot code review.…\nThe post Repository-level GitHub Copilot usage metrics generally available appeared first on The GitHub Blog."
   },
   {
     "title": "The cost of saying yes has changed",
     "link": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
     "pubDate": "Fri, 17 Jul 2026 16:46:47 +0000",
     "source": "GitHub",
-    "summary": "AI时代说“是”的成本变了。",
+    "summary": "AI时代同意成本已变：编码便宜拥有不变",
     "contentSnippet": "The cost of writing code dropped; the cost of owning it didn't. A framework for deciding which changes are actually cheap in the AI era.\nThe post The cost of saying yes has changed appeared first on The GitHub Blog."
   },
   {
-    "title": "A scorecard for the AI age",
-    "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
-    "pubDate": "Fri, 17 Jul 2026 10:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "AI时代的记分卡",
-    "contentSnippet": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute."
-  },
-  {
-    "title": "Why teens deserve access to safe AI",
-    "link": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-    "pubDate": "Thu, 16 Jul 2026 16:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "OpenAI为青少年打造安全AI访问",
-    "contentSnippet": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships."
+    "title": "Introducing Gemini 3.5 Flash Cyber",
+    "link": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+    "pubDate": "Fri, 17 Jul 2026 15:00:11 +0000",
+    "source": "DeepMind",
+    "summary": "摘要生成失败",
+    "contentSnippet": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities."
   },
   {
     "title": "Connect more of your apps to Search",
     "link": "https://blog.google/products-and-platforms/products/search/connected-apps/",
     "pubDate": "Thu, 16 Jul 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "在AI模式中安全连接更多应用。",
+    "summary": "在AI模式下安全连接更多应用",
     "contentSnippet": "You’ll be able to securely link and interact with your go-to services directly in AI Mode."
   },
   {
@@ -132,7 +156,7 @@
     "link": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
     "pubDate": "Thu, 16 Jul 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "Google Vids新增Gemini Omni和个人头像，简化视频制作。",
+    "summary": "Google Vids更新：AI和个人头像简化视频创作",
     "contentSnippet": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever."
   },
   {
@@ -140,7 +164,7 @@
     "link": "https://deepmind.google/blog/our-approach-to-bioresilience/",
     "pubDate": "Thu, 16 Jul 2026 09:30:42 +0000",
     "source": "DeepMind",
-    "summary": "谷歌DeepMind与Isomorphic Labs的生物韧性方法。",
+    "summary": "Google DeepMind与Isomorphic Labs联合发布生物韧性方法",
     "contentSnippet": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models."
   },
   {
@@ -148,23 +172,15 @@
     "link": "https://news.apache.org/foundation/entry/beyond-the-hardware-hub-how-alc-taipei-turned-computex-2026-into-a-milestone-for-the-apache-way",
     "pubDate": "Thu, 16 Jul 2026 05:20:06 +0000",
     "source": "Apache",
-    "summary": "ALC台北让Computex 2026成为Apache之路里程碑。",
+    "summary": "ALC Taipei让Computex 2026成为Apache方式里程碑。",
     "contentSnippet": "By Chia-Ping TsaiALC Taipei Lead [Figure 1] Long-time Apache Kafka contributors Jiunn-Yang and Chih-Yuan introducing ALC Taipei’s contributions to open-source veterans Brian Behlendorf and Justin McLean Introduction With the globally renowned Computex Taipei now behind us, it’s the perfect time to look back at how ALC Taipei has brought the Apache Way to life in […]\nThe post Beyond the Hardware Hub: How ALC Taipei Turned Computex 2026 into a Milestone for the Apache Way appeared first on The ASF Blog."
-  },
-  {
-    "title": "GitHub for Beginners: Your roadmap to mastering the GitHub essentials",
-    "link": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
-    "pubDate": "Wed, 15 Jul 2026 17:29:31 +0000",
-    "source": "GitHub",
-    "summary": "GitHub新手必备：掌握核心要素",
-    "contentSnippet": "New to GitHub? This beginner's guide explains version control, repositories, and pull requests—plus everything else you need to start working confidently on GitHub.\nThe post GitHub for Beginners: Your roadmap to mastering the GitHub essentials appeared first on The GitHub Blog."
   },
   {
     "title": "Visual Studio Code 1.129",
     "link": "https://code.visualstudio.com/updates/v1_129",
     "pubDate": "2026-07-15T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.129 新特性概览",
+    "summary": "VS Code 1.129 新功能概览",
     "contentSnippet": "Learn what is new in Visual Studio Code 1.129.\nRead the full article"
   },
   {
@@ -172,7 +188,7 @@
     "link": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
     "pubDate": "Tue, 14 Jul 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "庆祝视觉搜索创新25周年",
+    "summary": "谷歌图像搜索25周年创新回顾",
     "contentSnippet": "Google Images is turning 25. Here’s a look back at some major milestones — and new ways to explore and create visual content."
   },
   {
@@ -180,23 +196,15 @@
     "link": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
     "pubDate": "Mon, 13 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "验证SymCrypt中Rust密码学：从标准到代码",
+    "summary": "从标准到代码验证SymCrypt的Rust密码学",
     "contentSnippet": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves.\nThe post Verifying Rust cryptography in SymCrypt, from standards to code appeared first on Microsoft Research."
-  },
-  {
-    "title": "Empowering India’s next generation of innovators with ATL Saathi",
-    "link": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-    "pubDate": "Mon, 13 Jul 2026 12:37:28 +0000",
-    "source": "DeepMind",
-    "summary": "谷歌与AIM推出AI工具赋能印度教育创新。",
-    "contentSnippet": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs."
   },
   {
     "title": "Aurora 1.5: Extending open foundation models for weather and Earth-system applications",
     "link": "https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/",
     "pubDate": "Thu, 09 Jul 2026 16:46:22 +0000",
     "source": "Microsoft Research",
-    "summary": "Aurora 1.5扩展开放模型，提升天气与地球系统应用。",
+    "summary": "Aurora 1.5扩展了天气和地球系统开源基础模型",
     "contentSnippet": "Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model, making it more useful for real-world weather, climate, and energy applications.\nThe post Aurora 1.5: Extending open foundation models for weather and Earth-system applications appeared first on Microsoft Research."
   },
   {
@@ -204,7 +212,7 @@
     "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-june-2026",
     "pubDate": "Wed, 08 Jul 2026 19:16:53 +0000",
     "source": "Apache",
-    "summary": "ASF六月通讯：庆祝社区与项目进展",
+    "summary": "ASF Plus One通讯2026年6月",
     "contentSnippet": "This month’s Plus One celebrates the people and projects shaping the ASF community. We reflect on the role of mentorship through the Google Summer of Code Mentor Summit, share the latest for Community Over Code Glasgow 2026, and welcome Apache Livy and Apache Magpie as ASF’s newest Top-Level Projects. We also recognize new committers and […]\nThe post ASF Plus One Newsletter: June 2026 appeared first on The ASF Blog."
   },
   {
@@ -212,7 +220,7 @@
     "link": "https://code.visualstudio.com/updates/v1_128",
     "pubDate": "2026-07-08T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "Visual Studio Code 1.128 新功能一览",
+    "summary": "介绍VS Code 1.128新功能",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.128\nRead the full article"
   },
   {
@@ -220,23 +228,15 @@
     "link": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era/",
     "pubDate": "Wed, 08 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Flint：AI时代的开源可视化语言",
+    "summary": "Flint：面向AI时代的可视化语言",
     "contentSnippet": "Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language that offers a middle path, letting AI agents create expressive charts from compact, human-editable specifications.\nThe post Flint: A visualization language for the AI era appeared first on Microsoft Research."
-  },
-  {
-    "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
-    "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
-    "pubDate": "Fri, 03 Jul 2026 14:25:43 +0000",
-    "source": "DeepMind",
-    "summary": "谷歌DeepMind与A24宣布首次研究合作",
-    "contentSnippet": ""
   },
   {
     "title": "The Apache® Software Foundation Announces New Top-Level Project",
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-project-5",
     "pubDate": "Tue, 30 Jun 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache Magpie成为ASF顶级项目",
+    "summary": "Apache基金会宣布新顶级项目",
     "contentSnippet": "Apache® Magpie provides open source maintainers with platform infrastructure for agent-assisted repository maintainership Wilmington, DE –  June 29, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that Apache Magpie has become a Top-Level Project (TLP).  Apache Magpie provides open source maintainers with platform […]\nThe post The Apache® Software Foundation Announces New Top-Level Project appeared first on The ASF Blog."
   }
 ]
