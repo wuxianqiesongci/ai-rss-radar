@@ -1,34 +1,18 @@
 [
   {
-    "title": "AINTMA: Agentic AI Architecture for Autonomous Test Management with Generative Intelligence, Secure Cloud Communication and Adaptive Quality Analytics",
-    "link": "https://arxiv.org/abs/2607.20452",
-    "pubDate": "Fri, 24 Jul 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "AINTMA：智能体AI自主测试管理架构",
-    "contentSnippet": "arXiv:2607.20452v1 Announce Type: new \nAbstract: Modern software quality assurance demands intelligent, autonomous systems capable of adaptive decision-making across distributed cloud environments. This paper presents AINTMA (Agentic Intelligent Test Management Architecture), a multi-agent agentic AI system that transforms traditional test management into an autonomous quality intelligence ecosystem. AINTMA deploys six specialized AI agents (Test Discovery, Risk Assessment, Reinforcement Learning Prioritization, Execution Orchestration, Generative Quality Intelligence, and Cloud Security Monitor) coordinated through a secure multi-agent communication framework over a cloud-native microservices infrastructure. The Generative Quality Intelligence agent employs large language models to produce plain language quality narratives, defect risk summaries, and data-augmented test recommendations. The RL Prioritization agent models test selection as a Markov Decision Process, learning contextual policies from large-scale historical test execution data (47 features, rolling 36-month window). Secure cloud communication is enforced through a zero-trust API gateway with OAuth2/JWT authentication, encrypted inter-agent messaging, and multi-tenant isolation. Evaluation across 12 heterogeneous software projects over 18 months demonstrates: 88.4% test prioritization accuracy (APFD, vs. 51.2% random, 82.1% best commercial baseline); 43% test cycle time reduction; defect escape rate reduced from 8.3% to 2.1%; 340% ROI at 9-month payback. The agentic architecture scales to 50,000+ test cases with sub-400ms response time, and the generative intelligence module achieves 4.3/5.0 developer usefulness rating. AINTMA demonstrates that agentic AI, combining autonomous multi-agent coordination, generative intelligence and secure smart connectivity, can fundamentally advance software quality management in cloud-scale enterprise environments."
-  },
-  {
-    "title": "Marking the Wrong Symptoms: Evaluating LLM Watermarks in Medical Texts",
-    "link": "https://arxiv.org/abs/2607.20462",
-    "pubDate": "Fri, 24 Jul 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "评估医学文本中LLM水印的错误症状标记",
-    "contentSnippet": "arXiv:2607.20462v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly integrated into clinical workflows, stressing the need for reliable traceability of model-generated output with watermarking. Yet, most watermarks are evaluated on general-purpose benchmarks, leaving domains like medicine, where small token-level perturbations can result in significant semantic changes, underexplored. In this work, we present the first rigorous study of how LLM watermarks affect medical performance, benchmarking 5 watermarking schemes across 11 LLMs and 7 VLMs on various tasks spanning unimodal and multimodal clinical reasoning. Importantly, we complement existing evaluations by introducing a human-expert-validated pipeline for systematically auditing medical reasoning quality, terminological precision, and induced hallucinations. Our results reveal that watermarking can induce substantial degradation across multiple failure modes, including lexical corruption, hallucinated terminology, and amplified misattribution or omission of image findings. Notably, we find that the absence of domain-specific analyses, combined with aggregate metrics that miss failures inherent to clinical text, can systematically obscure practical watermark-induced degradations. Our findings establish domain-specific evaluation as a prerequisite for the safe deployment of watermarked models in medicine, where current benchmarks can otherwise mask clinically consequential failures."
-  },
-  {
-    "title": "ClickGuard: Detecting and Spoiling Clickbait News with Informativeness Measures and Large Language Models",
-    "link": "https://arxiv.org/abs/2607.20463",
-    "pubDate": "Fri, 24 Jul 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "ClickGuard用信息度和大语言模型检测并破坏标题党新闻。",
-    "contentSnippet": "arXiv:2607.20463v1 Announce Type: new \nAbstract: This paper presents an AI-driven browser extension that identifies clickbait to help users avoid misleading Internet articles. Moving beyond traditional detection, the application employs a hybrid machine learning architecture that combines transformer-based embeddings with linguistically motivated features and a custom \"baitness\" score. After evaluating various natural language processing techniques -- from classic vectorizers to large language model (LLM) embeddings -- an XGBoost-based model was developed that achieves an F1-score of 91% on the open combined dataset. Most importantly, the tool can warn users before and after they access a clickbait article. After opening an article, the user receives a percentage score indicating the likelihood that it is clickbait. The prediction is explained based on the analyzed metrics, including those specifically developed within the proposed system. The browser extension also provides a clickbait spoiler -- a one- to two-sentence summary of the entire article. Demo video:https://www.youtube.com/watch?v=IJ1gkQV82C4}{https://www.youtube.com/watch?v=IJ1gkQV82C4"
+    "title": "Claude Opus 5 is now available in GitHub Copilot",
+    "link": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
+    "pubDate": "Fri, 24 Jul 2026 16:40:04 +0000",
+    "source": "GitHub Changelog",
+    "summary": "摘要生成失败",
+    "contentSnippet": "Claude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is designed for complex, long-running coding tasks that require careful reasoning, effective tool use, and reliable…\nThe post Claude Opus 5 is now available in GitHub Copilot appeared first on The GitHub Blog."
   },
   {
     "title": "Sponsor Success at Apache: Google and Apache Iceberg",
     "link": "https://news.apache.org/foundation/entry/sponsor-success-at-apache-google-and-apache-iceberg",
     "pubDate": "Fri, 24 Jul 2026 02:49:35 +0000",
     "source": "Apache",
-    "summary": "Google赞助Apache Iceberg成功",
+    "summary": "谷歌赞助Apache Iceberg成功",
     "contentSnippet": "The Apache Software Foundation (ASF) is home to more than 350 open source projects and initiatives, all powered by a vibrant, global community of contributors. Among these projects, Apache Iceberg has emerged as a cornerstone of modern data architecture, revolutionizing how organizations manage massive analytical datasets with its high-performance, open-table format. None of this innovation […]\nThe post Sponsor Success at Apache: Google and Apache Iceberg appeared first on The ASF Blog."
   },
   {
@@ -36,7 +20,7 @@
     "link": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
     "pubDate": "Thu, 23 Jul 2026 22:32:23 +0000",
     "source": "GitHub Changelog",
-    "summary": "Linear的Copilot云代理现已全面可用",
+    "summary": "Linear的Copilot云代理正式可用",
     "contentSnippet": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents…\nThe post Copilot cloud agent for Linear is now generally available appeared first on The GitHub Blog."
   },
   {
@@ -44,23 +28,15 @@
     "link": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
     "pubDate": "Thu, 23 Jul 2026 20:38:22 +0000",
     "source": "GitHub Changelog",
-    "summary": "GitHub MCP服务器支持下一代MCP规范",
+    "summary": "GitHub MCP服务器支持下一代MCP规范。",
     "contentSnippet": "The MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release. What’s changing The new stateless core…\nThe post GitHub MCP Server supports the next MCP specification appeared first on The GitHub Blog."
-  },
-  {
-    "title": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
-    "link": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
-    "pubDate": "Thu, 23 Jul 2026 19:47:58 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub Mobile用Copilot修复Action失败检查",
-    "contentSnippet": "Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed…\nThe post GitHub Mobile: Fix failing Actions checks with Copilot cloud agent appeared first on The GitHub Blog."
   },
   {
     "title": "How the FDA Built an AI Platform That 85% of Its Staff Now Use Daily",
     "link": "https://www.databricks.com/blog/how-fda-built-ai-platform-85-its-staff-now-use-daily",
     "pubDate": "Thu, 23 Jul 2026 19:00:00 GMT",
     "source": "Databricks",
-    "summary": "FDA构建AI平台，85%员工日常使用。",
+    "summary": "FDA构建AI平台，85%员工日常使用",
     "contentSnippet": "“We showed the value of having a foundational data platform, and that success story..."
   },
   {
@@ -76,7 +52,7 @@
     "link": "https://www.databricks.com/blog/provisioning-agentic-era-how-databricks-built-self-serve-infrastructure-vending-machine",
     "pubDate": "Thu, 23 Jul 2026 18:00:00 GMT",
     "source": "Databricks",
-    "summary": "Databricks构建自助基础设施售卖机应对代理时代",
+    "summary": "Databricks为代理时代建立自助基础设施",
     "contentSnippet": "At Databricks, our field engineering organization exists to help customers succeed...."
   },
   {
@@ -92,7 +68,7 @@
     "link": "https://openai.com/index/health-in-chatgpt",
     "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
     "source": "OpenAI",
-    "summary": "ChatGPT上线健康功能，可连接医疗记录",
+    "summary": "ChatGPT健康功能上线，可连接医疗记录",
     "contentSnippet": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health."
   },
   {
@@ -100,7 +76,7 @@
     "link": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
     "pubDate": "Wed, 22 Jul 2026 19:00:00 +0000",
     "source": "GitHub",
-    "summary": "比较Copilot与原始API的实际成本",
+    "summary": "Copilot与直接API的付费实质对比",
     "contentSnippet": "Copilot now bills usage at listed API rates. Compare direct model access with the coding workflow, policy, and harness work around it.\nThe post Copilot vs. raw API access: What are you actually paying for? appeared first on The GitHub Blog."
   },
   {
@@ -108,7 +84,7 @@
     "link": "https://code.visualstudio.com/updates/v1_130",
     "pubDate": "2026-07-22T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "Visual Studio Code 1.130 新特性概览",
+    "summary": "Visual Studio Code 1.130新特性",
     "contentSnippet": "Learn what is new in Visual Studio Code 1.130\nRead the full article"
   },
   {
@@ -116,7 +92,7 @@
     "link": "https://code.visualstudio.com/updates/v1_131",
     "pubDate": "2026-07-22T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.131内部版新功能",
+    "summary": "Visual Studio Code 1.131 预览版更新概览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.131 (Insiders)\nRead the full article"
   },
   {
@@ -132,7 +108,7 @@
     "link": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
     "pubDate": "Wed, 22 Jul 2026 13:38:54 +0000",
     "source": "DeepMind",
-    "summary": "谷歌4000万美元助力创世任务加速科学前沿",
+    "summary": "谷歌4000万美元AI资源支持创世纪任务加速科学发现",
     "contentSnippet": "Google commits $40M in AI tokens and credits for the Genesis Mission"
   },
   {
@@ -140,7 +116,7 @@
     "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
     "pubDate": "Wed, 22 Jul 2026 13:00:00 GMT",
     "source": "OpenAI",
-    "summary": "与艾芬汉社区共建AI基础设施",
+    "summary": "摘要生成失败",
     "contentSnippet": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex."
   },
   {
@@ -148,7 +124,7 @@
     "link": "https://openai.com/index/how-news-organizations-are-using-ai",
     "pubDate": "Wed, 22 Jul 2026 13:00:00 GMT",
     "source": "OpenAI",
-    "summary": "新闻机构用AI推进重要使命",
+    "summary": "新闻机构借助AI强化报道与运营推进使命",
     "contentSnippet": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide."
   },
   {
@@ -156,7 +132,7 @@
     "link": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
     "pubDate": "Wed, 22 Jul 2026 13:00:00 +0000",
     "source": "Google AI",
-    "summary": "谷歌三星2026发布会三大更新提升效率",
+    "summary": "谷歌为三星新折叠屏等设备发布三项效率更新",
     "contentSnippet": "We shared how Samsung users can boost productivity and get time back on new foldables, watches, and glasses coming soon."
   },
   {
@@ -164,7 +140,7 @@
     "link": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
     "pubDate": "Tue, 21 Jul 2026 15:16:30 +0000",
     "source": "DeepMind",
-    "summary": "发布Gemini 3.6 Flash等三款新模型",
+    "summary": "谷歌推出Gemini 3.6 Flash、3.5 Flash-Lite和3.5 Flash Cyber",
     "contentSnippet": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber."
   },
   {
@@ -172,7 +148,7 @@
     "link": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
     "pubDate": "Fri, 17 Jul 2026 15:00:11 +0000",
     "source": "DeepMind",
-    "summary": "谷歌发布Gemini 3.5 Flash Cyber网络安全模型",
+    "summary": "谷歌发布Gemini3.5FlashCyber模型",
     "contentSnippet": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities."
   },
   {
@@ -180,7 +156,7 @@
     "link": "https://blog.google/products-and-platforms/products/search/connected-apps/",
     "pubDate": "Thu, 16 Jul 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "连接更多应用到搜索",
+    "summary": "AI模式下安全连接常用应用",
     "contentSnippet": "You’ll be able to securely link and interact with your go-to services directly in AI Mode."
   },
   {
@@ -188,7 +164,7 @@
     "link": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
     "pubDate": "Thu, 16 Jul 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "摘要生成失败",
+    "summary": "谷歌Vids更新：AI助你创作、编辑与出演视频。",
     "contentSnippet": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever."
   },
   {
@@ -196,7 +172,7 @@
     "link": "https://news.apache.org/foundation/entry/beyond-the-hardware-hub-how-alc-taipei-turned-computex-2026-into-a-milestone-for-the-apache-way",
     "pubDate": "Thu, 16 Jul 2026 05:20:06 +0000",
     "source": "Apache",
-    "summary": "ALC台北将Computex 2026变为Apache Way里程碑。",
+    "summary": "ALC Taipei将Computex 2026打造成Apache Way里程碑。",
     "contentSnippet": "By Chia-Ping TsaiALC Taipei Lead [Figure 1] Long-time Apache Kafka contributors Jiunn-Yang and Chih-Yuan introducing ALC Taipei’s contributions to open-source veterans Brian Behlendorf and Justin McLean Introduction With the globally renowned Computex Taipei now behind us, it’s the perfect time to look back at how ALC Taipei has brought the Apache Way to life in […]\nThe post Beyond the Hardware Hub: How ALC Taipei Turned Computex 2026 into a Milestone for the Apache Way appeared first on The ASF Blog."
   },
   {
@@ -212,7 +188,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
     "pubDate": "Mon, 13 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "验证SymCrypt中Rust加密从标准到代码",
+    "summary": "验证SymCrypt中Rust密码学从标准到代码",
     "contentSnippet": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves.\nThe post Verifying Rust cryptography in SymCrypt, from standards to code appeared first on Microsoft Research."
   },
   {
@@ -220,7 +196,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/",
     "pubDate": "Thu, 09 Jul 2026 16:46:22 +0000",
     "source": "Microsoft Research",
-    "summary": "极光1.5扩展开放模型用于天气与地球系统",
+    "summary": "Aurora 1.5扩展天气与地球系统开放基础模型",
     "contentSnippet": "Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model, making it more useful for real-world weather, climate, and energy applications.\nThe post Aurora 1.5: Extending open foundation models for weather and Earth-system applications appeared first on Microsoft Research."
   },
   {
@@ -228,7 +204,7 @@
     "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-june-2026",
     "pubDate": "Wed, 08 Jul 2026 19:16:53 +0000",
     "source": "Apache",
-    "summary": "ASF 2026年6月Plus One通讯",
+    "summary": "ASF六月通讯：社区与新顶级项目",
     "contentSnippet": "This month’s Plus One celebrates the people and projects shaping the ASF community. We reflect on the role of mentorship through the Google Summer of Code Mentor Summit, share the latest for Community Over Code Glasgow 2026, and welcome Apache Livy and Apache Magpie as ASF’s newest Top-Level Projects. We also recognize new committers and […]\nThe post ASF Plus One Newsletter: June 2026 appeared first on The ASF Blog."
   },
   {
@@ -236,7 +212,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era/",
     "pubDate": "Wed, 08 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Flint：面向AI时代的开源可视化语言",
+    "summary": "Flint：AI时代的可视化语言",
     "contentSnippet": "Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language that offers a middle path, letting AI agents create expressive charts from compact, human-editable specifications.\nThe post Flint: A visualization language for the AI era appeared first on Microsoft Research."
   }
 ]
