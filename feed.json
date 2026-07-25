@@ -4,7 +4,7 @@
     "link": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
     "pubDate": "Fri, 24 Jul 2026 16:40:04 +0000",
     "source": "GitHub Changelog",
-    "summary": "摘要生成失败",
+    "summary": "Claude Opus 5 现已在 GitHub Copilot 中可用",
     "contentSnippet": "Claude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is designed for complex, long-running coding tasks that require careful reasoning, effective tool use, and reliable…\nThe post Claude Opus 5 is now available in GitHub Copilot appeared first on The GitHub Blog."
   },
   {
@@ -12,7 +12,7 @@
     "link": "https://news.apache.org/foundation/entry/sponsor-success-at-apache-google-and-apache-iceberg",
     "pubDate": "Fri, 24 Jul 2026 02:49:35 +0000",
     "source": "Apache",
-    "summary": "谷歌赞助Apache Iceberg成功",
+    "summary": "谷歌赞助Apache Iceberg取得成功。",
     "contentSnippet": "The Apache Software Foundation (ASF) is home to more than 350 open source projects and initiatives, all powered by a vibrant, global community of contributors. Among these projects, Apache Iceberg has emerged as a cornerstone of modern data architecture, revolutionizing how organizations manage massive analytical datasets with its high-performance, open-table format. None of this innovation […]\nThe post Sponsor Success at Apache: Google and Apache Iceberg appeared first on The ASF Blog."
   },
   {
@@ -20,7 +20,7 @@
     "link": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
     "pubDate": "Thu, 23 Jul 2026 22:32:23 +0000",
     "source": "GitHub Changelog",
-    "summary": "Linear的Copilot云代理正式可用",
+    "summary": "Linear的Copilot云代理现已正式可用",
     "contentSnippet": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents…\nThe post Copilot cloud agent for Linear is now generally available appeared first on The GitHub Blog."
   },
   {
@@ -28,7 +28,7 @@
     "link": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
     "pubDate": "Thu, 23 Jul 2026 20:38:22 +0000",
     "source": "GitHub Changelog",
-    "summary": "GitHub MCP服务器支持下一代MCP规范。",
+    "summary": "GitHub MCP Server支持新MCP规范",
     "contentSnippet": "The MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release. What’s changing The new stateless core…\nThe post GitHub MCP Server supports the next MCP specification appeared first on The GitHub Blog."
   },
   {
@@ -36,7 +36,7 @@
     "link": "https://www.databricks.com/blog/how-fda-built-ai-platform-85-its-staff-now-use-daily",
     "pubDate": "Thu, 23 Jul 2026 19:00:00 GMT",
     "source": "Databricks",
-    "summary": "FDA构建AI平台，85%员工日常使用",
+    "summary": "FDA搭建AI平台，85%员工日常使用。",
     "contentSnippet": "“We showed the value of having a foundational data platform, and that success story..."
   },
   {
@@ -44,7 +44,7 @@
     "link": "https://www.databricks.com/blog/permission-isnt-purpose-intent-based-authorization-omnigent",
     "pubDate": "Thu, 23 Jul 2026 18:05:06 GMT",
     "source": "Databricks",
-    "summary": "权限非目的：Omnigent基于意图的授权",
+    "summary": "Omnigent意图授权：权限非目的",
     "contentSnippet": "In earlier posts, we introduced contextual policies in Omnigent and showed them blocking..."
   },
   {
@@ -52,7 +52,7 @@
     "link": "https://www.databricks.com/blog/provisioning-agentic-era-how-databricks-built-self-serve-infrastructure-vending-machine",
     "pubDate": "Thu, 23 Jul 2026 18:00:00 GMT",
     "source": "Databricks",
-    "summary": "Databricks为代理时代建立自助基础设施",
+    "summary": "Databricks打造自助基础设施售卖机，迎接代理时代。",
     "contentSnippet": "At Databricks, our field engineering organization exists to help customers succeed...."
   },
   {
@@ -60,7 +60,7 @@
     "link": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
     "pubDate": "Thu, 23 Jul 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "Dependabot新增三天冷却期延迟版本更新。",
+    "summary": "Dependabot现在实施冷却期再发更新",
     "contentSnippet": "A new default three-day cooldown delays version update pull requests so maintainers and security researchers can address findings in a release before it gets into your code.\nThe post The case for a cooldown: Why Dependabot now waits before issuing version updates appeared first on The GitHub Blog."
   },
   {
@@ -68,7 +68,7 @@
     "link": "https://openai.com/index/health-in-chatgpt",
     "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
     "source": "OpenAI",
-    "summary": "ChatGPT健康功能上线，可连接医疗记录",
+    "summary": "ChatGPT推出健康数据连接功能。",
     "contentSnippet": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health."
   },
   {
@@ -76,7 +76,7 @@
     "link": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
     "pubDate": "Wed, 22 Jul 2026 19:00:00 +0000",
     "source": "GitHub",
-    "summary": "Copilot与直接API的付费实质对比",
+    "summary": "Copilot与API直连：实际付费差异。",
     "contentSnippet": "Copilot now bills usage at listed API rates. Compare direct model access with the coding workflow, policy, and harness work around it.\nThe post Copilot vs. raw API access: What are you actually paying for? appeared first on The GitHub Blog."
   },
   {
@@ -84,7 +84,7 @@
     "link": "https://code.visualstudio.com/updates/v1_130",
     "pubDate": "2026-07-22T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "Visual Studio Code 1.130新特性",
+    "summary": "Visual Studio Code 1.130 新特性介绍",
     "contentSnippet": "Learn what is new in Visual Studio Code 1.130\nRead the full article"
   },
   {
@@ -92,7 +92,7 @@
     "link": "https://code.visualstudio.com/updates/v1_131",
     "pubDate": "2026-07-22T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "Visual Studio Code 1.131 预览版更新概览",
+    "summary": "VS Code 1.131内测版更新",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.131 (Insiders)\nRead the full article"
   },
   {
@@ -100,7 +100,7 @@
     "link": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
     "pubDate": "Wed, 22 Jul 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "GitHub重构漏洞赏金计划新篇章",
+    "summary": "GitHub重构漏洞奖励计划",
     "contentSnippet": "GitHub is making some significant changes to its bug bounty program, shifting its focus to give researchers a better experience working with the GitHub team.\nThe post Next chapter: Restructuring GitHub’s bug bounty program appeared first on The GitHub Blog."
   },
   {
@@ -108,7 +108,7 @@
     "link": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
     "pubDate": "Wed, 22 Jul 2026 13:38:54 +0000",
     "source": "DeepMind",
-    "summary": "谷歌4000万美元AI资源支持创世纪任务加速科学发现",
+    "summary": "谷歌为Genesis任务投入4000万美元AI代币和信用。",
     "contentSnippet": "Google commits $40M in AI tokens and credits for the Genesis Mission"
   },
   {
@@ -116,7 +116,7 @@
     "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
     "pubDate": "Wed, 22 Jul 2026 13:00:00 GMT",
     "source": "OpenAI",
-    "summary": "摘要生成失败",
+    "summary": "OpenAI与Effingham社区共建AI基础设施",
     "contentSnippet": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex."
   },
   {
@@ -124,7 +124,7 @@
     "link": "https://openai.com/index/how-news-organizations-are-using-ai",
     "pubDate": "Wed, 22 Jul 2026 13:00:00 GMT",
     "source": "OpenAI",
-    "summary": "新闻机构借助AI强化报道与运营推进使命",
+    "summary": "新闻机构利用AI推进关键使命",
     "contentSnippet": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide."
   },
   {
@@ -132,7 +132,7 @@
     "link": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
     "pubDate": "Wed, 22 Jul 2026 13:00:00 +0000",
     "source": "Google AI",
-    "summary": "谷歌为三星新折叠屏等设备发布三项效率更新",
+    "summary": "三星新品发布三项谷歌更新。",
     "contentSnippet": "We shared how Samsung users can boost productivity and get time back on new foldables, watches, and glasses coming soon."
   },
   {
@@ -140,7 +140,7 @@
     "link": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
     "pubDate": "Tue, 21 Jul 2026 15:16:30 +0000",
     "source": "DeepMind",
-    "summary": "谷歌推出Gemini 3.6 Flash、3.5 Flash-Lite和3.5 Flash Cyber",
+    "summary": "摘要生成失败",
     "contentSnippet": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber."
   },
   {
@@ -148,7 +148,7 @@
     "link": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
     "pubDate": "Fri, 17 Jul 2026 15:00:11 +0000",
     "source": "DeepMind",
-    "summary": "谷歌发布Gemini3.5FlashCyber模型",
+    "summary": "谷歌推出轻量级网络安全模型Gemini 3.5",
     "contentSnippet": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities."
   },
   {
@@ -156,7 +156,7 @@
     "link": "https://blog.google/products-and-platforms/products/search/connected-apps/",
     "pubDate": "Thu, 16 Jul 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "AI模式下安全连接常用应用",
+    "summary": "将更多应用安全连接到AI模式搜索。",
     "contentSnippet": "You’ll be able to securely link and interact with your go-to services directly in AI Mode."
   },
   {
@@ -164,7 +164,7 @@
     "link": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
     "pubDate": "Thu, 16 Jul 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "谷歌Vids更新：AI助你创作、编辑与出演视频。",
+    "summary": "谷歌Vids两大更新：Gemini Omni和头像让视频制作更简单",
     "contentSnippet": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever."
   },
   {
@@ -172,7 +172,7 @@
     "link": "https://news.apache.org/foundation/entry/beyond-the-hardware-hub-how-alc-taipei-turned-computex-2026-into-a-milestone-for-the-apache-way",
     "pubDate": "Thu, 16 Jul 2026 05:20:06 +0000",
     "source": "Apache",
-    "summary": "ALC Taipei将Computex 2026打造成Apache Way里程碑。",
+    "summary": "ALC Taipei让Computex 2026成为Apache Way里程碑。",
     "contentSnippet": "By Chia-Ping TsaiALC Taipei Lead [Figure 1] Long-time Apache Kafka contributors Jiunn-Yang and Chih-Yuan introducing ALC Taipei’s contributions to open-source veterans Brian Behlendorf and Justin McLean Introduction With the globally renowned Computex Taipei now behind us, it’s the perfect time to look back at how ALC Taipei has brought the Apache Way to life in […]\nThe post Beyond the Hardware Hub: How ALC Taipei Turned Computex 2026 into a Milestone for the Apache Way appeared first on The ASF Blog."
   },
   {
@@ -180,7 +180,7 @@
     "link": "https://code.visualstudio.com/updates/v1_129",
     "pubDate": "2026-07-15T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "Visual Studio Code 1.129 新功能摘要",
+    "summary": "VS Code 1.129版本新功能摘要",
     "contentSnippet": "Learn what is new in Visual Studio Code 1.129.\nRead the full article"
   },
   {
@@ -188,7 +188,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
     "pubDate": "Mon, 13 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "验证SymCrypt中Rust密码学从标准到代码",
+    "summary": "Rust加密在SymCrypt中的标准到代码验证",
     "contentSnippet": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves.\nThe post Verifying Rust cryptography in SymCrypt, from standards to code appeared first on Microsoft Research."
   },
   {
@@ -196,7 +196,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/",
     "pubDate": "Thu, 09 Jul 2026 16:46:22 +0000",
     "source": "Microsoft Research",
-    "summary": "Aurora 1.5扩展天气与地球系统开放基础模型",
+    "summary": "Aurora 1.5扩展开放模型用于天气与地球系统",
     "contentSnippet": "Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model, making it more useful for real-world weather, climate, and energy applications.\nThe post Aurora 1.5: Extending open foundation models for weather and Earth-system applications appeared first on Microsoft Research."
   },
   {
@@ -204,7 +204,7 @@
     "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-june-2026",
     "pubDate": "Wed, 08 Jul 2026 19:16:53 +0000",
     "source": "Apache",
-    "summary": "ASF六月通讯：社区与新顶级项目",
+    "summary": "ASF 2026年6月快讯：社区与项目动态",
     "contentSnippet": "This month’s Plus One celebrates the people and projects shaping the ASF community. We reflect on the role of mentorship through the Google Summer of Code Mentor Summit, share the latest for Community Over Code Glasgow 2026, and welcome Apache Livy and Apache Magpie as ASF’s newest Top-Level Projects. We also recognize new committers and […]\nThe post ASF Plus One Newsletter: June 2026 appeared first on The ASF Blog."
   },
   {
@@ -212,7 +212,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era/",
     "pubDate": "Wed, 08 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Flint：AI时代的可视化语言",
+    "summary": "Flint是AI时代的可视化语言，用紧凑规范创图表。",
     "contentSnippet": "Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language that offers a middle path, letting AI agents create expressive charts from compact, human-editable specifications.\nThe post Flint: A visualization language for the AI era appeared first on Microsoft Research."
   }
 ]
