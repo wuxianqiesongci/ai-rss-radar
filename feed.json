@@ -1,122 +1,154 @@
 [
   {
-    "title": "The EU Digital Product Passport: a traceability deadline",
-    "link": "https://www.databricks.com/blog/eu-digital-product-passport-traceability-deadline",
-    "pubDate": "Mon, 27 Jul 2026 23:00:00 GMT",
+    "title": "How NorthStar Anesthesia built a scheduling app for a workforce of 3,000 clinicians in weeks",
+    "link": "https://www.databricks.com/blog/how-northstar-anesthesia-built-scheduling-app-workforce-3000-clinicians-weeks",
+    "pubDate": "Tue, 28 Jul 2026 22:09:00 GMT",
     "source": "Databricks",
-    "summary": "欧盟数字产品护照设可追溯截止日",
-    "contentSnippet": "Informational only, not legal advice. Confirm all regulatory details against the..."
+    "summary": "NorthStar Anesthesia数周内为3000名医生建成排班应用。",
+    "contentSnippet": "IntroductionNorthStar Anesthesia manages anesthesia staffing services across 25+ U.S..."
   },
   {
-    "title": "Manage GitHub Copilot app access with a dedicated policy",
-    "link": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
-    "pubDate": "Mon, 27 Jul 2026 20:43:37 +0000",
+    "title": "Grok 4.5 is now available in GitHub Copilot",
+    "link": "https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot",
+    "pubDate": "Tue, 28 Jul 2026 19:10:45 +0000",
     "source": "GitHub Changelog",
-    "summary": "专用策略管理Copilot应用访问",
-    "contentSnippet": "The GitHub Copilot app now has its own policy, so you can control who has access to it at the enterprise and organization levels. Until now, access to the Copilot…\nThe post Manage GitHub Copilot app access with a dedicated policy appeared first on The GitHub Blog."
+    "summary": "Grok 4.5 上线 GitHub Copilot",
+    "contentSnippet": "Grok 4.5, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for fast, agentic coding and complex multi-step workflows, with a context window of up…\nThe post Grok 4.5 is now available in GitHub Copilot appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Scientific computing in the age of agentic AI",
+    "link": "https://openai.com/index/scientific-computing-agentic-ai",
+    "pubDate": "Tue, 28 Jul 2026 17:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "AI代理加速科学计算与基因组学发现。",
+    "contentSnippet": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond."
+  },
+  {
+    "title": "From prototype to production: High QPS for Databricks AI Search",
+    "link": "https://www.databricks.com/blog/prototype-production-high-qps-databricks-ai-search",
+    "pubDate": "Tue, 28 Jul 2026 16:50:57 GMT",
+    "source": "Databricks",
+    "summary": "Databricks AI搜索从原型到生产的高QPS",
+    "contentSnippet": "Search is everywhere:  product discovery on retail sites, voice queries on smart..."
+  },
+  {
+    "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+    "pubDate": "Tue, 28 Jul 2026 16:00:00 +0000",
+    "source": "Google AI",
+    "summary": "Gemini API托管智能体新增3.6 Flash与hooks等功能。",
+    "contentSnippet": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents."
+  },
+  {
+    "title": "Disrupting supply chain attacks on npm and GitHub Actions",
+    "link": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+    "pubDate": "Tue, 28 Jul 2026 16:00:00 +0000",
+    "source": "GitHub",
+    "summary": "抵御npm和GitHub Actions供应链攻击",
+    "contentSnippet": "Explore the changes we've shipped across npm and GitHub Actions over the past few months to disrupt supply chain attack techniques and limit their impact.\nThe post Disrupting supply chain attacks on npm and GitHub Actions appeared first on The GitHub Blog."
+  },
+  {
+    "title": "How Databricks manages its own coding agent spend with Unity AI Gateway Budgets",
+    "link": "https://www.databricks.com/blog/how-databricks-manages-its-own-coding-agent-spend-unity-ai-gateway-budgets",
+    "pubDate": "Tue, 28 Jul 2026 15:40:33 GMT",
+    "source": "Databricks",
+    "summary": "Databricks用Unity AI网关管理编码代理支出。",
+    "contentSnippet": "At Databricks, the way we build software is changing quickly as we aggressively adopt..."
+  },
+  {
+    "title": "Dependabot alerts on malicious packages across more ecosystems",
+    "link": "https://github.blog/changelog/2026-07-28-dependabot-alerts-on-malicious-packages-across-more-ecosystems",
+    "pubDate": "Tue, 28 Jul 2026 14:55:31 +0000",
+    "source": "GitHub Changelog",
+    "summary": "Dependabot警报覆盖更多生态系统恶意包。",
+    "contentSnippet": "The GitHub Advisory Database now ingests malware advisories from the OpenSSF malicious-packages repository, significantly expanding the breadth of malware data available to you through Dependabot alerts. What changed With this…\nThe post Dependabot alerts on malicious packages across more ecosystems appeared first on The GitHub Blog."
+  },
+  {
+    "title": "5 ways AI Mode in Search helps you enjoy the real world",
+    "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+    "pubDate": "Tue, 28 Jul 2026 13:00:00 +0000",
+    "source": "Google AI",
+    "summary": "搜索AI模式五种方式助你享受现实世界",
+    "contentSnippet": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…"
+  },
+  {
+    "title": "5 ways to host the ultimate dinner party with Google Search",
+    "link": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
+    "pubDate": "Tue, 28 Jul 2026 13:00:00 +0000",
+    "source": "Google AI",
+    "summary": "谷歌搜索5种方法举办完美晚宴",
+    "contentSnippet": "These AI features can help you craft a menu, design a tablescape, and handle other party-planning tasks."
+  },
+  {
+    "title": "GitHub Actions holds potentially malicious workflows for approval",
+    "link": "https://github.blog/changelog/2026-07-28-github-actions-holds-potentially-malicious-workflows-for-approval",
+    "pubDate": "Tue, 28 Jul 2026 11:57:19 +0000",
+    "source": "GitHub Changelog",
+    "summary": "GitHub Actions暂停恶意工作流待审批。",
+    "contentSnippet": "Recent supply chain attacks use compromised GitHub credentials to push malicious GitHub Actions workflows that steal CI/CD credentials and carry out additional attacks. To help protect public repositories from these…\nThe post GitHub Actions holds potentially malicious workflows for approval appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Concept-based Visual Counterfactual Explanations with Diffusion Models",
+    "link": "https://arxiv.org/abs/2607.22544",
+    "pubDate": "Tue, 28 Jul 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "基于概念的扩散模型视觉反事实解释。",
+    "contentSnippet": "arXiv:2607.22544v1 Announce Type: new \nAbstract: Visual counterfactual explanations aim to answer \"what minimal change to this image would flip the model's prediction?\", and are increasingly important as vision models are deployed in safety-critical domains (e.g., medicine). Existing diffusion-based methods can produce realistic edits, but they rely on external classifiers that must work reliably on noisy images, which makes them fragile and hard to deploy for robust explanations. We introduce C-VCE, a new diffusion framework that builds the classifier directly into the generative model via a concept bottleneck layer, so that counterfactuals are guided by human-interpretable features (concepts) instead of a separate noise robust classifier that works with pixel-level edits. Our model lets users to toggle on/off semantic concepts during sampling, then minimally adjusts relevant image regions, while preserving the rest of the image, respecting feature correlations. To keep edits small and controlled, we add a simple probabilistic regularizer that balances \"change the prediction\" against \"stay close to the original\", plus a gradient-based mask that confines modifications to the most relevant regions. On benchmarks such as CelebA, C-VCE matches or improves flip rates while producing counterfactuals that are visually closer to the input and less distorted than baselines that depend on separate noisy-image classifiers. These properties make C-VCE a practical tool for vision systems where users need concrete \"what-if\" images without having to trust an additional, noise-robust classifier. More broadly, our results suggest that exposing and controlling an internal concept layer is a promising way to make powerful generative models easier to understand and safer to use."
+  },
+  {
+    "title": "Semalith v1.4: A Calibrated 184M Safety Classifier Achieving State-of-the-Art Prompt-Injection Detection at 44x Fewer Parameters than Llama-Guard-3-8B",
+    "link": "https://arxiv.org/abs/2607.22545",
+    "pubDate": "Tue, 28 Jul 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "Semalith v1.4 少44倍参数实现最先进提示注入检测。",
+    "contentSnippet": "arXiv:2607.22545v1 Announce Type: new \nAbstract: Deploying large language models in financial-services and agentic settings requires safety classifiers that simultaneously handle prompt injection, regulatory compliance, and general harm, a combination no existing open guardrail addresses in a single inference pass.\n  Semalith v1.4 is a 184M-parameter DeBERTa-v3-base classifier performing simultaneous three-axis safety classification including prompt injection, general harm, and financial-services regulatory compliance, in a single forward pass. Its 22-class head (BENIGN, nine prompt-injection sub-types, general-harm, eleven BFSI labels) is trained with a 4-class auxiliary super-category head under jointly weighted loss, on a 76,204-row corpus mined from 49 public sources with SHA-1 deduplication against every held-out evaluation set, with 21 of 22 benchmarks at zero contamination (max 0.22%).\n  Against Llama-Guard-3-8B on 22 held-out benchmarks, Semalith v1.4 wins every prompt-injection evaluation (7/7) and 11 of 18 benchmarks overall at 44x fewer parameters, with FPR = 0.000 on 208 benign agentic prompts vs 0.063 for Llama-Guard-3-8B. On general-harm benchmarks (WildGuardMix, HEx-PHI, HarmBench), Llama-Guard-3 leads; this complementary split is documented in Section 4. Six measured weak spots are disclosed in Section 6.\n  Deployment guidance: v1.3 is recommended for conversational moderation deployments (ToxicChat F1 0.624); v1.4 is recommended when BFSI label coverage or zero-FPR on benign agentic prompts is the priority."
+  },
+  {
+    "title": "SeT-Diff: Towards Semantic Foundation Models for HPC Telemetry and Time-Series",
+    "link": "https://arxiv.org/abs/2607.22548",
+    "pubDate": "Tue, 28 Jul 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "SeT-Diff：首个HPC遥测时间序列基础模型",
+    "contentSnippet": "arXiv:2607.22548v1 Announce Type: new \nAbstract: Data centers and their compute nodes require accurate and flexible digital twins capable of modeling the complex interplay of workloads, environmental parameters, and physical metrics. Current machine learning approaches for HPC and its telemetry typically rely on a static subset of anonymous, fixed-position sensor variables tailored to single tasks. Consequently, these models become obsolete when target tasks change or sensor metrics vary. We propose SeT-Diff, the first foundational model for compute node telemetry and time-series. Unlike rigid architectures, our diffusion-based approach conditions the generative process on each sensor's semantic description, decoupling the system dynamics from the structure of the dataset. Experiments on a real-world supercomputer dataset demonstrate a Mean Absolute Error (MAE) of 0.0470 on reconstruction tasks. SeT-Diff exhibits zero-shot permutation stability, maintaining accuracy with negligible degradation even when sensors are shuffled. A single pre-trained model effectively performs data imputation, forecasting, and virtual sensing - achieving a 0.033 MAE in thermal inference - making SeT-Diff an effective data-driven digital twin for HPC systems."
   },
   {
     "title": "The harness is all you need (mostly)",
     "link": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
     "pubDate": "Mon, 27 Jul 2026 18:00:00 +0000",
     "source": "GitHub",
-    "summary": "Copilot工作流：原型到审查，不追新工具",
+    "summary": "主要只需GitHub Copilot即可完成软件全流程",
     "contentSnippet": "A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool.\nThe post The harness is all you need (mostly) appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent",
-    "link": "https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
-    "pubDate": "Mon, 27 Jul 2026 17:00:35 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub Copilot应用与云代理的企业管理设置",
-    "contentSnippet": "You can now govern the GitHub Copilot app and Copilot cloud agent with enterprise managed settings, the same centrally managed policies you use to control Copilot across your enterprise. With…\nThe post Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent appeared first on The GitHub Blog."
   },
   {
     "title": "GitHub Copilot app for Beginners: Getting started",
     "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
     "pubDate": "Mon, 27 Jul 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "GitHub Copilot应用初学者入门指南",
+    "summary": "GitHub Copilot新手入门指南",
     "contentSnippet": "New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow.\nThe post GitHub Copilot app for Beginners: Getting started appeared first on The GitHub Blog."
-  },
-  {
-    "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
-    "link": "https://arxiv.org/abs/2607.21596",
-    "pubDate": "Mon, 27 Jul 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "FlowEvo：工作流与技能协同进化的自进化智能体",
-    "contentSnippet": "arXiv:2607.21596v1 Announce Type: new \nAbstract: Large language model agents increasingly solve complex tasks by constructing inference-time workflows that combine reasoning, tool use, and code execution. While such workflows enable flexible problem solving, the useful procedures discovered during execution are often transient: they help solve the current task but are not retained in a form that can systematically benefit future tasks. We present FlowEvo, a training-free framework that compiles successful traces into reusable skill records. Each record pairs a callable artifact with auxiliary structured guidance, and admission applies interface, replay, and safety checks where feasible. These skill records persist in a skill bank at inference time. FlowEvo is organized around three coupled mechanisms: (1)~workflow-to-skill compilation, which extracts reusable executable artifacts from successful traces; (2)~skill-to-workflow feedback, which retrieves accumulated skills to support future problem solving through either direct execution or structured context injection; and (3)~skill curation, which monitors downstream utility and suppresses skills that cause negative transfer. Through this workflow--skill--workflow feedback loop, FlowEvo enables agents to accumulate and refine task-solving capability over time without updating model parameters. Experiments on benchmarks spanning interactive environments (ALFWorld) and code/math generation (HumanEval, GSM8K) show that FlowEvo achieves the best accuracy-cost tradeoff among the evaluated baselines under our implementation settings. On ALFWorld, FlowEvo achieves an 82.8\\% success rate, 23.6 percentage points above the strongest baseline, while its average token usage per episode is less than half that of the most efficient baseline. Controlled ablations confirm that each mechanism contributes to the overall result. The code is public at https://github.com/DEFENSE-SEU/FlowEvo."
-  },
-  {
-    "title": "Risk Is Not the Target: A Monotonic Framework for Evaluating Wildfire Operational Risk Signals",
-    "link": "https://arxiv.org/abs/2607.21597",
-    "pubDate": "Mon, 27 Jul 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "风险不是目标：野火运营风险信号单调评估框架",
-    "contentSnippet": "arXiv:2607.21597v1 Announce Type: new \nAbstract: Evaluating wildfire risk systems using standard machine-learning metrics such as F1-score or IoU is fundamentally flawed: these metrics assess event prediction accuracy, not the operational coherence of a continuous risk signal. This work proposes a novel monotonic evaluation framework that measures whether increases in a predicted risk score consistently correspond to increases in observed operational load, such as number of fires, intervention time, and deployed resources. Moreover, we compare three structurally different approaches on the French Alpes-Maritimes department: the expert-based DFE index, GRU- based predictive models, and FARS, a hybrid multi-agent system combining predictive AI with LLM-based reasoning. Experimental results reveal that the DFE, despite poor classification metrics, exhibits the most balanced monotonic behavior across the full risk scale. GRU models achieve strong local monotonicity but fail to produce well-distributed risk levels. FARS inherits and reveals the structural limitations of upstream signals rather than correcting them. The central finding is a paradigm shift: a good risk model does not predict fires accurately, but one whose ordinal scale meaningfully explains operational dynamics, as proved in this paper. Code of the monotonic framework is available on github."
-  },
-  {
-    "title": "Securing Multimodal AI through Internal Information Decomposition",
-    "link": "https://arxiv.org/abs/2607.21600",
-    "pubDate": "Mon, 27 Jul 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "通过内部信息分解保障多模态AI安全",
-    "contentSnippet": "arXiv:2607.21600v1 Announce Type: new \nAbstract: Multimodal large language models introduce attack surfaces absent in unimodal systems: adversaries can distribute malicious intent across modalities to evade unimodal safeguards. This motivates using cross-modal consistency as a detection signal rather than inspecting each modality in isolation. Our key observation is that benign inputs induce compatible predictive behavior from text-only and vision-only reasoning that stabilizes when fused, whereas adversarial manipulation disrupts this consistency, causing abnormal multimodal behavior. Existing defenses that examine raw inputs or outputs overlook this internal fusion process, rendering them brittle and computationally expensive. We propose FlowGuard, a lightweight inference-time framework that detects harmful inputs by monitoring internal multimodal consistency. Unlike approaches that rely on scalar confidence metrics, FlowGuard derives FlowVectors inspired by Partial Information Decomposition that quantify cross-modal redundancy, synergy, and modality-specific dominance, capturing whether fused multimodal predictions remain aligned with unimodal semantic evidence. In a one-class classification problem trained solely on benign data, FlowGuard reduces Attack Success Rates from >90% to <15% on unseen attacks, with <3% utility loss and up to a 6 times latency reduction. Our results demonstrate that monitoring cross-modal consistency offers an efficient and effective defense for multimodal reasoning."
   },
   {
     "title": "How AI is expanding what people do at work",
     "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
     "pubDate": "Mon, 27 Jul 2026 03:30:00 GMT",
     "source": "OpenAI",
-    "summary": "AI扩展了人们的工作内容",
+    "summary": "AI扩展工作范围，重塑角色边界。",
     "contentSnippet": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries."
-  },
-  {
-    "title": "Claude Opus 5 is now available in GitHub Copilot",
-    "link": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
-    "pubDate": "Fri, 24 Jul 2026 16:40:04 +0000",
-    "source": "GitHub Changelog",
-    "summary": "Claude Opus 5 现已在 GitHub Copilot 可用。",
-    "contentSnippet": "Claude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is designed for complex, long-running coding tasks that require careful reasoning, effective tool use, and reliable…\nThe post Claude Opus 5 is now available in GitHub Copilot appeared first on The GitHub Blog."
   },
   {
     "title": "Sponsor Success at Apache: Google and Apache Iceberg",
     "link": "https://news.apache.org/foundation/entry/sponsor-success-at-apache-google-and-apache-iceberg",
     "pubDate": "Fri, 24 Jul 2026 02:49:35 +0000",
     "source": "Apache",
-    "summary": "谷歌与Apache Iceberg成功合作",
+    "summary": "Google与Apache Iceberg赞助成功",
     "contentSnippet": "The Apache Software Foundation (ASF) is home to more than 350 open source projects and initiatives, all powered by a vibrant, global community of contributors. Among these projects, Apache Iceberg has emerged as a cornerstone of modern data architecture, revolutionizing how organizations manage massive analytical datasets with its high-performance, open-table format. None of this innovation […]\nThe post Sponsor Success at Apache: Google and Apache Iceberg appeared first on The ASF Blog."
-  },
-  {
-    "title": "How the FDA Built an AI Platform That 85% of Its Staff Now Use Daily",
-    "link": "https://www.databricks.com/blog/how-fda-built-ai-platform-85-its-staff-now-use-daily",
-    "pubDate": "Thu, 23 Jul 2026 19:00:00 GMT",
-    "source": "Databricks",
-    "summary": "FDA构建85%员工日常使用的AI平台",
-    "contentSnippet": "“We showed the value of having a foundational data platform, and that success story..."
-  },
-  {
-    "title": "Permission isn't purpose: Intent-based authorization in Omnigent",
-    "link": "https://www.databricks.com/blog/permission-isnt-purpose-intent-based-authorization-omnigent",
-    "pubDate": "Thu, 23 Jul 2026 18:05:06 GMT",
-    "source": "Databricks",
-    "summary": "权限非目的：Omnigent意图授权",
-    "contentSnippet": "In earlier posts, we introduced contextual policies in Omnigent and showed them blocking..."
-  },
-  {
-    "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
-    "link": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
-    "pubDate": "Thu, 23 Jul 2026 16:00:00 +0000",
-    "source": "GitHub",
-    "summary": "Dependabot引入三天冷却期延迟版本更新",
-    "contentSnippet": "A new default three-day cooldown delays version update pull requests so maintainers and security researchers can address findings in a release before it gets into your code.\nThe post The case for a cooldown: Why Dependabot now waits before issuing version updates appeared first on The GitHub Blog."
   },
   {
     "title": "Launching Health in ChatGPT ",
     "link": "https://openai.com/index/health-in-chatgpt",
     "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
     "source": "OpenAI",
-    "summary": "ChatGPT健康功能上线，连接医疗记录和Apple Health。",
+    "summary": "ChatGPT推出健康功能，可连接医疗记录与苹果健康。",
     "contentSnippet": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health."
   },
   {
@@ -124,7 +156,7 @@
     "link": "https://code.visualstudio.com/updates/v1_130",
     "pubDate": "2026-07-22T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "Visual Studio Code 1.130新功能概览",
+    "summary": "VSCode 1.130 新特性介绍。",
     "contentSnippet": "Learn what is new in Visual Studio Code 1.130\nRead the full article"
   },
   {
@@ -132,7 +164,7 @@
     "link": "https://code.visualstudio.com/updates/v1_131",
     "pubDate": "2026-07-22T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.131 预览版新特性",
+    "summary": "了解VS Code 1.131内部版的新功能",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.131 (Insiders)\nRead the full article"
   },
   {
@@ -140,31 +172,15 @@
     "link": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
     "pubDate": "Wed, 22 Jul 2026 13:38:54 +0000",
     "source": "DeepMind",
-    "summary": "谷歌4000万美元支持创世纪任务加速科学发现",
+    "summary": "谷歌4000万美元支持Genesis Mission加速科学发现。",
     "contentSnippet": "Google commits $40M in AI tokens and credits for the Genesis Mission"
-  },
-  {
-    "title": "Building AI infrastructure with the Effingham County community",
-    "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-    "pubDate": "Wed, 22 Jul 2026 13:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "OpenAI与社区共建AI基础设施",
-    "contentSnippet": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex."
-  },
-  {
-    "title": "3 Google updates from Galaxy Unpacked 2026",
-    "link": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-    "pubDate": "Wed, 22 Jul 2026 13:00:00 +0000",
-    "source": "Google AI",
-    "summary": "Galaxy Unpacked 2026：谷歌三项更新提升生产力。",
-    "contentSnippet": "We shared how Samsung users can boost productivity and get time back on new foldables, watches, and glasses coming soon."
   },
   {
     "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
     "link": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
     "pubDate": "Tue, 21 Jul 2026 15:16:30 +0000",
     "source": "DeepMind",
-    "summary": "推出Gemini三款新模型：3.6 Flash等。",
+    "summary": "发布Gemini 3.6 Flash等三款新模型",
     "contentSnippet": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber."
   },
   {
@@ -172,31 +188,15 @@
     "link": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
     "pubDate": "Fri, 17 Jul 2026 15:00:11 +0000",
     "source": "DeepMind",
-    "summary": "谷歌推出轻量安全模型Gemini 3.5 Flash Cyber",
+    "summary": "谷歌推出Gemini 3.5 Flash Cyber。",
     "contentSnippet": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities."
-  },
-  {
-    "title": "Connect more of your apps to Search",
-    "link": "https://blog.google/products-and-platforms/products/search/connected-apps/",
-    "pubDate": "Thu, 16 Jul 2026 16:00:00 +0000",
-    "source": "Google AI",
-    "summary": "在AI模式中连接更多应用到搜索",
-    "contentSnippet": "You’ll be able to securely link and interact with your go-to services directly in AI Mode."
-  },
-  {
-    "title": "Create, edit and star in videos with two Google Vids updates",
-    "link": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-    "pubDate": "Thu, 16 Jul 2026 16:00:00 +0000",
-    "source": "Google AI",
-    "summary": "Google Vids两大更新让视频创作更轻松。",
-    "contentSnippet": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever."
   },
   {
     "title": "Beyond the Hardware Hub: How ALC Taipei Turned Computex 2026 into a Milestone for the Apache Way",
     "link": "https://news.apache.org/foundation/entry/beyond-the-hardware-hub-how-alc-taipei-turned-computex-2026-into-a-milestone-for-the-apache-way",
     "pubDate": "Thu, 16 Jul 2026 05:20:06 +0000",
     "source": "Apache",
-    "summary": "ALC台北使2026电脑展成为Apache之道里程碑",
+    "summary": "ALC台北将Computex 2026变为Apache Way里程碑。",
     "contentSnippet": "By Chia-Ping TsaiALC Taipei Lead [Figure 1] Long-time Apache Kafka contributors Jiunn-Yang and Chih-Yuan introducing ALC Taipei’s contributions to open-source veterans Brian Behlendorf and Justin McLean Introduction With the globally renowned Computex Taipei now behind us, it’s the perfect time to look back at how ALC Taipei has brought the Apache Way to life in […]\nThe post Beyond the Hardware Hub: How ALC Taipei Turned Computex 2026 into a Milestone for the Apache Way appeared first on The ASF Blog."
   },
   {
@@ -204,7 +204,7 @@
     "link": "https://code.visualstudio.com/updates/v1_129",
     "pubDate": "2026-07-15T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.129新功能介绍",
+    "summary": "Visual Studio Code 1.129 新功能概览",
     "contentSnippet": "Learn what is new in Visual Studio Code 1.129.\nRead the full article"
   },
   {
@@ -212,7 +212,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
     "pubDate": "Mon, 13 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "从标准到代码验证SymCrypt中Rust密码学",
+    "summary": "SymCrypt中Rust密码学从标准到代码的验证",
     "contentSnippet": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves.\nThe post Verifying Rust cryptography in SymCrypt, from standards to code appeared first on Microsoft Research."
   },
   {
@@ -220,7 +220,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/",
     "pubDate": "Thu, 09 Jul 2026 16:46:22 +0000",
     "source": "Microsoft Research",
-    "summary": "Aurora 1.5扩展天气地球系统开放模型",
+    "summary": "Aurora 1.5扩展模型用于天气与地球系统",
     "contentSnippet": "Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model, making it more useful for real-world weather, climate, and energy applications.\nThe post Aurora 1.5: Extending open foundation models for weather and Earth-system applications appeared first on Microsoft Research."
   },
   {
@@ -228,7 +228,7 @@
     "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-june-2026",
     "pubDate": "Wed, 08 Jul 2026 19:16:53 +0000",
     "source": "Apache",
-    "summary": "ASF六月通讯：庆祝社区人物与项目",
+    "summary": "ASF六月通讯聚焦社区与项目进展",
     "contentSnippet": "This month’s Plus One celebrates the people and projects shaping the ASF community. We reflect on the role of mentorship through the Google Summer of Code Mentor Summit, share the latest for Community Over Code Glasgow 2026, and welcome Apache Livy and Apache Magpie as ASF’s newest Top-Level Projects. We also recognize new committers and […]\nThe post ASF Plus One Newsletter: June 2026 appeared first on The ASF Blog."
   },
   {
@@ -236,7 +236,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era/",
     "pubDate": "Wed, 08 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Flint：AI时代的可视化语言，从紧凑规范生成表达性图表。",
+    "summary": "Flint：AI时代的可视化语言",
     "contentSnippet": "Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language that offers a middle path, letting AI agents create expressive charts from compact, human-editable specifications.\nThe post Flint: A visualization language for the AI era appeared first on Microsoft Research."
   }
 ]
