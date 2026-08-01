@@ -1,5 +1,21 @@
 [
   {
+    "title": "Ten advances in mathematics and theoretical computer science",
+    "link": "https://openai.com/index/ten-advances-in-mathematics",
+    "pubDate": "Sat, 01 Aug 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "OpenAI发布数学与理论计算机科学十大进展。",
+    "contentSnippet": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity."
+  },
+  {
+    "title": "Backstage with Lakebase, part 3",
+    "link": "https://www.databricks.com/blog/backstage-lakebase-part-3",
+    "pubDate": "Fri, 31 Jul 2026 22:21:47 GMT",
+    "source": "Databricks",
+    "summary": "摘要生成失败",
+    "contentSnippet": "In the first part of this series, running Backstage on Databricks Lakebase gave us..."
+  },
+  {
     "title": "Gemini 2.5 Pro and Gemini 3 Flash deprecated",
     "link": "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
     "pubDate": "Fri, 31 Jul 2026 20:04:01 +0000",
@@ -20,7 +36,7 @@
     "link": "https://github.blog/changelog/2026-07-31-restricting-npm-bypass-2fa-granular-access-tokens",
     "pubDate": "Fri, 31 Jul 2026 16:45:50 +0000",
     "source": "GitHub Changelog",
-    "summary": "npm绕过2FA的颗粒令牌受限，敏感操作需二次验证。",
+    "summary": "npm限制绕过2FA的颗粒访问令牌",
     "contentSnippet": "npm granular access tokens (GATs) configured to bypass 2FA can no longer perform sensitive account, org, and package management actions. These now require an interactive 2FA challenge, closing one of…\nThe post Restricting npm bypass-2FA granular access tokens appeared first on The GitHub Blog."
   },
   {
@@ -28,7 +44,7 @@
     "link": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
     "pubDate": "Fri, 31 Jul 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "内存速度代码大小写折叠，单核超45GiB/s。",
+    "summary": "以内存速度进行源码大小写折叠",
     "contentSnippet": "How a branch-free loop and byte-space arithmetic let GitHub case-fold every byte of code search at >45 GiB/s on a single core.\nThe post Don’t stop early: Case-folding source code at memory speed appeared first on The GitHub Blog."
   },
   {
@@ -36,7 +52,7 @@
     "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
     "pubDate": "Fri, 31 Jul 2026 15:00:00 GMT",
     "source": "OpenAI",
-    "summary": "OpenAI以安全透明实践推进欧洲AI治理。",
+    "summary": "摘要生成失败",
     "contentSnippet": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances."
   },
   {
@@ -44,47 +60,15 @@
     "link": "https://openai.com/index/building-abundant-intelligence",
     "pubDate": "Fri, 31 Jul 2026 15:00:00 GMT",
     "source": "OpenAI",
-    "summary": "全栈构建丰富智能让先进AI更强大更实惠更广泛有用",
+    "summary": "构建丰富智能，让AI更强大、更实惠、更普及。",
     "contentSnippet": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful."
-  },
-  {
-    "title": "Univé builds an AI-ready workforce",
-    "link": "https://openai.com/index/unive",
-    "pubDate": "Fri, 31 Jul 2026 07:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "Univé以治理和创新打造AI就绪团队。",
-    "contentSnippet": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale."
-  },
-  {
-    "title": "Multi-Head Attention Residuals",
-    "link": "https://arxiv.org/abs/2607.27230",
-    "pubDate": "Fri, 31 Jul 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "多头注意力残差提升Transformer性能与效率。",
-    "contentSnippet": "arXiv:2607.27230v1 Announce Type: new \nAbstract: Transformers propagate information across depth through a single additive residual stream: every sublayer reads only the most recent state. Attention residuals relax this by letting each sublayer attend, through a learned softmax. However, that read uses a single query shared across the entire width, so every feature subspace must read the depth history through one distribution. The cost of this forced compromise grows with how much the subspaces disagree about which layers to read, and disagreement grows with model width. We introduce Multi-Head Attention Residuals (MHAR): the routing query is reshaped into H per-subspace heads, each with its own softmax over the depth history. The read becomes block-diagonal, the reshape adds zero parameters and negligible compute, and H = 1 recovers attention residuals exactly. Trained from scratch on a deduplicated Nemotron-based anneal corpus that is quality-filtered and STEM- and code-heavy, MHAR improves validation loss over a standard Transformer at 100M, 350M, and 1B (-0.061, -0.149, and -0.140). It achieves the best result among four methods in every setting, with the gain increasing from 100M to the larger scales. The head count is a real design axis rather than a free knob: validation loss is U-shaped with respect to H, with a flat optimum at H = 4 or H = 8 across scales. We adopt H = 8 for large-scale models; over-splitting beyond this point (H = 16) consistently gives back part of the gain. A direct probe of the trained queries confirms that learned subspace disagreement is the underlying driver. Fused Triton routing kernels increase attention-residual training throughput from 0.2-0.5x to 0.55-0.88x of the baseline while maintaining near-baseline peak memory. An identity-preserving conversion using delta attention residuals supports 8B mid-training, yielding improvements of +3.2 on GSM8K and +3.1 on GPQA."
-  },
-  {
-    "title": "KernelGenBench: A Multi-Source and Multi-Chip Benchmark for LLM-based Kernel Generation",
-    "link": "https://arxiv.org/abs/2607.27231",
-    "pubDate": "Fri, 31 Jul 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "KernelGenBench：多源多芯片的LLM内核生成基准。",
-    "contentSnippet": "arXiv:2607.27231v1 Announce Type: new \nAbstract: Large language models (LLMs) have significantly increased the demand for efficient accelerator kernels, but kernel development remains a highly specialized and labor-intensive task. The recent rise of LLMs and agentic frameworks offers a promising pathway toward automatic kernel generation. However, despite rapid progress, there is still no comprehensive benchmark to rigorously evaluate LLM-generated kernels across diverse operator sources or heterogeneous hardware platforms. We present KernelGenBench, a unified benchmark for systematically evaluating LLM- and agent-generated Triton kernels across diverse operator sources and heterogeneous hardware platforms. It comprises two complementary sub-benchmarks: KernelGenBench-MS (Multi-Source), evaluating 210 operators from three sources beyond standard PyTorch-centric tasks, and KernelGenBench-MC (Multi-Chip), measuring performance portability across six heterogeneous hardware platforms using a 110-operator subset. Our large-scale evaluation, consuming over 15 billion tokens, shows: (1) agent-based methods consistently outperform pure LLM sampling methods, while cuBLAS operators are the most challenging across all methods; (2) generation performance varies significantly across hardware platforms, with even recent kernel-specialized agents experiencing severe cross-platform degradation (e.g., AutoKernel drops from 87% on NVIDIA to 25% on Platform E); (3) autonomous kernel generation remains highly cost-intensive, with specialized agent methods averaging 5.11 million tokens per successful operator (AKO4all reaches 5.19 million), orders of magnitude higher than simple LLM sampling approaches."
-  },
-  {
-    "title": "RadHarmony: Radiological Data Handling in the Era of Agentic AI",
-    "link": "https://arxiv.org/abs/2607.27235",
-    "pubDate": "Fri, 31 Jul 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "RadHarmony：统一放射影像数据处理的Python库",
-    "contentSnippet": "arXiv:2607.27235v1 Announce Type: new \nAbstract: Training deep learning models on radiological images requires integrating heterogeneous datasets across different sources, file formats, directory layouts, label schemas, and annotation types. We present RadHarmony, an open-source Python library that provides a unified API for loading, harmonizing, and augmenting radiological datasets, with a primary focus on chest radiographs and early support for computed tomography (CT) and magnetic resonance imaging (MRI). RadHarmony standardizes metadata from 24 public datasets into a single tabular format, wraps MONAI's map-style datasets for deep-learning-ready sample delivery with optional on-disk caching, and supports classification labels, segmentation masks, bounding boxes, and radiology report text through a single interface, with an interactive visualization tool for dataset exploration and verification. To lower the barrier for integrating new datasets, RadHarmony introduces an AI-agent skill that guides the full integration workflow from raw data inspection through code generation and testing. We demonstrate the library's utility by pretraining RadHarmony-ViT, a reference vision transformer baseline that combines three heterogeneous chest radiograph datasets with no dataset-specific code. The code and pretrained model weights are available at https://github.com/f10409/RadHarmony."
   },
   {
     "title": "Foundations for an AI-forward healthcare organization",
     "link": "https://www.databricks.com/blog/foundations-ai-forward-healthcare-organization",
     "pubDate": "Thu, 30 Jul 2026 19:30:00 GMT",
     "source": "Databricks",
-    "summary": "以AI为先的医疗机构基础建设挑战",
+    "summary": "构建以AI为先的医疗组织基础",
     "contentSnippet": "The challenge for healthcare executives adopting AI is the noise when trying to advance an initiative..."
   },
   {
@@ -92,7 +76,7 @@
     "link": "https://www.databricks.com/blog/agentic-media-buying-cannot-scale-without-right-foundation-see-how-buyers-and-sellers-get",
     "pubDate": "Thu, 30 Jul 2026 19:10:00 GMT",
     "source": "Databricks",
-    "summary": "代理式媒体购买规模化靠协调，Databricks奠基础。",
+    "summary": "媒体购买规模化需正确基础，Databricks助力实现。",
     "contentSnippet": "The bottleneck in media buying today isn't talent, it's coordinationEvery day, billions..."
   },
   {
@@ -100,7 +84,7 @@
     "link": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
     "pubDate": "Thu, 30 Jul 2026 17:30:24 +0000",
     "source": "GitHub",
-    "summary": "利用GitHub Copilot堆叠会话和PR现代化旧代码库。",
+    "summary": "在GitHub Copilot应用中用堆叠会话和拉取请求现代化旧代码。",
     "contentSnippet": "Learn how I modernized an old codebase of mine using stacked sessions and pull requests in the GitHub Copilot app.\nThe post Stacked sessions and pull requests in the GitHub Copilot app appeared first on The GitHub Blog."
   },
   {
@@ -108,7 +92,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
     "pubDate": "Thu, 30 Jul 2026 17:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Echoverse：用深度演化环境训练电脑操作智能体。",
+    "summary": "Echoverse：为计算机操作智能体提供深度演化环境。",
     "contentSnippet": "Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments rather than simply providing more training tasks, helping them improve as the tasks, tests, and environments evolve.\nThe post Echoverse: Deep, evolving environments for computer-use agents appeared first on Microsoft Research."
   },
   {
@@ -116,7 +100,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
     "pubDate": "Thu, 30 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "EvoLib将经验转化为演进知识，助模型持续适应。",
+    "summary": "EvoLib将经验化为演化知识，助模型长期跨任务适应。",
     "contentSnippet": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. \nThe post EvoLib: Turning experience into evolving knowledge appeared first on Microsoft Research."
   },
   {
@@ -124,23 +108,15 @@
     "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
     "pubDate": "Thu, 30 Jul 2026 15:00:59 +0000",
     "source": "DeepMind",
-    "summary": "Gemini Robotics ER 2 以视频理解、任务编排与多机器人协作赋能机器人。",
+    "summary": "摘要生成失败",
     "contentSnippet": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications."
-  },
-  {
-    "title": "Convert proprietary code to open ANSI SQL with Genie Code",
-    "link": "https://www.databricks.com/blog/convert-proprietary-code-open-ansi-sql-genie-code",
-    "pubDate": "Thu, 30 Jul 2026 01:00:00 GMT",
-    "source": "Databricks",
-    "summary": "将专有代码转换为开放ANSI SQL",
-    "contentSnippet": "Migrating from a legacy data warehouse is a complex undertaking, requiring teams..."
   },
   {
     "title": "Visual Studio Code 1.131",
     "link": "https://code.visualstudio.com/updates/v1_131",
     "pubDate": "2026-07-29T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.131新特性一览。",
+    "summary": "Visual Studio Code 1.131新功能概览。",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.131\nRead the full article"
   },
   {
@@ -148,7 +124,7 @@
     "link": "https://code.visualstudio.com/updates/v1_132",
     "pubDate": "2026-07-29T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.132预览版新功能",
+    "summary": "VS Code 1.132预览版新功能概览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.132 (Insiders)\nRead the full article"
   },
   {
@@ -164,7 +140,7 @@
     "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-july-2026",
     "pubDate": "Wed, 29 Jul 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "ASF七月通讯：社区网站全新改版发布。",
+    "summary": "ASF Plus One通讯：2026年7月",
     "contentSnippet": "**To receive Plus One directly to your inbox, sign up via the subscribe box below.** Community News The Conference Planners for the the ASF are very pleased to announce the redesign and launch of the new Community Over Code website! The new site will serve as the central resource and gateway for the global array […]\nThe post ASF Plus One Newsletter: July 2026 appeared first on The ASF Blog."
   },
   {
@@ -172,7 +148,7 @@
     "link": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
     "pubDate": "Wed, 29 Jul 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "驯服Dependabot：分组更新、放缓节奏、保持安全快速。",
+    "summary": "驯服Dependabot：分组更新、降频、保安全。",
     "contentSnippet": "Dependabot keeps your dependencies current, but its defaults can flood your repository with pull requests. Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft open source project.\nThe post Tame Dependabot: Group your updates, slow the cadence, keep security fast appeared first on The GitHub Blog."
   },
   {
@@ -180,7 +156,7 @@
     "link": "https://code.visualstudio.com/blogs/2026/07/29/mai-code-1-flash",
     "pubDate": "2026-07-29T00:00:00.000Z",
     "source": "VS Code",
-    "summary": "MAI-Code-1-Flash在真实开发者工作流中的早期表现数据。",
+    "summary": "MAI-Code-1-Flash：轻量模型在真实开发流程中的早期表现。",
     "contentSnippet": "MAI-Code-1-Flash is a lightweight coding model purpose built for the fast, iterative work developers do every day in GitHub. In this post, we share what the data is telling us about how it performs in real developer workflows.\nRead the full article"
   },
   {
@@ -188,7 +164,7 @@
     "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
     "pubDate": "Tue, 28 Jul 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "Gemini API托管智能体新增3.6 Flash及hooks等能力",
+    "summary": "摘要生成失败",
     "contentSnippet": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents."
   },
   {
@@ -204,7 +180,7 @@
     "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
     "pubDate": "Tue, 28 Jul 2026 13:00:00 +0000",
     "source": "Google AI",
-    "summary": "AI搜索助你享受现实世界的五种方式。",
+    "summary": "搜索AI模式五种方式助你享受现实世界",
     "contentSnippet": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…"
   },
   {
@@ -212,7 +188,7 @@
     "link": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
     "pubDate": "Tue, 28 Jul 2026 13:00:00 +0000",
     "source": "Google AI",
-    "summary": "用谷歌搜索AI功能，轻松搞定终极晚宴策划。",
+    "summary": "谷歌搜索五种妙招助你打造完美晚宴",
     "contentSnippet": "These AI features can help you craft a menu, design a tablescape, and handle other party-planning tasks."
   },
   {
@@ -220,7 +196,7 @@
     "link": "https://news.apache.org/foundation/entry/sponsor-success-at-apache-google-and-apache-iceberg",
     "pubDate": "Fri, 24 Jul 2026 02:49:35 +0000",
     "source": "Apache",
-    "summary": "谷歌赞助Apache Iceberg成功",
+    "summary": "谷歌赞助Apache Iceberg项目成功",
     "contentSnippet": "The Apache Software Foundation (ASF) is home to more than 350 open source projects and initiatives, all powered by a vibrant, global community of contributors. Among these projects, Apache Iceberg has emerged as a cornerstone of modern data architecture, revolutionizing how organizations manage massive analytical datasets with its high-performance, open-table format. None of this innovation […]\nThe post Sponsor Success at Apache: Google and Apache Iceberg appeared first on The ASF Blog."
   },
   {
@@ -228,7 +204,7 @@
     "link": "https://news.apache.org/foundation/entry/beyond-the-hardware-hub-how-alc-taipei-turned-computex-2026-into-a-milestone-for-the-apache-way",
     "pubDate": "Thu, 16 Jul 2026 05:20:06 +0000",
     "source": "Apache",
-    "summary": "ALC台北让台北电脑展成Apache之道里程碑",
+    "summary": "ALC台北于Computex成就Apache之道",
     "contentSnippet": "By Chia-Ping TsaiALC Taipei Lead [Figure 1] Long-time Apache Kafka contributors Jiunn-Yang and Chih-Yuan introducing ALC Taipei’s contributions to open-source veterans Brian Behlendorf and Justin McLean Introduction With the globally renowned Computex Taipei now behind us, it’s the perfect time to look back at how ALC Taipei has brought the Apache Way to life in […]\nThe post Beyond the Hardware Hub: How ALC Taipei Turned Computex 2026 into a Milestone for the Apache Way appeared first on The ASF Blog."
   },
   {
@@ -236,7 +212,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
     "pubDate": "Mon, 13 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "微软研究：从标准到代码验证SymCrypt中的Rust密码学。",
+    "summary": "新方法从标准到代码验证SymCrypt中的Rust密码学。",
     "contentSnippet": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves.\nThe post Verifying Rust cryptography in SymCrypt, from standards to code appeared first on Microsoft Research."
   }
 ]
