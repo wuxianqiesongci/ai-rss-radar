@@ -4,7 +4,7 @@
     "link": "https://openai.com/index/ten-advances-in-mathematics",
     "pubDate": "Sat, 01 Aug 2026 00:00:00 GMT",
     "source": "OpenAI",
-    "summary": "OpenAI发布数学与理论计算机科学十大进展。",
+    "summary": "数学与理论计算机科学十项新进展",
     "contentSnippet": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity."
   },
   {
@@ -12,7 +12,7 @@
     "link": "https://www.databricks.com/blog/backstage-lakebase-part-3",
     "pubDate": "Fri, 31 Jul 2026 22:21:47 GMT",
     "source": "Databricks",
-    "summary": "摘要生成失败",
+    "summary": "在Lakebase上运行Backstage系列第三部分",
     "contentSnippet": "In the first part of this series, running Backstage on Databricks Lakebase gave us..."
   },
   {
@@ -20,7 +20,7 @@
     "link": "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
     "pubDate": "Fri, 31 Jul 2026 20:04:01 +0000",
     "source": "GitHub Changelog",
-    "summary": "Gemini 2.5 Pro和3 Flash已弃用",
+    "summary": "GitHub Copilot弃用Gemini 2.5 Pro与3 Flash模型",
     "contentSnippet": "As of today, July 31, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model…\nThe post Gemini 2.5 Pro and Gemini 3 Flash deprecated appeared first on The GitHub Blog."
   },
   {
@@ -28,7 +28,7 @@
     "link": "https://github.blog/changelog/2026-07-31-enterprise-teams-model-policy-targeting-in-public-preview",
     "pubDate": "Fri, 31 Jul 2026 18:11:50 +0000",
     "source": "GitHub Changelog",
-    "summary": "企业团队模型策略定向公开预览",
+    "summary": "GitHub企业版模型策略定向公开预览。",
     "contentSnippet": "You can now take advantage of user-based model policy targeting for GitHub Enterprise customers with Copilot Business or Copilot Enterprise licenses. This feature empowers AI administrators to set a baseline…\nThe post Enterprise teams model policy targeting in public preview appeared first on The GitHub Blog."
   },
   {
@@ -36,7 +36,7 @@
     "link": "https://github.blog/changelog/2026-07-31-restricting-npm-bypass-2fa-granular-access-tokens",
     "pubDate": "Fri, 31 Jul 2026 16:45:50 +0000",
     "source": "GitHub Changelog",
-    "summary": "npm限制绕过2FA的颗粒访问令牌",
+    "summary": "npm限制绕过2FA的细粒度访问令牌。",
     "contentSnippet": "npm granular access tokens (GATs) configured to bypass 2FA can no longer perform sensitive account, org, and package management actions. These now require an interactive 2FA challenge, closing one of…\nThe post Restricting npm bypass-2FA granular access tokens appeared first on The GitHub Blog."
   },
   {
@@ -44,7 +44,7 @@
     "link": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
     "pubDate": "Fri, 31 Jul 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "以内存速度进行源码大小写折叠",
+    "summary": "GitHub单核45GiB/s大小写折叠，用分支无关循环。",
     "contentSnippet": "How a branch-free loop and byte-space arithmetic let GitHub case-fold every byte of code search at >45 GiB/s on a single core.\nThe post Don’t stop early: Case-folding source code at memory speed appeared first on The GitHub Blog."
   },
   {
@@ -52,7 +52,7 @@
     "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
     "pubDate": "Fri, 31 Jul 2026 15:00:00 GMT",
     "source": "OpenAI",
-    "summary": "摘要生成失败",
+    "summary": "OpenAI推进欧洲负责任AI治理与安全实践",
     "contentSnippet": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances."
   },
   {
@@ -60,7 +60,7 @@
     "link": "https://openai.com/index/building-abundant-intelligence",
     "pubDate": "Fri, 31 Jul 2026 15:00:00 GMT",
     "source": "OpenAI",
-    "summary": "构建丰富智能，让AI更强大、更实惠、更普及。",
+    "summary": "构建富足智能：全栈方法让AI更强大实惠有用。",
     "contentSnippet": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful."
   },
   {
@@ -68,7 +68,7 @@
     "link": "https://www.databricks.com/blog/foundations-ai-forward-healthcare-organization",
     "pubDate": "Thu, 30 Jul 2026 19:30:00 GMT",
     "source": "Databricks",
-    "summary": "构建以AI为先的医疗组织基础",
+    "summary": "构建以AI为导向的医疗组织基础",
     "contentSnippet": "The challenge for healthcare executives adopting AI is the noise when trying to advance an initiative..."
   },
   {
@@ -76,7 +76,7 @@
     "link": "https://www.databricks.com/blog/agentic-media-buying-cannot-scale-without-right-foundation-see-how-buyers-and-sellers-get",
     "pubDate": "Thu, 30 Jul 2026 19:10:00 GMT",
     "source": "Databricks",
-    "summary": "媒体购买规模化需正确基础，Databricks助力实现。",
+    "summary": "代理式媒体购买需正确基础，瓶颈在协调。",
     "contentSnippet": "The bottleneck in media buying today isn't talent, it's coordinationEvery day, billions..."
   },
   {
@@ -84,7 +84,7 @@
     "link": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
     "pubDate": "Thu, 30 Jul 2026 17:30:24 +0000",
     "source": "GitHub",
-    "summary": "在GitHub Copilot应用中用堆叠会话和拉取请求现代化旧代码。",
+    "summary": "在GitHub Copilot中用堆叠会话与PR改造旧代码",
     "contentSnippet": "Learn how I modernized an old codebase of mine using stacked sessions and pull requests in the GitHub Copilot app.\nThe post Stacked sessions and pull requests in the GitHub Copilot app appeared first on The GitHub Blog."
   },
   {
@@ -92,7 +92,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
     "pubDate": "Thu, 30 Jul 2026 17:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Echoverse：为计算机操作智能体提供深度演化环境。",
+    "summary": "Echoverse用演化环境训练智能代理应对多步骤工作流",
     "contentSnippet": "Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments rather than simply providing more training tasks, helping them improve as the tasks, tests, and environments evolve.\nThe post Echoverse: Deep, evolving environments for computer-use agents appeared first on Microsoft Research."
   },
   {
@@ -100,7 +100,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
     "pubDate": "Thu, 30 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "EvoLib将经验化为演化知识，助模型长期跨任务适应。",
+    "summary": "EvoLib将经验转化为持续进化的知识。",
     "contentSnippet": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. \nThe post EvoLib: Turning experience into evolving knowledge appeared first on Microsoft Research."
   },
   {
@@ -108,7 +108,7 @@
     "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
     "pubDate": "Thu, 30 Jul 2026 15:00:59 +0000",
     "source": "DeepMind",
-    "summary": "摘要生成失败",
+    "summary": "该技术以视频理解、任务编排与多机器人协作赋能机器人。",
     "contentSnippet": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications."
   },
   {
@@ -116,7 +116,7 @@
     "link": "https://code.visualstudio.com/updates/v1_131",
     "pubDate": "2026-07-29T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "Visual Studio Code 1.131新功能概览。",
+    "summary": "Visual Studio Code 1.131 新特性介绍",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.131\nRead the full article"
   },
   {
@@ -124,7 +124,7 @@
     "link": "https://code.visualstudio.com/updates/v1_132",
     "pubDate": "2026-07-29T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.132预览版新功能概览",
+    "summary": "VS Code 1.132 预览版新功能速览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.132 (Insiders)\nRead the full article"
   },
   {
@@ -140,7 +140,7 @@
     "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-july-2026",
     "pubDate": "Wed, 29 Jul 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "ASF Plus One通讯：2026年7月",
+    "summary": "ASF七月通讯宣布新社区网站上线",
     "contentSnippet": "**To receive Plus One directly to your inbox, sign up via the subscribe box below.** Community News The Conference Planners for the the ASF are very pleased to announce the redesign and launch of the new Community Over Code website! The new site will serve as the central resource and gateway for the global array […]\nThe post ASF Plus One Newsletter: July 2026 appeared first on The ASF Blog."
   },
   {
@@ -148,7 +148,7 @@
     "link": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
     "pubDate": "Wed, 29 Jul 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "驯服Dependabot：分组更新、降频、保安全。",
+    "summary": "驯服Dependabot：分组更新、降频、保安全",
     "contentSnippet": "Dependabot keeps your dependencies current, but its defaults can flood your repository with pull requests. Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft open source project.\nThe post Tame Dependabot: Group your updates, slow the cadence, keep security fast appeared first on The GitHub Blog."
   },
   {
@@ -156,7 +156,7 @@
     "link": "https://code.visualstudio.com/blogs/2026/07/29/mai-code-1-flash",
     "pubDate": "2026-07-29T00:00:00.000Z",
     "source": "VS Code",
-    "summary": "MAI-Code-1-Flash：轻量模型在真实开发流程中的早期表现。",
+    "summary": "轻量编码模型在真实开发者工作流中的早期结果",
     "contentSnippet": "MAI-Code-1-Flash is a lightweight coding model purpose built for the fast, iterative work developers do every day in GitHub. In this post, we share what the data is telling us about how it performs in real developer workflows.\nRead the full article"
   },
   {
@@ -164,7 +164,7 @@
     "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
     "pubDate": "Tue, 28 Jul 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "摘要生成失败",
+    "summary": "Gemini托管代理新增3.6 Flash与钩子等",
     "contentSnippet": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents."
   },
   {
@@ -172,7 +172,7 @@
     "link": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
     "pubDate": "Tue, 28 Jul 2026 13:21:37 +0000",
     "source": "DeepMind",
-    "summary": "摘要生成失败",
+    "summary": "双子机器人2代赋予机器人全身智能",
     "contentSnippet": ""
   },
   {
@@ -180,7 +180,7 @@
     "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
     "pubDate": "Tue, 28 Jul 2026 13:00:00 +0000",
     "source": "Google AI",
-    "summary": "搜索AI模式五种方式助你享受现实世界",
+    "summary": "摘要生成失败",
     "contentSnippet": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…"
   },
   {
@@ -188,7 +188,7 @@
     "link": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
     "pubDate": "Tue, 28 Jul 2026 13:00:00 +0000",
     "source": "Google AI",
-    "summary": "谷歌搜索五种妙招助你打造完美晚宴",
+    "summary": "用谷歌搜索AI轻松策划完美晚宴。",
     "contentSnippet": "These AI features can help you craft a menu, design a tablescape, and handle other party-planning tasks."
   },
   {
@@ -196,7 +196,7 @@
     "link": "https://news.apache.org/foundation/entry/sponsor-success-at-apache-google-and-apache-iceberg",
     "pubDate": "Fri, 24 Jul 2026 02:49:35 +0000",
     "source": "Apache",
-    "summary": "谷歌赞助Apache Iceberg项目成功",
+    "summary": "Apache Iceberg在谷歌赞助下获成功。",
     "contentSnippet": "The Apache Software Foundation (ASF) is home to more than 350 open source projects and initiatives, all powered by a vibrant, global community of contributors. Among these projects, Apache Iceberg has emerged as a cornerstone of modern data architecture, revolutionizing how organizations manage massive analytical datasets with its high-performance, open-table format. None of this innovation […]\nThe post Sponsor Success at Apache: Google and Apache Iceberg appeared first on The ASF Blog."
   },
   {
@@ -204,7 +204,7 @@
     "link": "https://news.apache.org/foundation/entry/beyond-the-hardware-hub-how-alc-taipei-turned-computex-2026-into-a-milestone-for-the-apache-way",
     "pubDate": "Thu, 16 Jul 2026 05:20:06 +0000",
     "source": "Apache",
-    "summary": "ALC台北于Computex成就Apache之道",
+    "summary": "ALC台北让电脑展成Apache Way里程碑",
     "contentSnippet": "By Chia-Ping TsaiALC Taipei Lead [Figure 1] Long-time Apache Kafka contributors Jiunn-Yang and Chih-Yuan introducing ALC Taipei’s contributions to open-source veterans Brian Behlendorf and Justin McLean Introduction With the globally renowned Computex Taipei now behind us, it’s the perfect time to look back at how ALC Taipei has brought the Apache Way to life in […]\nThe post Beyond the Hardware Hub: How ALC Taipei Turned Computex 2026 into a Milestone for the Apache Way appeared first on The ASF Blog."
   },
   {
@@ -212,7 +212,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
     "pubDate": "Mon, 13 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "新方法从标准到代码验证SymCrypt中的Rust密码学。",
+    "summary": "从标准到代码验证SymCrypt中的Rust加密。",
     "contentSnippet": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves.\nThe post Verifying Rust cryptography in SymCrypt, from standards to code appeared first on Microsoft Research."
   }
 ]
