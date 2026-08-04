@@ -1,130 +1,154 @@
 [
   {
-    "title": "Triage role can bypass issue creation restrictions",
-    "link": "https://github.blog/changelog/2026-08-03-triage-role-can-bypass-issue-creation-restrictions",
-    "pubDate": "Mon, 03 Aug 2026 17:04:32 +0000",
+    "title": "Customize code scanning default setup at scale",
+    "link": "https://github.blog/changelog/2026-08-04-customize-code-scanning-default-setup-at-scale",
+    "pubDate": "Tue, 04 Aug 2026 19:15:23 +0000",
     "source": "GitHub Changelog",
-    "summary": "Triage角色可绕过问题创建限制。",
-    "contentSnippet": "If your repository restricts issue creation to collaborators only, users with the triage role can now create issues. Previously, the restricted setting only allowed users with write access to create…\nThe post Triage role can bypass issue creation restrictions appeared first on The GitHub Blog."
+    "summary": "大规模定制代码扫描默认配置",
+    "contentSnippet": "You can now apply your own configuration file to code scanning default setup, using the new github-codeql-config-file repository property. This gives you control over how CodeQL scans your code for…\nThe post Customize code scanning default setup at scale appeared first on The GitHub Blog."
   },
   {
-    "title": "Migrate from GitLab to GitHub with GitHub Enterprise Importer",
-    "link": "https://github.blog/changelog/2026-08-03-migrate-from-gitlab-to-github-with-github-enterprise-importer",
-    "pubDate": "Mon, 03 Aug 2026 16:33:13 +0000",
+    "title": "Retiring the Copilot Billing Preview app",
+    "link": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
+    "pubDate": "Tue, 04 Aug 2026 19:09:32 +0000",
     "source": "GitHub Changelog",
+    "summary": "GitHub停用Copilot计费预览应用，管理移至账单设置。",
+    "contentSnippet": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings. The app helped…\nThe post Retiring the Copilot Billing Preview app appeared first on The GitHub Blog."
+  },
+  {
+    "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
+    "link": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
+    "pubDate": "Tue, 04 Aug 2026 19:02:34 +0000",
+    "source": "GitHub",
+    "summary": "GitHub法务团队用Copilot CLI简化工作流程",
+    "contentSnippet": "Learn how to build tools to simplify how you work—without writing a single line of code.\nThe post How the GitHub legal team used Copilot CLI to streamline their workflows appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Third-party cyber evaluations involving OpenAI models",
+    "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+    "pubDate": "Tue, 04 Aug 2026 19:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "OpenAI加强第三方模型评估安全防护。",
+    "contentSnippet": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation."
+  },
+  {
+    "title": "Turn one giant AI-generated pull request to a reviewable stack",
+    "link": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+    "pubDate": "Tue, 04 Aug 2026 16:47:18 +0000",
+    "source": "GitHub",
+    "summary": "将巨型AI拉取请求转为可审查的堆栈",
+    "contentSnippet": "Instead of one huge, un-reviewable pull request, teach coding agents to decompose work into a clean, ordered stack with GitHub stacked pull requests.\nThe post Turn one giant AI-generated pull request to a reviewable stack appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Unity AI Gateway is Generally Available",
+    "link": "https://www.databricks.com/blog/unity-ai-gateway-generally-available",
+    "pubDate": "Tue, 04 Aug 2026 16:10:09 GMT",
+    "source": "Databricks",
+    "summary": "Unity AI网关现已全面可用",
+    "contentSnippet": "The last six months have seen a rapid rise in AI-powered productivity and a proliferation..."
+  },
+  {
+    "title": "Upcoming deprecation of GitHub Spark on github.com",
+    "link": "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
+    "pubDate": "Tue, 04 Aug 2026 15:54:47 +0000",
+    "source": "GitHub Changelog",
+    "summary": "GitHub Spark将于2026年8月逐步停用。",
+    "contentSnippet": "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026…\nThe post Upcoming deprecation of GitHub Spark on github.com appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Databricks joins the Open Secure AI Alliance to advance AI safety and security",
+    "link": "https://www.databricks.com/blog/databricks-joins-open-secure-ai-alliance-advance-ai-safety-and-security",
+    "pubDate": "Tue, 04 Aug 2026 14:00:00 GMT",
+    "source": "Databricks",
     "summary": "摘要生成失败",
-    "contentSnippet": "Migrations from gitlab.com and GitLab Self-Managed to GitHub Enterprise Cloud with GitHub Enterprise Importer (GEI) are now generally available. You can now self-serve these migrations using GEI and the gh…\nThe post Migrate from GitLab to GitHub with GitHub Enterprise Importer appeared first on The GitHub Blog."
+    "contentSnippet": "Databricks is a sponsor at Black Hat USA 2026 this week. Find us at Booths #5106..."
+  },
+  {
+    "title": "The latest AI news we announced in July 2026",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+    "pubDate": "Tue, 04 Aug 2026 13:00:00 +0000",
+    "source": "Google AI",
+    "summary": "谷歌2026年7月最新AI新闻",
+    "contentSnippet": "Here are Google’s latest AI updates from July 2026"
+  },
+  {
+    "title": "Revisiting Classic Thought Experiments to Measure Consciousness for Artificial Intelligence Safety",
+    "link": "https://arxiv.org/abs/2608.00001",
+    "pubDate": "Tue, 04 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "重访经典实验衡量AI意识助安全。",
+    "contentSnippet": "arXiv:2608.00001v1 Announce Type: new \nAbstract: This research note revisits Leibniz's mill, Turing's imitation game, and Searle's Chinese Room through the Conservation-Congruent Encoding (CCE) framework. It formalises a toy symbolic setting in which successful behaviour is measured by task performance ($W_{causal,T}$), while the efficiency with which preserved internal structure supports that behaviour is measured by operational consciousness ($\\kappa_T$). Within this setup, an uncompressed lookup system and a compact generative system can in principle achieve comparable behavioural success, yet diverge sharply in $\\kappa_T$: the former relies on an expanding standing store of unreused mappings, whereas the latter reuses compact internal structure. The note therefore reframes classic disputes about understanding by separating outward performance from the organisation that sustains it, and motivates why this distinction may matter for later AI-safety analysis."
+  },
+  {
+    "title": "AutoFOAM: The Self-Refining Autonomous OpenFOAM Agent",
+    "link": "https://arxiv.org/abs/2608.00003",
+    "pubDate": "Tue, 04 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "AutoFOAM：自我优化的自主OpenFOAM智能体",
+    "contentSnippet": "arXiv:2608.00003v1 Announce Type: new \nAbstract: Computational Fluid Dynamics (CFD) plays an important role in modern engineering, but using open-source solvers such as OpenFOAM requires considerable knowledge and skills, as well as time-consuming configuration file setup. To reduce this burden, we propose AutoFOAM - a self-evolving large language model (LLM) agent that creates, evaluates, runs, and evolves its own OpenFOAM simulations based solely on natural-language instructions. Our model is pre-trained on the Qwen-coder 2.5-14B, which is then fine-tuned on 252 text prompts targeting 7 OpenFOAM solvers, 13 parametrized mesh templates, and a y plus-aware numerical policy. The crucial element of the algorithm is a sophisticated evolution loop composed of 7 stages. To prevent model degeneration under repeated self-training, the agent employs three complementary anti-collapse streams: RAG-augmented retry context, surgical dictionary-level patching, and prompt-diversity paraphrasing. By bridging generative artificial intelligence with rigorous fluid simulations, AutoFOAM accelerates rapid prototyping and democratizes advanced CFD workflows."
+  },
+  {
+    "title": "Enhancing LLMs with Context-Specific Knowledge for Mitigating Misinformation in SMEs: A RAG-based Modeling and Analysis",
+    "link": "https://arxiv.org/abs/2608.00006",
+    "pubDate": "Tue, 04 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "RAG上下文知识增强LLM减轻中小企业错误信息",
+    "contentSnippet": "arXiv:2608.00006v1 Announce Type: new \nAbstract: Large Language Models (LLMs), a part of artificial intelligence (AI), are increasingly being adopted by Small and Medium Enterprises (SMEs) to enhance question-answering capabilities and support business decision-making processes. However, hallucinations in LLM-generated outputs can serve as a source of misinformation, reducing user confidence in their reliability and trustworthiness within SMEs. Retrieval-Augmented Generation (RAG) has emerged as a promising approach to address this challenge by incorporating external knowledge sources into the modeling process. In this paper, we present VectorRAG and GraphRAG modeling approaches to mitigate hallucinations and misinformation risks and evaluate their effectiveness in SME environments. Our experimental evaluation is conducted on multiple state-of-the-art LLMs, including LLaMA, Mistral, and Qwen, to assess performance in terms of useful response generation, risk of hallucination, contextual relevance, as well as human-interpretation. The results demonstrate that RAG-enhanced LLMs can significantly improve response quality by reducing hallucinations and misinformation, thereby supporting more reliable, trustworthy, and context-aware decision-making in SME environments."
+  },
+  {
+    "title": "New ways to learn and teach with ChatGPT Work and Codex",
+    "link": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+    "pubDate": "Tue, 04 Aug 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "ChatGPT Work与Codex新插件助力师生教学研建",
+    "contentSnippet": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build."
+  },
+  {
+    "title": "Apple is getting this wrong",
+    "link": "https://openai.com/index/apple-is-getting-this-wrong",
+    "pubDate": "Mon, 03 Aug 2026 22:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "OpenAI回应苹果诉讼，澄清事实真相。",
+    "contentSnippet": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened."
   },
   {
     "title": "Orchard: An open framework for scalable agentic AI",
     "link": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
     "pubDate": "Mon, 03 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Orchard：微软开源可扩展智能体AI框架",
+    "summary": "微软开源可扩展AI代理框架Orchard。",
     "contentSnippet": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure.\nThe post Orchard: An open framework for scalable agentic AI appeared first on Microsoft Research."
+  },
+  {
+    "title": "Inside our 353,000-person vibe coding course",
+    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+    "pubDate": "Mon, 03 Aug 2026 15:00:00 +0000",
+    "source": "Google AI",
+    "summary": "Kaggle携手谷歌开设免费AI智能体课程，35万人参与。",
+    "contentSnippet": "Kaggle’s AI Agents Intensive with Google brought learners together in a no-cost course to build and deploy the next frontier of AI."
   },
   {
     "title": "The New Monday Morning Report: How Generative AI can deliver the insights your executives need.",
     "link": "https://www.databricks.com/blog/new-monday-morning-report-how-generative-ai-can-deliver-insights-your-executives-need",
     "pubDate": "Mon, 03 Aug 2026 14:00:00 GMT",
     "source": "Databricks",
-    "summary": "生成式人工智能打造高管所需的新型周一晨报",
+    "summary": "新周一晨报：生成式AI为高管提供所需洞察。",
     "contentSnippet": "A VP of Sales at a major CPG has three decks open before her first coffee. One from..."
-  },
-  {
-    "title": "Ingest semi-structured data faster and more efficiently with Variant - Now Generally Available",
-    "link": "https://www.databricks.com/blog/ingest-semi-structured-data-faster-and-more-efficiently-variant-now-generally-available",
-    "pubDate": "Mon, 03 Aug 2026 13:44:24 GMT",
-    "source": "Databricks",
-    "summary": "Variant正式发布，加速半结构化数据摄取",
-    "contentSnippet": "For years, ingesting semi-structured data like JSON, XML, or CSV meant a difficult..."
-  },
-  {
-    "title": "Databricks Completes Acquisition of Panther: Accelerating the Security Lakehouse Era",
-    "link": "https://www.databricks.com/blog/databricks-completes-acquisition-panther-accelerating-security-lakehouse-era",
-    "pubDate": "Mon, 03 Aug 2026 13:00:00 GMT",
-    "source": "Databricks",
-    "summary": "Databricks完成收购Panther，加速安全湖仓时代。",
-    "contentSnippet": "Today, we are thrilled to announce that Databricks has officially completed the acquisition..."
-  },
-  {
-    "title": "How we built a realtime system for responsive voice AI in six months",
-    "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-    "pubDate": "Mon, 03 Aug 2026 07:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "六个月建成实时响应语音AI系统",
-    "contentSnippet": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations."
-  },
-  {
-    "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
-    "link": "https://arxiv.org/abs/2607.28629",
-    "pubDate": "Mon, 03 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "OpenClaw与Ollama构建自主可扩展AI代理系统。",
-    "contentSnippet": "arXiv:2607.28629v1 Announce Type: new \nAbstract: The rapid transition from reactive large language models (LLMs) to persistent, action-capable systems has exposed critical gaps in the architectural understanding of Agentic AI, particularly in separating inference, orchestration, and execution layers for autonomous AI agents. Despite recent advances, unified frameworks for designing and evaluating full-stack agentic systems remain limited. This paper presents a comprehensive, layered architecture for Agentic AI, outlining the evolution from reactive LLM interfaces to persistent, goal-driven autonomous AI agents with memory, planning, and continuous execution. We analyze OpenClaw and Ollama as a full-stack Agentic AI system, where Ollama serves as the LLM inference layer and OpenClaw enables agent runtime orchestration, integrating reasoning, tool use, and action execution. A prototype experimental validation of the OpenClaw-Ollama architecture demonstrates that capabilities such as persistent memory, tool utilization, and adaptive decision-making emerge from system-level integration rather than standalone models, with performance improving consistently as architectural complexity increases. The study further examines challenges in scalability, security, privacy, governance, and evaluation of agentic systems, highlighting the need for robust benchmarking and system-level design. Future directions include scalable multi-agent architectures, distributed autonomous systems, and human-aware Agentic AI frameworks for responsible deployment. Overall, this work establishes a unified architectural foundation for Agentic AI, validates the effectiveness of full-stack autonomous AI agents, and provides a roadmap for building scalable, secure, and trustworthy agentic systems. All models, code, and datasets are publicly released to support reproducibility and benchmarking."
-  },
-  {
-    "title": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
-    "link": "https://arxiv.org/abs/2607.28631",
-    "pubDate": "Mon, 03 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "用多模型评审AI科学家的首个定量基准测试。",
-    "contentSnippet": "arXiv:2607.28631v1 Announce Type: new \nAbstract: AI Scientist systems capable of autonomous research have the potential to significantly accelerate scientific discovery. However, evaluating and comparing the quality of AI-generated papers remains an open challenge. We propose and implement a rigorous benchmarking protocol using an automated peer-review system that harnesses frontier large language models to assess scientific papers across four core dimensions: originality, scientific rigor, clarity, and significance. We evaluate four leading AI Scientist frameworks: \\textit{Sakana AI (v1 & v2)}, \\textit{CycleResearcher}, and \\textit{Data-to-Paper}. Each framework was run on a consistent set of 15 research proposals published by a commercial autonomous AI scientist company (FARS), generating 60 papers that we evaluate alongside 15 FARS benchmark papers. Using three independent LLM reviewers (GPT-5.4, Gemini, and Claude), we find that FARS benchmark papers significantly outperform all competing frameworks, achieving mean scores of 2.14--2.47 on a 1--5 scale compared to 1.00--1.87 for other systems. Notably, FARS scores are more than 2$\\times$ higher than the next-best systems on Gemini and Claude evaluations. We find strong agreement among Gemini and Claude ($\\rho$ = 0.907, $p < 0.001$), and both correlate extremely strongly with the synthesis score ($\\rho$ = 0.961, $p < 0.001$), validating the reliability of automated evaluation. However, GPT-5.4 exhibits weaker agreement ($\\rho \\approx 0.32$), suggesting it evaluates papers using different criteria. These results establish the first quantitative benchmark for AI Scientist systems and demonstrate that multi-model LLM evaluation provides a scalable, consistent framework for assessing autonomous research quality."
-  },
-  {
-    "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
-    "link": "https://arxiv.org/abs/2607.28632",
-    "pubDate": "Mon, 03 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "用LLM发现重大数学猜想的新框架",
-    "contentSnippet": "arXiv:2607.28632v1 Announce Type: new \nAbstract: Major mathematical conjectures still depend heavily on expert intuition, so a unified method for the systematic generation and validation of conjectures with substantial mathematical potential remains unavailable. We present a three stage pipeline for major conjecture discovery, with region search from explicit local evidence modules, reflective validation for foundationality, novelty, and potential significance, and formal validation in Lean 4 and Mathlib. The objective is the discovery of mathematical problems with high problem taste, namely problems whose proofs could reorganize the language of a research area and provide durable help to human mathematical research. Experiments on twenty candidates showstable passage from natural language to formal checks, with twenty out of twenty candidates passing Lean parsing and type checking, twenty out of twenty candidates not directly absorbed by exact?,twenty out of twenty candidates not automatically discharged by aesop, and no explicit duplicates or near duplicates."
-  },
-  {
-    "title": "Ten advances in mathematics and theoretical computer science",
-    "link": "https://openai.com/index/ten-advances-in-mathematics",
-    "pubDate": "Sat, 01 Aug 2026 00:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "OpenAI公布数学与理论计算机科学十项进展",
-    "contentSnippet": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity."
-  },
-  {
-    "title": "Gemini 2.5 Pro and Gemini 3 Flash deprecated",
-    "link": "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
-    "pubDate": "Fri, 31 Jul 2026 20:04:01 +0000",
-    "source": "GitHub Changelog",
-    "summary": "Gemini 2.5 Pro 和 3 Flash 已弃用",
-    "contentSnippet": "As of today, July 31, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model…\nThe post Gemini 2.5 Pro and Gemini 3 Flash deprecated appeared first on The GitHub Blog."
   },
   {
     "title": "Don’t stop early: Case-folding source code at memory speed",
     "link": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
     "pubDate": "Fri, 31 Jul 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "分支无关循环助GitHub单核45GiB/s大小写折叠",
+    "summary": "无分支循环与字节算术实现单核45GiB/s代码折叠。",
     "contentSnippet": "How a branch-free loop and byte-space arithmetic let GitHub case-fold every byte of code search at >45 GiB/s on a single core.\nThe post Don’t stop early: Case-folding source code at memory speed appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Advancing responsible AI across Europe",
-    "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
-    "pubDate": "Fri, 31 Jul 2026 15:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "OpenAI以安全透明实践支持欧洲负责任AI治理",
-    "contentSnippet": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances."
-  },
-  {
-    "title": "Stacked sessions and pull requests in the GitHub Copilot app",
-    "link": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
-    "pubDate": "Thu, 30 Jul 2026 17:30:24 +0000",
-    "source": "GitHub",
-    "summary": "在GitHub Copilot中用堆叠会话和PR现代化旧代码库",
-    "contentSnippet": "Learn how I modernized an old codebase of mine using stacked sessions and pull requests in the GitHub Copilot app.\nThe post Stacked sessions and pull requests in the GitHub Copilot app appeared first on The GitHub Blog."
   },
   {
     "title": "Echoverse: Deep, evolving environments for computer-use agents",
     "link": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
     "pubDate": "Thu, 30 Jul 2026 17:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Echoverse创造演化环境，训练计算机操作智能体。",
+    "summary": "Echoverse：为电脑操作代理提供深度演化环境",
     "contentSnippet": "Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments rather than simply providing more training tasks, helping them improve as the tasks, tests, and environments evolve.\nThe post Echoverse: Deep, evolving environments for computer-use agents appeared first on Microsoft Research."
   },
   {
@@ -132,7 +156,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
     "pubDate": "Thu, 30 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "EvoLib将经验转化为持续进化的知识。",
+    "summary": "将经验转化为演化知识。",
     "contentSnippet": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. \nThe post EvoLib: Turning experience into evolving knowledge appeared first on Microsoft Research."
   },
   {
@@ -140,7 +164,7 @@
     "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
     "pubDate": "Thu, 30 Jul 2026 15:00:59 +0000",
     "source": "DeepMind",
-    "summary": "摘要生成失败",
+    "summary": "双子座机器人二代赋能视频理解、任务编排与多机器人协作",
     "contentSnippet": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications."
   },
   {
@@ -148,7 +172,7 @@
     "link": "https://code.visualstudio.com/updates/v1_131",
     "pubDate": "2026-07-29T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.131新功能概览",
+    "summary": "VS Code 1.131新功能一览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.131\nRead the full article"
   },
   {
@@ -164,7 +188,7 @@
     "link": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
     "pubDate": "Wed, 29 Jul 2026 16:02:10 +0000",
     "source": "DeepMind",
-    "summary": "摘要生成失败",
+    "summary": "谷歌Flow Music推出Lyria 3.5，改进音乐性、歌词、人声和创作控制。",
     "contentSnippet": ""
   },
   {
@@ -172,23 +196,15 @@
     "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-july-2026",
     "pubDate": "Wed, 29 Jul 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "ASF七月通讯宣布新版社区网站上线",
+    "summary": "ASF七月通讯：社区代码网站新版上线",
     "contentSnippet": "**To receive Plus One directly to your inbox, sign up via the subscribe box below.** Community News The Conference Planners for the the ASF are very pleased to announce the redesign and launch of the new Community Over Code website! The new site will serve as the central resource and gateway for the global array […]\nThe post ASF Plus One Newsletter: July 2026 appeared first on The ASF Blog."
-  },
-  {
-    "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
-    "link": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
-    "pubDate": "Wed, 29 Jul 2026 16:00:00 +0000",
-    "source": "GitHub",
-    "summary": "驯服Dependabot：分组更新、放慢节奏、安全优先",
-    "contentSnippet": "Dependabot keeps your dependencies current, but its defaults can flood your repository with pull requests. Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft open source project.\nThe post Tame Dependabot: Group your updates, slow the cadence, keep security fast appeared first on The GitHub Blog."
   },
   {
     "title": "MAI-Code-1-Flash: early results from real developer workflows",
     "link": "https://code.visualstudio.com/blogs/2026/07/29/mai-code-1-flash",
     "pubDate": "2026-07-29T00:00:00.000Z",
     "source": "VS Code",
-    "summary": "MAI-Code-1-Flash在真实开发者工作流中的早期表现。",
+    "summary": "MAI-Code-1-Flash真实开发工作流早期结果。",
     "contentSnippet": "MAI-Code-1-Flash is a lightweight coding model purpose built for the fast, iterative work developers do every day in GitHub. In this post, we share what the data is telling us about how it performs in real developer workflows.\nRead the full article"
   },
   {
@@ -196,7 +212,7 @@
     "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
     "pubDate": "Tue, 28 Jul 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "Gemini API托管代理新增3.6 Flash与hooks等功能",
+    "summary": "摘要生成失败",
     "contentSnippet": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents."
   },
   {
@@ -204,31 +220,15 @@
     "link": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
     "pubDate": "Tue, 28 Jul 2026 13:21:37 +0000",
     "source": "DeepMind",
-    "summary": "Gemini Robotics 2为机器人带来全身智能",
+    "summary": "双子机器人二代带来全身智能",
     "contentSnippet": ""
-  },
-  {
-    "title": "5 ways AI Mode in Search helps you enjoy the real world",
-    "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
-    "pubDate": "Tue, 28 Jul 2026 13:00:00 +0000",
-    "source": "Google AI",
-    "summary": "AI搜索助你畅享现实生活",
-    "contentSnippet": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…"
-  },
-  {
-    "title": "5 ways to host the ultimate dinner party with Google Search",
-    "link": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
-    "pubDate": "Tue, 28 Jul 2026 13:00:00 +0000",
-    "source": "Google AI",
-    "summary": "谷歌AI助你策划完美晚宴。",
-    "contentSnippet": "These AI features can help you craft a menu, design a tablescape, and handle other party-planning tasks."
   },
   {
     "title": "Sponsor Success at Apache: Google and Apache Iceberg",
     "link": "https://news.apache.org/foundation/entry/sponsor-success-at-apache-google-and-apache-iceberg",
     "pubDate": "Fri, 24 Jul 2026 02:49:35 +0000",
     "source": "Apache",
-    "summary": "谷歌赞助Apache Iceberg项目获成功",
+    "summary": "摘要生成失败",
     "contentSnippet": "The Apache Software Foundation (ASF) is home to more than 350 open source projects and initiatives, all powered by a vibrant, global community of contributors. Among these projects, Apache Iceberg has emerged as a cornerstone of modern data architecture, revolutionizing how organizations manage massive analytical datasets with its high-performance, open-table format. None of this innovation […]\nThe post Sponsor Success at Apache: Google and Apache Iceberg appeared first on The ASF Blog."
   },
   {
@@ -236,7 +236,7 @@
     "link": "https://news.apache.org/foundation/entry/beyond-the-hardware-hub-how-alc-taipei-turned-computex-2026-into-a-milestone-for-the-apache-way",
     "pubDate": "Thu, 16 Jul 2026 05:20:06 +0000",
     "source": "Apache",
-    "summary": "ALC台北将Computex2026化为Apache之道里程碑。",
+    "summary": "摘要生成失败",
     "contentSnippet": "By Chia-Ping TsaiALC Taipei Lead [Figure 1] Long-time Apache Kafka contributors Jiunn-Yang and Chih-Yuan introducing ALC Taipei’s contributions to open-source veterans Brian Behlendorf and Justin McLean Introduction With the globally renowned Computex Taipei now behind us, it’s the perfect time to look back at how ALC Taipei has brought the Apache Way to life in […]\nThe post Beyond the Hardware Hub: How ALC Taipei Turned Computex 2026 into a Milestone for the Apache Way appeared first on The ASF Blog."
   }
 ]
