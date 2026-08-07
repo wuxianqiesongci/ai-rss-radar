@@ -4,47 +4,135 @@
     "link": "https://code.visualstudio.com/updates/v1_133",
     "pubDate": "2026-08-11T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.133内部版新特性简介",
+    "summary": "VS Code 1.133内测版新功能",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.133 (Insiders)\nRead the full article"
+  },
+  {
+    "title": "What are Agentic Workflows?",
+    "link": "https://www.databricks.com/blog/agentic-workflows",
+    "pubDate": "Thu, 06 Aug 2026 21:36:15 GMT",
+    "source": "Databricks",
+    "summary": "智能体工作流：超越单次提示的AI协作",
+    "contentSnippet": "As organizations move beyond single-prompt AI interactions, agentic workflows are..."
+  },
+  {
+    "title": "What is Tool Calling?",
+    "link": "https://www.databricks.com/blog/what-is-tool-calling",
+    "pubDate": "Thu, 06 Aug 2026 21:31:30 GMT",
+    "source": "Databricks",
+    "summary": "工具调用是AI模型与外部工具交互的能力。",
+    "contentSnippet": "Tool calling is the ability of an AI model to interact with external tools, APIs,..."
+  },
+  {
+    "title": "A guide to slash commands in the GitHub Copilot app",
+    "link": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
+    "pubDate": "Thu, 06 Aug 2026 19:49:34 +0000",
+    "source": "GitHub",
+    "summary": "GitHub Copilot斜杠命令指南，助你规划协作自动化工作流。",
+    "contentSnippet": "Go beyond chat in the GitHub Copilot app with these slash commands. They'll help you plan, collaborate, automate, and customize your dev workflow.\nThe post A guide to slash commands in the GitHub Copilot app appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Kimi K3 is now available in GitHub Copilot",
+    "link": "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",
+    "pubDate": "Thu, 06 Aug 2026 17:27:25 +0000",
+    "source": "GitHub Changelog",
+    "summary": "摘要生成失败",
+    "contentSnippet": "Editor’s note (August 6, 2026): We have temporarily paused the roll-out of Kimi K3 while we mitigate an incident with GitHub Actions. We will resume the roll-out as soon as…\nThe post Kimi K3 is now available in GitHub Copilot appeared first on The GitHub Blog."
+  },
+  {
+    "title": "How we took malware advisories beyond npm",
+    "link": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+    "pubDate": "Thu, 06 Aug 2026 16:51:12 +0000",
+    "source": "GitHub",
+    "summary": "GitHub将恶意软件通告扩展至npm之外，接入OpenSSF数据。",
+    "contentSnippet": "GitHub malware advisories no longer stop at npm. Here's how we wired OpenSSF's malicious-packages data into the Advisory Database, and why we built the pipeline paranoid.\nThe post How we took malware advisories beyond npm appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Introducing OfficeQA Pro V2: A New Benchmark for Enterprise Grounded-Reasoning",
+    "link": "https://www.databricks.com/blog/introducing-officeqa-pro-v2-new-benchmark-enterprise-grounded-reasoning",
+    "pubDate": "Thu, 06 Aug 2026 16:00:00 GMT",
+    "source": "Databricks",
+    "summary": "发布企业级事实推理基准OfficeQA Pro V2",
+    "contentSnippet": "Today, we are releasing OfficeQA Pro V2, a new benchmark designed to evaluate whether..."
+  },
+  {
+    "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+    "link": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+    "pubDate": "Thu, 06 Aug 2026 15:06:15 +0000",
+    "source": "DeepMind",
+    "summary": "AI模型预测气旋获突破",
+    "contentSnippet": ""
+  },
+  {
+    "title": "The Apache® Software Foundation Announces New Top-Level Projects",
+    "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-projects-5",
+    "pubDate": "Thu, 06 Aug 2026 13:00:00 +0000",
+    "source": "Apache",
+    "summary": "Apache宣布两个新顶级项目：Fluss与Pony Mail",
+    "contentSnippet": "Introducing Apache® Fluss, a lakehouse-native streaming storage for real-time analytics and AI, and Apache® Pony Mail, a web-based mail archive browser built to scale to millions of archived messages Wilmington, DE –  August 6, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that […]\nThe post The Apache® Software Foundation Announces New Top-Level Projects appeared first on The ASF Blog."
+  },
+  {
+    "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+    "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+    "pubDate": "Thu, 06 Aug 2026 10:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "ChatGPT改进Sol，并扩大免费用户对Luna的访问。",
+    "contentSnippet": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna."
+  },
+  {
+    "title": "Working with the American Psychological Association on youth mental health and AI",
+    "link": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+    "pubDate": "Thu, 06 Aug 2026 06:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "与APA合作推进青少年心理健康与AI的负责任使用",
+    "contentSnippet": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health."
+  },
+  {
+    "title": "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)",
+    "link": "https://arxiv.org/abs/2608.04012",
+    "pubDate": "Thu, 06 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "冗余调整人工年龄评分下人工智能系统长期持久理论",
+    "contentSnippet": "arXiv:2608.04012v1 Announce Type: new \nAbstract: Artificial intelligence systems are increasingly expected to operate over repeated cycles of interaction, adaptation, and update rather than through isolated one-shot outputs. This raises a fundamental theoretical question: can an AI system persist indefinitely without incurring unbounded structural aging? This paper develops a long-run persistence framework for AI systems based on the redundancy-adjusted Artificial Age Score (AAS). The model extends AAS from a static evaluative measure into a cycle-level functional that generates an age sequence across repeated operation. At each cycle, structural age is defined through a weighted, redundancy-aware logarithmic penalty over component consistency levels. Within this framework, cycle-level age is shown to be well defined and uniformly bounded, thereby excluding explosive pointwise aging. On this basis, the paper defines a hierarchy of asymptotic regimes, including burdened persistence, zero-burden persistence, oscillatory persistence, and cumulative terminal burden. It also establishes comparative ordering, sensitivity bounds, convergence under componentwise stabilization, persistence under finite total variation, geometric stabilization under damped inter-cycle perturbations, and a zero-burden characterization under nondegenerate redundancy conditions. The main result is that indefinite cyclic continuation does not require unbounded structural aging: an AI system may pass through infinitely many cycles while its structural age remains bounded, while under stronger regularity conditions its marginal aging vanishes and, in the strongest regime, its cycle-level burden converges to zero. The framework thus provides a formal basis for analyzing long-run artificial persistence as a problem of bounded structural burden rather than inevitable cumulative deterioration."
+  },
+  {
+    "title": "C$^2$MOE: Consistency and Complementarity-guided Mixture of Experts for Incomplete Multimodal Emotion Learning",
+    "link": "https://arxiv.org/abs/2608.04013",
+    "pubDate": "Thu, 06 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "一致性互补引导专家混合的不完整多模态情感学习",
+    "contentSnippet": "arXiv:2608.04013v1 Announce Type: new \nAbstract: Recent advances in Multimodal Emotion Recognition in Conversations (MERC) highlight its reliance on complete multimodal inputs. However, real-world data often suffer from missing modalities due to transmission errors or user behavior, severely degrading model performance. Existing methods enhance robustness via cross-modal consistency learning but largely ignore modality complementarity, leading to biased reconstructions. To address this limitation, we propose C$2$MOE, a novel Consistency and Complementarity-guided Mixture of Experts framework for incomplete multimodal emotion learning. Our approach unifies representation learning and missing modality imputation within a principled information-theoretic framework. Specifically, multimodal knowledge is factorized into consistency and complementarity components via interaction-aware experts. Consistency is captured by maximizing cross-modal predictability, while complementarity is preserved by maximizing conditional entropy between modalities. Building upon this decomposition, C$2$MOE introduces a dual-branch prediction mechanism for robust imputation under missing modalities. The consistency branch aligns imputed features with the joint distribution by minimizing uncertainty, and the complementarity branch exploits modality-unique cues via entropy maximization. Finally, C$2$MOE employs a learnable reweighting module that dynamically assigns importance scores to each expert's output, yielding a robust and adaptive fusion for imputation. Extensive experiments on multiple MERC benchmarks demonstrate that C$2$MOE consistently surpasses state-of-the-art methods across various missing-modality settings, validating its robustness and generalization."
+  },
+  {
+    "title": "On Hamming-Lipschitz Type Stability of the Subdominant (Minmax) Ultrametric: Theory and Simple Proofs",
+    "link": "https://arxiv.org/abs/2608.04014",
+    "pubDate": "Thu, 06 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "次优势超度量稀疏扰动的汉明-利普希茨稳定性理论。",
+    "contentSnippet": "arXiv:2608.04014v1 Announce Type: new \nAbstract: The subdominant (minmax) ultrametric is a canonical tree-structured summary of a dissimilarity matrix, arising equivalently as the ultrametric induced by single-linkage clustering. While its classical stability theory is usually formulated in $\\ell_\\infty$ or Gromov--Hausdorff terms, such bounds are poorly suited to sparse perturbations that alter only a few pairwise distances. We develop an $\\ell_0$-type stability theory for this operator. Our analysis shows that sparse edits propagate only through the minimum spanning tree (MST): a pairwise ultrametric value can change only if its tree path crosses an edited edge or a cut newly exposed by an edited off-tree edge. This yields a sharp per-edit exposed-cut score and a tree-only global envelope, leading to Hamming--Lipschitz bounds on the number of ultrametric entries that can change. We also prove sharpness results showing that this dependence on tree geometry is unavoidable: under strict cut separation the tree-edge bound is attained exactly, and for off-tree edits there are explicit families in which one edited distance changes $\\Theta(n^2)$ ultrametric entries. In addition, we prove a conditional near-additivity principle for multiple edits under certified large per-edit changed regions and negligible aggregate overlap. Experiments on deep-embedding graphs show that the resulting structural scores provide useful vulnerability diagnostics for hierarchical representations."
+  },
+  {
+    "title": "From asking to doing: How the world is putting ChatGPT to work",
+    "link": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+    "pubDate": "Thu, 06 Aug 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "全球应用ChatGPT从提问转向实践。",
+    "contentSnippet": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior."
   },
   {
     "title": "Visual Studio Code 1.132",
     "link": "https://code.visualstudio.com/updates/v1_132",
     "pubDate": "2026-08-05T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.132 新特性概览",
+    "summary": "VS Code 1.132新功能概览。",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.132\nRead the full article"
-  },
-  {
-    "title": "ISEE: Interactive Semantic Enrichment for Database Fields",
-    "link": "https://arxiv.org/abs/2608.02604",
-    "pubDate": "Wed, 05 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "交互式数据库字段语义增强系统。",
-    "contentSnippet": "arXiv:2608.02604v1 Announce Type: new \nAbstract: LLM-based agents are increasingly being deployed for data-related tasks, including data sense-making, exploration, and retrieval. However, their performance heavily depends on the clarity and completeness of data semantics. In practice, many field descriptions remain ambiguous or incomplete, as much of the essential context (e.g., the meaning of a customized field) originates from users' domain knowledge and is rarely documented publicly. This gap restricts the agents' task performance in downstream tasks, such as entity-linking. To bridge this gap, we introduce a novel and comprehensive Interactive SEmantic Enrichment system (ISEE). Given a data field description, ISEE measures its quality through a scoring system, gathers domain knowledge, and collaboratively enriches the semantics with users. Through a user study, automated user simulation, quantitative evaluation, and case study, we demonstrate that ISEE significantly reduces cognitive load, improves description quality, and enhances downstream task performance."
-  },
-  {
-    "title": "Self-Organising Digital Circuits",
-    "link": "https://arxiv.org/abs/2608.02606",
-    "pubDate": "Wed, 05 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "自组织数字电路实现自适应容错",
-    "contentSnippet": "arXiv:2608.02606v1 Announce Type: new \nAbstract: Fault tolerance in classical computing has traditionally relied on static strategies like hardware redundancy and error-correcting codes. Biological systems, in contrast, exhibit adaptive plasticity, maintaining function through dynamic re-organisation around damage. Inspired by this principle, we introduce Self-Organising Digital Circuits, framing functional logic generation and maintenance as a meta-learning problem on graphs. Our architecture employs a topology-masked Transformer that configures the Lookup Tables (LUT) of a circuit's Boolean gates. Extending the pattern-generation paradigm of Neural Cellular Automata (NCA), it navigates the degenerate Boolean search space to satisfy a computational task, rather than regenerating a fixed target state. We demonstrate that it can self-assemble functional circuits from scratch and rapidly re-route logic around permanent, previously unseen hardware faults. For soft errors, the policy achieves near-perfect recovery (>99.99\\% accuracy) from damage sizes far exceeding training conditions. We further observe generalisation across circuit scales: accuracy improves on graphs substantially wider than those seen during training. This work bridges the principles of biological self-organisation with the practical domain of digital hardware."
-  },
-  {
-    "title": "Extracting ODRL Policies from Business Process Models: A Graph Traversal Approach to Compliance-by-Extraction",
-    "link": "https://arxiv.org/abs/2608.02607",
-    "pubDate": "Wed, 05 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "基于图遍历从业务流程模型提取ODRL策略",
-    "contentSnippet": "arXiv:2608.02607v1 Announce Type: new \nAbstract: Organisations maintain large corpora of process models expressed in the Business Process Model and Notation (BPMN), yet the normative content encoded in those models, the obligations, permissions, and prohibitions that govern participant behaviour, remains inaccessible to policy infrastructure. The Open Digital Rights Language (ODRL) is the emerging lingua franca of machine-readable policy, but authoring ODRL at scale is slow, expert-intensive work, and generation by large language models introduces well-documented risks of structural invalidity. We present a pipeline that resolves this gap by extracting ODRL policies automatically from BPMN XML, grounded in the observation that BPMN control flow encodes deontic modalities by construction. The pipeline traverses the BPMN process graph, classifies each task as an odrl:Duty or odrl:Permission via a reachability check, and introduces a novel treatment of intermediate catch events as odrl:Prohibition rules with lifting constraints, capturing waiting semantics that prior approaches have dropped. The result is a compliance-by-extraction approach in which auditable, interoperable ODRL policies are derived directly from the process models organisations already maintain. The implementation and a live demonstration are available at https://github.com/manabcodes/bpmn2odrl and https://bpmn.linkeddata.es/."
   },
   {
     "title": "Customize code scanning default setup at scale",
     "link": "https://github.blog/changelog/2026-08-04-customize-code-scanning-default-setup-at-scale",
     "pubDate": "Tue, 04 Aug 2026 19:15:23 +0000",
     "source": "GitHub Changelog",
-    "summary": "大规模定制代码扫描默认设置",
+    "summary": "大规模定制代码扫描默认配置。",
     "contentSnippet": "You can now apply your own configuration file to code scanning default setup, using the new github-codeql-config-file repository property. This gives you control over how CodeQL scans your code for…\nThe post Customize code scanning default setup at scale appeared first on The GitHub Blog."
   },
   {
@@ -52,7 +140,7 @@
     "link": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
     "pubDate": "Tue, 04 Aug 2026 19:09:32 +0000",
     "source": "GitHub Changelog",
-    "summary": "GitHub Copilot计费预览应用已退役。",
+    "summary": "GitHub Copilot账单预览应用已退役，改用账单设置管理。",
     "contentSnippet": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings. The app helped…\nThe post Retiring the Copilot Billing Preview app appeared first on The GitHub Blog."
   },
   {
@@ -60,79 +148,23 @@
     "link": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
     "pubDate": "Tue, 04 Aug 2026 19:02:34 +0000",
     "source": "GitHub",
-    "summary": "GitHub法务用Copilot CLI零代码简化工作流。",
+    "summary": "GitHub法务团队用Copilot CLI无需编码简化工作流",
     "contentSnippet": "Learn how to build tools to simplify how you work—without writing a single line of code.\nThe post How the GitHub legal team used Copilot CLI to streamline their workflows appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Third-party cyber evaluations involving OpenAI models",
-    "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-    "pubDate": "Tue, 04 Aug 2026 19:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "OpenAI加强第三方网络评估安全防护。",
-    "contentSnippet": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation."
-  },
-  {
-    "title": "Turn one giant AI-generated pull request to a reviewable stack",
-    "link": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
-    "pubDate": "Tue, 04 Aug 2026 16:47:18 +0000",
-    "source": "GitHub",
-    "summary": "将大型AI生成的PR拆分为可审查的堆栈。",
-    "contentSnippet": "Instead of one huge, un-reviewable pull request, teach coding agents to decompose work into a clean, ordered stack with GitHub stacked pull requests.\nThe post Turn one giant AI-generated pull request to a reviewable stack appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Unity AI Gateway is Generally Available",
-    "link": "https://www.databricks.com/blog/unity-ai-gateway-generally-available",
-    "pubDate": "Tue, 04 Aug 2026 16:10:09 GMT",
-    "source": "Databricks",
-    "summary": "Unity AI网关正式可用",
-    "contentSnippet": "The last six months have seen a rapid rise in AI-powered productivity and a proliferation..."
-  },
-  {
-    "title": "Upcoming deprecation of GitHub Spark on github.com",
-    "link": "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
-    "pubDate": "Tue, 04 Aug 2026 15:54:47 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub Spark将于2026年8月31日停止服务。",
-    "contentSnippet": "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026…\nThe post Upcoming deprecation of GitHub Spark on github.com appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Databricks joins the Open Secure AI Alliance to advance AI safety and security",
-    "link": "https://www.databricks.com/blog/databricks-joins-open-secure-ai-alliance-advance-ai-safety-and-security",
-    "pubDate": "Tue, 04 Aug 2026 14:00:00 GMT",
-    "source": "Databricks",
-    "summary": "摘要生成失败",
-    "contentSnippet": "Databricks is a sponsor at Black Hat USA 2026 this week. Find us at Booths #5106..."
   },
   {
     "title": "The latest AI news we announced in July 2026",
     "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
     "pubDate": "Tue, 04 Aug 2026 13:00:00 +0000",
     "source": "Google AI",
-    "summary": "谷歌七月最新AI动态",
+    "summary": "谷歌七月发布最新AI新闻",
     "contentSnippet": "Here are Google’s latest AI updates from July 2026"
-  },
-  {
-    "title": "New ways to learn and teach with ChatGPT Work and Codex",
-    "link": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-    "pubDate": "Tue, 04 Aug 2026 00:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "ChatGPT与Codex助力教与学新方式",
-    "contentSnippet": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build."
-  },
-  {
-    "title": "Apple is getting this wrong",
-    "link": "https://openai.com/index/apple-is-getting-this-wrong",
-    "pubDate": "Mon, 03 Aug 2026 22:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "OpenAI回应苹果无理诉讼并澄清事实。",
-    "contentSnippet": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened."
   },
   {
     "title": "Orchard: An open framework for scalable agentic AI",
     "link": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
     "pubDate": "Mon, 03 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Orchard：开源可扩展智能体AI框架。",
+    "summary": "Orchard：可扩展智能体AI的开放框架",
     "contentSnippet": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure.\nThe post Orchard: An open framework for scalable agentic AI appeared first on Microsoft Research."
   },
   {
@@ -140,31 +172,15 @@
     "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
     "pubDate": "Mon, 03 Aug 2026 15:00:00 +0000",
     "source": "Google AI",
-    "summary": "摘要生成失败",
+    "summary": "三十五万人参加Kaggle与谷歌免费AI智能体课程",
     "contentSnippet": "Kaggle’s AI Agents Intensive with Google brought learners together in a no-cost course to build and deploy the next frontier of AI."
-  },
-  {
-    "title": "The New Monday Morning Report: How Generative AI can deliver the insights your executives need.",
-    "link": "https://www.databricks.com/blog/new-monday-morning-report-how-generative-ai-can-deliver-insights-your-executives-need",
-    "pubDate": "Mon, 03 Aug 2026 14:00:00 GMT",
-    "source": "Databricks",
-    "summary": "生成式AI为高管提供所需洞察。",
-    "contentSnippet": "A VP of Sales at a major CPG has three decks open before her first coffee. One from..."
-  },
-  {
-    "title": "Don’t stop early: Case-folding source code at memory speed",
-    "link": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
-    "pubDate": "Fri, 31 Jul 2026 16:00:00 +0000",
-    "source": "GitHub",
-    "summary": "分支无关循环实现单核45GiB/s代码大小写折叠",
-    "contentSnippet": "How a branch-free loop and byte-space arithmetic let GitHub case-fold every byte of code search at >45 GiB/s on a single core.\nThe post Don’t stop early: Case-folding source code at memory speed appeared first on The GitHub Blog."
   },
   {
     "title": "Echoverse: Deep, evolving environments for computer-use agents",
     "link": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
     "pubDate": "Thu, 30 Jul 2026 17:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Echoverse：用进化环境训练计算机操作智能体",
+    "summary": "Echoverse用演化环境训练电脑代理。",
     "contentSnippet": "Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments rather than simply providing more training tasks, helping them improve as the tasks, tests, and environments evolve.\nThe post Echoverse: Deep, evolving environments for computer-use agents appeared first on Microsoft Research."
   },
   {
@@ -172,7 +188,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
     "pubDate": "Thu, 30 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "EvoLib将经验转化为可进化知识，让模型持续适应。",
+    "summary": "EvoLib：将经验转化为进化知识",
     "contentSnippet": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. \nThe post EvoLib: Turning experience into evolving knowledge appeared first on Microsoft Research."
   },
   {
@@ -180,7 +196,7 @@
     "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
     "pubDate": "Thu, 30 Jul 2026 15:00:59 +0000",
     "source": "DeepMind",
-    "summary": "摘要生成失败",
+    "summary": "Gemini机器人ER2：视频理解与多机协作赋能。",
     "contentSnippet": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications."
   },
   {
@@ -188,7 +204,7 @@
     "link": "https://code.visualstudio.com/updates/v1_131",
     "pubDate": "2026-07-29T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.131 新特性介绍",
+    "summary": "VS Code 1.131新特性概览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.131\nRead the full article"
   },
   {
@@ -204,7 +220,7 @@
     "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-july-2026",
     "pubDate": "Wed, 29 Jul 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "ASF Plus One 2026年7月通讯。",
+    "summary": "ASF七月通讯：新版社区网站上线",
     "contentSnippet": "**To receive Plus One directly to your inbox, sign up via the subscribe box below.** Community News The Conference Planners for the the ASF are very pleased to announce the redesign and launch of the new Community Over Code website! The new site will serve as the central resource and gateway for the global array […]\nThe post ASF Plus One Newsletter: July 2026 appeared first on The ASF Blog."
   },
   {
@@ -212,31 +228,15 @@
     "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
     "pubDate": "Tue, 28 Jul 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "Gemini API托管代理新增3.6 Flash、钩子等，助建可靠生产级代理。",
+    "summary": "Gemini API托管智能体新增3.6 Flash与钩子，支持可靠生产级代理。",
     "contentSnippet": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents."
-  },
-  {
-    "title": "Gemini Robotics 2 brings whole body intelligence to robots",
-    "link": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-    "pubDate": "Tue, 28 Jul 2026 13:21:37 +0000",
-    "source": "DeepMind",
-    "summary": "双子机器人2为机器人带来全身智能",
-    "contentSnippet": ""
   },
   {
     "title": "Sponsor Success at Apache: Google and Apache Iceberg",
     "link": "https://news.apache.org/foundation/entry/sponsor-success-at-apache-google-and-apache-iceberg",
     "pubDate": "Fri, 24 Jul 2026 02:49:35 +0000",
     "source": "Apache",
-    "summary": "谷歌赞助Apache Iceberg，成就数据架构基石。",
+    "summary": "谷歌赞助Apache Iceberg，助其成数据架构基石。",
     "contentSnippet": "The Apache Software Foundation (ASF) is home to more than 350 open source projects and initiatives, all powered by a vibrant, global community of contributors. Among these projects, Apache Iceberg has emerged as a cornerstone of modern data architecture, revolutionizing how organizations manage massive analytical datasets with its high-performance, open-table format. None of this innovation […]\nThe post Sponsor Success at Apache: Google and Apache Iceberg appeared first on The ASF Blog."
-  },
-  {
-    "title": "Beyond the Hardware Hub: How ALC Taipei Turned Computex 2026 into a Milestone for the Apache Way",
-    "link": "https://news.apache.org/foundation/entry/beyond-the-hardware-hub-how-alc-taipei-turned-computex-2026-into-a-milestone-for-the-apache-way",
-    "pubDate": "Thu, 16 Jul 2026 05:20:06 +0000",
-    "source": "Apache",
-    "summary": "ALC台北将Computex变为Apache之道里程碑。",
-    "contentSnippet": "By Chia-Ping TsaiALC Taipei Lead [Figure 1] Long-time Apache Kafka contributors Jiunn-Yang and Chih-Yuan introducing ALC Taipei’s contributions to open-source veterans Brian Behlendorf and Justin McLean Introduction With the globally renowned Computex Taipei now behind us, it’s the perfect time to look back at how ALC Taipei has brought the Apache Way to life in […]\nThe post Beyond the Hardware Hub: How ALC Taipei Turned Computex 2026 into a Milestone for the Apache Way appeared first on The ASF Blog."
   }
 ]
