@@ -4,39 +4,39 @@
     "link": "https://code.visualstudio.com/updates/v1_133",
     "pubDate": "2026-08-11T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 预览版1.133新功能概览",
+    "summary": "VS Code 1.133预览版新功能概览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.133 (Insiders)\nRead the full article"
   },
   {
-    "title": "Copilot code review effort levels are generally available",
-    "link": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
-    "pubDate": "Fri, 07 Aug 2026 20:49:26 +0000",
+    "title": "GitHub Copilot weekly releases — August 3",
+    "link": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
+    "pubDate": "Fri, 07 Aug 2026 23:16:02 +0000",
     "source": "GitHub Changelog",
-    "summary": "Copilot代码审查分级功能正式可用",
-    "contentSnippet": "Lite and Balanced effort levels for GitHub Copilot code review are now generally available. They let you match the depth of a review to the complexity and risk of a…\nThe post Copilot code review effort levels are generally available appeared first on The GitHub Blog."
+    "summary": "GitHub Copilot每周更新：八月三日版",
+    "contentSnippet": "This week’s updates across GitHub Copilot in the desktop app, CLI, and VS Code help you resume and organize work, review changes, and ask questions without losing context. GitHub Copilot…\nThe post GitHub Copilot weekly releases — August 3 appeared first on The GitHub Blog."
   },
   {
-    "title": "Copilot usage metrics API adds agent app activity",
-    "link": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
-    "pubDate": "Fri, 07 Aug 2026 18:20:47 +0000",
+    "title": "Enterprises can now install third-party GitHub Apps",
+    "link": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
+    "pubDate": "Fri, 07 Aug 2026 21:40:03 +0000",
     "source": "GitHub Changelog",
-    "summary": "Copilot用量API新增代理应用活动。",
-    "contentSnippet": "Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows. The Copilot usage metrics API now…\nThe post Copilot usage metrics API adds agent app activity appeared first on The GitHub Blog."
+    "summary": "企业现可安装第三方GitHub应用。",
+    "contentSnippet": "Enterprise owners can now install public GitHub Apps created outside their enterprise on their enterprise account. This allows third-party integrators to build apps for enterprise management scenarios. Enterprise installations grant…\nThe post Enterprises can now install third-party GitHub Apps appeared first on The GitHub Blog."
   },
   {
-    "title": "“Relates to” issue relationship in public preview and multi-select fields is generally available",
-    "link": "https://github.blog/changelog/2026-08-07-connecting-issues-and-multi-select-field-support",
-    "pubDate": "Fri, 07 Aug 2026 17:33:14 +0000",
+    "title": "Copilot impact dashboard adds a return on investment section",
+    "link": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
+    "pubDate": "Fri, 07 Aug 2026 21:05:37 +0000",
     "source": "GitHub Changelog",
-    "summary": "GitHub新增“关联”问题关系，多选字段正式可用。",
-    "contentSnippet": "GitHub is making it easier to connect related work and manage multiple field values across issues and projects. Connect related issues The new “Relates to” issue relationship is available in…\nThe post “Relates to” issue relationship in public preview and multi-select fields is generally available appeared first on The GitHub Blog."
+    "summary": "GitHub Copilot仪表板新增投资回报板块。",
+    "contentSnippet": "The Copilot impact dashboard now includes a “Potential return on investment” section that connects what you spend on Copilot to the pull request output you get back. What’s new Two…\nThe post Copilot impact dashboard adds a return on investment section appeared first on The GitHub Blog."
   },
   {
     "title": "Responding to the next frontier of critical cyber capabilities",
     "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
     "pubDate": "Fri, 07 Aug 2026 15:20:00 GMT",
     "source": "OpenAI",
-    "summary": "摘要生成失败",
+    "summary": "回应关键网络能力新前沿",
     "contentSnippet": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls."
   },
   {
@@ -44,7 +44,7 @@
     "link": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
     "pubDate": "Fri, 07 Aug 2026 11:50:39 GMT",
     "source": "Databricks",
-    "summary": "规模化管控AI编程成本。",
+    "summary": "规模化管控AI编码成本，实现价值最大化。",
     "contentSnippet": "AI coding tools deliver immense value: at Databricks, agentic coding has measurably..."
   },
   {
@@ -52,7 +52,7 @@
     "link": "https://www.databricks.com/blog/what-is-an-ai-assistant",
     "pubDate": "Fri, 07 Aug 2026 11:44:24 GMT",
     "source": "Databricks",
-    "summary": "AI助手通过语言模型与数据检索理解请求。",
+    "summary": "AI助手：用语言模型、检索与推理理解请求",
     "contentSnippet": "AI assistants use language models, data retrieval, and reasoning to understand requests..."
   },
   {
@@ -60,39 +60,15 @@
     "link": "https://openai.com/index/hsp-gruppe",
     "pubDate": "Fri, 07 Aug 2026 09:00:00 GMT",
     "source": "OpenAI",
-    "summary": "HSP GRUPPE借助ChatGPT Enterprise提升税务咨询效率。",
+    "summary": "摘要生成失败",
     "contentSnippet": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service."
-  },
-  {
-    "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
-    "link": "https://arxiv.org/abs/2608.05159",
-    "pubDate": "Fri, 07 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "智能嵌套：企业应用集成与服务新方法。",
-    "contentSnippet": "arXiv:2608.05159v1 Announce Type: new \nAbstract: Enterprise operations extensively rely on multiple heterogeneous business systems and information applications, which also result in severe data silos and process fragmentation. Enterprises have invested considerable financial and material resources in building these applications, however, effectively leveraging and orchestrating them remains a formidable challenge. Conventional approaches to enterprise application integration, encompassing middleware architectures such as Enterprise Service Bus (ESB), API gateway infrastructures, and Robotic Process Automation (RPA), suffer from inherent limitations like high architectural coupling, escalating operation and maintenance costs, and limited intelligence capabilities. This paper proposes Agentic Nesting, a multi-agent collaboration framework in which existing enterprise applications are encapsulated as autonomous AI agents within a hierarchically nested structure. Rather than flat interconnection, agents are organized into layered stewardship topologies that mirror the compositional complexity of enterprise ecosystems. The framework extracts a digital agent proxy from each legacy application to enable natural-language interaction and autonomous manipulation, coordinates multiple agents through a central orchestrator for task decomposition and dynamic dispatching, and exposes a unified conversational interface for cross-application querying and process orchestration. The main contributions of this paper are the proposition of the \"Application-as-Agent\" integration paradigm and the \"Conversation-as-Integration\" interaction philosophy, together with an exploration of the generalization potential of this methodology in scenarios encompassing heterogeneous system coordination, and large-scale data applications."
-  },
-  {
-    "title": "The Ignition Index: Measuring Global Workspace Dynamics in Language Models",
-    "link": "https://arxiv.org/abs/2608.05160",
-    "pubDate": "Fri, 07 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "点火指数：测量语言模型中的全局工作区动态",
-    "contentSnippet": "arXiv:2608.05160v1 Announce Type: new \nAbstract: We introduce the Ignition Index (I), a validated scalar metric that operationalizes Global Workspace Theory's (GWT) all-or-none ignition prediction in transformer language models. The metric fits a four-parameter sigmoid to per-layer linear probe accuracy as a function of input signal strength, extracting steepness parameter beta-hat: high values indicate abrupt, ignition-like transitions; low values indicate graded build-up. Across 11 models spanning five architecture families, shuffled-label controls demonstrate 9.6-fold selectivity for genuine linguistic structure over spurious probe capacity (p < 0.001, Mann-Whitney U-test). We find: (1) Feedforward transformers exceed SSMs by 89% in aggregate beta-hat (p < 1e-13, Cohen's d = 0.52), with Mamba exhibiting near-linear profiles consistent with absent global broadcast. (2) Huginn-3.5B exhibits 2.12-fold higher ignition along its iteration axis than its depth axis, demonstrating that recurrent architectures manifest workspace-like transitions along the recurrence dimension. (3) Pythia-410M shows a PELT-detected phase transition at training step 256 (+67%), preceding induction-head formation. (4) Hypotheses linking ignition to model scale and signal strength were not confirmed, suggesting transformer architectures may saturate available ignition mechanisms. The Ignition Index provides the first validated quantitative bridge between GWT's dynamical predictions and mechanistic interpretability, with 9.6-fold measurement selectivity and architecture-level discriminability not previously characterized in the scaling literature. Code: https://github.com/saman-rahbar/ignition-index"
-  },
-  {
-    "title": "Woodpecker Distillation: Weak Models Diagnose Reasoning Bugs in Strong Models",
-    "link": "https://arxiv.org/abs/2608.05168",
-    "pubDate": "Fri, 07 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "啄木鸟蒸馏：弱模型诊断强模型推理缺陷",
-    "contentSnippet": "arXiv:2608.05168v1 Announce Type: new \nAbstract: Large language models often fail on reasoning tasks despite possessing the capability to solve them. We argue that many such failures arise from localized reasoning bugs in intermediate steps rather than from global incompetence. We show that these bugs are frequently repairable: inserting a short patch generated by a weak probe model after the same strong-model reasoning prefix can redirect the trajectory toward a correct solution.\n  However, this corrective effect is not reliably internalized by directly fine-tuning on weak patches or repaired trajectories, suggesting that the useful signal lies not in the intervention text itself, but in how it reshapes the model's future reasoning distribution. We therefore propose Woodpecker Distillation, a weak-to-strong training framework that learns from contrastive local interventions. Our method contrasts successful and unsuccessful weak-model patches at the same prefix, constructs a corrective teacher distribution from their induced future token predictions, and distills this signal into the strong model.\n  Experiments on mathematical reasoning benchmarks show that Woodpecker Distillation consistently improves strong-model performance and outperforms direct imitation baselines."
   },
   {
     "title": "What are Agentic Workflows?",
     "link": "https://www.databricks.com/blog/agentic-workflows",
     "pubDate": "Thu, 06 Aug 2026 21:36:15 GMT",
     "source": "Databricks",
-    "summary": "智能体工作流：超越单次提示的AI多步协作。",
+    "summary": "什么是代理工作流？",
     "contentSnippet": "As organizations move beyond single-prompt AI interactions, agentic workflows are..."
   },
   {
@@ -108,7 +84,7 @@
     "link": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
     "pubDate": "Thu, 06 Aug 2026 16:51:12 +0000",
     "source": "GitHub",
-    "summary": "我们如何将恶意软件公告扩展到npm之外",
+    "summary": "GitHub恶意公告不再限于npm，接入OpenSSF数据。",
     "contentSnippet": "GitHub malware advisories no longer stop at npm. Here's how we wired OpenSSF's malicious-packages data into the Advisory Database, and why we built the pipeline paranoid.\nThe post How we took malware advisories beyond npm appeared first on The GitHub Blog."
   },
   {
@@ -116,7 +92,7 @@
     "link": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
     "pubDate": "Thu, 06 Aug 2026 15:06:15 +0000",
     "source": "DeepMind",
-    "summary": "WeatherNext AI模型实现气旋预报突破",
+    "summary": "WeatherNext AI模型实现气旋预测突破",
     "contentSnippet": ""
   },
   {
@@ -124,7 +100,7 @@
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-projects-5",
     "pubDate": "Thu, 06 Aug 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache软件基金会宣布两个新的顶级项目。",
+    "summary": "Apache基金会宣布两个新顶级项目",
     "contentSnippet": "Introducing Apache® Fluss, a lakehouse-native streaming storage for real-time analytics and AI, and Apache® Pony Mail, a web-based mail archive browser built to scale to millions of archived messages Wilmington, DE –  August 6, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that […]\nThe post The Apache® Software Foundation Announces New Top-Level Projects appeared first on The ASF Blog."
   },
   {
@@ -132,7 +108,7 @@
     "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
     "pubDate": "Thu, 06 Aug 2026 10:00:00 GMT",
     "source": "OpenAI",
-    "summary": "改进Sol，扩大免费用户对Luna的访问",
+    "summary": "摘要生成失败",
     "contentSnippet": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna."
   },
   {
@@ -140,7 +116,7 @@
     "link": "https://code.visualstudio.com/updates/v1_132",
     "pubDate": "2026-08-05T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.132新功能概览",
+    "summary": "VS Code 1.132版本更新内容概览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.132\nRead the full article"
   },
   {
@@ -148,7 +124,7 @@
     "link": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
     "pubDate": "Tue, 04 Aug 2026 19:02:34 +0000",
     "source": "GitHub",
-    "summary": "摘要生成失败",
+    "summary": "GitHub法务团队用Copilot CLI简化工作流程。",
     "contentSnippet": "Learn how to build tools to simplify how you work—without writing a single line of code.\nThe post How the GitHub legal team used Copilot CLI to streamline their workflows appeared first on The GitHub Blog."
   },
   {
@@ -156,7 +132,7 @@
     "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
     "pubDate": "Tue, 04 Aug 2026 13:00:00 +0000",
     "source": "Google AI",
-    "summary": "谷歌2026年7月最新AI新闻",
+    "summary": "2026年7月谷歌最新AI动态汇总。",
     "contentSnippet": "Here are Google’s latest AI updates from July 2026"
   },
   {
@@ -164,7 +140,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
     "pubDate": "Mon, 03 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Orchard：开源可扩展的智能体AI框架",
+    "summary": "Orchard：开源可扩展的智能体AI训练评估框架",
     "contentSnippet": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure.\nThe post Orchard: An open framework for scalable agentic AI appeared first on Microsoft Research."
   },
   {
@@ -172,7 +148,7 @@
     "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
     "pubDate": "Mon, 03 Aug 2026 15:00:00 +0000",
     "source": "Google AI",
-    "summary": "35.3万人参加谷歌Kaggle免费AI代理课程",
+    "summary": "摘要生成失败",
     "contentSnippet": "Kaggle’s AI Agents Intensive with Google brought learners together in a no-cost course to build and deploy the next frontier of AI."
   },
   {
@@ -180,7 +156,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
     "pubDate": "Thu, 30 Jul 2026 17:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "动态环境训练计算机操作智能体。",
+    "summary": "Echoverse：演化环境提升智能体多步任务能力",
     "contentSnippet": "Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments rather than simply providing more training tasks, helping them improve as the tasks, tests, and environments evolve.\nThe post Echoverse: Deep, evolving environments for computer-use agents appeared first on Microsoft Research."
   },
   {
@@ -188,7 +164,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
     "pubDate": "Thu, 30 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "EvoLib：将经验转化为不断进化的知识",
+    "summary": "微软研究：EvoLib将经验转化为进化知识。",
     "contentSnippet": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. \nThe post EvoLib: Turning experience into evolving knowledge appeared first on Microsoft Research."
   },
   {
@@ -196,7 +172,7 @@
     "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
     "pubDate": "Thu, 30 Jul 2026 15:00:59 +0000",
     "source": "DeepMind",
-    "summary": "摘要生成失败",
+    "summary": "Gemini机器人ER2以视频理解、任务编排和多机协作赋能机器人。",
     "contentSnippet": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications."
   },
   {
@@ -204,7 +180,7 @@
     "link": "https://code.visualstudio.com/updates/v1_131",
     "pubDate": "2026-07-29T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.131的新特性介绍",
+    "summary": "Visual Studio Code 1.131新增功能概览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.131\nRead the full article"
   },
   {
@@ -220,7 +196,7 @@
     "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-july-2026",
     "pubDate": "Wed, 29 Jul 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "ASF 2026年7月Plus One通讯发布",
+    "summary": "ASF Plus One通讯：2026年7月刊",
     "contentSnippet": "**To receive Plus One directly to your inbox, sign up via the subscribe box below.** Community News The Conference Planners for the the ASF are very pleased to announce the redesign and launch of the new Community Over Code website! The new site will serve as the central resource and gateway for the global array […]\nThe post ASF Plus One Newsletter: July 2026 appeared first on The ASF Blog."
   },
   {
@@ -228,7 +204,7 @@
     "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
     "pubDate": "Tue, 28 Jul 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "摘要生成失败",
+    "summary": "Gemini API托管代理新增3.6 Flash与钩子等功能",
     "contentSnippet": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents."
   },
   {
@@ -236,7 +212,7 @@
     "link": "https://news.apache.org/foundation/entry/sponsor-success-at-apache-google-and-apache-iceberg",
     "pubDate": "Fri, 24 Jul 2026 02:49:35 +0000",
     "source": "Apache",
-    "summary": "谷歌赞助Apache Iceberg项目取得成功",
+    "summary": "Apache Iceberg获谷歌赞助，成数据架构基石",
     "contentSnippet": "The Apache Software Foundation (ASF) is home to more than 350 open source projects and initiatives, all powered by a vibrant, global community of contributors. Among these projects, Apache Iceberg has emerged as a cornerstone of modern data architecture, revolutionizing how organizations manage massive analytical datasets with its high-performance, open-table format. None of this innovation […]\nThe post Sponsor Success at Apache: Google and Apache Iceberg appeared first on The ASF Blog."
   }
 ]
