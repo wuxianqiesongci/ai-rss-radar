@@ -4,7 +4,7 @@
     "link": "https://code.visualstudio.com/updates/v1_133",
     "pubDate": "2026-08-11T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.133预览版新功能概览",
+    "summary": "VS Code 1.133预览版新功能速览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.133 (Insiders)\nRead the full article"
   },
   {
@@ -12,7 +12,7 @@
     "link": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
     "pubDate": "Fri, 07 Aug 2026 23:16:02 +0000",
     "source": "GitHub Changelog",
-    "summary": "GitHub Copilot每周更新：八月三日版",
+    "summary": "GitHub Copilot 8月3日周更：恢复工作、审查更改和提问。",
     "contentSnippet": "This week’s updates across GitHub Copilot in the desktop app, CLI, and VS Code help you resume and organize work, review changes, and ask questions without losing context. GitHub Copilot…\nThe post GitHub Copilot weekly releases — August 3 appeared first on The GitHub Blog."
   },
   {
@@ -20,7 +20,7 @@
     "link": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
     "pubDate": "Fri, 07 Aug 2026 21:40:03 +0000",
     "source": "GitHub Changelog",
-    "summary": "企业现可安装第三方GitHub应用。",
+    "summary": "企业现可安装第三方GitHub应用",
     "contentSnippet": "Enterprise owners can now install public GitHub Apps created outside their enterprise on their enterprise account. This allows third-party integrators to build apps for enterprise management scenarios. Enterprise installations grant…\nThe post Enterprises can now install third-party GitHub Apps appeared first on The GitHub Blog."
   },
   {
@@ -28,7 +28,7 @@
     "link": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
     "pubDate": "Fri, 07 Aug 2026 21:05:37 +0000",
     "source": "GitHub Changelog",
-    "summary": "GitHub Copilot仪表板新增投资回报板块。",
+    "summary": "Copilot影响仪表盘新增投资回报部分",
     "contentSnippet": "The Copilot impact dashboard now includes a “Potential return on investment” section that connects what you spend on Copilot to the pull request output you get back. What’s new Two…\nThe post Copilot impact dashboard adds a return on investment section appeared first on The GitHub Blog."
   },
   {
@@ -36,7 +36,7 @@
     "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
     "pubDate": "Fri, 07 Aug 2026 15:20:00 GMT",
     "source": "OpenAI",
-    "summary": "回应关键网络能力新前沿",
+    "summary": "摘要生成失败",
     "contentSnippet": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls."
   },
   {
@@ -44,7 +44,7 @@
     "link": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
     "pubDate": "Fri, 07 Aug 2026 11:50:39 GMT",
     "source": "Databricks",
-    "summary": "规模化管控AI编码成本，实现价值最大化。",
+    "summary": "大规模管理AI编程成本。",
     "contentSnippet": "AI coding tools deliver immense value: at Databricks, agentic coding has measurably..."
   },
   {
@@ -52,7 +52,7 @@
     "link": "https://www.databricks.com/blog/what-is-an-ai-assistant",
     "pubDate": "Fri, 07 Aug 2026 11:44:24 GMT",
     "source": "Databricks",
-    "summary": "AI助手：用语言模型、检索与推理理解请求",
+    "summary": "AI助手：用语言模型理解请求。",
     "contentSnippet": "AI assistants use language models, data retrieval, and reasoning to understand requests..."
   },
   {
@@ -60,7 +60,7 @@
     "link": "https://openai.com/index/hsp-gruppe",
     "pubDate": "Fri, 07 Aug 2026 09:00:00 GMT",
     "source": "OpenAI",
-    "summary": "摘要生成失败",
+    "summary": "HSP集团借助ChatGPT Enterprise提升税务咨询效率与服务质量。",
     "contentSnippet": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service."
   },
   {
@@ -68,7 +68,7 @@
     "link": "https://www.databricks.com/blog/agentic-workflows",
     "pubDate": "Thu, 06 Aug 2026 21:36:15 GMT",
     "source": "Databricks",
-    "summary": "什么是代理工作流？",
+    "summary": "超越单次提示的智能代理工作流",
     "contentSnippet": "As organizations move beyond single-prompt AI interactions, agentic workflows are..."
   },
   {
@@ -76,7 +76,7 @@
     "link": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
     "pubDate": "Thu, 06 Aug 2026 19:49:34 +0000",
     "source": "GitHub",
-    "summary": "GitHub Copilot应用斜杠命令指南",
+    "summary": "GitHub Copilot应用斜杠命令使用指南。",
     "contentSnippet": "Go beyond chat in the GitHub Copilot app with these slash commands. They'll help you plan, collaborate, automate, and customize your dev workflow.\nThe post A guide to slash commands in the GitHub Copilot app appeared first on The GitHub Blog."
   },
   {
@@ -84,7 +84,7 @@
     "link": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
     "pubDate": "Thu, 06 Aug 2026 16:51:12 +0000",
     "source": "GitHub",
-    "summary": "GitHub恶意公告不再限于npm，接入OpenSSF数据。",
+    "summary": "我们已将恶意软件通告扩展到npm之外",
     "contentSnippet": "GitHub malware advisories no longer stop at npm. Here's how we wired OpenSSF's malicious-packages data into the Advisory Database, and why we built the pipeline paranoid.\nThe post How we took malware advisories beyond npm appeared first on The GitHub Blog."
   },
   {
@@ -92,7 +92,7 @@
     "link": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
     "pubDate": "Thu, 06 Aug 2026 15:06:15 +0000",
     "source": "DeepMind",
-    "summary": "WeatherNext AI模型实现气旋预测突破",
+    "summary": "WeatherNext AI模型实现气旋预报突破",
     "contentSnippet": ""
   },
   {
@@ -100,7 +100,7 @@
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-projects-5",
     "pubDate": "Thu, 06 Aug 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache基金会宣布两个新顶级项目",
+    "summary": "Apache宣布Fluss和Pony Mail成为顶级项目。",
     "contentSnippet": "Introducing Apache® Fluss, a lakehouse-native streaming storage for real-time analytics and AI, and Apache® Pony Mail, a web-based mail archive browser built to scale to millions of archived messages Wilmington, DE –  August 6, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that […]\nThe post The Apache® Software Foundation Announces New Top-Level Projects appeared first on The ASF Blog."
   },
   {
@@ -108,7 +108,7 @@
     "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
     "pubDate": "Thu, 06 Aug 2026 10:00:00 GMT",
     "source": "OpenAI",
-    "summary": "摘要生成失败",
+    "summary": "ChatGPT升级Sol并扩大免费用户对Luna的访问。",
     "contentSnippet": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna."
   },
   {
@@ -116,7 +116,7 @@
     "link": "https://code.visualstudio.com/updates/v1_132",
     "pubDate": "2026-08-05T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.132版本更新内容概览",
+    "summary": "VS Code 1.132 新功能概览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.132\nRead the full article"
   },
   {
@@ -124,7 +124,7 @@
     "link": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
     "pubDate": "Tue, 04 Aug 2026 19:02:34 +0000",
     "source": "GitHub",
-    "summary": "GitHub法务团队用Copilot CLI简化工作流程。",
+    "summary": "GitHub法务团队用Copilot CLI免代码简化工作流",
     "contentSnippet": "Learn how to build tools to simplify how you work—without writing a single line of code.\nThe post How the GitHub legal team used Copilot CLI to streamline their workflows appeared first on The GitHub Blog."
   },
   {
@@ -132,7 +132,7 @@
     "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
     "pubDate": "Tue, 04 Aug 2026 13:00:00 +0000",
     "source": "Google AI",
-    "summary": "2026年7月谷歌最新AI动态汇总。",
+    "summary": "谷歌2026年7月最新AI动态",
     "contentSnippet": "Here are Google’s latest AI updates from July 2026"
   },
   {
@@ -140,7 +140,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
     "pubDate": "Mon, 03 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Orchard：开源可扩展的智能体AI训练评估框架",
+    "summary": "Orchard开源框架简化可扩展智能体训练评估",
     "contentSnippet": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure.\nThe post Orchard: An open framework for scalable agentic AI appeared first on Microsoft Research."
   },
   {
@@ -156,7 +156,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
     "pubDate": "Thu, 30 Jul 2026 17:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Echoverse：演化环境提升智能体多步任务能力",
+    "summary": "Echoverse：为计算机操作智能体打造深度进化环境。",
     "contentSnippet": "Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments rather than simply providing more training tasks, helping them improve as the tasks, tests, and environments evolve.\nThe post Echoverse: Deep, evolving environments for computer-use agents appeared first on Microsoft Research."
   },
   {
@@ -164,7 +164,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
     "pubDate": "Thu, 30 Jul 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "微软研究：EvoLib将经验转化为进化知识。",
+    "summary": "EvoLib：将经验转化为持续进化的知识。",
     "contentSnippet": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. \nThe post EvoLib: Turning experience into evolving knowledge appeared first on Microsoft Research."
   },
   {
@@ -172,7 +172,7 @@
     "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
     "pubDate": "Thu, 30 Jul 2026 15:00:59 +0000",
     "source": "DeepMind",
-    "summary": "Gemini机器人ER2以视频理解、任务编排和多机协作赋能机器人。",
+    "summary": "用视频理解、任务编排与多机器人协作赋能机器人。",
     "contentSnippet": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications."
   },
   {
@@ -180,7 +180,7 @@
     "link": "https://code.visualstudio.com/updates/v1_131",
     "pubDate": "2026-07-29T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "Visual Studio Code 1.131新增功能概览",
+    "summary": "Visual Studio Code 1.131 新功能介绍。",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.131\nRead the full article"
   },
   {
@@ -188,7 +188,7 @@
     "link": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
     "pubDate": "Wed, 29 Jul 2026 16:02:10 +0000",
     "source": "DeepMind",
-    "summary": "摘要生成失败",
+    "summary": "谷歌流音乐发布Lyria 3.5，提升音乐性、歌词、人声和创意控制",
     "contentSnippet": ""
   },
   {
@@ -196,7 +196,7 @@
     "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-july-2026",
     "pubDate": "Wed, 29 Jul 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "ASF Plus One通讯：2026年7月刊",
+    "summary": "ASF 2026年7月新闻通讯发布。",
     "contentSnippet": "**To receive Plus One directly to your inbox, sign up via the subscribe box below.** Community News The Conference Planners for the the ASF are very pleased to announce the redesign and launch of the new Community Over Code website! The new site will serve as the central resource and gateway for the global array […]\nThe post ASF Plus One Newsletter: July 2026 appeared first on The ASF Blog."
   },
   {
@@ -204,7 +204,7 @@
     "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
     "pubDate": "Tue, 28 Jul 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "Gemini API托管代理新增3.6 Flash与钩子等功能",
+    "summary": "Gemini API托管代理推出新功能，助力构建可靠生产级代理。",
     "contentSnippet": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents."
   },
   {
@@ -212,7 +212,7 @@
     "link": "https://news.apache.org/foundation/entry/sponsor-success-at-apache-google-and-apache-iceberg",
     "pubDate": "Fri, 24 Jul 2026 02:49:35 +0000",
     "source": "Apache",
-    "summary": "Apache Iceberg获谷歌赞助，成数据架构基石",
+    "summary": "谷歌与Apache Iceberg在ASF的成功。",
     "contentSnippet": "The Apache Software Foundation (ASF) is home to more than 350 open source projects and initiatives, all powered by a vibrant, global community of contributors. Among these projects, Apache Iceberg has emerged as a cornerstone of modern data architecture, revolutionizing how organizations manage massive analytical datasets with its high-performance, open-table format. None of this innovation […]\nThe post Sponsor Success at Apache: Google and Apache Iceberg appeared first on The ASF Blog."
   }
 ]
