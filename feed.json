@@ -1,5 +1,141 @@
 [
   {
+    "title": "Visual Studio Code 1.134 (Insiders)",
+    "link": "https://code.visualstudio.com/updates/v1_134",
+    "pubDate": "2026-08-18T17:00:00.000Z",
+    "source": "VS Code",
+    "summary": "VS Code 1.134内测版新功能一览",
+    "contentSnippet": "Learn what's new in Visual Studio Code 1.134 (Insiders)\nRead the full article"
+  },
+  {
+    "title": "GitHub availability report: July 2026",
+    "link": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
+    "pubDate": "Wed, 12 Aug 2026 22:17:32 +0000",
+    "source": "GitHub",
+    "summary": "GitHub七月可用性报告：发生八次服务降级",
+    "contentSnippet": "In July, we experienced eight incidents that resulted in degraded performance across GitHub services.\nThe post GitHub availability report: July 2026 appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Databricks Network Configuration delivery to Tens of Millions of Serverless VMs",
+    "link": "https://www.databricks.com/blog/databricks-network-configuration-delivery-tens-millions-serverless-vms",
+    "pubDate": "Wed, 12 Aug 2026 20:00:00 GMT",
+    "source": "Databricks",
+    "summary": "摘要生成失败",
+    "contentSnippet": "SummaryDatabricks' serverless platform launches tens of millions of VMs daily, and..."
+  },
+  {
+    "title": "How Amtrak is building the data backbone for its largest transformation in over 50 years",
+    "link": "https://www.databricks.com/blog/how-amtrak-building-data-backbone-its-largest-transformation-over-50-years",
+    "pubDate": "Wed, 12 Aug 2026 19:45:00 GMT",
+    "source": "Databricks",
+    "summary": "美铁为五十年来最大转型构建数据骨干",
+    "contentSnippet": "\"Every new trainset is a data-generating asset. The intelligence platform that connects..."
+  },
+  {
+    "title": "Write your first prompt with the GitHub Copilot app",
+    "link": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
+    "pubDate": "Wed, 12 Aug 2026 19:00:00 +0000",
+    "source": "GitHub",
+    "summary": "在GitHub Copilot应用中编写首个提示词。",
+    "contentSnippet": "Learn how to write your first prompt in the GitHub Copilot app, choose the right context and model, and start your first task with confidence.\nThe post Write your first prompt with the GitHub Copilot app appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app",
+    "link": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app",
+    "pubDate": "Wed, 12 Aug 2026 18:39:11 +0000",
+    "source": "GitHub Changelog",
+    "summary": "Agent插件1.0支持VS Code、Copilot CLI及Copilot应用。",
+    "contentSnippet": "You can now build a plugin once and use it across all compatible agent clients. We published Agent Plugins 1.0 on August 6 with AWS, Anysphere, Microsoft, OpenAI, and Vercel.…\nThe post Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Rule insights for organizations in public preview",
+    "link": "https://github.blog/changelog/2026-08-12-rule-insights-for-organizations-in-public-preview",
+    "pubDate": "Wed, 12 Aug 2026 18:30:28 +0000",
+    "source": "GitHub Changelog",
+    "summary": "组织级规则洞察仪表盘公开预览。",
+    "contentSnippet": "The rule insights dashboard is now in public preview at the organization level. You get a visual, high-level view of how GitHub evaluates and enforces your GitHub repository rulesets, so…\nThe post Rule insights for organizations in public preview appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Your contributors are AI-first now. Is your project?",
+    "link": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
+    "pubDate": "Wed, 12 Aug 2026 18:00:08 +0000",
+    "source": "GitHub",
+    "summary": "项目需应对AI优先贡献者，维护者如何控制。",
+    "contentSnippet": "AI contributors are already in your queue. AutoGPT maintainer Nicholas Tindle shares the repo instructions, gates, and boundaries that keep maintainers in control.\nThe post Your contributors are AI-first now. Is your project? appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Visual Studio Code 1.133",
+    "link": "https://code.visualstudio.com/updates/v1_133",
+    "pubDate": "2026-08-12T17:00:00.000Z",
+    "source": "VS Code",
+    "summary": "VS Code 1.133 新功能概览",
+    "contentSnippet": "Learn what's new in Visual Studio Code 1.133\nRead the full article"
+  },
+  {
+    "title": "How a major freight railroad scaled pipeline creation with Genie Code",
+    "link": "https://www.databricks.com/blog/how-major-freight-railroad-scaled-pipeline-creation-genie-code",
+    "pubDate": "Wed, 12 Aug 2026 16:35:18 GMT",
+    "source": "Databricks",
+    "summary": "大型货运铁路借助Genie Code扩展流水线创建",
+    "contentSnippet": "One of Canada’s largest railway networks spans roughly 20,000 route miles across..."
+  },
+  {
+    "title": "MindTopo reveals VLMs’ spatial reasoning abilities",
+    "link": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
+    "pubDate": "Wed, 12 Aug 2026 16:00:00 +0000",
+    "source": "Microsoft Research",
+    "summary": "MindTopo揭示视觉语言模型的空间推理能力。",
+    "contentSnippet": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and  highlights new opportunities to strengthen spatial reasoning and planning.\nThe post MindTopo reveals VLMs’ spatial reasoning abilities appeared first on Microsoft Research."
+  },
+  {
+    "title": "Putting sign language AI into users’ hands",
+    "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+    "pubDate": "Wed, 12 Aug 2026 14:01:59 +0000",
+    "source": "DeepMind",
+    "summary": "推出手语转文字模型，让聋人听障用户受益。",
+    "contentSnippet": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users."
+  },
+  {
+    "title": "From assistance to execution: How enterprises put AI to work",
+    "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
+    "pubDate": "Wed, 12 Aug 2026 06:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "企业如何让AI从辅助走向执行",
+    "contentSnippet": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption."
+  },
+  {
+    "title": "Closed-Loop LLM Co-Pilots for Digital Agriculture",
+    "link": "https://arxiv.org/abs/2608.09949",
+    "pubDate": "Wed, 12 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "闭环LLM协同驱动数字农业自主实验。",
+    "contentSnippet": "arXiv:2608.09949v1 Announce Type: new \nAbstract: This study evaluates the application of Large Language Models (LLMs) in complex biological systems, evolving from data analysis to autonomous, AI-guided experimentation. The framework is driven by data from a 49-channel phytosensor network, encompassing multispectral, electrochemical, and dielectric modalities. To enhance accessibility, the system provides real-time natural-language interpretation for both specialists and non-experts. However, its core advantage lies in the transition from human-in-the-loop analysis to autonomous control. Processing biophysical data, the LLM evaluates plant physiology and triggers hardware actuators to optimize microclimates, execute phenotyping protocols, or induce controlled stress scenarios. This closed-loop architecture establishes a direct AI-biology interface, enabling data-driven exploration of complex biosystems and ecologies. The framework was validated across three case studies, based on a vertical farm and a single-plant setup and deciphered complex micro- and macro-fluctuations in plant physiology. Agents in a production-scale deployment executed multi-parameter optimization, balancing biomass accumulation, chlorophyll content, and energy consumption. The LLM processed biosensing telemetry to modulate full-spectrum, 450 nm, and 660 nm lighting at 2-hour intervals. Compared to periodic control, the system in minimal-time mode reduced the production cycle by 35%. In the energy-optimization mode, it reduced energy consumption by 18% with only a marginal increase in cultivation time, exploiting physiological inertia via light pulses. Finally, the agents autonomously developed an unforeseen strategy of dark-induced chlorophyll accumulation, resulting in a 67.9% energy saving. This framework transforms LLMs into autonomous co-pilots for digital agriculture, improving the cost-to-value ratio and lowering computational and expert-labor constraints."
+  },
+  {
+    "title": "SPOTting the Future: Lookahead Explanations for Deep Reinforcement Learning",
+    "link": "https://arxiv.org/abs/2608.09967",
+    "pubDate": "Wed, 12 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "SPOT：深度强化学习的超前解释方法",
+    "contentSnippet": "arXiv:2608.09967v1 Announce Type: new \nAbstract: Deep reinforcement learning (DRL) agents achieve strong performance in complex environments, yet their decision-making processes remain difficult to interpret. We introduce SPOT (Sampling Policy Observation Tree), a novel model-agnostic, sampling-based framework for interpreting DRL policies. Given access to the policy and an environment simulator, SPOT constructs an interpretable finite-horizon tree by sampling actions and recursively simulating the resulting successor states. The tree provides an empirical representation of the policy's action preferences and their possible downstream evolution. We provide formal guarantees establishing SPOT's asymptotic recovery of the policy's unique most probable action and characterizing its disagreement behavior under high-entropy policies. We demonstrate SPOT in the SUMO-RL traffic-signal control domain. The case study illustrates how its tree-based representation can be used to inspect policy preferences, compare alternative future trajectories, and reveal downstream behaviors that are not visible through single-timestep feature-attribution methods."
+  },
+  {
+    "title": "MIDAS: Mutual Information Disentanglement with Uncertainty-Aware Fusion for Incomplete Multimodal Sentiment Analysis",
+    "link": "https://arxiv.org/abs/2608.09986",
+    "pubDate": "Wed, 12 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "MIDAS：互信息解缠与不确定性融合的不完整多模态情感分析。",
+    "contentSnippet": "arXiv:2608.09986v1 Announce Type: new \nAbstract: Most existing multimodal sentiment analysis approaches assume access to complete multimodal inputs. However, real-world applications frequently encounter incomplete or corrupted modalities, posing a critical challenge. Although several methods have been proposed to tackle this issue, they mainly rely on data imputation and heuristic coordination constraints, which fail to effectively extract and leverage task-relevant information from the incomplete multimodal data. To address this challenge, we propose a unified framework termed Mutual Information Disentanglement with uncertainty-Aware fuSion (MIDAS), which effectively restructures multimodal representations under incomplete conditions. MIDAS adopts a variational modeling strategy to represent each modality with multivariate Gaussian latent variables and further decomposes them into shared and exclusive factors. To obtain reliable representations, we design a minimax objective that minimizes the mutual information between shared and exclusive spaces for stable disentanglement, while maximizing the mutual information among shared spaces across modalities to enhance semantic alignment. In addition, an uncertainty-aware fusion mechanism is introduced, where posterior variance is leveraged as a reliability indicator to adaptively weight latent features during fusion, ensuring robust integration even when modalities are incomplete. Extensive experiments on three widely used datasets show that MIDAS achieves strong and consistent performance gains over competitive baselines across a wide range of incomplete settings, demonstrating its effectiveness and robustness for incomplete data scenarios."
+  },
+  {
+    "title": "How RingCentral builds AI-native work from engineering to ops",
+    "link": "https://openai.com/index/ringcentral",
+    "pubDate": "Wed, 12 Aug 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "RingCentral用ChatGPT Work和Codex加速AI开发并集中运维智能。",
+    "contentSnippet": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations."
+  },
+  {
     "title": "GitHub Enterprise Server 3.22 release candidate",
     "link": "https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate",
     "pubDate": "Tue, 11 Aug 2026 20:26:26 +0000",
@@ -8,59 +144,19 @@
     "contentSnippet": "GitHub Enterprise Server (GHES) 3.22 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.22 release: Administrators can configure Copilot CLI to…\nThe post GitHub Enterprise Server 3.22 release candidate appeared first on The GitHub Blog."
   },
   {
-    "title": "Copilot memory and Ollama in GitHub Copilot for JetBrains",
-    "link": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
-    "pubDate": "Tue, 11 Aug 2026 20:15:55 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub Copilot for JetBrains 新增记忆与Ollama支持",
-    "contentSnippet": "This update brings persistent memory, local model access, and more enterprise controls to GitHub Copilot for JetBrains. It also improves everyday chat workflows and resolves reliability issues across MCP servers,…\nThe post Copilot memory and Ollama in GitHub Copilot for JetBrains appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Automatically migrate branch protection rules to repository rulesets",
-    "link": "https://github.blog/changelog/2026-08-11-automatically-migrate-branch-protection-rules-to-repository-rulesets",
-    "pubDate": "Tue, 11 Aug 2026 19:03:57 +0000",
-    "source": "GitHub Changelog",
-    "summary": "自动将分支保护规则迁移为仓库规则集",
-    "contentSnippet": "You can now convert your existing branch protection rules to repository rulesets directly from your repository settings. This helps you migrate to GitHub’s more flexible and scalable policy framework without…\nThe post Automatically migrate branch protection rules to repository rulesets appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Open-sourcing Metals v2: Databricks’ Java and Scala language server for multi‑million line codebases",
-    "link": "https://www.databricks.com/blog/open-sourcing-metals-v2-databricks-java-and-scala-language-server-multi-million-line-codebases",
-    "pubDate": "Tue, 11 Aug 2026 19:00:00 GMT",
-    "source": "Databricks",
-    "summary": "Databricks开源Metals v2，支持Java/Scala百万行代码。",
-    "contentSnippet": "Most code at Databricks is now written by agents. For the moments engineers still..."
-  },
-  {
-    "title": "From coder to orchestrator: How agents shift the role of a developer",
-    "link": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
-    "pubDate": "Tue, 11 Aug 2026 18:38:17 +0000",
-    "source": "GitHub",
-    "summary": "智能体将开发者从编码者变为协调者。",
-    "contentSnippet": "Developers are owning more of the delivery system around code, not just code itself. Join us during GitHub Universe to meet other devs, learn something new, and explore what's next.\nThe post From coder to orchestrator: How agents shift the role of a developer appeared first on The GitHub Blog."
-  },
-  {
     "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
     "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
     "pubDate": "Tue, 11 Aug 2026 17:00:00 +0000",
     "source": "Google AI",
-    "summary": "摘要生成失败",
+    "summary": "谷歌研发医疗人工智能系统首次实现实时临床视频会诊",
     "contentSnippet": "Google introduces AMIE for real-time clinical video consultations in simulated settings."
-  },
-  {
-    "title": "Visual Studio Code 1.133 (Insiders)",
-    "link": "https://code.visualstudio.com/updates/v1_133",
-    "pubDate": "2026-08-11T17:00:00.000Z",
-    "source": "VS Code",
-    "summary": "VS Code 1.133内部版新功能概览",
-    "contentSnippet": "Learn what's new in Visual Studio Code 1.133 (Insiders)\nRead the full article"
   },
   {
     "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
     "link": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
     "pubDate": "Tue, 11 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "CARE-X：以辅助监督和工具测量提升放射学VLM临床实用性",
+    "summary": "CARE-X：结合辅助监督与工具测量的临床放射学VLM。",
     "contentSnippet": "Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions, and measurement-based tools for chest X-ray interpretation.\nThe post Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement appeared first on Microsoft Research."
   },
   {
@@ -68,16 +164,8 @@
     "link": "https://news.apache.org/foundation/entry/from-friction-to-flow-how-asf-tooling-is-lowering-barriers-for-maintainers",
     "pubDate": "Tue, 11 Aug 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "ASF工具化繁为简，降低维护者门槛。",
+    "summary": "ASF工具助力维护者顺畅发布。",
     "contentSnippet": "The Apache Trusted Releases (ATR) platform, a new tool from the ASF Tooling Initiative, is making it easier for open source maintainers across hundreds of independently governed ASF projects to ship secure, compliant releases without adding to their workload. ATR automates the parts of the release process that used to depend on institutional knowledge (e.g., […]\nThe post From Friction to Flow: How ASF Tooling Is Lowering Barriers for Maintainers appeared first on The ASF Blog."
-  },
-  {
-    "title": "Modern Risk Demands a Real-Time Foundation: The CRO’s Mandate",
-    "link": "https://www.databricks.com/blog/modern-risk-demands-real-time-foundation-cros-mandate",
-    "pubDate": "Tue, 11 Aug 2026 12:30:00 GMT",
-    "source": "Databricks",
-    "summary": "现代风险需实时基础：CRO的使命。",
-    "contentSnippet": "In a volatile macroeconomic environment, enterprise risk management today is constrained..."
   },
   {
     "title": "Testing ads in ChatGPT",
@@ -88,83 +176,19 @@
     "contentSnippet": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control."
   },
   {
-    "title": "Daybreak models are now available on AWS",
-    "link": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-    "pubDate": "Tue, 11 Aug 2026 10:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "Daybreak模型现已在AWS Bedrock支持企业安全。",
-    "contentSnippet": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows."
-  },
-  {
-    "title": "Electric joins Databricks to bring WASM Postgres to AI agent sandboxes",
-    "link": "https://www.databricks.com/blog/electric-joins-databricks-bring-wasm-postgres-ai-agent-sandboxes",
-    "pubDate": "Tue, 11 Aug 2026 07:00:00 GMT",
-    "source": "Databricks",
-    "summary": "Electric加入Databricks，为AI代理沙箱引入WASM Postgres",
-    "contentSnippet": "Today, we’re excited to welcome Electric to Databricks. The world is building a new..."
-  },
-  {
-    "title": "Application of Artificial Intelligence for Fraudulent Banking Operations Recognition",
-    "link": "https://arxiv.org/abs/2608.07471",
-    "pubDate": "Tue, 11 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "人工智能识别银行欺诈操作应用研究",
-    "contentSnippet": "arXiv:2608.07471v1 Announce Type: new \nAbstract: This study considers the task of applying artificial intelligence to recognize bank fraud. In recent years, due to the COVID19 pandemic, bank fraud has become even more common due to the massive transition of many operations to online platforms and the creation of many charitable funds that criminals can use to deceive users. The present work focuses on machine learning algorithms as a tool well suited for analyzing and recognizing online banking transactions. The study`s scientific novelty is the development of machine learning models for identifying fraudulent banking transactions and techniques for preprocessing bank data for further comparison and selection of the best results. This paper also details various methods for improving detection accuracy, i.e., handling highly imbalanced datasets, feature transformation, and feature engineering. The proposed model, which is based on an artificial neural network, effectively improves the accuracy of fraudulent transaction detection. The results of the different algorithms are visualized, and the logistic regression algorithm performs the best, with an output AUC value of approximately 0,946. The stacked generalization shows a better AUC of 0.954. The recognition of banking fraud using artificial intelligence algorithms is a topical issue in our digital society."
-  },
-  {
-    "title": "Data-Driven Fire-Zone Segmentation for Improved Short-Term Wildfire Prediction",
-    "link": "https://arxiv.org/abs/2608.07472",
-    "pubDate": "Tue, 11 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "数据驱动火灾区域分割提升短期野火预测",
-    "contentSnippet": "arXiv:2608.07472v1 Announce Type: new \nAbstract: Wildfire prediction models typically discretize study areas into uniform grids, ignoring the heterogeneous spatial distribution of ignitions. We challenge this paradigm by showing that how data is discretized matters more than which model is used. We propose an unsupervised fire-zone segmentation algorithm combining watershed detection with K-means clustering to define prediction units directly from historical fire patterns. Experiments across six French departments and six forecasting models show that fire-zone segmentation consistently outperforms grid-based approaches, with mean IoU improvements of +3--6% depending on spatial scale. The method is computationally lightweight (<10s per configuration) and fully parallelizable. Our results demonstrate that optimizing spatial discretization yields significant, reproducible performance gains for short-term wildfire forecasting."
-  },
-  {
-    "title": "Towards an Argumentative Foundation for Evaluative AI",
-    "link": "https://arxiv.org/abs/2608.07473",
-    "pubDate": "Tue, 11 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "迈向论证基础的评估型AI",
-    "contentSnippet": "arXiv:2608.07473v1 Announce Type: new \nAbstract: Evaluative AI (EAI) has been recently proposed as a way to support human decision-making, not by producing a single recommendation, but by presenting competing hypotheses together with evidence for and against each. In this position paper, we advocate (computational) argumentation as a particularly suitable paradigm to provide a formal, computable foundation for forms of EAI that are explainable and contestable, setting the ground for a long-term research agenda towards distributed and human-centred EAI systems."
-  },
-  {
-    "title": "Using the GitHub Copilot SDK for Java",
-    "link": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
-    "pubDate": "Mon, 10 Aug 2026 19:30:00 +0000",
-    "source": "GitHub",
-    "summary": "使用Java SDK驱动GitHub Copilot",
-    "contentSnippet": "Enterprise Java developers have a new superpower—drive GitHub Copilot from idiomatic Java code with annotations, virtual threads, and more.\nThe post Using the GitHub Copilot SDK for Java appeared first on The GitHub Blog."
-  },
-  {
     "title": "Evolve your marketing with new AI tools",
     "link": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
     "pubDate": "Mon, 10 Aug 2026 14:30:00 +0000",
     "source": "Google AI",
-    "summary": "谷歌新AI工具升级营销，简化工作流。",
+    "summary": "摘要生成失败",
     "contentSnippet": "Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow."
-  },
-  {
-    "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
-    "link": "https://openai.com/index/responsible-ai-infrastructure-texas",
-    "pubDate": "Mon, 10 Aug 2026 14:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "OpenAI就负责任AI基建致信德州州长",
-    "contentSnippet": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans."
-  },
-  {
-    "title": "A guide to slash commands in the GitHub Copilot app",
-    "link": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
-    "pubDate": "Thu, 06 Aug 2026 19:49:34 +0000",
-    "source": "GitHub",
-    "summary": "GitHub Copilot应用斜杠命令指南",
-    "contentSnippet": "Go beyond chat in the GitHub Copilot app with these slash commands. They'll help you plan, collaborate, automate, and customize your dev workflow.\nThe post A guide to slash commands in the GitHub Copilot app appeared first on The GitHub Blog."
   },
   {
     "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
     "link": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
     "pubDate": "Thu, 06 Aug 2026 15:06:15 +0000",
     "source": "DeepMind",
-    "summary": "WeatherNext AI模型预测气旋获突破",
+    "summary": "WeatherNext AI模型实现气旋预报突破",
     "contentSnippet": ""
   },
   {
@@ -172,7 +196,7 @@
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-projects-5",
     "pubDate": "Thu, 06 Aug 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache软件基金会宣布新顶级项目",
+    "summary": "Apache基金会宣布新顶级项目。",
     "contentSnippet": "Introducing Apache® Fluss, a lakehouse-native streaming storage for real-time analytics and AI, and Apache® Pony Mail, a web-based mail archive browser built to scale to millions of archived messages Wilmington, DE –  August 6, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that […]\nThe post The Apache® Software Foundation Announces New Top-Level Projects appeared first on The ASF Blog."
   },
   {
@@ -180,7 +204,7 @@
     "link": "https://code.visualstudio.com/updates/v1_132",
     "pubDate": "2026-08-05T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.132新功能概览，详情见文章。",
+    "summary": "VS Code 1.132新功能概览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.132\nRead the full article"
   },
   {
@@ -188,7 +212,7 @@
     "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
     "pubDate": "Tue, 04 Aug 2026 13:00:00 +0000",
     "source": "Google AI",
-    "summary": "谷歌2026年7月最新AI动态",
+    "summary": "谷歌二〇二六年七月人工智能最新动态",
     "contentSnippet": "Here are Google’s latest AI updates from July 2026"
   },
   {
@@ -196,47 +220,23 @@
     "link": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
     "pubDate": "Mon, 03 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Orchard：开源可扩展AI代理训练评估框架",
+    "summary": "Orchard开源框架：可扩展训练评估AI代理。",
     "contentSnippet": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure.\nThe post Orchard: An open framework for scalable agentic AI appeared first on Microsoft Research."
-  },
-  {
-    "title": "Echoverse: Deep, evolving environments for computer-use agents",
-    "link": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
-    "pubDate": "Thu, 30 Jul 2026 17:00:00 +0000",
-    "source": "Microsoft Research",
-    "summary": "Echoverse：为计算机操作代理打造深度演化环境。",
-    "contentSnippet": "Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments rather than simply providing more training tasks, helping them improve as the tasks, tests, and environments evolve.\nThe post Echoverse: Deep, evolving environments for computer-use agents appeared first on Microsoft Research."
   },
   {
     "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
     "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
     "pubDate": "Thu, 30 Jul 2026 15:00:59 +0000",
     "source": "DeepMind",
-    "summary": "Gemini Robotics ER 2赋能视频理解、任务编排与多机协作",
-    "contentSnippet": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications."
-  },
-  {
-    "title": "Visual Studio Code 1.131",
-    "link": "https://code.visualstudio.com/updates/v1_131",
-    "pubDate": "2026-07-29T17:00:00.000Z",
-    "source": "VS Code",
-    "summary": "VS Code 1.131 新特性概览",
-    "contentSnippet": "Learn what's new in Visual Studio Code 1.131\nRead the full article"
-  },
-  {
-    "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
-    "link": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
-    "pubDate": "Wed, 29 Jul 2026 16:02:10 +0000",
-    "source": "DeepMind",
     "summary": "摘要生成失败",
-    "contentSnippet": ""
+    "contentSnippet": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications."
   },
   {
     "title": "ASF Plus One Newsletter: July 2026",
     "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-july-2026",
     "pubDate": "Wed, 29 Jul 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "ASF Plus One 2026年7月通讯",
+    "summary": "ASF七月Plus One通讯：新社区网站上线",
     "contentSnippet": "**To receive Plus One directly to your inbox, sign up via the subscribe box below.** Community News The Conference Planners for the the ASF are very pleased to announce the redesign and launch of the new Community Over Code website! The new site will serve as the central resource and gateway for the global array […]\nThe post ASF Plus One Newsletter: July 2026 appeared first on The ASF Blog."
   }
 ]
