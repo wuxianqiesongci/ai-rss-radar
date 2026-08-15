@@ -4,15 +4,23 @@
     "link": "https://code.visualstudio.com/updates/v1_134",
     "pubDate": "2026-08-18T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "了解VS Code 1.134 Insiders版新特性",
+    "summary": "VS Code 1.134预览版新功能",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.134 (Insiders)\nRead the full article"
+  },
+  {
+    "title": "Multiple redirect URIs and token refresh for OAuth apps",
+    "link": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
+    "pubDate": "Fri, 14 Aug 2026 22:43:44 +0000",
+    "source": "GitHub Changelog",
+    "summary": "OAuth应用支持多个重定向URI和令牌刷新。",
+    "contentSnippet": "We’ve released multiple updates to the OAuth app and GitHub App platforms to support more secure app development: OAuth apps can opt in to expiring access tokens and refresh tokens.…\nThe post Multiple redirect URIs and token refresh for OAuth apps appeared first on The GitHub Blog."
   },
   {
     "title": "Using AI_Functions in Your Data Warehouse: Top Use Cases",
     "link": "https://www.databricks.com/blog/using-aifunctions-your-data-warehouse-top-use-cases",
     "pubDate": "Fri, 14 Aug 2026 21:30:00 GMT",
     "source": "Databricks",
-    "summary": "数据仓库中AI函数的主要应用场景",
+    "summary": "AI函数在数据仓库中的主要应用场景。",
     "contentSnippet": "In most organizations, data warehouses hold structured data, while unstructured data..."
   },
   {
@@ -20,7 +28,7 @@
     "link": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
     "pubDate": "Fri, 14 Aug 2026 16:17:46 +0000",
     "source": "GitHub Changelog",
-    "summary": "Grok 4.6上线GitHub Copilot，专为智能体编码设计。",
+    "summary": "Grok 4.6 现已在 GitHub Copilot 中可用。",
     "contentSnippet": "Grok 4.6, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for agentic coding and complex multi-step workflows. In our internal testing, Grok 4.6 showed…\nThe post Grok 4.6 is now available in GitHub Copilot appeared first on The GitHub Blog."
   },
   {
@@ -28,39 +36,15 @@
     "link": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
     "pubDate": "Fri, 14 Aug 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "借助Agent应用将软件交付流程迁入GitHub",
+    "summary": "借助代理应用将软件交付工作流引入GitHub",
     "contentSnippet": "See how four GitHub agent apps can help you scope, secure, roll out, and ship a feature across the SDLC–all without leaving GitHub. \nThe post How to bring your software delivery workflow into GitHub with agent apps appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Position: Reasoning is a Learnable Rule-Based Process",
-    "link": "https://arxiv.org/abs/2608.12325",
-    "pubDate": "Fri, 14 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "推理是可学习的基于规则的过程。",
-    "contentSnippet": "arXiv:2608.12325v1 Announce Type: new \nAbstract: Autonomous reasoning is among the most scientifically and economically motivating topics in AI today. Historically the purview of symbolic AI, recent advances have mainly emerged from deep probabilistic generative models. Despite immense interest and rapid progress, the generative AI community has not clearly converged on operational definitions for reasoning and often implicitly rejects the historical treatment of this topic in logic and verifiable automated reasoning. This position contends that definitional ambiguity leaves the construct validity of reasoning evaluation unverifiable, undermining quantifiable progress toward trustworthy autonomous reasoning. We also contend that this ambiguity is addressable. To that end, we provide (1) operational definitions based on a synthesis of the literature, positioning valid and sound reasoning as a learnable rule-based process; and (2) a checklist for best practices in the communication of AI reasoning research."
-  },
-  {
-    "title": "Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists",
-    "link": "https://arxiv.org/abs/2608.12345",
-    "pubDate": "Fri, 14 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "评估大模型科研诚信的基准框架。",
-    "contentSnippet": "arXiv:2608.12345v1 Announce Type: new \nAbstract: Language models are increasingly deployed as co-scientists, yet their ability to uphold research integrity under institutional pressure remains unmeasured. We introduce IntegrityBench, a benchmark evaluating misconduct classification, ethical action reasoning and artifact-grounded decision making across 36 paired tasks under a 5-level implicit-explicit pressure protocol spanning 3 domains and 4 research stages. Evaluating 18 frontier model variants, we find that under peak pressure, models fail roughly 1 in 3 integrity-critical decisions, and neither scale nor reasoning ability reliably mitigates this. Explicit pressures induce compliance with misconduct, while implicit contextual reframing more often causes over-refusal of legitimate research tasks. Interestingly, models failing to classify research requests accurately perform equally or better on artifact-grounded decision making (85.7 vs. 79.4), suggesting the three facets are structurally dissociated and correct ethical action does not require accurate classification. Frontier models can thus appear helpful while harbouring integrity failures that create two distinct deployment risks: facilitating research misconduct and eroding trust in AI-assisted research."
-  },
-  {
-    "title": "Position: The Alignment Community is Unintentionally Building a Censor's Toolkit",
-    "link": "https://arxiv.org/abs/2608.12346",
-    "pubDate": "Fri, 14 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "对齐研究或无意助长审查工具。",
-    "contentSnippet": "arXiv:2608.12346v1 Announce Type: new \nAbstract: This position paper argues that modern AI alignment methods - originally designed to prevent harmful output - are dual-use technologies that may easily be misused by malicious actors for censorship and manipulation. By mapping current alignment techniques to the possibility and actual cases of misuse, we show that the quest for a \"perfectly aligned\" model inadvertently also provides malicious actors with an ever-improving tool for informational dominance. We need to discuss this dual-use potential now, as its risk is exacerbated by rapid user adoption of AI as information provider, economic power asymmetries, and a political landscape that increasingly shifts towards authoritarianism. We conclude by urging the community to consider the intentional misuse of AI alignment mechanisms and propose mitigation strategies to safeguard against this dual-use potential."
   },
   {
     "title": "GitHub Copilot weekly releases — August 10",
     "link": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
     "pubDate": "Fri, 14 Aug 2026 03:15:56 +0000",
     "source": "GitHub Changelog",
-    "summary": "GitHub Copilot八月十日周更新发布",
+    "summary": "GitHub Copilot八月十日周更，增强跨编辑器灵活性。",
     "contentSnippet": "From new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command line, and the Copilot app. GitHub Copilot, general…\nThe post GitHub Copilot weekly releases — August 10 appeared first on The GitHub Blog."
   },
   {
@@ -68,7 +52,7 @@
     "link": "https://www.databricks.com/blog/how-scottish-water-made-its-capital-investment-data-conversational-databricks-genie",
     "pubDate": "Thu, 13 Aug 2026 21:00:00 GMT",
     "source": "Databricks",
-    "summary": "苏格兰水务利用Databricks Genie将资本投资数据变为对话式",
+    "summary": "摘要生成失败",
     "contentSnippet": "Across Scottish Water’s Capital Investment (CI) programme, teams need fast answers..."
   },
   {
@@ -76,23 +60,15 @@
     "link": "https://www.databricks.com/blog/ai-hallucinations",
     "pubDate": "Thu, 13 Aug 2026 19:35:16 GMT",
     "source": "Databricks",
-    "summary": "人工智能幻觉是貌似连贯自信但事实错误的生成内容。",
+    "summary": "什么是AI幻觉？",
     "contentSnippet": "AI hallucinations are outputs that sound coherent and confident but are factually wrong, fabricated..."
-  },
-  {
-    "title": "License data quality improvements",
-    "link": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
-    "pubDate": "Thu, 13 Aug 2026 19:14:12 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub改进许可证数据，采用包注册表提升准确性。",
-    "contentSnippet": "GitHub now uses package registries like npmjs.org and PyPI to determine license information for software components in the dependency graph. This improves the accuracy and completeness of the licenses shown…\nThe post License data quality improvements appeared first on The GitHub Blog."
   },
   {
     "title": "Your guide to GitHub Universe 2026 is here: The schedule just launched!",
     "link": "https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/",
     "pubDate": "Thu, 13 Aug 2026 19:00:00 +0000",
     "source": "GitHub",
-    "summary": "GitHub宇宙2026日程公布，早鸟省300美元",
+    "summary": "GitHub Universe 2026日程发布，注册可省300美元",
     "contentSnippet": "The GitHub Universe session catalog is live. Explore interactive workshops, community talks, demos, and panels. Plus, register before August 19 to save $300.\nThe post Your guide to GitHub Universe 2026 is here: The schedule just launched! appeared first on The GitHub Blog."
   },
   {
@@ -100,7 +76,7 @@
     "link": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
     "pubDate": "Thu, 13 Aug 2026 17:04:18 +0000",
     "source": "DeepMind",
-    "summary": "发布Gemini 3.7 Flash",
+    "summary": "推出Gemini 3.7 Flash",
     "contentSnippet": ""
   },
   {
@@ -108,7 +84,7 @@
     "link": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
     "pubDate": "Thu, 13 Aug 2026 16:45:00 +0000",
     "source": "Google AI",
-    "summary": "用简单提示将电子表格数据变成交互式仪表盘",
+    "summary": "Sheets画布让电子表格数据活起来",
     "contentSnippet": "Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt."
   },
   {
@@ -116,7 +92,7 @@
     "link": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
     "pubDate": "Thu, 13 Aug 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "50个开源项目揭示AI时代安全经验。",
+    "summary": "50个开源项目揭示AI时代安全经验",
     "contentSnippet": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. \nThe post What 50 open source projects taught us about security in the AI era appeared first on The GitHub Blog."
   },
   {
@@ -124,7 +100,7 @@
     "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
     "pubDate": "Thu, 13 Aug 2026 11:00:00 GMT",
     "source": "OpenAI",
-    "summary": "GPT-5.6构建指南：助初创企业打造高效AI代理。",
+    "summary": "利用GPT-5.6和Responses API构建高效AI代理。",
     "contentSnippet": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities."
   },
   {
@@ -132,7 +108,7 @@
     "link": "https://openai.com/index/previewing-ultrafast",
     "pubDate": "Thu, 13 Aug 2026 10:00:00 GMT",
     "source": "OpenAI",
-    "summary": "预览超快模式，GPT-5.6 Sol提速十四倍，每秒七百五十词元。",
+    "summary": "预览超快模式：GPT-5.6 Sol提速14倍",
     "contentSnippet": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second."
   },
   {
@@ -140,7 +116,7 @@
     "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
     "pubDate": "Thu, 13 Aug 2026 09:00:00 GMT",
     "source": "OpenAI",
-    "summary": "OpenAI任命Dali Rajic为首席营收官。",
+    "summary": "OpenAI任命Dali Rajic为首席营收官",
     "contentSnippet": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI."
   },
   {
@@ -148,7 +124,7 @@
     "link": "https://code.visualstudio.com/updates/v1_133",
     "pubDate": "2026-08-12T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.133新特性概览",
+    "summary": "VS Code 1.133 新版本亮点",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.133\nRead the full article"
   },
   {
@@ -156,7 +132,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
     "pubDate": "Wed, 12 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "MindTopo基准测试揭示AI空间推理能力。",
+    "summary": "MindTopo新基准测试AI拓扑理解，提升空间推理。",
     "contentSnippet": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and  highlights new opportunities to strengthen spatial reasoning and planning.\nThe post MindTopo reveals VLMs’ spatial reasoning abilities appeared first on Microsoft Research."
   },
   {
@@ -164,7 +140,7 @@
     "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
     "pubDate": "Wed, 12 Aug 2026 14:01:59 +0000",
     "source": "DeepMind",
-    "summary": "将手语AI交到用户手中",
+    "summary": "手语AI落地用户，助力聋人沟通。",
     "contentSnippet": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users."
   },
   {
@@ -172,7 +148,7 @@
     "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
     "pubDate": "Tue, 11 Aug 2026 17:00:00 +0000",
     "source": "Google AI",
-    "summary": "谷歌AMIE实现模拟环境中的实时临床视频咨询",
+    "summary": "Google推出AMIE系统，实现实时临床视频会诊。",
     "contentSnippet": "Google introduces AMIE for real-time clinical video consultations in simulated settings."
   },
   {
@@ -180,7 +156,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
     "pubDate": "Tue, 11 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "摘要生成失败",
+    "summary": "CARE-X：辅助监督与工具增强的临床放射学VLM",
     "contentSnippet": "Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions, and measurement-based tools for chest X-ray interpretation.\nThe post Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement appeared first on Microsoft Research."
   },
   {
@@ -188,7 +164,7 @@
     "link": "https://news.apache.org/foundation/entry/from-friction-to-flow-how-asf-tooling-is-lowering-barriers-for-maintainers",
     "pubDate": "Tue, 11 Aug 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "ASF新工具ATR降低维护者发布门槛",
+    "summary": "ASF工具降低维护者发布门槛。",
     "contentSnippet": "The Apache Trusted Releases (ATR) platform, a new tool from the ASF Tooling Initiative, is making it easier for open source maintainers across hundreds of independently governed ASF projects to ship secure, compliant releases without adding to their workload. ATR automates the parts of the release process that used to depend on institutional knowledge (e.g., […]\nThe post From Friction to Flow: How ASF Tooling Is Lowering Barriers for Maintainers appeared first on The ASF Blog."
   },
   {
@@ -196,7 +172,7 @@
     "link": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
     "pubDate": "Mon, 10 Aug 2026 14:30:00 +0000",
     "source": "Google AI",
-    "summary": "新AI工具助力简化营销工作流",
+    "summary": "新人工智能工具助力营销进化",
     "contentSnippet": "Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow."
   },
   {
@@ -204,7 +180,7 @@
     "link": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
     "pubDate": "Thu, 06 Aug 2026 15:06:15 +0000",
     "source": "DeepMind",
-    "summary": "WeatherNext AI模型预测气旋获突破",
+    "summary": "WeatherNext AI模型实现气旋预报突破",
     "contentSnippet": ""
   },
   {
@@ -212,7 +188,7 @@
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-projects-5",
     "pubDate": "Thu, 06 Aug 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache软件基金会宣布新顶级项目",
+    "summary": "Apache软件基金会宣布两个新顶级项目。",
     "contentSnippet": "Introducing Apache® Fluss, a lakehouse-native streaming storage for real-time analytics and AI, and Apache® Pony Mail, a web-based mail archive browser built to scale to millions of archived messages Wilmington, DE –  August 6, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that […]\nThe post The Apache® Software Foundation Announces New Top-Level Projects appeared first on The ASF Blog."
   },
   {
@@ -220,7 +196,7 @@
     "link": "https://code.visualstudio.com/updates/v1_132",
     "pubDate": "2026-08-05T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "了解VS Code 1.132的新特性",
+    "summary": "VS Code 1.132 新功能一览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.132\nRead the full article"
   },
   {
@@ -228,7 +204,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
     "pubDate": "Mon, 03 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Orchard：开源可扩展智能体AI框架",
+    "summary": "Orchard开源框架助力可扩展智能体，简化训练评估。",
     "contentSnippet": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure.\nThe post Orchard: An open framework for scalable agentic AI appeared first on Microsoft Research."
   },
   {
@@ -236,7 +212,7 @@
     "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-july-2026",
     "pubDate": "Wed, 29 Jul 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "ASF发布2026年7月Plus One通讯",
+    "summary": "ASF七月通讯：社区Over Code新网站上线",
     "contentSnippet": "**To receive Plus One directly to your inbox, sign up via the subscribe box below.** Community News The Conference Planners for the the ASF are very pleased to announce the redesign and launch of the new Community Over Code website! The new site will serve as the central resource and gateway for the global array […]\nThe post ASF Plus One Newsletter: July 2026 appeared first on The ASF Blog."
   }
 ]
