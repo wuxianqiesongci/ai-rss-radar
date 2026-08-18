@@ -1,18 +1,98 @@
 [
   {
+    "title": "Databricks Document Intelligence: pushing the frontier for complex document extraction",
+    "link": "https://www.databricks.com/blog/databricks-document-intelligence-pushing-frontier-complex-document-extraction",
+    "pubDate": "Tue, 18 Aug 2026 22:00:00 GMT",
+    "source": "Databricks",
+    "summary": "Databricks文档智能突破复杂文档提取前沿。",
+    "contentSnippet": "Every enterprise has valuable data trapped in messy, unstructured documents. Today,..."
+  },
+  {
+    "title": "Strengthening democratic oversight in national security",
+    "link": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+    "pubDate": "Tue, 18 Aug 2026 19:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "OpenAI助力国家安全AI民主监督。",
+    "contentSnippet": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise."
+  },
+  {
     "title": "Visual Studio Code 1.134 (Insiders)",
     "link": "https://code.visualstudio.com/updates/v1_134",
     "pubDate": "2026-08-18T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.134 Insiders版新特性概览",
+    "summary": "VS Code 1.134 Insiders 新特性概览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.134 (Insiders)\nRead the full article"
+  },
+  {
+    "title": "Apache Geode 2.0, Part III: Lessons Learned and the Path Forward",
+    "link": "https://news.apache.org/foundation/entry/apache-geode-2-0-part-iii-lessons-learned-and-the-path-forward",
+    "pubDate": "Tue, 18 Aug 2026 16:00:00 +0000",
+    "source": "Apache",
+    "summary": "Apache Geode 2.0第三部分：经验教训与未来之路",
+    "contentSnippet": "What Geode 2.0 taught us—and what comes next By Jinwoo HwangLead Developer, Project Lead, and Release Manager, Apache Geode 2.0https://JinwooHwang.com This post is divided into three parts. Part I explains why Apache Geode 2.0 matters. Part II walks through how it was modernized. Part III looks ahead—what we learned, what changed, and how you can […]\nThe post Apache Geode 2.0, Part III: Lessons Learned and the Path Forward appeared first on The ASF Blog."
+  },
+  {
+    "title": "When it comes to Governance, Retailers need a control plane for context",
+    "link": "https://www.databricks.com/blog/when-it-comes-governance-retailers-need-control-plane-context",
+    "pubDate": "Tue, 18 Aug 2026 15:18:00 GMT",
+    "source": "Databricks",
+    "summary": "零售商治理需上下文控制平面。",
+    "contentSnippet": "Retailers are entering a new phase of AI adoption.The early conversations around..."
+  },
+  {
+    "title": "Evaluating AI Agents Live at the Grounded Reasoning Cup",
+    "link": "https://www.databricks.com/blog/evaluating-ai-agents-live-grounded-reasoning-cup",
+    "pubDate": "Tue, 18 Aug 2026 15:00:00 GMT",
+    "source": "Databricks",
+    "summary": "在基础推理杯现场评估AI智能体",
+    "contentSnippet": "This year, Databricks hosted the inaugural Grounded Reasoning Cup, a first-of-its-kind..."
+  },
+  {
+    "title": "Partnering with CodeAI to prepare the first AI generation",
+    "link": "https://openai.com/index/partnering-with-codeai",
+    "pubDate": "Tue, 18 Aug 2026 11:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "OpenAI携手CodeAI培养首代AI人才。",
+    "contentSnippet": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly."
+  },
+  {
+    "title": "Pacing model development in an era of cyber-critical capabilities",
+    "link": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+    "pubDate": "Tue, 18 Aug 2026 11:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "网络关键能力时代，OpenAI加强前沿AI安全监管。",
+    "contentSnippet": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development."
+  },
+  {
+    "title": "FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment",
+    "link": "https://arxiv.org/abs/2608.14550",
+    "pubDate": "Tue, 18 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "AI效率评估需复现验证，FLOPs不等于实际工作。",
+    "contentSnippet": "arXiv:2608.14550v1 Announce Type: new \nAbstract: AI efficiency has recently taken the spotlight in both academy and industry due to massive model scales, high energy demands, and environmental costs. While reporting Floating Point Operations (FLOPs) is a traditional approach for assessing computational costs, the relationship between FLOPs and execution time is not straightforward, as layers with the same number of FLOPs may not have the same execution time because some operations are more easily parallelized than others. This paper sets out to replicate the original experiments from a study that proposed the $\\alpha-FLOPs$ estimation formula to verify whether the results remain applicable on newer, more powerful hardware.\n  During the replication process, we identify limitations in the replication materials provided by the original study, including a lack of specific dependency details and transparency regarding regression data. Our results validate the thesis that raw FLOPs alone are not an appropriate metric for execution time, as spatial dimensions remain more easily parallelized than kernel dimensions. However, fine-grained measurements reveal that the relationship is much less straightforward than previously shown, with newer hardware exhibiting instabilities and discontinuities in execution time, including jumps and oscillations, that the $\\alpha-FLOPs$ formula generally underestimates. Ultimately, this work validates the empirical findings from the original study but shows negative results when applying the $\\alpha-FLOPs$ estimation. We also highlight the critical need for complete and accurate replication packages for research on hardware-dependent efficiency assessment and provide a complete replication package for our implementation to facilitate further study."
+  },
+  {
+    "title": "Large Language Models Show Metacognitive Sensitivity in Medical Reasoning",
+    "link": "https://arxiv.org/abs/2608.14552",
+    "pubDate": "Tue, 18 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "大语言模型在医学推理中显示元认知敏感性。",
+    "contentSnippet": "arXiv:2608.14552v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly evaluated and used in medicine, but clinical usefulness depends on answer accuracy and whether confidence tracks evidence quality and uncertainty. We developed a controlled, psychophysics-inspired clinical benchmark to test diagnostic choice and confidence behavior in a medical LLM. The benchmark focused on probable Alzheimer-type neurocognitive disorder (AT-NCD) versus depression-related cognitive impairment (DRCI). We generated 45 synthetic vignettes varying evidence strength, conflicting evidence, and missing information. Each vignette was presented under three prompt variants, yielding 135 trials. In a pilot run with gpt-4.1-nano, all trials produced valid structured outputs. Across forced-choice trials, diagnostic accuracy was 93.5%, mean confidence was 78.4%, and AUROC2 was 0.876. Confidence increased with evidence distance from the diagnostic boundary, decreased when information was missing, and remained higher on correct than incorrect trials after adjustment for evidence strength and prompt format. These findings indicate partial metacognitive sensitivity rather than globally uninformative confidence. However, errors clustered in moderate, conflicting AT-NCD cases, where the model shifted toward DRCI and retained more confidence than empirical accuracy justified. Model comparison suggested that confidence quality should be measured directly rather than inferred from benchmark accuracy or model capability alone. This study establishes a reproducible framework for evaluating evidence sensitivity, metacognitive sensitivity, and localized calibration failure in medical LLMs."
+  },
+  {
+    "title": "Learning Discrete Riemannian Metrics for Physical Fields with Cochain-Frame Equivarianc",
+    "link": "https://arxiv.org/abs/2608.14556",
+    "pubDate": "Tue, 18 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "提出共链框架等变的离散黎曼度量学习方法。",
+    "contentSnippet": "arXiv:2608.14556v1 Announce Type: new \nAbstract: Physical fields on meshes require a separation between topology and geometry: conservation laws are topological and should be exact, while geometry, material response, and anisotropic coupling must be learned from data. Existing neural surrogates often mix these roles inside unconstrained message passing. We introduce Riemannian Hodge Message Passing (RHMP), which turns this separation into an architectural principle. RHMP fixes the cellular coboundaries ($d_k$) determined by oriented incidence and learns symmetric positive-definite cochain metrics ($H_k$) for geometry-dependent propagation. Treating $H_k$ as the learned metric motivates cochain-frame equivariance: physical propagation should be invariant to orthogonal changes of the hidden cochain feature basis. RHMP implements this principle with metric-weighted Hodge blocks ($d_k^\\top H_{k+1}d_k$), yielding exact cochain-complex identities ($d_{k+1}d_k=0$), nonnegative Hodge energies, positive-semidefinite operators, and exact Abelian curvature invariance. Across seven physical benchmarks spanning fluids, electromagnetism, gauge fields, and variable-mesh CFD, RHMP achieves the best overall performance, with the largest gains when topology, learned geometry, and field structure interact."
   },
   {
     "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
     "link": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
     "pubDate": "Mon, 17 Aug 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "画布让智能体工作流可见可控低成本",
+    "summary": "画布让代理工作流可视化、可操控且高效。",
     "contentSnippet": "Chat is great for intent, but agent work gets lost in the scroll. Here is how I use canvases with my agentic workflows—and why your workflow also deserves a canvas.\nThe post How canvases make agentic workflows visible, steerable, and cost-efficient appeared first on The GitHub Blog."
   },
   {
@@ -24,75 +104,19 @@
     "contentSnippet": "Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and  Smartphone Technology."
   },
   {
-    "title": "The Defender’s Window",
-    "link": "https://openai.com/index/the-defenders-window",
-    "pubDate": "Mon, 17 Aug 2026 05:30:00 GMT",
-    "source": "OpenAI",
-    "summary": "防御者的窗口：人工智能重塑安全防御",
-    "contentSnippet": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now."
-  },
-  {
-    "title": "OpenAI joins PORTS-Pike project",
-    "link": "https://openai.com/index/openai-joins-ports-pike-project",
-    "pubDate": "Mon, 17 Aug 2026 05:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "OpenAI加入PORTS-Pike项目，扩大投资支持俄州数千岗位。",
-    "contentSnippet": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs"
-  },
-  {
-    "title": "L-FNO: Lorentzian Fourier Neural Operator for Stochastic Event Dynamics",
-    "link": "https://arxiv.org/abs/2608.13562",
-    "pubDate": "Mon, 17 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "L-FNO：洛伦兹傅里叶神经算子用于随机事件动力学。",
-    "contentSnippet": "arXiv:2608.13562v1 Announce Type: new \nAbstract: Modern operational systems face uncertainty even in routine conditions, where rare, bursty, and self-exciting events emerge from both exogenous covariates and endogenous event dynamics. Standard neural operators are typically trained as regression-style function-to-function models rather than conditional-intensity estimators, limiting their suitability for sparse event regimes. We introduce the Lorentzian Fourier Neural Operator (L-FNO), a stochastic neural operator that combines an FNO-style covariate path, Lorentzian spectral kernels for history-dependent excitation, and a likelihood-based training objective. We evaluate L-FNO on eight synthetic point-process benchmarks and three real-world datasets covering disease outbreak prediction and semiconductor fault or defect detection. L-FNO improves event likelihood, calibration diagnostics, and rare-event detection over regression- and likelihood-based neural operator baselines. These results show that structured spectral memory and likelihood-based learning provide effective inductive biases for neural operator models of stochastic event dynamics."
-  },
-  {
-    "title": "Inducing Reward-Free Judging Rubrics that Reduce Over-Crediting in Agent Evaluation",
-    "link": "https://arxiv.org/abs/2608.13564",
-    "pubDate": "Mon, 17 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "诱导无奖励评分标准，减少智能体评估中的过度给分。",
-    "contentSnippet": "arXiv:2608.13564v1 Announce Type: new \nAbstract: Evaluating language-model agents at scale increasingly relies on a second language model as an automatic judge, because the gold signal, an executable environment reward, is expensive, slow, or unavailable at deployment time. Such a judge is a reward-free proxy whose value depends on whether it can be trusted, yet existing judges either hand-write the scoring rubric, as in G-Eval, or fine-tune the judge's weights, and both tend to credit fluent but unsuccessful trajectories as successes. We instead induce the text of an agent-judging rubric from a small set of ground-truth-labeled trajectories, grounding it in true outcomes. We present RubricForge, which evolves a judge rubric by reflective evolution against labeled trajectories to maximize agreement with the environment reward, freezes it, and applies it to held-out trajectories in one model call with no environment access. The optimized artifact is human-readable text, so every verdict is attributable to named criteria. Using one frozen 7B model as both agent and judge, on tau-bench (173 labeled trajectories drawn from 220 rollouts) and WebShop (160), the principal gain is faithfulness rather than raw agreement. The edge over a generic G-Eval judge is not statistically significant (McNemar p = 0.248), and absolute-score calibration marginally favors the generic judge (|err| difference -0.048, p = 2x10^-4). Yet RubricForge over-credits failed trajectories roughly half as often (0.115 vs. 0.173 false-pass rate on tau-bench, with three over-credit catches and zero reversals) and ranks graded WebShop outcomes more faithfully (Spearman 0.410 vs. 0.370). For a reward-free evaluator the false-pass rate, not aggregate agreement, is the deployment-relevant quantity, since a false pass ships a broken agent whereas a false fail merely costs a retry."
-  },
-  {
-    "title": "Depth-Aware Sensitivity Analysis of Mixture-of-Experts Models via Magnitude-Based Expert Masking",
-    "link": "https://arxiv.org/abs/2608.13565",
-    "pubDate": "Mon, 17 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "基于幅度专家掩码的MoE模型深度感知敏感性分析",
-    "contentSnippet": "arXiv:2608.13565v1 Announce Type: new \nAbstract: Mixture-of-Experts (MoE) architectures scale large language models (LLMs) while preserving computational efficiency through sparse activation. Despite their widespread adoption, the relative importance of individual MoE layers remains insufficiently characterized, particularly for model compression. This paper presents a systematic layer-wise sensitivity analysis of the Qwen3.6-35B-A3B model (40 MoE layers, 256 experts per layer, top-8 routing) using magnitude-based expert masking on the XLCoST cross-lingual code translation benchmark. We conduct a multi-phase study spanning 100, 300, and 500 prompt evaluation scales across three H100 GPU servers. Our central finding is that layer sensitivity is strongly depth-dependent: early layers (0-9) and middle layers (10-29) are highly fragile to expert masking, while late layers (30-39), and especially very-late layers (35-39), tolerate aggressive masking of low-magnitude experts. Flat all-layer masking at 30% retains only 150/300 Good+Similar outputs at 300-prompt scale, whereas late-focused policies retain 249-255/300 while masking 640-1,145 experts. On a later 500-prompt held-out validation slice, the narrow very-late policy (layers 35-39 @ 50%) achieves the strongest quality/masked-expert tradeoff among tested candidates, retaining 419/500 Good+Similar outputs while masking only 640 of 10,240 total experts. We additionally characterize top-k routing width reduction from 8 to 6 active experts per token, which shows a large observed wall-clock reduction on a 100-prompt probe with no Good+Similar loss, though it does not yet compose cleanly with aggressive expert masking. These findings provide an empirical foundation for depth-aware MoE expert masking and establish a practical path toward physical weight surgery, activation-based expert scoring, and training-based recovery."
-  },
-  {
-    "title": "New policy ideas for the Intelligence Age",
-    "link": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
-    "pubDate": "Mon, 17 Aug 2026 03:15:00 GMT",
-    "source": "OpenAI",
-    "summary": "OpenAI资助14个项目探索智能时代新政策。",
-    "contentSnippet": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age."
-  },
-  {
     "title": "Multiple redirect URIs and token refresh for OAuth apps",
     "link": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
     "pubDate": "Fri, 14 Aug 2026 22:43:44 +0000",
     "source": "GitHub Changelog",
-    "summary": "OAuth应用支持多个重定向URI和令牌刷新。",
+    "summary": "OAuth应用支持多重定向URI与令牌刷新。",
     "contentSnippet": "We’ve released multiple updates to the OAuth app and GitHub App platforms to support more secure app development: OAuth apps can opt in to expiring access tokens and refresh tokens.…\nThe post Multiple redirect URIs and token refresh for OAuth apps appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Using AI_Functions in Your Data Warehouse: Top Use Cases",
-    "link": "https://www.databricks.com/blog/using-aifunctions-your-data-warehouse-top-use-cases",
-    "pubDate": "Fri, 14 Aug 2026 21:30:00 GMT",
-    "source": "Databricks",
-    "summary": "数据仓库中AI函数的顶级用例",
-    "contentSnippet": "In most organizations, data warehouses hold structured data, while unstructured data..."
   },
   {
     "title": "Grok 4.6 is now available in GitHub Copilot",
     "link": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
     "pubDate": "Fri, 14 Aug 2026 16:17:46 +0000",
     "source": "GitHub Changelog",
-    "summary": "Grok 4.6现已在GitHub Copilot中推出",
+    "summary": "Grok 4.6现已上线GitHub Copilot。",
     "contentSnippet": "Grok 4.6, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for agentic coding and complex multi-step workflows. In our internal testing, Grok 4.6 showed…\nThe post Grok 4.6 is now available in GitHub Copilot appeared first on The GitHub Blog."
   },
   {
@@ -100,7 +124,7 @@
     "link": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
     "pubDate": "Fri, 14 Aug 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "用GitHub代理应用简化软件交付流程。",
+    "summary": "用GitHub代理应用整合软件交付流程",
     "contentSnippet": "See how four GitHub agent apps can help you scope, secure, roll out, and ship a feature across the SDLC–all without leaving GitHub. \nThe post How to bring your software delivery workflow into GitHub with agent apps appeared first on The GitHub Blog."
   },
   {
@@ -108,31 +132,15 @@
     "link": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
     "pubDate": "Fri, 14 Aug 2026 03:15:56 +0000",
     "source": "GitHub Changelog",
-    "summary": "Copilot周更新：新模型与插件，跨平台更灵活",
+    "summary": "摘要生成失败",
     "contentSnippet": "From new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command line, and the Copilot app. GitHub Copilot, general…\nThe post GitHub Copilot weekly releases — August 10 appeared first on The GitHub Blog."
-  },
-  {
-    "title": "How Scottish Water Made Its Capital Investment Data Conversational With Databricks Genie",
-    "link": "https://www.databricks.com/blog/how-scottish-water-made-its-capital-investment-data-conversational-databricks-genie",
-    "pubDate": "Thu, 13 Aug 2026 21:00:00 GMT",
-    "source": "Databricks",
-    "summary": "苏格兰水务用Databricks Genie实现资本投资数据对话化",
-    "contentSnippet": "Across Scottish Water’s Capital Investment (CI) programme, teams need fast answers..."
-  },
-  {
-    "title": "What are AI Hallucinations?",
-    "link": "https://www.databricks.com/blog/ai-hallucinations",
-    "pubDate": "Thu, 13 Aug 2026 19:35:16 GMT",
-    "source": "Databricks",
-    "summary": "AI幻觉是看似合理但事实错误的虚构输出。",
-    "contentSnippet": "AI hallucinations are outputs that sound coherent and confident but are factually wrong, fabricated..."
   },
   {
     "title": "Your guide to GitHub Universe 2026 is here: The schedule just launched!",
     "link": "https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/",
     "pubDate": "Thu, 13 Aug 2026 19:00:00 +0000",
     "source": "GitHub",
-    "summary": "GitHub Universe 2026日程发布，8月19日前注册省300美元。",
+    "summary": "GitHub 2026指南发布，日程已启动",
     "contentSnippet": "The GitHub Universe session catalog is live. Explore interactive workshops, community talks, demos, and panels. Plus, register before August 19 to save $300.\nThe post Your guide to GitHub Universe 2026 is here: The schedule just launched! appeared first on The GitHub Blog."
   },
   {
@@ -140,7 +148,7 @@
     "link": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
     "pubDate": "Thu, 13 Aug 2026 17:04:18 +0000",
     "source": "DeepMind",
-    "summary": "谷歌发布Gemini 3.7 Flash",
+    "summary": "谷歌推出Gemini 3.7 Flash模型",
     "contentSnippet": ""
   },
   {
@@ -148,7 +156,7 @@
     "link": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
     "pubDate": "Thu, 13 Aug 2026 16:45:00 +0000",
     "source": "Google AI",
-    "summary": "用简单提示将电子表格数据变为交互式仪表板",
+    "summary": "谷歌表格画布让电子表格数据活起来",
     "contentSnippet": "Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt."
   },
   {
@@ -156,7 +164,7 @@
     "link": "https://code.visualstudio.com/updates/v1_133",
     "pubDate": "2026-08-12T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.133新特性速览",
+    "summary": "了解VS Code 1.133的新特性",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.133\nRead the full article"
   },
   {
@@ -164,7 +172,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
     "pubDate": "Wed, 12 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "MindTopo新基准揭示VLM空间推理能力。",
+    "summary": "MindTopo揭示VLM空间推理能力",
     "contentSnippet": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and  highlights new opportunities to strengthen spatial reasoning and planning.\nThe post MindTopo reveals VLMs’ spatial reasoning abilities appeared first on Microsoft Research."
   },
   {
@@ -172,7 +180,7 @@
     "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
     "pubDate": "Wed, 12 Aug 2026 14:01:59 +0000",
     "source": "DeepMind",
-    "summary": "将手语AI交到用户手中，推出手语转文字功能。",
+    "summary": "将手语AI交到用户手中",
     "contentSnippet": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users."
   },
   {
@@ -180,7 +188,7 @@
     "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
     "pubDate": "Tue, 11 Aug 2026 17:00:00 +0000",
     "source": "Google AI",
-    "summary": "谷歌AMIE医学AI首次实现实时临床视频会诊",
+    "summary": "谷歌推出AMIE，实现模拟实时临床视频咨询。",
     "contentSnippet": "Google introduces AMIE for real-time clinical video consultations in simulated settings."
   },
   {
@@ -188,7 +196,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
     "pubDate": "Tue, 11 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "CARE-X：通过辅助监督与工具增强实现临床可用的放射学VLM。",
+    "summary": "CARE-X：结合辅助监督与工具增强的临床级放射学视觉语言模型。",
     "contentSnippet": "Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions, and measurement-based tools for chest X-ray interpretation.\nThe post Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement appeared first on Microsoft Research."
   },
   {
@@ -196,7 +204,7 @@
     "link": "https://news.apache.org/foundation/entry/from-friction-to-flow-how-asf-tooling-is-lowering-barriers-for-maintainers",
     "pubDate": "Tue, 11 Aug 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "ASF新工具ATR降低维护者发布门槛。",
+    "summary": "ASF工具助维护者顺畅发布。",
     "contentSnippet": "The Apache Trusted Releases (ATR) platform, a new tool from the ASF Tooling Initiative, is making it easier for open source maintainers across hundreds of independently governed ASF projects to ship secure, compliant releases without adding to their workload. ATR automates the parts of the release process that used to depend on institutional knowledge (e.g., […]\nThe post From Friction to Flow: How ASF Tooling Is Lowering Barriers for Maintainers appeared first on The ASF Blog."
   },
   {
@@ -204,7 +212,7 @@
     "link": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
     "pubDate": "Thu, 06 Aug 2026 15:06:15 +0000",
     "source": "DeepMind",
-    "summary": "WeatherNext AI模型实现气旋预报突破",
+    "summary": "摘要生成失败",
     "contentSnippet": ""
   },
   {
@@ -212,7 +220,7 @@
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-projects-5",
     "pubDate": "Thu, 06 Aug 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache基金会宣布两个新顶级项目",
+    "summary": "Apache基金会宣布新顶级项目",
     "contentSnippet": "Introducing Apache® Fluss, a lakehouse-native streaming storage for real-time analytics and AI, and Apache® Pony Mail, a web-based mail archive browser built to scale to millions of archived messages Wilmington, DE –  August 6, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that […]\nThe post The Apache® Software Foundation Announces New Top-Level Projects appeared first on The ASF Blog."
   },
   {
@@ -220,7 +228,7 @@
     "link": "https://code.visualstudio.com/updates/v1_132",
     "pubDate": "2026-08-05T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.132新功能介绍",
+    "summary": "VS Code 1.132新功能概览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.132\nRead the full article"
   },
   {
@@ -228,15 +236,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
     "pubDate": "Mon, 03 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Orchard：开源可扩展AI智能体框架，降低复杂度并支持小模型。",
+    "summary": "开源框架Orchard助力训练评估AI代理。",
     "contentSnippet": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure.\nThe post Orchard: An open framework for scalable agentic AI appeared first on Microsoft Research."
-  },
-  {
-    "title": "ASF Plus One Newsletter: July 2026",
-    "link": "https://news.apache.org/foundation/entry/asf-plus-one-newsletter-july-2026",
-    "pubDate": "Wed, 29 Jul 2026 16:00:00 +0000",
-    "source": "Apache",
-    "summary": "ASF Plus One 2026年7月通讯发布。",
-    "contentSnippet": "**To receive Plus One directly to your inbox, sign up via the subscribe box below.** Community News The Conference Planners for the the ASF are very pleased to announce the redesign and launch of the new Community Over Code website! The new site will serve as the central resource and gateway for the global array […]\nThe post ASF Plus One Newsletter: July 2026 appeared first on The ASF Blog."
   }
 ]
