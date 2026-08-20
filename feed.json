@@ -4,23 +4,111 @@
     "link": "https://code.visualstudio.com/updates/v1_135",
     "pubDate": "2026-08-25T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.135 Insider版新功能概览",
+    "summary": "VS Code 1.135内测版新特性概览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.135 (Insiders)\nRead the full article"
   },
   {
-    "title": "CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling",
-    "link": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
-    "pubDate": "Wed, 19 Aug 2026 21:09:30 +0000",
+    "title": "Inbound Private Link now supports account-level Genie One, the account console, and custom URLs",
+    "link": "https://www.databricks.com/blog/inbound-private-link-now-supports-account-level-genie-one-account-console-and-custom-urls",
+    "pubDate": "Thu, 20 Aug 2026 22:00:00 GMT",
+    "source": "Databricks",
+    "summary": "摘要生成失败",
+    "contentSnippet": "Enterprises adopting Databricks for their most sensitive data commonly rely on Inbound..."
+  },
+  {
+    "title": "Busting SQL Migration Myths: How New SQL Features Make Lift-and-Shift to Lakehouse Easier ",
+    "link": "https://www.databricks.com/blog/busting-sql-migration-myths-how-new-sql-features-make-lift-and-shift-lakehouse-easier",
+    "pubDate": "Thu, 20 Aug 2026 19:00:00 GMT",
+    "source": "Databricks",
+    "summary": "新SQL功能破除迷思，迁至湖仓更轻松",
+    "contentSnippet": "Somewhere in your warehouse, hundreds of stored procedures wake up every night and..."
+  },
+  {
+    "title": "The August 17 outage, and the work ahead",
+    "link": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+    "pubDate": "Thu, 20 Aug 2026 18:36:11 +0000",
+    "source": "GitHub",
+    "summary": "8月17日宕机事件及后续可靠性改进工作",
+    "contentSnippet": "An update on the August 17 outage and the steps we're taking to improve reliability.\nThe post The August 17 outage, and the work ahead appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Windows 11 arm64 VS2026 image generally available",
+    "link": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
+    "pubDate": "Thu, 20 Aug 2026 17:52:38 +0000",
     "source": "GitHub Changelog",
-    "summary": "CodeQL 2.26.3改进GitHub Actions查询与JS建模。",
-    "contentSnippet": "CodeQL 2.26.3 adds JavaScript, TypeScript, and Vue source modeling and improves the accuracy of several GitHub Actions queries. CodeQL is the static analysis engine behind GitHub code scanning, which helps…\nThe post CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling appeared first on The GitHub Blog."
+    "summary": "Win11 arm64 VS2026镜像正式发布",
+    "contentSnippet": "The Windows 11 arm64 image with Visual Studio 2026 is now generally available on standard and larger GitHub-hosted runners. To use it in GitHub Actions, update your workflow file to…\nThe post Windows 11 arm64 VS2026 image generally available appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Broadening access to Skala creates a faster path to predictive DFT ",
+    "link": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
+    "pubDate": "Thu, 20 Aug 2026 16:00:00 +0000",
+    "source": "Microsoft Research",
+    "summary": "Skala 1.1扩大访问，加速预测性DFT",
+    "contentSnippet": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry ecosystem, and a living benchmark to track computational performance. \nThe post Broadening access to Skala creates a faster path to predictive DFT  appeared first on Microsoft Research."
+  },
+  {
+    "title": "Code scanning adds a mitigated alert dismissal reason",
+    "link": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
+    "pubDate": "Thu, 20 Aug 2026 15:14:31 +0000",
+    "source": "GitHub Changelog",
+    "summary": "GitHub代码扫描新增“已缓解”关闭警报原因。",
+    "contentSnippet": "You can now dismiss a code scanning alert with the reason Mitigated when a vulnerability remains in the code but external controls, such as a web application firewall or network…\nThe post Code scanning adds a mitigated alert dismissal reason appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Separate GitHub Actions path for GitHub Code Quality",
+    "link": "https://github.blog/changelog/2026-08-20-separate-github-actions-path-for-github-code-quality",
+    "pubDate": "Thu, 20 Aug 2026 14:29:27 +0000",
+    "source": "GitHub Changelog",
+    "summary": "GitHub 代码质量现提供独立 Actions 路径。",
+    "contentSnippet": "A dedicated workflow path for code quality CodeQL actions workflows is now generally available. Your workflow run history and your Actions usage reports now tell GitHub Code Quality runs apart…\nThe post Separate GitHub Actions path for GitHub Code Quality appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Introducing AI Futures",
+    "link": "https://openai.com/index/introducing-ai-futures",
+    "pubDate": "Thu, 20 Aug 2026 07:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "OpenAI新博客探讨AI对权力、治理、经济与自由的影响。",
+    "contentSnippet": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom."
+  },
+  {
+    "title": "Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions",
+    "link": "https://arxiv.org/abs/2608.18078",
+    "pubDate": "Thu, 20 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "AI推理智能体共谋风险需认证。",
+    "contentSnippet": "arXiv:2608.18078v1 Announce Type: new \nAbstract: This position paper argues that AI agents with chain-of-thought reasoning capabilities are predisposed to exhibit collusive behavior and should be required to obtain behavioral certification before making decisions that affect economic markets. This is because integrating these agents into society could collapse the legal evidentiary distinction between competition and collusion among independent firms without eroding the economic harm distinction. Experiments with DeepSeek-R1 agents in the Bertrand oligopoly pricing domain reveal a tendency towards tacit collusion that persists even when humans prompt the agents not to collude. We further show that the chain-of-thought of these agents can be steered toward either extremely collusive or highly competitive behavior in a way that is not semantically detectable by another LLM analyzing the reasoning traces. As a result, deploying reasoning agents for market decisions leads to collusive economic outcomes without any evidence of conspiracy or intent. Thus, certification based on observed behavior in representative situations is necessary to prevent collusion. We provide preliminary evidence that such agents can be steered in a generalizable way toward efficient competitive equilibria. However, developing a comprehensive behavioral certification will be required before these models can be deployed in real-world markets while ensuring their stability and efficiency."
+  },
+  {
+    "title": "Position: Profiling Game Worlds by Transition Complexity",
+    "link": "https://arxiv.org/abs/2608.18079",
+    "pubDate": "Thu, 20 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "用转移复杂度刻画游戏世界",
+    "contentSnippet": "arXiv:2608.18079v1 Announce Type: new \nAbstract: Game world modeling (GWM) and reinforcement learning (RL) are often confounded because research papers rarely quantify how difficult the underlying transition prediction problem is at the declared interface (pixels/tokens/latents with finite history). We propose the Transition Complexity Profile (TCP): a small, reproducible set of metrics that characterizes an environment's (or gameplay dataset's) induced transition kernel by (i) intrinsic one-step branching, (ii) interaction-induced uncertainty and opponent influence when observable, and (iii) temporal/spatial dependency span via standardized probe curves. TCP is reported with an explicit reference distribution, protocol stochasticity, and a versioned measurement budget (sampling/resampling and fixed probe compute), enabling comparable numbers across benchmarks. We outline how common game families and modern \"neural game engine\" domains populate this landscape and call for TCP to become standard benchmark metadata and a required statistic in GWM and RL papers."
+  },
+  {
+    "title": "Large Language Models in Mental Health: A Systematic Review of Applications, Innovations, and Ethical Challenges",
+    "link": "https://arxiv.org/abs/2608.18080",
+    "pubDate": "Thu, 20 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "大语言模型心理健康应用综述：创新与伦理挑战。",
+    "contentSnippet": "arXiv:2608.18080v1 Announce Type: new \nAbstract: We present a review on the applications of large language models (LLMs) in health, e.g., social media analysis, clinical conversational agents, therapy support tools, prompt engineering, multimodal learning, and ethical considerations. We integrate findings from interdisciplinary studies utilizing diverse data sources such as social media posts, electronic medical records, and multimodal inputs to enable early detection of depression, suicide risk assessment, personalized therapy support, and psychoeducational content generation. Our review highlights advancements in LLM models and annotation strategies that enhance interpretability and clinical relevance, while we also emphasize the critical role of prompt engineering for domain adaptation. We also discuss emerging multimodal fusion techniques integrating text, speech, and sensor data for improved mental health diagnosis and monitoring. Finally, we address ongoing ethical, sociotechnical, and regulatory challenges, and advocate frameworks to ensure safe, equitable, and accountable deployment of LLMs in real-world mental health care."
+  },
+  {
+    "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+    "link": "https://openai.com/index/stampli",
+    "pubDate": "Thu, 20 Aug 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "摘要生成失败",
+    "contentSnippet": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days."
   },
   {
     "title": "Offering Zero Data Retention for frontier models",
     "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
     "pubDate": "Wed, 19 Aug 2026 19:00:00 GMT",
     "source": "OpenAI",
-    "summary": "OpenAI重申零数据保留并预览私有安全处理。",
+    "summary": "OpenAI确认零数据保留，并预览隐私安全处理。",
     "contentSnippet": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy."
   },
   {
@@ -28,7 +116,7 @@
     "link": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
     "pubDate": "Wed, 19 Aug 2026 19:00:00 +0000",
     "source": "Google AI",
-    "summary": "用Google搜索工具提升学习备考效率的5种新方法",
+    "summary": "用搜索提升学习的五种新方法",
     "contentSnippet": "Here’s how you can use Google Search tools to study for classes and standardized tests."
   },
   {
@@ -36,7 +124,7 @@
     "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
     "pubDate": "Wed, 19 Aug 2026 17:50:23 +0000",
     "source": "GitHub",
-    "summary": "GitHub Copilot新手：用My work面板管理工作。",
+    "summary": "摘要生成失败",
     "contentSnippet": "If you’re juggling multiple Copilot sessions, use the My work pane to track what's in flight, what's done, and what's next.\nThe post GitHub Copilot app for Beginners: Managing your work appeared first on The GitHub Blog."
   },
   {
@@ -44,7 +132,7 @@
     "link": "https://code.visualstudio.com/updates/v1_134",
     "pubDate": "2026-08-19T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "了解VS Code 1.134的新特性。",
+    "summary": "了解VS Code 1.134的新功能",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.134\nRead the full article"
   },
   {
@@ -52,95 +140,23 @@
     "link": "https://www.databricks.com/blog/designing-effective-genie-agents-single-prompt",
     "pubDate": "Wed, 19 Aug 2026 16:00:00 GMT",
     "source": "Databricks",
-    "summary": "从单个提示设计高效Genie智能体",
+    "summary": "从单一提示词设计高效精灵智能体",
     "contentSnippet": "Ask a generic agent about revenue, and it’ll likely grab the first revenue table..."
-  },
-  {
-    "title": "Track organization code quality trends",
-    "link": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
-    "pubDate": "Wed, 19 Aug 2026 12:56:57 +0000",
-    "source": "GitHub Changelog",
-    "summary": "组织代码质量仪表板新增趋势追踪功能。",
-    "contentSnippet": "The organization-level Code Quality dashboard now includes a Trends tab that shows how code quality has changed across your repositories over time. Instead of a point-in-time snapshot, you can see…\nThe post Track organization code quality trends appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Replit expands access to software creation with GPT-5.6 Luna",
-    "link": "https://openai.com/index/replit",
-    "pubDate": "Wed, 19 Aug 2026 07:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "摘要生成失败",
-    "contentSnippet": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs."
-  },
-  {
-    "title": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
-    "link": "https://arxiv.org/abs/2608.16890",
-    "pubDate": "Wed, 19 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "GxP-Agent用流程DAG拓扑实现可靠临床试验编程。",
-    "contentSnippet": "arXiv:2608.16890v1 Announce Type: new \nAbstract: Clinical trial programming -- transforming study protocols into analysis-ready datasets under CDISC standards -- is a bottleneck in regulatory submissions, yet LLM-based code generation fails catastrophically on this task: across 11 single-shot attempts with five frontier models, none produces a valid subject-level analysis dataset. We introduce GxP-Agent, a multi-agent system that encodes regulatory process ordering as a directed acyclic graph (DAG), decomposing monolithic dataset generation into 15 domain-specific nodes executed by worker agents with pharmaverse skill context, validation gates, and conditional retry. On CDISC-Bench, a new execution-based benchmark built from the FDA pilot submission CDISCPilot01 (254 subjects, 49 ground-truth ADSL variables), GxP-Agent with Claude Sonnet 4.6 achieves 100% structural match (49/49 variables, 254 correct records) across three independent runs, compared to 59.2% for the best retrieval-augmented baseline and 0% for all single-agent and flat multi-agent approaches. The DAG topology also enables weaker models: GPT-4.1 achieves 59.2% mean structural match under the same DAG, where it scores 0% under every other architecture. The approach generalizes to ADAE (adverse events; 9-node branching DAG, 55 variables, 1,191 records), achieving 100% structural match on the first attempt. These results demonstrate that encoding domain process knowledge as graph topology -- rather than relying on LLM reasoning alone -- is a key enabler for reliable, GxP-compliant clinical trial programming."
-  },
-  {
-    "title": "Runtime Governance for Agentic AI: Action-Boundary Control with Trusted Provenance and Fail-Closed Execution",
-    "link": "https://arxiv.org/abs/2608.16891",
-    "pubDate": "Wed, 19 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "摘要生成失败",
-    "contentSnippet": "arXiv:2608.16891v1 Announce Type: new \nAbstract: Agentic AI systems request tool actions that can modify files, send messages, launch jobs, or change workflow state. This shifts the safety problem from harmful text generation to harmful operational side effects. Prompt-level governance can shape model behavior, but it does not create an execution boundary. We introduce Aegis, a runtime governance system that treats model outputs as action proposals and mediates them through a trusted decision layer before tool execution. The model proposes; the trusted runtime decides. Aegis evaluates proposals against active policy state, resolves provenance server-side, fails closed under uncertainty, and routes selected cases through Senate-style settlement, a quorum- based non-unilateral authorization path. We evaluate Aegis on a repeated sandbox corpus spanning five run families, 42 tasks, three conditions, and ten repeats per family. Across 6,300 rows, prompt-policy conditioning produced 79 risky comparator-path leakage rows. Across 2,100 Aegis-governed rows, the system recorded zero governed mock-tool applications and zero governed risky side-effect completions. All 1,832 Aegis-attempted governed rows preserved trusted Aegis-resolved provenance, and all 1,019 Senate-settled rows had quorum and final signed tally evidence. These results do not prove general autonomous-agent safety. They support the narrower systems claim that, in this evaluated sandbox corpus, runtime action-boundary governance prevented observed risky proposals from becoming governed side effects."
-  },
-  {
-    "title": "Proactive Road Safety Intervention in Australia: Predicting Risky Driving Hotspots from Connected Vehicle Data",
-    "link": "https://arxiv.org/abs/2608.16913",
-    "pubDate": "Wed, 19 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "澳大利亚用联网车数据预测危险驾驶热点。",
-    "contentSnippet": "arXiv:2608.16913v1 Announce Type: new \nAbstract: Road safety monitoring has historically been reactive, relying on crash-record analysis after fatalities and injuries have already occurred. Proactive identification of high-risk locations and dangerous driving behaviour before incidents occur is a critical but underexplored challenge. This paper addresses this gap using connected vehicle telemetry data from Greater Sydney, Australia, to detect and forecast near-miss risky driving events at the Local Government Area (LGA) level. Risky driving is quantified through g-force thresholds (hard braking >0.6g, harsh cornering >0.47g, harsh acceleration >0.5g), and spatio-temporal heatmaps are constructed to identify high-risk zones. Eight predictive models are benchmarked across three families: ensemble learning (Random Forests, XGBoost, LightGBM), deep learning (LSTM, N-BEATS), and classical time-series methods (ARIMA, Exponential Smoothing, Prophet). ARIMA achieves the lowest mean absolute error (MAE: 162.21), performing comparably to LSTM (MAE: 163.92) and outperforming all ensemble methods, with N-BEATS reaching an MAE of 180.75. These results demonstrate that parsimonious time-series models are competitive with deep learning approaches when training data volume is limited. The study highlights the potential of IoT-based connected vehicle data to support proactive road safety interventions, with Sydney's inner and western LGAs (CBD, Parramatta, Bankstown) identified as persistent high-risk zones warranting targeted policy action."
-  },
-  {
-    "title": "Enterprise managed settings in GitHub Copilot for JetBrains",
-    "link": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
-    "pubDate": "Tue, 18 Aug 2026 23:33:07 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub Copilot for JetBrains 新增企业托管设置。",
-    "contentSnippet": "GitHub Copilot for JetBrains now supports enterprise managed settings for plugin governance, MCP server access, OpenTelemetry, and permission modes. Administrators can now apply consistent controls for everyone on your enterprise’s…\nThe post Enterprise managed settings in GitHub Copilot for JetBrains appeared first on The GitHub Blog."
-  },
-  {
-    "title": "ChatGPT Ads expands across Europe",
-    "link": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-    "pubDate": "Tue, 18 Aug 2026 22:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "ChatGPT广告扩展至欧洲31个市场。",
-    "contentSnippet": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions."
-  },
-  {
-    "title": "Databricks Document Intelligence: pushing the frontier for complex document extraction",
-    "link": "https://www.databricks.com/blog/databricks-document-intelligence-pushing-frontier-complex-document-extraction",
-    "pubDate": "Tue, 18 Aug 2026 22:00:00 GMT",
-    "source": "Databricks",
-    "summary": "Databricks文档智能拓展复杂文档提取前沿",
-    "contentSnippet": "Every enterprise has valuable data trapped in messy, unstructured documents. Today,..."
   },
   {
     "title": "Apache Geode 2.0, Part III: Lessons Learned and the Path Forward",
     "link": "https://news.apache.org/foundation/entry/apache-geode-2-0-part-iii-lessons-learned-and-the-path-forward",
     "pubDate": "Tue, 18 Aug 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache Geode 2.0第三篇：经验教训与未来展望",
+    "summary": "Geode 2.0第三篇：经验与展望。",
     "contentSnippet": "What Geode 2.0 taught us—and what comes next By Jinwoo HwangLead Developer, Project Lead, and Release Manager, Apache Geode 2.0https://JinwooHwang.com This post is divided into three parts. Part I explains why Apache Geode 2.0 matters. Part II walks through how it was modernized. Part III looks ahead—what we learned, what changed, and how you can […]\nThe post Apache Geode 2.0, Part III: Lessons Learned and the Path Forward appeared first on The ASF Blog."
-  },
-  {
-    "title": "When it comes to Governance, Retailers need a control plane for context",
-    "link": "https://www.databricks.com/blog/when-it-comes-governance-retailers-need-control-plane-context",
-    "pubDate": "Tue, 18 Aug 2026 15:18:00 GMT",
-    "source": "Databricks",
-    "summary": "零售商需治理控制平面以应对AI新时代",
-    "contentSnippet": "Retailers are entering a new phase of AI adoption.The early conversations around..."
   },
   {
     "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
     "link": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
     "pubDate": "Mon, 17 Aug 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "画布让智能体工作流可见、可操控、低成本。",
+    "summary": "画布让代理工作流可见、可控且成本高效",
     "contentSnippet": "Chat is great for intent, but agent work gets lost in the scroll. Here is how I use canvases with my agentic workflows—and why your workflow also deserves a canvas.\nThe post How canvases make agentic workflows visible, steerable, and cost-efficient appeared first on The GitHub Blog."
   },
   {
@@ -148,23 +164,15 @@
     "link": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
     "pubDate": "Mon, 17 Aug 2026 08:00:00 +0000",
     "source": "Google AI",
-    "summary": "摘要生成失败",
+    "summary": "谷歌双子与像素携手五大足球俱乐部提升球迷观赛体验",
     "contentSnippet": "Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and  Smartphone Technology."
-  },
-  {
-    "title": "How to bring your software delivery workflow into GitHub with agent apps",
-    "link": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
-    "pubDate": "Fri, 14 Aug 2026 16:00:00 +0000",
-    "source": "GitHub",
-    "summary": "用GitHub代理应用整合软件交付流程",
-    "contentSnippet": "See how four GitHub agent apps can help you scope, secure, roll out, and ship a feature across the SDLC–all without leaving GitHub. \nThe post How to bring your software delivery workflow into GitHub with agent apps appeared first on The GitHub Blog."
   },
   {
     "title": "Introducing Gemini 3.7 Flash",
     "link": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
     "pubDate": "Thu, 13 Aug 2026 17:04:18 +0000",
     "source": "DeepMind",
-    "summary": "发布Gemini 3.7 Flash",
+    "summary": "介绍Gemini 3.7 Flash",
     "contentSnippet": ""
   },
   {
@@ -172,7 +180,7 @@
     "link": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
     "pubDate": "Thu, 13 Aug 2026 16:45:00 +0000",
     "source": "Google AI",
-    "summary": "用提示词将表格数据变成交互式仪表板。",
+    "summary": "用Sheets画布让表格数据活起来",
     "contentSnippet": "Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt."
   },
   {
@@ -180,7 +188,7 @@
     "link": "https://code.visualstudio.com/updates/v1_133",
     "pubDate": "2026-08-12T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "查看VS Code 1.133的新特性",
+    "summary": "VS Code 1.133 新特性介绍",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.133\nRead the full article"
   },
   {
@@ -188,7 +196,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
     "pubDate": "Wed, 12 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "MindTopo新基准揭示VLMs空间推理能力",
+    "summary": "MindTopo新基准揭示AI空间推理能力。",
     "contentSnippet": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and  highlights new opportunities to strengthen spatial reasoning and planning.\nThe post MindTopo reveals VLMs’ spatial reasoning abilities appeared first on Microsoft Research."
   },
   {
@@ -196,7 +204,7 @@
     "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
     "pubDate": "Wed, 12 Aug 2026 14:01:59 +0000",
     "source": "DeepMind",
-    "summary": "将手语AI交到用户手中",
+    "summary": "将手语AI交到用户手中。",
     "contentSnippet": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users."
   },
   {
@@ -204,7 +212,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
     "pubDate": "Tue, 11 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "CARE-X：融合辅助监督、奖励对齐和工具测量的临床放射学大模型",
+    "summary": "CARE-X：临床实用放射学VLM，融合辅助监督与工具测量。",
     "contentSnippet": "Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions, and measurement-based tools for chest X-ray interpretation.\nThe post Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement appeared first on Microsoft Research."
   },
   {
@@ -212,7 +220,7 @@
     "link": "https://news.apache.org/foundation/entry/from-friction-to-flow-how-asf-tooling-is-lowering-barriers-for-maintainers",
     "pubDate": "Tue, 11 Aug 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "ASF工具降低维护者发布门槛。",
+    "summary": "ASF新工具ATR降低维护者发布门槛",
     "contentSnippet": "The Apache Trusted Releases (ATR) platform, a new tool from the ASF Tooling Initiative, is making it easier for open source maintainers across hundreds of independently governed ASF projects to ship secure, compliant releases without adding to their workload. ATR automates the parts of the release process that used to depend on institutional knowledge (e.g., […]\nThe post From Friction to Flow: How ASF Tooling Is Lowering Barriers for Maintainers appeared first on The ASF Blog."
   },
   {
@@ -220,7 +228,7 @@
     "link": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
     "pubDate": "Thu, 06 Aug 2026 15:06:15 +0000",
     "source": "DeepMind",
-    "summary": "摘要生成失败",
+    "summary": "AI模型WeatherNext实现气旋预报突破",
     "contentSnippet": ""
   },
   {
@@ -228,15 +236,7 @@
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-projects-5",
     "pubDate": "Thu, 06 Aug 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache基金会宣布新增两个顶级项目。",
+    "summary": "Apache宣布两个新顶级项目Fluss和Pony Mail。",
     "contentSnippet": "Introducing Apache® Fluss, a lakehouse-native streaming storage for real-time analytics and AI, and Apache® Pony Mail, a web-based mail archive browser built to scale to millions of archived messages Wilmington, DE –  August 6, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that […]\nThe post The Apache® Software Foundation Announces New Top-Level Projects appeared first on The ASF Blog."
-  },
-  {
-    "title": "Orchard: An open framework for scalable agentic AI",
-    "link": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
-    "pubDate": "Mon, 03 Aug 2026 16:00:00 +0000",
-    "source": "Microsoft Research",
-    "summary": "Orchard：开源框架，助力可扩展AI代理训练评估。",
-    "contentSnippet": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure.\nThe post Orchard: An open framework for scalable agentic AI appeared first on Microsoft Research."
   }
 ]
