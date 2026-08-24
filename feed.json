@@ -4,15 +4,71 @@
     "link": "https://code.visualstudio.com/updates/v1_135",
     "pubDate": "2026-08-25T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.135预览版新特性介绍",
+    "summary": "VS Code 1.135 预览版新特性概览。",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.135 (Insiders)\nRead the full article"
+  },
+  {
+    "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
+    "link": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
+    "pubDate": "Mon, 24 Aug 2026 20:56:32 +0000",
+    "source": "GitHub",
+    "summary": "自动检查通过不等于alt文本真正可访问。",
+    "contentSnippet": "We built a plugin for the GitHub Accessibility Scanner to make sure your alt text is actually accessible. Here's how it works.\nThe post Your alt text passes automated checks. That doesn’t mean it’s any good. appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Run, debug, and scale Databricks workloads from your local IDE",
+    "link": "https://www.databricks.com/blog/run-debug-and-scale-databricks-workloads-your-local-ide",
+    "pubDate": "Mon, 24 Aug 2026 17:01:08 GMT",
+    "source": "Databricks",
+    "summary": "从本地IDE运行调试扩展Databricks负载",
+    "contentSnippet": "The Databricks workspace is purposefully built for data analysis and data engineering. However..."
+  },
+  {
+    "title": "How Databricks Uses AI to Accelerate Incident Investigation",
+    "link": "https://www.databricks.com/blog/how-databricks-uses-ai-accelerate-incident-investigation",
+    "pubDate": "Mon, 24 Aug 2026 17:00:00 GMT",
+    "source": "Databricks",
+    "summary": "Databricks利用AI加速事件调查",
+    "contentSnippet": "In our previous blog post, we shared how Databricks uses AI to debug thousands of..."
+  },
+  {
+    "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+    "link": "https://openai.com/index/gpt-5-6-in-kiro",
+    "pubDate": "Mon, 24 Aug 2026 12:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "Kiro推出GPT-5.6，提升开发者性价比。",
+    "contentSnippet": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance."
+  },
+  {
+    "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+    "link": "https://arxiv.org/abs/2608.20341",
+    "pubDate": "Mon, 24 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "SDAD：面向AI原生软件生命周期的规格驱动智能体开发",
+    "contentSnippet": "arXiv:2608.20341v1 Announce Type: new \nAbstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and multi-step reasoning now allow substantial Functional Requirement Documents (FRDs) and repository context to be ingested in a single workflow, making specification quality the execution fuel for autonomous delivery. This report formalises Spec-Driven Agentic Development (SDAD) as a synthesis of disciplined up-front formalisation and high-velocity implementation: intent capture, machine-readable specification, agentic synthesis, and independent multi-agent verification under human sign-off. We revisit the historical pendulum between Waterfall and Agile, introduce AI-code as a fourth production paradigm, and compare Human-Agile (circa 2020) with Agentic-SDAD (circa 2026) across artefacts, cadence, accountability, and security posture. Beyond process description, we extend the model to team role metamorphosis (engineer, QA, platform, and product functions), quantitative governance (Ambiguity Tax, Spec Fidelity, SER, and TCI_agentic with repair multiplier phi), and pragmatic adoption via hybrid estimation and a staged migration blueprint. Industrial and research evidence on AI-augmented testing and verification is integrated to motivate separation between synthesis and release authority. Overall, the paper argues that agentic speed does not eliminate engineering discipline; it relocates discipline upstream into specification precision, explicit gates, and auditable provenance."
+  },
+  {
+    "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
+    "link": "https://arxiv.org/abs/2608.20342",
+    "pubDate": "Mon, 24 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "个人人工智能基础设施的记忆预置代理生成",
+    "contentSnippet": "arXiv:2608.20342v1 Announce Type: new \nAbstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's terminal-based coding agent -- pre-loaded with relevant memories compiled from the user's existing personal databases. At spawn time, PAO queries two independently-operated memory backends in parallel (a PostgreSQL entity-observation database and a Cloudflare Worker semantic search index), fuses results using backend-specific retrieval strategies, and delivers the compiled briefing via filesystem injection that exploits the host agent's configuration auto-read behavior. PAO manages the full agent lifecycle including trust pre-seeding, readiness polling with error detection, and adaptive terminal text injection. We report on four months of regular deployment (December 2025 through March 2026) as an experience report, documenting three generations of context delivery mechanisms, the failure modes that motivated each redesign, and the engineering tradeoffs of bridging heterogeneous memory systems rather than building a unified one."
+  },
+  {
+    "title": "Bankruptcy Prediction via Hybrid Resampling and Stacking Ensemble Techniques with Explainable Artificial Intelligence (XAI)-Driven Analysis",
+    "link": "https://arxiv.org/abs/2608.20343",
+    "pubDate": "Mon, 24 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "基于混合重采样与堆叠集成的破产预测及XAI分析",
+    "contentSnippet": "arXiv:2608.20343v1 Announce Type: new \nAbstract: This study develops and evaluates a bankruptcy prediction framework that integrates consensus-based feature selection, hybrid resampling, stacking ensembles, and explainable artificial intelligence to improve minority-class detection in severely imbalanced financial data. Using the Taiwanese Bankruptcy Prediction dataset from the UCI Machine Learning Repository, five feature-selection algorithms were first applied, and a consensus retention rule reduced the input space to 23 robust variables. The balanced training data were then generated using SVM-SMOTE, SMOTE-Tomek, and SMOTE-ENN. Five ensemble machine learning classifiers, namely gradient boosting, extreme gradient boosting, histogram-based gradient boosting, LightGBM, and AdaBoost, were compared with five deep learning models, including RNN, LSTM, GRU, DNN, and MLP. In addition, hybrid stacking ensembles combined the five machine learning classifiers as base learners with each deep learning model as a meta-learner. Model performance was assessed using accuracy, recall, specificity, G-mean, and ROC-AUC, while SHAP was used to explain feature contributions. The results show that resampling strategy materially shaped model behavior. SVM-SMOTE and SMOTE-Tomek favored accuracy and specificity, whereas SMOTE-ENN delivered stronger minority-class detection. Among standalone models, the GRU with SMOTE-ENN achieved the best overall predictive balance, with recall of 0.8627, G-mean of 0.8517, and ROC-AUC of 0.9431. Among stacking ensembles, SMOTE-ENN with (GB+XGB+HGB+LGBM+AB)+LSTM provided the strongest compromise between sensitivity and specificity. SHAP analysis identified leverage, profitability, solvency, and operational efficiency indicators as the most influential predictors of bankruptcy risk. These findings support more reliable and interpretable early warning systems for financially distressed firms."
   },
   {
     "title": "Better tools for managing blocked users",
     "link": "https://github.blog/changelog/2026-08-21-better-tools-for-managing-blocked-users",
     "pubDate": "Fri, 21 Aug 2026 17:28:36 +0000",
     "source": "GitHub Changelog",
-    "summary": "更高效的封禁用户管理工具",
+    "summary": "更佳的被屏蔽用户管理工具。",
     "contentSnippet": "Managing blocked users is now faster and clearer for personal accounts and organizations. With this update, you can: Search by username, full name, or email. Sort and paginate long lists.…\nThe post Better tools for managing blocked users appeared first on The GitHub Blog."
   },
   {
@@ -20,7 +76,7 @@
     "link": "https://www.databricks.com/blog/connecting-retail-demand-planning-campaign-and-store-execution",
     "pubDate": "Fri, 21 Aug 2026 17:20:00 GMT",
     "source": "Databricks",
-    "summary": "零售需求规划对接营销与门店执行",
+    "summary": "连接零售需求规划与营销及门店执行",
     "contentSnippet": "Retail and consumer goods teams make decisions across a connected but complex operating cycle..."
   },
   {
@@ -28,7 +84,7 @@
     "link": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
     "pubDate": "Fri, 21 Aug 2026 16:07:15 +0000",
     "source": "GitHub Changelog",
-    "summary": "Slack内GitHub Copilot体验公开预览",
+    "summary": "GitHub Copilot现已入驻Slack公开预览",
     "contentSnippet": "The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to…\nThe post The new GitHub Copilot experience in Slack appeared first on The GitHub Blog."
   },
   {
@@ -36,7 +92,7 @@
     "link": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
     "pubDate": "Fri, 21 Aug 2026 16:03:36 +0000",
     "source": "GitHub Changelog",
-    "summary": "在Microsoft Teams中共享使用GitHub Copilot进行代理协作。",
+    "summary": "Teams中共享GitHub Copilot代理工作。",
     "contentSnippet": "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot…\nThe post Shared agentic work with GitHub Copilot in Microsoft Teams appeared first on The GitHub Blog."
   },
   {
@@ -44,31 +100,15 @@
     "link": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
     "pubDate": "Fri, 21 Aug 2026 11:59:48 +0000",
     "source": "DeepMind",
-    "summary": "摘要生成失败",
+    "summary": "游戏AI研究十五年：从雅达利到EVE Online",
     "contentSnippet": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay."
-  },
-  {
-    "title": "Inbound Private Link now supports account-level Genie One, the account console, and custom URLs",
-    "link": "https://www.databricks.com/blog/inbound-private-link-now-supports-account-level-genie-one-account-console-and-custom-urls",
-    "pubDate": "Thu, 20 Aug 2026 22:00:00 GMT",
-    "source": "Databricks",
-    "summary": "入站私密链接现支持账户级Genie One、控制台及自定义URL",
-    "contentSnippet": "Enterprises adopting Databricks for their most sensitive data commonly rely on Inbound..."
-  },
-  {
-    "title": "Busting SQL Migration Myths: How New SQL Features Make Lift-and-Shift to Lakehouse Easier ",
-    "link": "https://www.databricks.com/blog/busting-sql-migration-myths-how-new-sql-features-make-lift-and-shift-lakehouse-easier",
-    "pubDate": "Thu, 20 Aug 2026 19:00:00 GMT",
-    "source": "Databricks",
-    "summary": "新SQL特性让湖仓迁移更轻松，破除迁移迷思",
-    "contentSnippet": "Somewhere in your warehouse, hundreds of stored procedures wake up every night and..."
   },
   {
     "title": "The August 17 outage, and the work ahead",
     "link": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
     "pubDate": "Thu, 20 Aug 2026 18:36:11 +0000",
     "source": "GitHub",
-    "summary": "八月十七日故障及后续改进工作",
+    "summary": "8月17日宕机事件及后续改进工作",
     "contentSnippet": "An update on the August 17 outage and the steps we're taking to improve reliability.\nThe post The August 17 outage, and the work ahead appeared first on The GitHub Blog."
   },
   {
@@ -76,7 +116,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
     "pubDate": "Thu, 20 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "微软Skala 1.1扩大访问，加速预测性密度泛函计算。",
+    "summary": "Skala扩大访问，加速预测DFT路径。",
     "contentSnippet": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry ecosystem, and a living benchmark to track computational performance. \nThe post Broadening access to Skala creates a faster path to predictive DFT  appeared first on Microsoft Research."
   },
   {
@@ -84,7 +124,7 @@
     "link": "https://openai.com/index/introducing-ai-futures",
     "pubDate": "Thu, 20 Aug 2026 07:00:00 GMT",
     "source": "OpenAI",
-    "summary": "摘要生成失败",
+    "summary": "OpenAI新博客：AI重塑权力、治理、经济与自由",
     "contentSnippet": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom."
   },
   {
@@ -92,23 +132,15 @@
     "link": "https://openai.com/index/stampli",
     "pubDate": "Thu, 20 Aug 2026 00:00:00 GMT",
     "source": "OpenAI",
-    "summary": "摘要生成失败",
+    "summary": "Stampli用ChatGPT Work缩短68%启动时间。",
     "contentSnippet": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days."
-  },
-  {
-    "title": "Offering Zero Data Retention for frontier models",
-    "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-    "pubDate": "Wed, 19 Aug 2026 19:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "OpenAI为零数据保留提供前沿模型安全处理。",
-    "contentSnippet": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy."
   },
   {
     "title": "5 new ways to level up your learning with Search",
     "link": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
     "pubDate": "Wed, 19 Aug 2026 19:00:00 +0000",
     "source": "Google AI",
-    "summary": "用谷歌搜索工具学习备考的五种新方法",
+    "summary": "五种用搜索提升学习的新方法",
     "contentSnippet": "Here’s how you can use Google Search tools to study for classes and standardized tests."
   },
   {
@@ -116,7 +148,7 @@
     "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
     "pubDate": "Wed, 19 Aug 2026 17:50:23 +0000",
     "source": "GitHub",
-    "summary": "GitHub Copilot初学者用My work面板管理任务。",
+    "summary": "摘要生成失败",
     "contentSnippet": "If you’re juggling multiple Copilot sessions, use the My work pane to track what's in flight, what's done, and what's next.\nThe post GitHub Copilot app for Beginners: Managing your work appeared first on The GitHub Blog."
   },
   {
@@ -124,7 +156,7 @@
     "link": "https://code.visualstudio.com/updates/v1_134",
     "pubDate": "2026-08-19T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "Visual Studio Code 1.134 新功能概览",
+    "summary": "VS Code 1.134 新功能概览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.134\nRead the full article"
   },
   {
@@ -132,23 +164,15 @@
     "link": "https://news.apache.org/foundation/entry/apache-geode-2-0-part-iii-lessons-learned-and-the-path-forward",
     "pubDate": "Tue, 18 Aug 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "Geode 2.0第三部分：经验教训与未来展望",
+    "summary": "Apache Geode 2.0第三部分：经验教训与未来之路",
     "contentSnippet": "What Geode 2.0 taught us—and what comes next By Jinwoo HwangLead Developer, Project Lead, and Release Manager, Apache Geode 2.0https://JinwooHwang.com This post is divided into three parts. Part I explains why Apache Geode 2.0 matters. Part II walks through how it was modernized. Part III looks ahead—what we learned, what changed, and how you can […]\nThe post Apache Geode 2.0, Part III: Lessons Learned and the Path Forward appeared first on The ASF Blog."
-  },
-  {
-    "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
-    "link": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
-    "pubDate": "Mon, 17 Aug 2026 16:00:00 +0000",
-    "source": "GitHub",
-    "summary": "画布使智能体工作流可见、可控且成本高效。",
-    "contentSnippet": "Chat is great for intent, but agent work gets lost in the scroll. Here is how I use canvases with my agentic workflows—and why your workflow also deserves a canvas.\nThe post How canvases make agentic workflows visible, steerable, and cost-efficient appeared first on The GitHub Blog."
   },
   {
     "title": "Get closer to the game with Gemini and Pixel",
     "link": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
     "pubDate": "Mon, 17 Aug 2026 08:00:00 +0000",
     "source": "Google AI",
-    "summary": "Gemini与Pixel让球迷更贴近比赛",
+    "summary": "Gemini与Pixel合作足球俱乐部，AI提升球迷体验。",
     "contentSnippet": "Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and  Smartphone Technology."
   },
   {
@@ -156,7 +180,7 @@
     "link": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
     "pubDate": "Thu, 13 Aug 2026 17:04:18 +0000",
     "source": "DeepMind",
-    "summary": "Gemini 3.7 Flash发布",
+    "summary": "发布 Gemini 3.7 Flash",
     "contentSnippet": ""
   },
   {
@@ -164,7 +188,7 @@
     "link": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
     "pubDate": "Thu, 13 Aug 2026 16:45:00 +0000",
     "source": "Google AI",
-    "summary": "Sheets canvas让表格数据活起来。",
+    "summary": "用提示词将表格数据转为互动仪表板",
     "contentSnippet": "Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt."
   },
   {
@@ -172,7 +196,7 @@
     "link": "https://code.visualstudio.com/updates/v1_133",
     "pubDate": "2026-08-12T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.133 更新摘要",
+    "summary": "了解VS Code 1.133的新功能",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.133\nRead the full article"
   },
   {
@@ -180,7 +204,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
     "pubDate": "Wed, 12 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "MindTopo新基准揭示AI拓扑空间推理能力",
+    "summary": "MindTopo揭示视觉语言模型的空间推理能力。",
     "contentSnippet": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and  highlights new opportunities to strengthen spatial reasoning and planning.\nThe post MindTopo reveals VLMs’ spatial reasoning abilities appeared first on Microsoft Research."
   },
   {
@@ -188,7 +212,7 @@
     "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
     "pubDate": "Wed, 12 Aug 2026 14:01:59 +0000",
     "source": "DeepMind",
-    "summary": "摘要生成失败",
+    "summary": "将手语AI交到用户手中",
     "contentSnippet": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users."
   },
   {
@@ -196,7 +220,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
     "pubDate": "Tue, 11 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "CARE-X：临床实用的放射学视觉语言模型。",
+    "summary": "CARE-X：面向临床的放射学视觉语言模型新方法。",
     "contentSnippet": "Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions, and measurement-based tools for chest X-ray interpretation.\nThe post Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement appeared first on Microsoft Research."
   },
   {
@@ -212,7 +236,7 @@
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-projects-5",
     "pubDate": "Thu, 06 Aug 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache基金会宣布Fluss和Pony Mail成为顶级项目",
+    "summary": "Apache基金会宣布Fluss和Pony Mail为顶级项目",
     "contentSnippet": "Introducing Apache® Fluss, a lakehouse-native streaming storage for real-time analytics and AI, and Apache® Pony Mail, a web-based mail archive browser built to scale to millions of archived messages Wilmington, DE –  August 6, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that […]\nThe post The Apache® Software Foundation Announces New Top-Level Projects appeared first on The ASF Blog."
   }
 ]
