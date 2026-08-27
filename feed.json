@@ -1,19 +1,139 @@
 [
   {
+    "title": "Visual Studio Code 1.136 (Insiders)",
+    "link": "https://code.visualstudio.com/updates/v1_136",
+    "pubDate": "2026-09-02T17:00:00.000Z",
+    "source": "VS Code",
+    "summary": "Visual Studio Code 1.136预览版新特性",
+    "contentSnippet": "Learn what's new in Visual Studio Code 1.136 (Insiders)\nRead the full article"
+  },
+  {
+    "title": "Enterprise-managed settings now support autoUpdate for plugin marketplaces",
+    "link": "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
+    "pubDate": "Thu, 27 Aug 2026 01:52:19 +0000",
+    "source": "GitHub Changelog",
+    "summary": "企业托管设置现支持插件市场自动更新。",
+    "contentSnippet": "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace and update…\nThe post Enterprise-managed settings now support autoUpdate for plugin marketplaces appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Global model policy generally available",
+    "link": "https://github.blog/changelog/2026-08-26-global-model-policy-generally-available",
+    "pubDate": "Wed, 26 Aug 2026 22:08:38 +0000",
+    "source": "GitHub Changelog",
+    "summary": "GitHub Copilot全局模型策略正式推出",
+    "contentSnippet": "In July, we announced a default model policy for generally available GitHub Copilot models on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling out enforcement of the…\nThe post Global model policy generally available appeared first on The GitHub Blog."
+  },
+  {
+    "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
+    "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/",
+    "pubDate": "Wed, 26 Aug 2026 20:12:53 +0000",
+    "source": "GitHub",
+    "summary": "初学用GitHub Copilot自动化Dependabot PR分类。",
+    "contentSnippet": "Managing library updates can be tedious at times. Learn how the GitHub Copilot app can handle this type of repetitive task.\nThe post GitHub Copilot app for Beginners: Automate Dependabot pull request triage appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+    "link": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+    "pubDate": "Wed, 26 Aug 2026 17:01:00 +0000",
+    "source": "DeepMind",
+    "summary": "摘要生成失败",
+    "contentSnippet": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe."
+  },
+  {
+    "title": "Visual Studio Code 1.135",
+    "link": "https://code.visualstudio.com/updates/v1_135",
+    "pubDate": "2026-08-26T17:00:00.000Z",
+    "source": "VS Code",
+    "summary": "VS Code 1.135版新特性概览",
+    "contentSnippet": "Learn what's new in Visual Studio Code 1.135\nRead the full article"
+  },
+  {
+    "title": "GitHub Apps can now access enterprise billing data",
+    "link": "https://github.blog/changelog/2026-08-26-github-apps-can-now-access-enterprise-billing-data",
+    "pubDate": "Wed, 26 Aug 2026 12:18:59 +0000",
+    "source": "GitHub Changelog",
+    "summary": "GitHub应用现可访问企业账单数据",
+    "contentSnippet": "Enterprise owners can now grant a GitHub App access to enterprise billing data. When you create or configure a GitHub App, you can select the enterprise billing permission and choose…\nThe post GitHub Apps can now access enterprise billing data appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+    "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+    "pubDate": "Wed, 26 Aug 2026 10:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "教师版ChatGPT扩展至更多美国学区。",
+    "contentSnippet": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff."
+  },
+  {
+    "title": "Learning never stops: How AI makes learning continuous",
+    "link": "https://openai.com/index/learning-never-stops",
+    "pubDate": "Wed, 26 Aug 2026 10:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "AI让学习突破课堂，持续不断。",
+    "contentSnippet": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom."
+  },
+  {
+    "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
+    "link": "https://arxiv.org/abs/2608.23568",
+    "pubDate": "Wed, 26 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "控制面向读者的证据以评估LLM记忆。",
+    "contentSnippet": "arXiv:2608.23568v1 Announce Type: new \nAbstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchmark control that fixes the conversation while varying the reader-facing artifact. RENDER combines a five-level packet ladder, localizing when answer-bearing content enters the input, with deterministic templates approximating ChatGPT-style entries, LangChain summaries, MemGPT-style typed records, and raw conversation. On 500 LongMemEval questions and nine models, matched-budget resolved packets beat recency-truncated raw dialogue by 42.4-72.6 points. In deployed-style templates, best-worst spread is 24.6-48.8 points per model; under the primary scorer, ChatGPT-style entries have higher point estimates than raw conversation on 7 of 9 models. Judge rescoring preserves the positive aggregate effect, but model-specific significance is mixed. Three models scoring 0 percent on formal ledger packets answer the same facts from natural-language entries at 45.4-53.4 percent. The effect persists under retrieval noise and transfers to HotpotQA, suggesting that memory/RAG evaluations should report or control the reader-facing artifact."
+  },
+  {
+    "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
+    "link": "https://arxiv.org/abs/2608.23569",
+    "pubDate": "Wed, 26 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "ESQ-Bench：评估NL2SQL方言泛化与静默分歧的企业Oracle基准",
+    "contentSnippet": "arXiv:2608.23569v1 Announce Type: new \nAbstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD. However, these benchmarks rely on simplified academic schemas and open-source SQL dialects that do not reflect the complexity of enterprise database environments. We introduce ESQ-Bench, an Oracle-first NL2SQL benchmark with systematic complexity tiers and silent-divergence evaluation across three enterprise schema complexity tiers. We constructed and released six populated schemas (465 tables, 164,682 rows, zero empty tables) with identical seed data on Oracle, PostgreSQL, MySQL, and SQL Server, a four-metric evaluation harness (EM, EX, SR, SD), and 550 gold-validated question-query pairs (Tier-1: 95; Tier-2: 228; Tier-3: 227). Schema-linked prompting with GPT-4o shows monotonic execution-match degradation across tiers: 79.8, 60.3, and 57.2 percent EX on executed queries (June 2026), versus 75.6, 80.4, and 95.8 percent on an earlier 142-question pilot slice. EM stays below 7 percent tier-wide; operational silent-divergence reaches 73 to 99 percent among EX-passing queries. Failure analysis shows wrong-result semantics dominate at higher tiers. Claude Sonnet 4.6 with schema-linked prompts reaches 87.4, 74.9, and 68.7 percent EX (executed queries), exceeding GPT-4o schema-linked on every tier. GPT-4o zero-shot EX on executed queries (78.7, 73.5, and 77.8 percent) inverts schema-linked at Tiers 2 to 3 due to lower execution rates and survivor bias in the zero-shot versus schema-linked analysis. Local Llama 3.2 schema-linked reaches only 13.3 percent bank-wide EX (73 out of 550), underscoring the gap between closed API models and open-weight baselines on enterprise Oracle schemas."
+  },
+  {
+    "title": "Equivariant Cellular Sheaves for Molecular Electronic Structure: Bridging Sheaf Cohomology and E(3)-Equivariant Hamiltonian Learning",
+    "link": "https://arxiv.org/abs/2608.23571",
+    "pubDate": "Wed, 26 Aug 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "等变细胞层用于分子电子结构：连接层上同调与E(3)等变哈密顿学习。",
+    "contentSnippet": "arXiv:2608.23571v1 Announce Type: new \nAbstract: Equivariant message-passing networks are the standard model for molecular property and interatomic-potential prediction, and recent work predicts the electronic Hamiltonian itself in an E(3)-equivariant way. Separately, topological deep learning has extended graph networks to cellular sheaves. Our central observation is structural: in a localized atomic-orbital basis, the molecular single-particle Hamiltonian, after a constant shift that makes it positive semidefinite, is the Laplacian of a cellular sheaf on a regular cell complex built from the molecule. Making the restriction maps O(3)-steerable two-center kernels from bond geometry recovers the Slater-Koster form as a special case and yields an E(3)- and permutation-equivariant operator. Three consequences follow. First, the zeroth sheaf cohomology H^0 = ker L is a topological invariant equal to the non-bonding (zero-mode) orbitals, recovering the classical alternant non-bonding-orbital count as a lower bound. Second, the Hodge 1-Laplacian lets higher cells (rings) carry cycle and delocalization information through H^1. Third, the model strictly generalizes E(3)-equivariant message-passing networks and CW networks, and inherits the anti-oversmoothing of non-trivial sheaf diffusion. We prove equivariance, expressivity, and cohomological-correspondence results for the Equivariant Cellular Sheaf Networks, and validate them numerically: the Hamiltonian-to-sheaf embedding is exact to machine precision, the cohomology dimension reproduces non-bonding-orbital counts across eleven conjugated molecules, the sheaf Laplacian is O(3)-equivariant to machine precision, and the equivariant model attains lower error and rotation generalization on a directional electronic target. Our contribution is this sheaf-theoretic formalization and its invariants, not equivariant Hamiltonian prediction itself."
+  },
+  {
+    "title": "Introducing Governance Hub: Intelligent, account-level governance over your Databricks estate",
+    "link": "https://www.databricks.com/blog/introducing-governance-hub-intelligent-account-level-governance-over-your-databricks-estate",
+    "pubDate": "Wed, 26 Aug 2026 03:00:00 GMT",
+    "source": "Databricks",
+    "summary": "推出治理中心，智能账户级治理，洞察数据成本",
+    "contentSnippet": "Your FinOps lead needs to easily drill-down into Databricks spend and identify what’s driving costs, ..."
+  },
+  {
+    "title": "The Hugging Face incident and the road ahead",
+    "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+    "pubDate": "Wed, 26 Aug 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "OpenAI公布安全事件调查，加强AI安全监控对齐。",
+    "contentSnippet": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment."
+  },
+  {
+    "title": "Leveraging Databricks to Support FISC Security Guidelines",
+    "link": "https://www.databricks.com/blog/leveraging-databricks-support-fisc-security-guidelines",
+    "pubDate": "Wed, 26 Aug 2026 00:00:00 GMT",
+    "source": "Databricks",
+    "summary": "利用Databricks支持FISC安全指南",
+    "contentSnippet": "The FISC Security Guidelines on Computer Systems for Banking and Related Financial..."
+  },
+  {
+    "title": "Introducing the Agent Host for persistent, portable agent sessions",
+    "link": "https://code.visualstudio.com/blogs/2026/08/26/agent-host-architecture",
+    "pubDate": "2026-08-26T00:00:00.000Z",
+    "source": "VS Code",
+    "summary": "摘要生成失败",
+    "contentSnippet": "Explore how the VS Code Agent Host and AHP support multiple agent harnesses with durable, synchronized local and remote sessions.\nRead the full article"
+  },
+  {
     "title": "How to evaluate LLMs before production",
     "link": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
     "pubDate": "Tue, 25 Aug 2026 21:35:11 +0000",
     "source": "GitHub",
-    "summary": "生产前评估LLM的经验教训。",
+    "summary": "生产前如何评估大语言模型",
     "contentSnippet": "These are the lessons we learned evaluating LLMs for real-world secret scanning.\nThe post How to evaluate LLMs before production appeared first on The GitHub Blog."
-  },
-  {
-    "title": "GitHub Copilot app Customize tab is generally available",
-    "link": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
-    "pubDate": "Tue, 25 Aug 2026 20:05:26 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub Copilot应用自定义标签页正式发布。",
-    "contentSnippet": "GitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on. The new Customize tab in the GitHub Copilot app brings MCP…\nThe post GitHub Copilot app Customize tab is generally available appeared first on The GitHub Blog."
   },
   {
     "title": "How Capital Markets Finance Protects Balance Sheet Returns",
@@ -24,108 +144,20 @@
     "contentSnippet": "An insurer settles a claim months after the loss. An asset manager marks someone..."
   },
   {
-    "title": "Block users directly from security advisories",
-    "link": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
-    "pubDate": "Tue, 25 Aug 2026 18:38:57 +0000",
-    "source": "GitHub Changelog",
-    "summary": "从安全公告直接屏蔽用户。",
-    "contentSnippet": "You can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience…\nThe post Block users directly from security advisories appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Push rules in rulesets now support path exceptions",
-    "link": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
-    "pubDate": "Tue, 25 Aug 2026 17:40:15 +0000",
-    "source": "GitHub Changelog",
-    "summary": "规则集中的推送规则现支持路径例外。",
-    "contentSnippet": "You can now configure push rules more granularly by exempting specific file paths, so a rule applies everywhere in scope except the paths you choose. Path exceptions are in public…\nThe post Push rules in rulesets now support path exceptions appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Visual Studio Code 1.135 (Insiders)",
-    "link": "https://code.visualstudio.com/updates/v1_135",
-    "pubDate": "2026-08-25T17:00:00.000Z",
-    "source": "VS Code",
-    "summary": "VS Code 1.135内测版新特性",
-    "contentSnippet": "Learn what's new in Visual Studio Code 1.135 (Insiders)\nRead the full article"
-  },
-  {
     "title": "5 ways to upgrade your home decor with Google Search",
     "link": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
     "pubDate": "Tue, 25 Aug 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "用谷歌搜索升级家居装饰的5种方法",
+    "summary": "用谷歌搜索提升家居装饰的5种方法",
     "contentSnippet": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects."
-  },
-  {
-    "title": "Modernizing SQL ETL in Lakehouse with Declarative Patterns",
-    "link": "https://www.databricks.com/blog/modernizing-sql-etl-lakehouse-declarative-patterns",
-    "pubDate": "Tue, 25 Aug 2026 15:00:00 GMT",
-    "source": "Databricks",
-    "summary": "声明式模式推动Lakehouse的SQL ETL现代化。",
-    "contentSnippet": "Databricks is bringing declarative ETL to data warehousing workflows in Lakehouse..."
-  },
-  {
-    "title": "The full stack behind abundant intelligence",
-    "link": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-    "pubDate": "Tue, 25 Aug 2026 07:05:00 GMT",
-    "source": "OpenAI",
-    "summary": "全栈进步实现大规模低成本智能。",
-    "contentSnippet": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost."
-  },
-  {
-    "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-    "link": "https://openai.com/index/jalapeno-first-results",
-    "pubDate": "Tue, 25 Aug 2026 07:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "摘要生成失败",
-    "contentSnippet": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models."
-  },
-  {
-    "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
-    "link": "https://arxiv.org/abs/2608.21362",
-    "pubDate": "Tue, 25 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "KVBoost：分块键值缓存复用与偏差引导重算加速推理。",
-    "contentSnippet": "arXiv:2608.21362v1 Announce Type: new \nAbstract: Transformer-based large language models (LLMs) incur high prefill latency because key-value (KV) tensors must be recomputed for each request. Existing prefix-caching systems reduce this cost but require prompts to share a leading contiguous prefix, limiting effectiveness when shared content appears at arbitrary positions. We present KVBoost, a chunk-level KV cache reuse system for HuggingFace-compatible decoder models that enables reuse regardless of content position. KVBoost introduces a dual-hash keying scheme that separates positional identity (prefix hash) from content identity (content hash), supporting both exact and approximate cache matches. To address attention boundary errors from independently cached chunks, KVBoost employs two repair strategies: SelectiveRecompute, which re-encodes boundary regions, and CacheBlendRecompute, which identifies and recomputes high-deviation tokens after a probe pass. The system further incorporates asymmetric KV quantization (int8/int4), adaptive chunk boundary splitting, and importance-weighted eviction under a fixed memory budget. Evaluated on Qwen/Qwen2.5-3B over 1,000 bug-localization samples, KVBoost achieves a 4.49x reduction in time-to-first-token (142.4 ms vs.\\ 639.1 ms) and outperforms prefix caching by 16%, with no loss in accuracy (99.2% vs.\\ 99.1%). KVBoost provides a practical, memory-bounded inference acceleration layer compatible with RoPE-based models without architectural modification."
-  },
-  {
-    "title": "AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance",
-    "link": "https://arxiv.org/abs/2608.21363",
-    "pubDate": "Tue, 25 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "AI运行时治理的逐决策证据协议",
-    "contentSnippet": "arXiv:2608.21363v1 Announce Type: new \nAbstract: A protocol is presented for recording the governance decisions of automated AI runtimes. When a runtime releases, blocks, defers, redacts, or escalates an individual output, AIREP records that decision as a single signed object that any party can check offline, independent of the runtime that produced it. A record carries the decision as one of a closed set of verbs under a stated policy basis, references its input, output, and evidence by hash rather than by value, and declares both what its evidence covers and what it does not. Records form a SHA-256 hash chain that binds each record to its position, so that tampering and gaps are detectable by recomputation. Vendor-, model-, and domain-specific content is confined to a single optional namespace, and a mechanical neutrality test keeps the shared format free of it. A reference implementation and a two-language conformance kit are described. Some implementation issues are considered, and problems such as alignment of the canonical form across implementations, freshness witnesses, and multi-runtime chains are exposed. The format is offered for adoption by any AI runtime that records governance decisions."
-  },
-  {
-    "title": "Reviewing Model Collapse and Countermeasures",
-    "link": "https://arxiv.org/abs/2608.21366",
-    "pubDate": "Tue, 25 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "综述模型崩溃与应对策略。",
-    "contentSnippet": "arXiv:2608.21366v1 Announce Type: new \nAbstract: Driven by massive amounts of web-scale data, generative AI (GenAI) has achieved remarkable progress, enabling various applications in diverse sectors. The advances of GenAI have actuated practitioners to use AI-synthesized data for training next-generation AI models. Undeniably, using synthetic data has alleviated the increasing stringent demand for data supply. Unfortunately, it also introduces a new critical issue: in a self-consuming cycle between model and data, the model ultimately collapse, raising more trustworthiness concerns to GenAI. In recent years, increasingly more studies have investigated the phenomenon of model collapse (MC) and explored potential solutions to mitigate it. However, the review of the phenomenon of MC still remains blank. To fill this gap, this paper provides an up-to-date overview of these studies for consolidating and reviewing the progress of MC in different application scenarios and countermeasures for mitigating MC. We also highlight challenges and future research opportunities."
-  },
-  {
-    "title": "Disrupting a new covert influence campaign from Russia",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-    "pubDate": "Tue, 25 Aug 2026 00:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "OpenAI封禁俄罗斯利用AI推广虚假智库的账户。",
-    "contentSnippet": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West."
   },
   {
     "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
     "link": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
     "pubDate": "Mon, 24 Aug 2026 20:56:32 +0000",
     "source": "GitHub",
-    "summary": "自动检查通过不代表图片替代文本真正可用。",
+    "summary": "自动检查达标不代表alt文本真正可用",
     "contentSnippet": "We built a plugin for the GitHub Accessibility Scanner to make sure your alt text is actually accessible. Here's how it works.\nThe post Your alt text passes automated checks. That doesn’t mean it’s any good. appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Run, debug, and scale Databricks workloads from your local IDE",
-    "link": "https://www.databricks.com/blog/run-debug-and-scale-databricks-workloads-your-local-ide",
-    "pubDate": "Mon, 24 Aug 2026 17:01:08 GMT",
-    "source": "Databricks",
-    "summary": "在本地IDE运行调试和扩展Databricks工作负载。",
-    "contentSnippet": "The Databricks workspace is purposefully built for data analysis and data engineering. However..."
   },
   {
     "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
@@ -136,19 +168,11 @@
     "contentSnippet": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay."
   },
   {
-    "title": "The August 17 outage, and the work ahead",
-    "link": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
-    "pubDate": "Thu, 20 Aug 2026 18:36:11 +0000",
-    "source": "GitHub",
-    "summary": "8月17日故障及后续改进工作",
-    "contentSnippet": "An update on the August 17 outage and the steps we're taking to improve reliability.\nThe post The August 17 outage, and the work ahead appeared first on The GitHub Blog."
-  },
-  {
     "title": "Broadening access to Skala creates a faster path to predictive DFT ",
     "link": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
     "pubDate": "Thu, 20 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "扩展Skala访问，加速预测性DFT。",
+    "summary": "扩大Skala访问，加速预测性DFT路径。",
     "contentSnippet": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry ecosystem, and a living benchmark to track computational performance. \nThe post Broadening access to Skala creates a faster path to predictive DFT  appeared first on Microsoft Research."
   },
   {
@@ -156,23 +180,15 @@
     "link": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
     "pubDate": "Wed, 19 Aug 2026 19:00:00 +0000",
     "source": "Google AI",
-    "summary": "五种利用搜索提升学习的新方法",
+    "summary": "五种用谷歌搜索提升学习的新方法",
     "contentSnippet": "Here’s how you can use Google Search tools to study for classes and standardized tests."
-  },
-  {
-    "title": "Visual Studio Code 1.134",
-    "link": "https://code.visualstudio.com/updates/v1_134",
-    "pubDate": "2026-08-19T17:00:00.000Z",
-    "source": "VS Code",
-    "summary": "Visual Studio Code 1.134 新特性一览",
-    "contentSnippet": "Learn what's new in Visual Studio Code 1.134\nRead the full article"
   },
   {
     "title": "Apache Geode 2.0, Part III: Lessons Learned and the Path Forward",
     "link": "https://news.apache.org/foundation/entry/apache-geode-2-0-part-iii-lessons-learned-and-the-path-forward",
     "pubDate": "Tue, 18 Aug 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache Geode 2.0第三部分：经验教训与未来之路",
+    "summary": "Apache Geode 2.0第三篇：经验教训与未来之路",
     "contentSnippet": "What Geode 2.0 taught us—and what comes next By Jinwoo HwangLead Developer, Project Lead, and Release Manager, Apache Geode 2.0https://JinwooHwang.com This post is divided into three parts. Part I explains why Apache Geode 2.0 matters. Part II walks through how it was modernized. Part III looks ahead—what we learned, what changed, and how you can […]\nThe post Apache Geode 2.0, Part III: Lessons Learned and the Path Forward appeared first on The ASF Blog."
   },
   {
@@ -180,7 +196,7 @@
     "link": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
     "pubDate": "Mon, 17 Aug 2026 08:00:00 +0000",
     "source": "Google AI",
-    "summary": "摘要生成失败",
+    "summary": "Gemini与Pixel携手足球俱乐部，AI提升球迷观赛体验",
     "contentSnippet": "Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and  Smartphone Technology."
   },
   {
@@ -188,39 +204,23 @@
     "link": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
     "pubDate": "Thu, 13 Aug 2026 17:04:18 +0000",
     "source": "DeepMind",
-    "summary": "Gemini 3.7 Flash发布",
+    "summary": "谷歌推出Gemini 3.7 Flash",
     "contentSnippet": ""
-  },
-  {
-    "title": "Visual Studio Code 1.133",
-    "link": "https://code.visualstudio.com/updates/v1_133",
-    "pubDate": "2026-08-12T17:00:00.000Z",
-    "source": "VS Code",
-    "summary": "Visual Studio Code 1.133 新功能一览",
-    "contentSnippet": "Learn what's new in Visual Studio Code 1.133\nRead the full article"
   },
   {
     "title": "MindTopo reveals VLMs’ spatial reasoning abilities",
     "link": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
     "pubDate": "Wed, 12 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "MindTopo新基准测试AI拓扑空间推理能力。",
+    "summary": "MindTopo新基准揭示视觉语言模型空间推理能力。",
     "contentSnippet": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and  highlights new opportunities to strengthen spatial reasoning and planning.\nThe post MindTopo reveals VLMs’ spatial reasoning abilities appeared first on Microsoft Research."
-  },
-  {
-    "title": "Putting sign language AI into users’ hands",
-    "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-    "pubDate": "Wed, 12 Aug 2026 14:01:59 +0000",
-    "source": "DeepMind",
-    "summary": "将手语AI交到用户手中。",
-    "contentSnippet": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users."
   },
   {
     "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
     "link": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
     "pubDate": "Tue, 11 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "CARE-X：面向临床实用的放射学视觉语言模型",
+    "summary": "CARE-X：面向临床的放射学视觉语言模型新方法",
     "contentSnippet": "Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions, and measurement-based tools for chest X-ray interpretation.\nThe post Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement appeared first on Microsoft Research."
   },
   {
@@ -228,7 +228,7 @@
     "link": "https://news.apache.org/foundation/entry/from-friction-to-flow-how-asf-tooling-is-lowering-barriers-for-maintainers",
     "pubDate": "Tue, 11 Aug 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "ASF工具降低维护者发布门槛",
+    "summary": "ASF工具降低维护者门槛，化阻力为顺畅。",
     "contentSnippet": "The Apache Trusted Releases (ATR) platform, a new tool from the ASF Tooling Initiative, is making it easier for open source maintainers across hundreds of independently governed ASF projects to ship secure, compliant releases without adding to their workload. ATR automates the parts of the release process that used to depend on institutional knowledge (e.g., […]\nThe post From Friction to Flow: How ASF Tooling Is Lowering Barriers for Maintainers appeared first on The ASF Blog."
   },
   {
@@ -236,7 +236,7 @@
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-projects-5",
     "pubDate": "Thu, 06 Aug 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache宣布Fluss与Pony Mail成为顶级项目",
+    "summary": "Apache软件基金会宣布两个新顶级项目。",
     "contentSnippet": "Introducing Apache® Fluss, a lakehouse-native streaming storage for real-time analytics and AI, and Apache® Pony Mail, a web-based mail archive browser built to scale to millions of archived messages Wilmington, DE –  August 6, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that […]\nThe post The Apache® Software Foundation Announces New Top-Level Projects appeared first on The ASF Blog."
   }
 ]
