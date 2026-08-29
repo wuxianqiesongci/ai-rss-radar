@@ -4,7 +4,7 @@
     "link": "https://code.visualstudio.com/updates/v1_136",
     "pubDate": "2026-09-02T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.136预览版新特性概览",
+    "summary": "VS Code 1.136预览版新功能概览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.136 (Insiders)\nRead the full article"
   },
   {
@@ -12,7 +12,7 @@
     "link": "https://www.databricks.com/blog/beyond-answers-new-genie-one-features-turn-insights-action",
     "pubDate": "Fri, 28 Aug 2026 21:00:00 GMT",
     "source": "Databricks",
-    "summary": "新Genie One功能将洞察转化为行动",
+    "summary": "摘要生成失败",
     "contentSnippet": "We all know the pattern: you ask an AI tool a question and get an answer in seconds,..."
   },
   {
@@ -20,7 +20,7 @@
     "link": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
     "pubDate": "Fri, 28 Aug 2026 20:24:20 +0000",
     "source": "GitHub Changelog",
-    "summary": "GitHub Copilot在Visual Studio的八月更新。",
+    "summary": "Visual Studio中GitHub Copilot八月更新",
     "contentSnippet": "August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review. Highlights Here’s what’s…\nThe post GitHub Copilot in Visual Studio — August update appeared first on The GitHub Blog."
   },
   {
@@ -28,7 +28,7 @@
     "link": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
     "pubDate": "Fri, 28 Aug 2026 20:13:22 +0000",
     "source": "GitHub Changelog",
-    "summary": "GitHub Copilot八月更新：增强控制与自定义。",
+    "summary": "GitHub Copilot周更新：增强控制与多端定制",
     "contentSnippet": "This week’s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE. GitHub Copilot in…\nThe post GitHub Copilot weekly releases — August 24 appeared first on The GitHub Blog."
   },
   {
@@ -36,7 +36,7 @@
     "link": "https://www.databricks.com/blog/how-indra-unified-ev-charging-data-databricks",
     "pubDate": "Fri, 28 Aug 2026 17:30:00 GMT",
     "source": "Databricks",
-    "summary": "Indra在Databricks上统一电动汽车充电数据",
+    "summary": "摘要生成失败",
     "contentSnippet": "When data grows faster than the systems around it, complexity becomes the default...."
   },
   {
@@ -52,7 +52,7 @@
     "link": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
     "pubDate": "Fri, 28 Aug 2026 11:37:19 +0000",
     "source": "GitHub Changelog",
-    "summary": "GitHub Copilot政策与计费即将调整",
+    "summary": "GitHub Copilot政策与计费即将调整。",
     "contentSnippet": "To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you. Reopening…\nThe post Upcoming changes to GitHub Copilot policies and billing appeared first on The GitHub Blog."
   },
   {
@@ -60,39 +60,15 @@
     "link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
     "pubDate": "Fri, 28 Aug 2026 06:00:00 GMT",
     "source": "OpenAI",
-    "summary": "因SpaceX收购Cursor，终止向其提供OpenAI模型。",
+    "summary": "我们决定终止对Cursor的OpenAI模型供应。",
     "contentSnippet": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX."
-  },
-  {
-    "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
-    "link": "https://arxiv.org/abs/2608.26107",
-    "pubDate": "Fri, 28 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "结合F-Logic推理的神经符号框架预测早期学业风险",
-    "contentSnippet": "arXiv:2608.26107v1 Announce Type: new \nAbstract: Predicting students' academic risk in online education is crucial for enabling timely interventions that can improve retention and learning outcomes. However, existing models often suffer from limited early detection capability and insufficient interpretability, leading to a \"black-box\" trust crisis that hinders their adoption in real-world pedagogical settings. To address these challenges, we propose EduRiskX, a neuro-symbolic framework that integrates a temporal Transformer-based predictor with F-Logic symbolic reasoning. The neural component models longitudinal student activity sequences using temporal attention, class-weighted loss, and dynamic weekly truncation. Acting as a data-driven expert system, an F-Logic rule base -- grounded in established educational theories (Engagement Theory and Student Integration Model) to mimic the diagnostic logic of human educators -- is constructed exclusively from the training data. The neural risk probability and the symbolic confidence score are then combined through a logistic regression-based fusion mechanism that learns the relative contribution of each signal. Experiments on the Open University Learning Analytics Dataset (OULAD) using a strict 80/10/10 student-level split show that EduRiskX achieves an accuracy of 0.900 and an F1-score of 0.894 at the end of the semester (Week 38), with an average early detection week of 9.32 and a detection rate of 94.30 percent. Compared with state-of-the-art time-series models (PatchTST, iTransformer) and common deep learning baselines (LSTM, CNN), EduRiskX yields improved recall and earlier risk identification under identical conditions. Beyond predictive performance, the F-Logic module provides structured rule-based explanations linking predictions to observable behavioral patterns and educational theories."
-  },
-  {
-    "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
-    "link": "https://arxiv.org/abs/2608.26109",
-    "pubDate": "Fri, 28 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "独立大模型与预定智能体流程解释ICU死亡率预测",
-    "contentSnippet": "arXiv:2608.26109v1 Announce Type: new \nAbstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bedside use. Large language models (LLMs) may bridge this gap, and multi-step agentic pipelines are a plausible extension because they separate data interpretation, guideline checking, and final explanation. This revised feasibility study preserves the original standalone-versus-agentic comparison while making the main clinical findings more explicit. Using the retained local eICU Demo artifact set (2,353 ICU stays; 8.1\\% mortality), XGBoost achieved an AUROC of 0.855 (95\\% CI 0.796--0.906) and an AUPRC of 0.332 (95\\% CI 0.217--0.494). On a stratified 38-case explanation subset, the standalone LLM produced 1 explanation with explicit outcome leakage, whereas the four-step agentic pipeline produced none. Among the 14 cases that overlapped with the SHAP review subset, the standalone LLM showed higher SHAP alignment (mean Jaccard 0.171 versus 0.077) and higher direction consistency (92.9\\% versus 78.6\\%), while the agentic pipeline showed higher guideline grounding (0.762 versus 0.143), higher value specificity (0.236 versus 0.143), and slightly higher plausibility (0.700 versus 0.671). Clinically, the results suggest that agentic decomposition may improve safety-relevant grounding and patient-specific detail, but it should be paired with attribution-based checks before use in high-stakes risk explanation."
-  },
-  {
-    "title": "Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap",
-    "link": "https://arxiv.org/abs/2608.26111",
-    "pubDate": "Fri, 28 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "大模型应用于电池健康管理：综述与展望。",
-    "contentSnippet": "arXiv:2608.26111v1 Announce Type: new \nAbstract: Battery Prognostics and Health Management (BPHM) is critical for ensuring the safe, reliable, and cost-effective operation of batteries across electric vehicles, grid storage, and consumer electronics. Conventional BPHM approaches, including physics-based models and task-centric deep learning methods, face challenges in computational efficiency and parameterization, cross-domain generalization, dependence on extensive labeled run-to-failure data, and model interpretability. Recent Large Models (LMs), built upon Transformer architectures and self-supervised pre-training, offer a transformative new paradigm to overcome these long-standing bottlenecks. This review provides the first comprehensive survey of LM applications in BPHM, systematically examining how these models address challenges in the field. We begin by elucidating the foundational technologies enabling LMs, including Transformer architectures, self-supervised learning, large-scale multimodal datasets, and PEFT techniques. We then categorize recent progress along four critical dimensions: mitigating data scarcity, enhancing generalization and robustness, integrating domain knowledge for interpretability, and enabling system-level automation. Despite promising results, significant challenges remain across data accessibility, intelligence validation, trustworthiness, and deployment feasibility. To guide future research, we propose a roadmap focused on building collaborative data ecosystems, validating intelligence for industrial applications, enhancing trustworthiness with physics-informed designs, and enabling efficient on-device deployment. This review establishes a systematic approach to understand and advance LM-driven BPHM, providing researchers and practitioners with essential insights for developing next-generation battery management systems capable of safe, reliable, and autonomous operation throughout battery lifecycles."
   },
   {
     "title": "Supporting Thailand’s next generation of AI startups",
     "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
     "pubDate": "Fri, 28 Aug 2026 02:00:00 GMT",
     "source": "OpenAI",
-    "summary": "OpenAI与泰国MHESI启动AI加速器，助初创企业落地。",
+    "summary": "摘要生成失败",
     "contentSnippet": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products."
   },
   {
@@ -100,7 +76,7 @@
     "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
     "pubDate": "Thu, 27 Aug 2026 16:11:32 +0000",
     "source": "DeepMind",
-    "summary": "Gemini Omni 1.1 Flash让构建更可控",
+    "summary": "摘要生成失败",
     "contentSnippet": ""
   },
   {
@@ -108,7 +84,7 @@
     "link": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
     "pubDate": "Thu, 27 Aug 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "摘要生成失败",
+    "summary": "谷歌搜索AI模式提供三种规划预订旅行新方式",
     "contentSnippet": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search."
   },
   {
@@ -116,7 +92,7 @@
     "link": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
     "pubDate": "Thu, 27 Aug 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "OpenClaw爆红维护者分享构建与安全经验",
+    "summary": "OpenClaw爆红，维护者分享构建与安全经验",
     "contentSnippet": "OpenClaw is the fastest-growing project in GitHub history. Peter Steinberger and several maintainers share what they learned in the project's first six months.\nThe post OpenClaw went viral. Meet the maintainers building and securing it. appeared first on The GitHub Blog."
   },
   {
@@ -124,7 +100,7 @@
     "link": "https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-projects-6",
     "pubDate": "Thu, 27 Aug 2026 13:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache基金会宣布Iggy与Sourcelume成为顶级项目。",
+    "summary": "Apache软件基金会宣布两个新顶级项目",
     "contentSnippet": "Introducing Apache Iggy™, a persistent message streaming platform written in Rust, and Apache Sourcelume, open source instrumentation for AI training-data provenance Wilmington, DE –  August 27, 2026 – The Apache Software Foundation (ASF), the global home of open source software the world relies on, today announced that Apache Iggy and Apache Sourcelume have become Top-Level […]\nThe post The Apache® Software Foundation Announces New Top-Level Projects appeared first on The ASF Blog."
   },
   {
@@ -132,7 +108,7 @@
     "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
     "pubDate": "Thu, 27 Aug 2026 12:59:16 +0000",
     "source": "DeepMind",
-    "summary": "世界首个双盲AI评估试点。",
+    "summary": "全球首个双盲AI评估试点",
     "contentSnippet": "Piloting the world's first double-blind AI evaluations"
   },
   {
@@ -140,7 +116,7 @@
     "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
     "pubDate": "Thu, 27 Aug 2026 09:00:00 GMT",
     "source": "OpenAI",
-    "summary": "研究：ChatGPT与批判性思维训练提升学生表现。",
+    "summary": "研究发现ChatGPT与批判性思维训练提升学生表现。",
     "contentSnippet": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment."
   },
   {
@@ -156,7 +132,7 @@
     "link": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
     "pubDate": "Wed, 26 Aug 2026 17:01:00 +0000",
     "source": "DeepMind",
-    "summary": "Gemini 3.5 Transcribe带来更智能语音转文字。",
+    "summary": "摘要生成失败",
     "contentSnippet": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe."
   },
   {
@@ -164,7 +140,7 @@
     "link": "https://code.visualstudio.com/updates/v1_135",
     "pubDate": "2026-08-26T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.135 新特性概览",
+    "summary": "摘要生成失败",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.135\nRead the full article"
   },
   {
@@ -172,7 +148,7 @@
     "link": "https://code.visualstudio.com/blogs/2026/08/26/agent-host-architecture",
     "pubDate": "2026-08-26T00:00:00.000Z",
     "source": "VS Code",
-    "summary": "Agent Host：实现持久可移植的代理会话",
+    "summary": "代理主机实现持久可移植代理会话，支持本地远程同步",
     "contentSnippet": "Explore how the VS Code Agent Host and AHP support multiple agent harnesses with durable, synchronized local and remote sessions.\nRead the full article"
   },
   {
@@ -180,7 +156,7 @@
     "link": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
     "pubDate": "Tue, 25 Aug 2026 21:35:11 +0000",
     "source": "GitHub",
-    "summary": "生产前评估LLM用于真实秘密扫描的经验。",
+    "summary": "生产前评估LLMs的秘密扫描实战经验",
     "contentSnippet": "These are the lessons we learned evaluating LLMs for real-world secret scanning.\nThe post How to evaluate LLMs before production appeared first on The GitHub Blog."
   },
   {
@@ -188,7 +164,7 @@
     "link": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
     "pubDate": "Tue, 25 Aug 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "用谷歌搜索升级家居装饰的5种方法。",
+    "summary": "利用谷歌搜索升级家居装饰的5种方法。",
     "contentSnippet": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects."
   },
   {
@@ -204,7 +180,7 @@
     "link": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
     "pubDate": "Wed, 19 Aug 2026 19:00:00 +0000",
     "source": "Google AI",
-    "summary": "谷歌搜索学习备考的五个新方法",
+    "summary": "用Google搜索提升学习的五种新方法",
     "contentSnippet": "Here’s how you can use Google Search tools to study for classes and standardized tests."
   },
   {
@@ -212,7 +188,7 @@
     "link": "https://news.apache.org/foundation/entry/apache-geode-2-0-part-iii-lessons-learned-and-the-path-forward",
     "pubDate": "Tue, 18 Aug 2026 16:00:00 +0000",
     "source": "Apache",
-    "summary": "Apache Geode 2.0第三部分：经验教训与未来之路",
+    "summary": "Apache Geode 2.0第三篇：经验教训与未来方向",
     "contentSnippet": "What Geode 2.0 taught us—and what comes next By Jinwoo HwangLead Developer, Project Lead, and Release Manager, Apache Geode 2.0https://JinwooHwang.com This post is divided into three parts. Part I explains why Apache Geode 2.0 matters. Part II walks through how it was modernized. Part III looks ahead—what we learned, what changed, and how you can […]\nThe post Apache Geode 2.0, Part III: Lessons Learned and the Path Forward appeared first on The ASF Blog."
   },
   {
@@ -220,7 +196,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
     "pubDate": "Wed, 12 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "新基准MindTopo揭示视觉语言模型空间推理能力",
+    "summary": "MindTopo新基准揭示VLM空间推理能力。",
     "contentSnippet": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and  highlights new opportunities to strengthen spatial reasoning and planning.\nThe post MindTopo reveals VLMs’ spatial reasoning abilities appeared first on Microsoft Research."
   },
   {
@@ -228,7 +204,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
     "pubDate": "Tue, 11 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "CARE-X：辅助监督与奖励对齐的临床放射学VLM。",
+    "summary": "CARE-X：迈向临床实用的放射学视觉语言模型",
     "contentSnippet": "Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions, and measurement-based tools for chest X-ray interpretation.\nThe post Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement appeared first on Microsoft Research."
   },
   {
