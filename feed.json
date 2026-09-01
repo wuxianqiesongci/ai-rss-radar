@@ -4,119 +4,143 @@
     "link": "https://code.visualstudio.com/updates/v1_136",
     "pubDate": "2026-09-02T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.136内测版新特性",
+    "summary": "VS Code 1.136 Insiders 新功能速览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.136 (Insiders)\nRead the full article"
   },
   {
-    "title": "Autoscaling Lakebase Postgres",
-    "link": "https://www.databricks.com/blog/autoscaling-lakebase-postgres",
-    "pubDate": "Mon, 31 Aug 2026 17:00:00 GMT",
+    "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
+    "link": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
+    "pubDate": "Tue, 01 Sep 2026 22:24:27 +0000",
+    "source": "GitHub Changelog",
+    "summary": "企业实时迁移从GHES到ghe.com正式可用。",
+    "contentSnippet": "Enterprise Live Migrations (ELM) is now generally available, enabling near-zero-downtime repository migrations from GitHub Enterprise Server (GHES) to GitHub Enterprise Cloud with Data Residency (GHEC DR), so you can move…\nThe post Enterprise Live Migrations from GHES to ghe.com generally available appeared first on The GitHub Blog."
+  },
+  {
+    "title": "How the FDA is building a secure, AI-ready data foundation on Databricks for Government",
+    "link": "https://www.databricks.com/blog/how-fda-building-secure-ai-ready-data-foundation-databricks-government",
+    "pubDate": "Tue, 01 Sep 2026 21:45:00 GMT",
     "source": "Databricks",
-    "summary": "该数据库根据负载自动伸缩，不再预先选型。",
-    "contentSnippet": "Choosing a database instance size before you know the workload is an old building pattern..."
+    "summary": "摘要生成失败",
+    "contentSnippet": "Modernizing a federal data platform is a little like steering an aircraft carrier while rebuilding the engine mid-ocean..."
+  },
+  {
+    "title": "The latest AI news we announced in August 2026",
+    "link": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+    "pubDate": "Tue, 01 Sep 2026 20:45:00 +0000",
+    "source": "Google AI",
+    "summary": "谷歌2026年8月AI最新动态。",
+    "contentSnippet": "Here are Google’s latest AI updates from August 2026"
+  },
+  {
+    "title": "Set an expiration date for individual user budgets",
+    "link": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
+    "pubDate": "Tue, 01 Sep 2026 20:23:13 +0000",
+    "source": "GitHub Changelog",
+    "summary": "可为个人用户预算设置到期日期。",
+    "contentSnippet": "You can now set an optional expiration date on an individual user budget, and GitHub removes the budget on that date. This capability is generally available. The user then falls…\nThe post Set an expiration date for individual user budgets appeared first on The GitHub Blog."
+  },
+  {
+    "title": "How we eliminated $1 million a year of wasted AI agent spend in one hour",
+    "link": "https://www.databricks.com/blog/how-we-eliminated-1-million-year-wasted-ai-agent-spend-one-hour",
+    "pubDate": "Tue, 01 Sep 2026 19:43:51 GMT",
+    "source": "Databricks",
+    "summary": "Databricks工程师一小时内消除年百万美元AI代理浪费。",
+    "contentSnippet": "Databricks engineers rely heavily on AI agents to streamline and accelerate their work. In turn..."
+  },
+  {
+    "title": "Copilot code review can now approve pull requests",
+    "link": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
+    "pubDate": "Tue, 01 Sep 2026 19:25:57 +0000",
+    "source": "GitHub Changelog",
+    "summary": "Copilot代码审查现在可以批准拉取请求",
+    "contentSnippet": "Copilot now tells you when a pull request is ready to approve, and admins can authorize it to sign off on approval. The ability for Copilot to approve is off…\nThe post Copilot code review can now approve pull requests appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Collaboration makes us all stronger",
+    "link": "https://www.databricks.com/blog/collaboration-makes-us-all-stronger",
+    "pubDate": "Tue, 01 Sep 2026 19:00:00 GMT",
+    "source": "Databricks",
+    "summary": "合作让我们更强大。",
+    "contentSnippet": "The best security bugs come with a good storySome of our best security investments haven't been tools or scanners..."
+  },
+  {
+    "title": "Introducing agentic video understanding with Gemini",
+    "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+    "pubDate": "Tue, 01 Sep 2026 17:08:51 +0000",
+    "source": "DeepMind",
+    "summary": "Gemini推出智能体视频理解",
+    "contentSnippet": ""
+  },
+  {
+    "title": "How AI-native companies turn workflows into operating capability",
+    "link": "https://openai.com/index/ai-native-company-workflows",
+    "pubDate": "Tue, 01 Sep 2026 17:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "AI原生公司如何将工作流转化为运营能力",
+    "contentSnippet": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply."
+  },
+  {
+    "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
+    "link": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+    "pubDate": "Tue, 01 Sep 2026 16:00:00 +0000",
+    "source": "Google AI",
+    "summary": "Google Pics在Workspace中轻松创建编辑图片",
+    "contentSnippet": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available."
+  },
+  {
+    "title": "Path to Astra: critical capabilities and frontier safeguards",
+    "link": "https://openai.com/index/path-to-astra",
+    "pubDate": "Tue, 01 Sep 2026 13:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "Astra首个达关键网络安全阈值，发布保障更强。",
+    "contentSnippet": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release."
+  },
+  {
+    "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+    "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+    "pubDate": "Tue, 01 Sep 2026 12:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "医疗机构现可将电子病历等数据接入ChatGPT。",
+    "contentSnippet": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more."
+  },
+  {
+    "title": "DS-Lighting: Making Agent Harnesses Explicit for Data-Science Automation",
+    "link": "https://arxiv.org/abs/2608.28590",
+    "pubDate": "Tue, 01 Sep 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "DS-Lighting：让代理工具明确化，实现数据科学自动化。",
+    "contentSnippet": "arXiv:2608.28590v1 Announce Type: new \nAbstract: Large Language Model (LLM) agents have shown promise for automating data-science workflows, yet their end-to-end performance depends critically on the agent harness that represents tasks, manages execution state, constrains output artifacts, and provides evaluation feedback. Existing data-science agents often leave this harness implicit, making results difficult to reproduce, compare, and attribute across heterogeneous tasks. We introduce DS-Lighting, a unified harness toolkit that makes harness design explicit for data-science automation. DS-Lighting decomposes the harness into four reusable layers: data, workflow, execution, and evaluation, and represents diverse agents as executable operator programs that support both predefined pipelines and adaptive search. We further integrate multiple open-source data-science benchmarks into an MLE-Bench-style task format, enabling controlled comparison under a shared task interface, sandboxed runtime, and metric protocol. Experiments across agents, harnesses, models, and ablations show that explicit harness design improves reproducibility, comparability, and reliability, while reducing avoidable system-level failures in end-to-end data-science workflows. Our code is available at https://github.com/usail-hkust/dslighting"
+  },
+  {
+    "title": "Expert-validated STEM QA",
+    "link": "https://arxiv.org/abs/2608.28591",
+    "pubDate": "Tue, 01 Sep 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "专家验证的STEM问答数据集。",
+    "contentSnippet": "arXiv:2608.28591v1 Announce Type: new \nAbstract: Recent advancements in AI are helping scientists achieve breakthroughs in fields such as mathematics, medicine, and materials sciences. New evaluation datasets for AI models contribute to such advancement in AI. In the STEM domain, frontier models have consumed most of the available online data, creating the need for human-created datasets that codify the knowledge of leading experts in the domain. There are several STEM datasets available for the research community in this field. However, there are some gaps in these datasets, leaving room for improvement. Examples of gaps include (1) saturation in model performance on these datasets, leaving no head-room for meaningful evaluations, (2) skewed taxonomy distributions, (3) multiple choice question format that is misaligned with how scientists use AI in the real world, and (4) inaccurate answers and rationales partially led by a contest-based data collection and a time-bound review process. In this study, we present 'Expert-validated STEM QA', a high-quality, expert-validated STEM dataset (N=398) in Physics, Chemistry, Biology, and Mathematics, created by 241 domain experts. We (1) carefully designed a taxonomy with balanced distribution, (2) vetted question contributors with quality-driven incentive, (3) conducted multiple rounds of reviews with revisions validated by domain experts based on consensus, and (4) created the dataset in verifiable question and answer format. Our study demonstrated low performance ($<25\\%$) of frontier AI models on the dataset as a benchmark. Post-training on a separate, private version of the dataset (N=2,000) increased performance of the open source model by $15\\%$ relative to the baseline model (p=0.045) on the STEM subset of HLE-verified dataset, indicating potential utility of the dataset for model training. We have open-sourced a portion of our dataset for the AI research community."
+  },
+  {
+    "title": "A collective capability boundary in frontier large language models on guideline-conformant and case-specific oncology decision-making",
+    "link": "https://arxiv.org/abs/2608.28592",
+    "pubDate": "Tue, 01 Sep 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "前沿大模型在肿瘤决策中存在集体能力边界。",
+    "contentSnippet": "arXiv:2608.28592v1 Announce Type: new \nAbstract: Large language models (LLMs) achieve high scores on medical knowledge examinations, yet real-world oncology is not a knowledge test--it is a sequence of guideline-pathway choices, escalation judgments, and commitments under uncertainty. Existing benchmarks largely measure factual recall, leaving open whether frontier LLMs share decision-path blind spots that combining models cannot fix. We built the Oncology Decision Boundary Benchmark (ODBB)--2,005 oncology decision points across NCCN guidelines and colorectal cancer cases--and evaluated nine frontier LLMs (four closed-source, five open-weight families) released between June 2025 and April 2026. A fully deterministic scorer (zero LLM inference) classified outputs into 14 failure types, independently validated by two oncologists (Cohen's weighted $\\kappa$ = 0.939 and 0.790) on a 225-item stratified sample. Treating the nine as a pooled super-model, 42.1% (Wilson 95% CI 40.0--44.3%) of all items--35.7% of the 1,586 NCCN items and 66.4% of the 419 colorectal-cancer cases--were answered correctly by none, with failures concentrated in choosing between guideline pathways before reasoning within any: a consistent blind spot in clinical meta-judgment that likely requires architectural intervention rather than more training data. Two models tuned for decisiveness (GPT-5.5, Gemini 3.1 Pro Preview) made unsafe commitments three to five times more often than the seven cautious models without scoring higher. In 3--9% of items, models stated the correct next clinical step yet did not commit to it--failures of decision, not knowledge. Model quality is no longer the primary bottleneck for clinical LLM deployment; the binding constraint is the assumption that any single model can be the sole basis for a clinical decision. Progress requires architectures that detect when a model reaches its competence boundary and route the decision to a clinician."
   },
   {
     "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
     "link": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
     "pubDate": "Mon, 31 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "高效病理基础模型推动群体规模发现",
+    "summary": "高效病理基础模型推动群体规模研究发现。",
     "contentSnippet": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration.\nThe post GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models appeared first on Microsoft Research."
-  },
-  {
-    "title": "GitHub Copilot in VS Code, August 2026 releases",
-    "link": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
-    "pubDate": "Mon, 31 Aug 2026 08:39:54 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub Copilot在VS Code的2026年8月更新。",
-    "contentSnippet": "This changelog covers VS Code v1.132 through v1.135, shipped throughout August 2026. These releases make it easier to organize agent sessions, review changes, and navigate long conversations. Agent Host, the…\nThe post GitHub Copilot in VS Code, August 2026 releases appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Polimill builds Japan's next-generation public AI infrastructure",
-    "link": "https://openai.com/index/polimill",
-    "pubDate": "Mon, 31 Aug 2026 07:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "波利米尔构建日本下一代公共人工智能基础设施。",
-    "contentSnippet": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development."
-  },
-  {
-    "title": "A milestone in expanding access to AI",
-    "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-    "pubDate": "Mon, 31 Aug 2026 04:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "摘要生成失败",
-    "contentSnippet": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options."
-  },
-  {
-    "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model",
-    "link": "https://arxiv.org/abs/2608.27459",
-    "pubDate": "Mon, 31 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "41年Jeopardy!知识封装于免费本地模型中。",
-    "contentSnippet": "arXiv:2608.27459v1 Announce Type: new \nAbstract: In 2011, IBM's Watson was something like a sealed capsule of its era's queryable knowledge. Its DeepQA system defeated the strongest human Jeopardy! champions, but the knowledge that let it do so lived in a curated billion-document corpus running on a cluster of POWER7 servers, frozen at build time and impossible to move or copy. We show that the same kind of artifact, a snapshot of what a culture can answer, is now portable and essentially free. We evaluate a single 9 GB open-weight model (Qwen2.5-14B, 4-bit) against the complete open Jeopardy! clue dataset, 529,939 clues across all 41 broadcast seasons from 1984 to 2025. To our knowledge this is the first time a model has been run over the full corpus. The 41 years mark only how long the questions were collected. What they test is far older and broader: the accumulated body of human general knowledge a culture considers worth knowing, from ancient history and dead languages to science, literature, and geography, with a verified answer for every item. The model answers 67.0% of all clues under a strict forced-response protocol with exact and fuzzy matching, and exceeds 85% on factoid categories. We treat training-data exposure as something both systems share rather than a flaw unique to language models. Watson's case is in fact the more extreme one. Its corpus was assembled to contain Jeopardy answers and it was tuned on past clues, and it could not answer anything outside that curated distribution. The decisive test is whether a model can answer clues that did not exist when it was built. On clues aired after its training cutoff, the local model holds 65% and Claude Opus 4.8 holds 95%, while Watson by construction scores zero. The capability survives the move from a server room to a file you could seal in a time capsule, and unlike Watson it is not frozen to its own moment."
-  },
-  {
-    "title": "Rating the Raters: Rasch Measurement Theory for LLM Evaluation",
-    "link": "https://arxiv.org/abs/2608.27463",
-    "pubDate": "Mon, 31 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "用Rasch测量理论评LLM评估者。",
-    "contentSnippet": "arXiv:2608.27463v1 Announce Type: new \nAbstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content. Each paradigm can be viewed as a measurement problem, where a latent property of an object is probed with items from an instrument (e.g., benchmark) by raters. Standard evaluation practices often neglect the contributions of each core component to the end result, limiting our understanding of what is being measured. Rasch measurement theory (RMT) is well-suited to this kind of problem. RMT decomposes ordinal ratings into separable facets on a common scale. It further provides a battery of diagnostics that can identify miscalibrated measurements and rater biases. We present a case study of RMT applied to the LLM-as-rater paradigm using the Measuring Hate Speech corpus, whose construct was itself built under RMT. We fit a series of many-facet Rasch models to annotations from nine LLMs spanning families and capability levels. Our analyses show that LLMs systematically differ from human raters in severity, item-level calibration, question-order robustness, target-identity sensitivity, and rating scale use, which all would be obscured by standard evaluation practice. Overall, we argue that RMT belongs in the toolkit for evaluating LLM-as-examinee, -judge, and -rater paradigms."
-  },
-  {
-    "title": "Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI",
-    "link": "https://arxiv.org/abs/2608.27464",
-    "pubDate": "Mon, 31 Aug 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "从信息寻求心理学优化人本可解释AI设计。",
-    "contentSnippet": "arXiv:2608.27464v1 Announce Type: new \nAbstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking. Drawing on Sharot and Sunstein's framework of information-seeking motives, we propose that people evaluate whether to engage with explanations based on three types of expected utility: instrumental (will it help me act better?), hedonic (will it make me feel better?), and cognitive (will it improve my understanding?). Each utility is estimated through a lens shaped by well-documented cognitive biases, including illusion of control, automation bias, unrealistic optimism, impact bias, overconfidence, and confirmation bias. These biases can lead to two failure modes: excessive information-seeking that fragments attention without improving decisions, and insufficient information-seeking that leaves critical risks and misunderstandings unexamined. This challenge is particularly acute for agentic AI systems, where explanations must support not just understanding a single output but anticipating cascading actions, assessing risks, and deciding when to intervene. By integrating information-seeking psychology into HCXAI, we advocate for a shift from making explanations available to making them sought: designing systems that account for when and why users actually want to know."
-  },
-  {
-    "title": "What is an AI Copilot?",
-    "link": "https://www.databricks.com/blog/ai-copilot",
-    "pubDate": "Fri, 28 Aug 2026 22:22:15 GMT",
-    "source": "Databricks",
-    "summary": "人工智能副驾驶即嵌入软件应用的助手。",
-    "contentSnippet": "An AI copilot is an AI assistant embedded directly in a software application. It..."
-  },
-  {
-    "title": "Beyond answers: New Genie One features to turn insights into action",
-    "link": "https://www.databricks.com/blog/beyond-answers-new-genie-one-features-turn-insights-action",
-    "pubDate": "Fri, 28 Aug 2026 21:00:00 GMT",
-    "source": "Databricks",
-    "summary": "Genie One新功能超越答案，将洞察转化为行动。",
-    "contentSnippet": "We all know the pattern: you ask an AI tool a question and get an answer in seconds,..."
-  },
-  {
-    "title": "GitHub Copilot in Visual Studio — August update",
-    "link": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
-    "pubDate": "Fri, 28 Aug 2026 20:24:20 +0000",
-    "source": "GitHub Changelog",
-    "summary": "Visual Studio中GitHub Copilot八月更新",
-    "contentSnippet": "August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review. Highlights Here’s what’s…\nThe post GitHub Copilot in Visual Studio — August update appeared first on The GitHub Blog."
-  },
-  {
-    "title": "GitHub Copilot weekly releases — August 24",
-    "link": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
-    "pubDate": "Fri, 28 Aug 2026 20:13:22 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub Copilot八月更新：强化控制与自定义。",
-    "contentSnippet": "This week’s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE. GitHub Copilot in…\nThe post GitHub Copilot weekly releases — August 24 appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Our decision on Cursor following its acquisition by SpaceX",
-    "link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-    "pubDate": "Fri, 28 Aug 2026 06:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "摘要生成失败",
-    "contentSnippet": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX."
   },
   {
     "title": "Gemini Omni 1.1 Flash lets you build with more control",
     "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
     "pubDate": "Thu, 27 Aug 2026 16:11:32 +0000",
     "source": "DeepMind",
-    "summary": "Gemini Omni 1.1 Flash 让构建控制更强大。",
+    "summary": "Gemini Omni 1.1 Flash 提供更多构建控制权",
     "contentSnippet": ""
   },
   {
@@ -124,7 +148,7 @@
     "link": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
     "pubDate": "Thu, 27 Aug 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "谷歌搜索智能模式新增订酒店查机票看里程奖励三种方式",
+    "summary": "搜索三种旅行规划预订法：订酒店、查机票、看里程奖励。",
     "contentSnippet": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search."
   },
   {
@@ -132,7 +156,7 @@
     "link": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
     "pubDate": "Thu, 27 Aug 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "OpenClaw走红，认识构建并保护它的维护者。",
+    "summary": "OpenClaw爆红，维护者谈构建与安全",
     "contentSnippet": "OpenClaw is the fastest-growing project in GitHub history. Peter Steinberger and several maintainers share what they learned in the project's first six months.\nThe post OpenClaw went viral. Meet the maintainers building and securing it. appeared first on The GitHub Blog."
   },
   {
@@ -140,7 +164,7 @@
     "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
     "pubDate": "Thu, 27 Aug 2026 12:59:16 +0000",
     "source": "DeepMind",
-    "summary": "全球首个双盲AI评估试点启动",
+    "summary": "全球首个双盲AI评估试点启动。",
     "contentSnippet": "Piloting the world's first double-blind AI evaluations"
   },
   {
@@ -148,16 +172,8 @@
     "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/",
     "pubDate": "Wed, 26 Aug 2026 20:12:53 +0000",
     "source": "GitHub",
-    "summary": "用GitHub Copilot自动化Dependabot拉取请求分类。",
+    "summary": "GitHub Copilot应用自动分类Dependabot拉取请求",
     "contentSnippet": "Managing library updates can be tedious at times. Learn how the GitHub Copilot app can handle this type of repetitive task.\nThe post GitHub Copilot app for Beginners: Automate Dependabot pull request triage appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Intelligent transcription with Gemini 3.5 Transcribe",
-    "link": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-    "pubDate": "Wed, 26 Aug 2026 17:01:00 +0000",
-    "source": "DeepMind",
-    "summary": "摘要生成失败",
-    "contentSnippet": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe."
   },
   {
     "title": "Visual Studio Code 1.135",
@@ -172,7 +188,7 @@
     "link": "https://code.visualstudio.com/blogs/2026/08/26/agent-host-architecture",
     "pubDate": "2026-08-26T00:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code Agent Host支持持久可移植代理会话",
+    "summary": "摘要生成失败",
     "contentSnippet": "Explore how the VS Code Agent Host and AHP support multiple agent harnesses with durable, synchronized local and remote sessions.\nRead the full article"
   },
   {
@@ -180,39 +196,23 @@
     "link": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
     "pubDate": "Tue, 25 Aug 2026 21:35:11 +0000",
     "source": "GitHub",
-    "summary": "生产前评估LLM的实战经验",
+    "summary": "生产前评估大语言模型的真实世界秘密扫描经验",
     "contentSnippet": "These are the lessons we learned evaluating LLMs for real-world secret scanning.\nThe post How to evaluate LLMs before production appeared first on The GitHub Blog."
-  },
-  {
-    "title": "5 ways to upgrade your home decor with Google Search",
-    "link": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
-    "pubDate": "Tue, 25 Aug 2026 16:00:00 +0000",
-    "source": "Google AI",
-    "summary": "用谷歌搜索升级家居装饰的五种方法。",
-    "contentSnippet": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects."
   },
   {
     "title": "Broadening access to Skala creates a faster path to predictive DFT ",
     "link": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
     "pubDate": "Thu, 20 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "扩大Skala访问加速预测性DFT",
+    "summary": "扩大Skala访问，加快预测DFT路径。",
     "contentSnippet": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry ecosystem, and a living benchmark to track computational performance. \nThe post Broadening access to Skala creates a faster path to predictive DFT  appeared first on Microsoft Research."
-  },
-  {
-    "title": "5 new ways to level up your learning with Search",
-    "link": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
-    "pubDate": "Wed, 19 Aug 2026 19:00:00 +0000",
-    "source": "Google AI",
-    "summary": "用谷歌搜索学习备考的五个新方法",
-    "contentSnippet": "Here’s how you can use Google Search tools to study for classes and standardized tests."
   },
   {
     "title": "MindTopo reveals VLMs’ spatial reasoning abilities",
     "link": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
     "pubDate": "Wed, 12 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "MindTopo新基准揭示VLM空间推理能力。",
+    "summary": "微软新基准MindTopo揭示视觉语言模型空间推理能力",
     "contentSnippet": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and  highlights new opportunities to strengthen spatial reasoning and planning.\nThe post MindTopo reveals VLMs’ spatial reasoning abilities appeared first on Microsoft Research."
   }
 ]
