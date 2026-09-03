@@ -4,55 +4,135 @@
     "link": "https://code.visualstudio.com/updates/v1_137",
     "pubDate": "2026-09-09T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "了解VS Code内测版1.137的新功能",
+    "summary": "了解VS Code Insiders 1.137的新内容。",
     "contentSnippet": "Learn what is new in Visual Studio Code Insiders.\nRead the full article"
   },
   {
-    "title": "Southern Company’s SCOUT: Completing the Storm Intelligence Story",
-    "link": "https://www.databricks.com/blog/southern-companys-scout-completing-storm-intelligence-story",
-    "pubDate": "Wed, 02 Sep 2026 23:20:00 GMT",
+    "title": "Multiple trusted publishing configurations for npm",
+    "link": "https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm",
+    "pubDate": "Thu, 03 Sep 2026 20:34:34 +0000",
+    "source": "GitHub Changelog",
+    "summary": "npm现支持多个可信发布配置",
+    "contentSnippet": "We’re continuing to make trusted publishing smoother for npm publishers, guided by maintainers feedback. Three updates to npm publishing are now generally available: Multiple trusted publishing configurations per package Staged…\nThe post Multiple trusted publishing configurations for npm appeared first on The GitHub Blog."
+  },
+  {
+    "title": "GitHub Actions: Early September 2026 updates",
+    "link": "https://github.blog/changelog/2026-09-03-github-actions-early-september-2026-updates",
+    "pubDate": "Thu, 03 Sep 2026 20:30:53 +0000",
+    "source": "GitHub Changelog",
+    "summary": "GitHub Actions 2026年9月初更新",
+    "contentSnippet": "GitHub Actions now includes three updates that give you clearer visibility and finer-grained control over your workflows. New REST API for runner version deprecations A new REST API returns when…\nThe post GitHub Actions: Early September 2026 updates appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Governance beyond security: knowledge, context & ontology on the lakehouse",
+    "link": "https://www.databricks.com/blog/governance-beyond-security-knowledge-context-ontology-lakehouse",
+    "pubDate": "Thu, 03 Sep 2026 20:20:00 GMT",
     "source": "Databricks",
-    "summary": "南方公司SCOUT：完善风暴情报体系",
-    "contentSnippet": "Completing the storm intelligence storyIn an earlier post, we explored how Southern..."
+    "summary": "超越安全的湖仓治理：知识、语境与本体",
+    "contentSnippet": "Ask most organizations what data governance for AI means, and you’ll hear a security..."
+  },
+  {
+    "title": "Building High-Quality and Trusted Data Products with Databricks",
+    "link": "https://www.databricks.com/blog/building-high-quality-and-trusted-data-products-databricks",
+    "pubDate": "Thu, 03 Sep 2026 19:55:00 GMT",
+    "source": "Databricks",
+    "summary": "用Databricks打造高质量可信数据产品",
+    "contentSnippet": "IntroductionOrganizations aiming to become AI and data-driven often need to provide..."
+  },
+  {
+    "title": "What is Data Transformation?",
+    "link": "https://www.databricks.com/blog/what-is-data-transformation",
+    "pubDate": "Thu, 03 Sep 2026 19:54:00 GMT",
+    "source": "Databricks",
+    "summary": "摘要生成失败",
+    "contentSnippet": "What is data transformation?Data transformation is the process of taking raw data..."
+  },
+  {
+    "title": "Upcoming deprecation of selected GitHub Copilot models",
+    "link": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+    "pubDate": "Thu, 03 Sep 2026 19:40:14 +0000",
+    "source": "GitHub Changelog",
+    "summary": "GitHub Copilot部分模型将于2026年10月停用。",
+    "contentSnippet": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 2nd, 2026: Model Deprecation date…\nThe post Upcoming deprecation of selected GitHub Copilot models appeared first on The GitHub Blog."
+  },
+  {
+    "title": "GitHub Copilot app for Beginners: Run several agents at once",
+    "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
+    "pubDate": "Thu, 03 Sep 2026 16:00:00 +0000",
+    "source": "GitHub",
+    "summary": "初学者可在GitHub Copilot中并行运行多个代理",
+    "contentSnippet": "Learn how to run parallel agents in the GitHub Copilot app, and experience the moment it stops feeling scary and starts feeling powerful.\nThe post GitHub Copilot app for Beginners: Run several agents at once appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+    "link": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+    "pubDate": "Thu, 03 Sep 2026 15:02:08 +0000",
+    "source": "DeepMind",
+    "summary": "摘要生成失败",
+    "contentSnippet": ""
+  },
+  {
+    "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+    "link": "https://openai.com/index/daybreak-for-frontline-defenders",
+    "pubDate": "Thu, 03 Sep 2026 13:15:00 GMT",
+    "source": "OpenAI",
+    "summary": "OpenAI拨款10亿美元保护关键服务前线。",
+    "contentSnippet": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services."
+  },
+  {
+    "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+    "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+    "pubDate": "Thu, 03 Sep 2026 12:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "Legora用GPT-6 Astra数分钟审阅41份文件，性能提升近40%。",
+    "contentSnippet": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
+  },
+  {
+    "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+    "link": "https://openai.com/index/playco-game-prototyping-with-astra",
+    "pubDate": "Thu, 03 Sep 2026 12:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "Playco用GPT-6 Astra将游戏原型",
+    "contentSnippet": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
+  },
+  {
+    "title": "WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling",
+    "link": "https://arxiv.org/abs/2609.01608",
+    "pubDate": "Thu, 03 Sep 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "提出WMLLM自进化优化智能体，先预测后行动。",
+    "contentSnippet": "arXiv:2609.01608v1 Announce Type: new \nAbstract: Black-box optimization problems remain challenging because of large, weakly structured, and high-dimensional search spaces. Existing methods often suffer from poor sample efficiency because they rely on direct candidate generation or trial-and-error refinement. A natural way to improve search efficiency is to use world modeling, which can help identify promising optimization directions before costly evaluation. Large language models can predict the outcomes of these candidates with nontrivial accuracy because of their implicit knowledge. Motivated by this observation, we propose WMLLM, a self-evolving optimization-agent framework based on predict-then-act world modeling. The agent first predicts promising directions and then acts to generate candidates. Combined with agentic multi-turn refinement, population-based search, and reinforcement learning, WMLLM refines both its implicit world model and its optimization strategy during search. Experiments on black-box optimization tasks, especially multi-objective molecular optimization, show that WMLLM improves sample efficiency and final optimization performance. On the multi-objective molecular optimization benchmark, WMLLM achieves state-of-the-art results under a limited evaluation budget."
+  },
+  {
+    "title": "DiDrive: A Risk-Aware Hierarchical Diffusion Framework for Safe Offline Reinforcement Learning in Autonomous Driving",
+    "link": "https://arxiv.org/abs/2609.01609",
+    "pubDate": "Thu, 03 Sep 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "DiDrive：面向自动驾驶安全离线强化学习的风险感知分层扩散框架",
+    "contentSnippet": "arXiv:2609.01609v1 Announce Type: new \nAbstract: While diffusion models effectively capture multimodal behavioral priors for autonomous driving, offline reinforcement learning (RL) policies remain susceptible to distribution shift, heavy-tailed risk signals, out-of-distribution (OOD) action generation, and high-dimensional state redundancy. To address these challenges, we propose DiDrive, a distribution-guided offline diffusion framework featuring two synergistic components: the Risk-Aware Hierarchical Diffusion (RHDif) architecture and the 3DICE policy optimization paradigm. In the state space, RHDif utilizes a low-level risk-gated encoder and a high-level contextual modulator to filter environmental redundancy and focus on safety-critical threats. In the action space, 3DICE mitigates OOD overestimation and gradient oscillation through in-sample calibrated guidance, spatiotemporal optimization, and ensemble-based candidate ranking. Evaluations on the CARLA benchmark demonstrate DiDrive's superiority over baselines like IQL, CQL, and Diffusion-QL, particularly in complex, high-density traffic scenarios with 60 vehicles, where it achieves an 85% success rate and a 4295.68 average reward, providing a robust pathway for safe autonomous driving decision-making."
+  },
+  {
+    "title": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
+    "link": "https://arxiv.org/abs/2609.01611",
+    "pubDate": "Thu, 03 Sep 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "评估检测基准衡量前沿语言模型的评估意识",
+    "contentSnippet": "arXiv:2609.01611v1 Announce Type: new \nAbstract: Frontier large language models can often recognize when they are being evaluated, a capability known as evaluation awareness. If models behave differently in evaluations than in deployment, this undermines the validity of evaluation results, which are a crucial component of current AI safety frameworks. We introduce EvalDetectBench, an open pipeline and benchmark for measuring evaluation awareness that works with any Inspect-compatible evaluation, allowing practitioners to test against current and future benchmarks. EvalDetectBench ships with a newly curated transcript suite covering current frontier system-card evaluations and diverse deployment sources. The benchmark serves two purposes: measuring how reliably frontier LLMs recognize that they are being evaluated, and assessing how detectable individual benchmarks are as evaluations. We identify two methodological choices in the existing literature that introduce systematic bias: the identity of the model that generated the deployment transcripts accounts for 11.25% of measurement variance and can reorder model rankings; and elicitation prompts selected for high performance on one model can perform near chance on others. EvalDetectBench corrects for both via per-model probe calibration and a stratified generator-harmonisation procedure."
   },
   {
     "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
     "link": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
     "pubDate": "Wed, 02 Sep 2026 21:00:00 +0000",
     "source": "GitHub",
-    "summary": "GitHub播客解码AI新术语：循环、护具、小队等。",
+    "summary": "解析开发者AI新术语：循环、约束、小队等。",
     "contentSnippet": "From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations.\nThe post Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my! appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Expanding Genie Agents: Deep analysis, file reasoning, and more",
-    "link": "https://www.databricks.com/blog/expanding-genie-agents-deep-analysis-file-reasoning-and-more",
-    "pubDate": "Wed, 02 Sep 2026 19:30:00 GMT",
-    "source": "Databricks",
-    "summary": "精灵智能体扩展：深度分析、文件推理等",
-    "contentSnippet": "At Data and AI Summit, we announced the evolution of Genie Spaces to Genie Agents,..."
-  },
-  {
-    "title": "Enterprise-managed settings support any default model",
-    "link": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
-    "pubDate": "Wed, 02 Sep 2026 18:51:12 +0000",
-    "source": "GitHub Changelog",
-    "summary": "企业托管设置可设定任意默认模型。",
-    "contentSnippet": "You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows.…\nThe post Enterprise-managed settings support any default model appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Content exclusions generally available in Copilot app and CLI",
-    "link": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
-    "pubDate": "Wed, 02 Sep 2026 18:14:23 +0000",
-    "source": "GitHub Changelog",
-    "summary": "内容排除在Copilot应用与CLI中正式可用",
-    "contentSnippet": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect sensitive…\nThe post Content exclusions generally available in Copilot app and CLI appeared first on The GitHub Blog."
   },
   {
     "title": "How we make AI coding more cost efficient without sacrificing task quality",
     "link": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
     "pubDate": "Wed, 02 Sep 2026 18:00:00 +0000",
     "source": "GitHub",
-    "summary": "人工智能编程如何降本增效不降质",
+    "summary": "提升AI编程效率且不损质量的方法",
     "contentSnippet": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task.\nThe post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog."
   },
   {
@@ -60,7 +140,7 @@
     "link": "https://code.visualstudio.com/updates/v1_136",
     "pubDate": "2026-09-02T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "Visual Studio Code 1.136 新功能概览",
+    "summary": "VS Code 1.136 新功能一览",
     "contentSnippet": "Learn what is new in Visual Studio Code 1.136\nRead the full article"
   },
   {
@@ -68,7 +148,7 @@
     "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
     "pubDate": "Wed, 02 Sep 2026 16:24:24 +0000",
     "source": "DeepMind",
-    "summary": "面向政府与企业的主动网络防御",
+    "summary": "政府与企业的主动网络防御",
     "contentSnippet": ""
   },
   {
@@ -76,7 +156,7 @@
     "link": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
     "pubDate": "Wed, 02 Sep 2026 16:18:31 +0000",
     "source": "DeepMind",
-    "summary": "摘要生成失败",
+    "summary": "推出Gemini 3.8 Flash与Cyber版",
     "contentSnippet": ""
   },
   {
@@ -84,119 +164,39 @@
     "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
     "pubDate": "Wed, 02 Sep 2026 15:40:00 +0000",
     "source": "Google AI",
-    "summary": "为政府和企业提供主动网络防御。",
+    "summary": "面向政府和企业的主动网络防御",
     "contentSnippet": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools."
-  },
-  {
-    "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-    "link": "https://openai.com/index/atv-big-air-tour",
-    "pubDate": "Wed, 02 Sep 2026 12:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "摘要生成失败",
-    "contentSnippet": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes."
-  },
-  {
-    "title": "HyperWorld: Hypergraph-Structured State Serialization Improves Learned Textual World Models",
-    "link": "https://arxiv.org/abs/2609.00002",
-    "pubDate": "Wed, 02 Sep 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "超图序列化提升文本世界模型的预测与规划。",
-    "contentSnippet": "arXiv:2609.00002v1 Announce Type: new \nAbstract: World models enable language-model agents to predict environment dynamics and plan before acting. In text environments, the model must learn symbolic action effects from serialized state descriptions, but the role of serialization structure remains underexplored. We present HyperWorld, a controlled study of state serialization for learned textual world models. We compare raw observations with three symbolic serializations of the same ground-truth state: independent sentences, pairwise triples, and entity-centered hyperedge units that group multiple related facts around entities and relations. All variants use the same training objective: given a state and an action, predict symbolic effects or judge the action infeasible. Across model scales, data budgets, and in-distribution and out-of-distribution test worlds, hyperedge serialization gives the clearest gains for 0.5B--1.5B models and under distribution shift. Larger models reduce the gap, and pairwise triples can match or slightly exceed hyperedges on in-distribution exact match, but hyperedges achieve the strongest out-of-distribution fact F1 and the best small-to-medium scale trade-off between feasibility detection and effect prediction. In downstream greedy planning, the hyperedge world model also attains the highest success rate among the tested representations. These results show that higher-order state organization is a simple but effective inductive bias for learned symbolic world models, especially when model capacity is limited or test environments differ from training."
-  },
-  {
-    "title": "I-CARE: Analysis of interference-related phenomena in a controllable, diverse and representative unlearning setting for text-to-image models",
-    "link": "https://arxiv.org/abs/2609.00003",
-    "pubDate": "Wed, 02 Sep 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "分析文本到图像模型遗忘中的干扰现象",
-    "contentSnippet": "arXiv:2609.00003v1 Announce Type: new \nAbstract: Machine unlearning studies the removal of knowledge from an AI model, making the system forget a concept it previously learned. Despite rapid progress in generative machine unlearning, the unintended degradation of semantically related concepts that should have been retained (henceforth, interference) remains poorly characterized and inconsistently evaluated. This paper introduces I-CARE, a methodology that formalizes interference as a first-class object of study in generative unlearning. Rather than proposing a new benchmark or unlearning algorithm, I-CARE provides formal definitions for tasks, metrics, and templates for reporting results, enabling the systematic and reproducible study of interference across unlearning settings. While our methodology is designed to remain valid as models and unlearning algorithms evolve, decoupling long-term scientific insight from transient empirical results, we present a feasibility demonstration with state-of-the-art algorithms and frequently used datasets. The results demonstrate that I-CARE enables meaningful analysis of interference patterns across multiple unlearning settings, establishing the practical applicability of the framework. The software implementation of the methodology is provided in an open-source framework, together with a web-based graphical interface that enables exploration of the outcomes of this study without requiring direct interaction with the codebase or specialized data analysis tools."
-  },
-  {
-    "title": "Discrete-Time MDP Modeling for Multi-Item Capacitated Lot Sizing with Stochastic Demand Timing",
-    "link": "https://arxiv.org/abs/2609.00004",
-    "pubDate": "Wed, 02 Sep 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "随机需求时间下多项目批量问题的离散时间MDP建模",
-    "contentSnippet": "arXiv:2609.00004v1 Announce Type: new \nAbstract: This paper studies a finite-horizon multi-item capacitated lot-sizing problem in which demand quantities are deterministic, while demand-arrival periods are stochastic. Each demand occurs once within a known time window and must be satisfied no later than its deadline. The proposed model makes production and allocation decisions at the demand level, allowing it to represent capacity competition, demand-specific backlog, and allocation-dependent inventory dynamics. The stochastic problem is formulated as a discrete-time Markov decision process (DTMDP), including the state space, feasible actions, transition kernel, and one-period cost function. To isolate the computational effect of stochastic timing, each stochastic instance is first compared with a deterministic counterpart in which each arrival distribution is replaced by its most likely arrival period. This comparison shows that stochastic timing substantially increases the number of states, the number of transitions, solution time, and memory pressure. A genetic algorithm (GA) is then proposed for the stochastic-timing problem. The GA searches over feasible state-feedback policies and evaluates each policy exactly under the DTMDP transition model. Computational experiments on 330 benchmark instances show that the GA remains close to the exact stochastic solution whenever the latter is available, with an average optimality gap of about $3.44\\%$. On the difficult benchmark instances, comprising 90 test cases, the GA remains below the $5\\%$ optimality-gap threshold and achieves an average optimization speedup of $6.89 \\pm 1.41$ at the $95\\%$ confidence level. For instances that cannot be solved exactly on the available hardware, an empirical Bellman-time regression is used to estimate the missing exact resolution time and extrapolate the expected GA speedup."
-  },
-  {
-    "title": "Announcing the Databricks Big Book of AgentOps",
-    "link": "https://www.databricks.com/blog/announcing-databricks-big-book-agentops",
-    "pubDate": "Wed, 02 Sep 2026 01:30:00 GMT",
-    "source": "Databricks",
-    "summary": "Databricks发布AgentOps大手册。",
-    "contentSnippet": "What is AgentOps?AgentOps is the operating discipline for building, deploying and..."
-  },
-  {
-    "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
-    "link": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
-    "pubDate": "Tue, 01 Sep 2026 22:24:27 +0000",
-    "source": "GitHub Changelog",
-    "summary": "企业级实时迁移从GHES到ghe.com现已全面可用",
-    "contentSnippet": "Enterprise Live Migrations (ELM) is now generally available, enabling near-zero-downtime repository migrations from GitHub Enterprise Server (GHES) to GitHub Enterprise Cloud with Data Residency (GHEC DR), so you can move…\nThe post Enterprise Live Migrations from GHES to ghe.com generally available appeared first on The GitHub Blog."
   },
   {
     "title": "The latest AI news we announced in August 2026",
     "link": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
     "pubDate": "Tue, 01 Sep 2026 20:45:00 +0000",
     "source": "Google AI",
-    "summary": "谷歌2026年8月AI最新动态。",
+    "summary": "摘要生成失败",
     "contentSnippet": "Here are Google’s latest AI updates from August 2026"
-  },
-  {
-    "title": "Introducing agentic video understanding with Gemini",
-    "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-    "pubDate": "Tue, 01 Sep 2026 17:08:51 +0000",
-    "source": "DeepMind",
-    "summary": "Gemini推出智能体视频理解。",
-    "contentSnippet": ""
-  },
-  {
-    "title": "How AI-native companies turn workflows into operating capability",
-    "link": "https://openai.com/index/ai-native-company-workflows",
-    "pubDate": "Tue, 01 Sep 2026 17:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "AI原生公司用智能代理将工作流转化为运营能力。",
-    "contentSnippet": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply."
   },
   {
     "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
     "link": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
     "pubDate": "Tue, 01 Sep 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "Google Pics：基于Nano Banana模型的Workspace图像创建编辑工具。",
+    "summary": "摘要生成失败",
     "contentSnippet": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available."
-  },
-  {
-    "title": "Path to Astra: critical capabilities and frontier safeguards",
-    "link": "https://openai.com/index/path-to-astra",
-    "pubDate": "Tue, 01 Sep 2026 13:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "OpenAI首个达到关键网络安全阈值的模型Astra。",
-    "contentSnippet": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release."
   },
   {
     "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
     "link": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
     "pubDate": "Mon, 31 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "高效病理基础模型助力大规模研究。",
+    "summary": "两种高效病理基础模型降低计算需求以支持群体规模发现",
     "contentSnippet": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration.\nThe post GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models appeared first on Microsoft Research."
-  },
-  {
-    "title": "OpenClaw went viral. Meet the maintainers building and securing it.",
-    "link": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
-    "pubDate": "Thu, 27 Aug 2026 16:00:00 +0000",
-    "source": "GitHub",
-    "summary": "OpenClaw爆红，维护者谈构建与安全。",
-    "contentSnippet": "OpenClaw is the fastest-growing project in GitHub history. Peter Steinberger and several maintainers share what they learned in the project's first six months.\nThe post OpenClaw went viral. Meet the maintainers building and securing it. appeared first on The GitHub Blog."
   },
   {
     "title": "Visual Studio Code 1.135",
     "link": "https://code.visualstudio.com/updates/v1_135",
     "pubDate": "2026-08-26T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.135 新功能概览。",
+    "summary": "VS Code 1.135 新功能概览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.135\nRead the full article"
   },
   {
@@ -204,7 +204,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
     "pubDate": "Thu, 20 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "拓宽Skala访问，加快预测性DFT之路",
+    "summary": "Skala访问扩大，预测DFT提速。",
     "contentSnippet": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry ecosystem, and a living benchmark to track computational performance. \nThe post Broadening access to Skala creates a faster path to predictive DFT  appeared first on Microsoft Research."
   },
   {
@@ -212,7 +212,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
     "pubDate": "Wed, 12 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "MindTopo新基准揭示AI拓扑与空间推理能力。",
+    "summary": "微软新基准揭示视觉语言模型空间推理能力",
     "contentSnippet": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and  highlights new opportunities to strengthen spatial reasoning and planning.\nThe post MindTopo reveals VLMs’ spatial reasoning abilities appeared first on Microsoft Research."
   }
 ]
