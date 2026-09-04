@@ -4,63 +4,95 @@
     "link": "https://code.visualstudio.com/updates/v1_137",
     "pubDate": "2026-09-09T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "了解VS Code Insiders 1.137的新内容。",
+    "summary": "VS Code 内测版 1.137 新功能摘要",
     "contentSnippet": "Learn what is new in Visual Studio Code Insiders.\nRead the full article"
   },
   {
-    "title": "Multiple trusted publishing configurations for npm",
-    "link": "https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm",
-    "pubDate": "Thu, 03 Sep 2026 20:34:34 +0000",
+    "title": "GitHub Copilot weekly releases — August 31",
+    "link": "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31",
+    "pubDate": "Fri, 04 Sep 2026 21:05:01 +0000",
     "source": "GitHub Changelog",
-    "summary": "npm现支持多个可信发布配置",
-    "contentSnippet": "We’re continuing to make trusted publishing smoother for npm publishers, guided by maintainers feedback. Three updates to npm publishing are now generally available: Multiple trusted publishing configurations per package Staged…\nThe post Multiple trusted publishing configurations for npm appeared first on The GitHub Blog."
+    "summary": "GitHub Copilot 8月31日周更新发布",
+    "contentSnippet": "This week, GitHub Copilot expands model choice and content protections, while VS Code adds new ways to manage agent sessions and get pull requests merge-ready. GitHub Copilot, general Claude Fable…\nThe post GitHub Copilot weekly releases — August 31 appeared first on The GitHub Blog."
   },
   {
-    "title": "GitHub Actions: Early September 2026 updates",
-    "link": "https://github.blog/changelog/2026-09-03-github-actions-early-september-2026-updates",
-    "pubDate": "Thu, 03 Sep 2026 20:30:53 +0000",
+    "title": "Achieving Extreme Efficiency through Specialized GPU Kernel Generation",
+    "link": "https://www.databricks.com/blog/achieving-extreme-efficiency-through-specialized-gpu-kernel-generation",
+    "pubDate": "Fri, 04 Sep 2026 20:00:00 GMT",
+    "source": "Databricks",
+    "summary": "生成专用GPU内核实现极致效率。",
+    "contentSnippet": "Traditionally, production inference systems rely on generic kernels to handle diverse..."
+  },
+  {
+    "title": "Five ways marketers can use Genie One",
+    "link": "https://www.databricks.com/blog/five-ways-marketers-can-use-genie-one",
+    "pubDate": "Fri, 04 Sep 2026 19:00:00 GMT",
+    "source": "Databricks",
+    "summary": "营销人员使用Genie One的五种方法",
+    "contentSnippet": "Every marketing team sits on a goldmine of data: campaign performance metrics, customer..."
+  },
+  {
+    "title": "GPT-6 Astra is generally available in GitHub Copilot",
+    "link": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
+    "pubDate": "Fri, 04 Sep 2026 18:59:51 +0000",
     "source": "GitHub Changelog",
-    "summary": "GitHub Actions 2026年9月初更新",
-    "contentSnippet": "GitHub Actions now includes three updates that give you clearer visibility and finer-grained control over your workflows. New REST API for runner version deprecations A new REST API returns when…\nThe post GitHub Actions: Early September 2026 updates appeared first on The GitHub Blog."
+    "summary": "GPT-6 Astra全面登陆GitHub Copilot",
+    "contentSnippet": "GPT-6 Astra from OpenAI is now available in GitHub Copilot. OpenAI’s latest general-purpose model, GPT-6 Astra, is designed for long-horizon, autonomous coding and agentic tasks. In our internal testing, GPT-6…\nThe post GPT-6 Astra is generally available in GitHub Copilot appeared first on The GitHub Blog."
+  },
+  {
+    "title": "New API endpoint provides privacy-safe star history data",
+    "link": "https://github.blog/changelog/2026-09-04-new-api-endpoint-provides-privacy-safe-star-history-data",
+    "pubDate": "Fri, 04 Sep 2026 16:43:56 +0000",
+    "source": "GitHub Changelog",
+    "summary": "新API端点提供隐私安全的星标历史数据",
+    "contentSnippet": "Track repository star growth over time with the new star history REST API endpoint without exposing stargazer identities. Earlier this year, stargazer listing endpoints were restricted to admins and collaborators…\nThe post New API endpoint provides privacy-safe star history data appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+    "link": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+    "pubDate": "Fri, 04 Sep 2026 16:04:14 +0000",
+    "source": "GitHub",
+    "summary": "HydraFusion多模型编排提升编码质量并降低成本。",
+    "contentSnippet": "In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost. Now available as a research preview in GitHub Copilot.\nThe post Project HydraFusion: Frontier quality via multi-model orchestration appeared first on The GitHub Blog."
+  },
+  {
+    "title": "The Geometry of Ignorance: LLMs Know When to Temper Bayesian Priors",
+    "link": "https://arxiv.org/abs/2609.02959",
+    "pubDate": "Fri, 04 Sep 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "LLM无知方向编码先验，以λ调节贝叶斯更新。",
+    "contentSnippet": "arXiv:2609.02959v1 Announce Type: new \nAbstract: What does a language model predict when it has few clues? The answer lurks in its unembedding geometry: a single direction of the unembedding matrix encodes the unigram distribution of the training corpus, which serves as the Bayesian prior the model falls back on when uncertain. This structure --- which we term the \\emph{direction of ignorance} --- appears in all four model families examined (\\texttt{Llama}, \\texttt{Qwen}, \\texttt{Gemma}, and \\texttt{Pythia}), ranging from 0.4B to 405B parameters. Projecting the final prediction state onto this direction yields a per-token \\emph{prior loading factor} $\\lambda$, which, empirically, declines steadily as the context becomes more informative. Formally, the same projection decomposes the prediction state into two orthogonal vectors that correspond exactly to the two factors of a tempered Bayesian update: a unigram prior raised to the exponent $\\lambda$ and a context-driven likelihood. This geometric-probabilistic interpretation calibrates $\\lambda$, making it meaningfully comparable across model sizes and families, with larger models generally exhibiting lower prior reliance in the high-context limit. Finally, we show that the direction of ignorance is causally active: raising or lowering $\\lambda$ at the final prediction state steers the prediction toward or away from the unigram prior in KL divergence."
+  },
+  {
+    "title": "Structure and Implementation of New Practical English Textbooks Driven by Artificial Intelligence",
+    "link": "https://arxiv.org/abs/2609.02981",
+    "pubDate": "Fri, 04 Sep 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "人工智能驱动的新实用英语教材结构与实施。",
+    "contentSnippet": "arXiv:2609.02981v1 Announce Type: new \nAbstract: Artificial intelligence is changing the form of applied English materials from fixed paper sequences to adaptive learning systems that can diagnose learners, recommend tasks, and provide formative feedback. This paper studies the structure and application of a new practical English textbook driven by artificial intelligence. A five-layer architecture is proposed: knowledge mapping, learner profiling, task generation, feedback orchestration, and teacher-side governance. A prototype was tested on 186 non-English-major undergraduates for eight weeks of teaching. Compared with a static digital textbook, the proposed system increased the unit completion accuracy from 72.4% to 84.9%, raised the average score for speaking tasks by 10.8 points, and reduced the teacher's correction time by 31.6%. Therefore, an AI-driven textbook can maintain the stability of the curriculum while providing personalised learning paths, rich practice materials and traceable classroom data."
+  },
+  {
+    "title": "Equation Recast for Canonical Operator Learning Across Parametric PDEs",
+    "link": "https://arxiv.org/abs/2609.02982",
+    "pubDate": "Fri, 04 Sep 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "方程重铸实现参数PDE算子的统一外推学习。",
+    "contentSnippet": "arXiv:2609.02982v1 Announce Type: new \nAbstract: Learning solution operators across broad parameter ranges can require substantial coverage of both input functions and physical parameters, particularly for purely data-driven parametric models. In addition, the resulting models may fail silently outside the training distribution. We introduce equation recast, which reformulates parametric operator learning as the learning of a single canonical operator. Parameter-induced operator variations are derived analytically from the governing equation and absorbed into effective sources, enabling zero-shot prediction across new parameter regimes. Across multi-parameter, nonlinear, and singular PDE settings, equation recast supports extrapolation, integrates sparse heterogeneous datasets in a shared canonical representation, and uses loss of convergence as an internal warning signal for failure of the recast iteration. In high-fidelity tokamak simulations for nuclear fusion, the framework unifies electron-temperature data across four device geometries through canonical-domain mapping within one jointly trained operator. Equation recast provides a route toward reusable neural PDE solvers combining equation-guided transfer, data efficiency, and monitorable inference."
   },
   {
     "title": "Governance beyond security: knowledge, context & ontology on the lakehouse",
     "link": "https://www.databricks.com/blog/governance-beyond-security-knowledge-context-ontology-lakehouse",
     "pubDate": "Thu, 03 Sep 2026 20:20:00 GMT",
     "source": "Databricks",
-    "summary": "超越安全的湖仓治理：知识、语境与本体",
+    "summary": "湖仓治理超越安全，融合知识、上下文与本体",
     "contentSnippet": "Ask most organizations what data governance for AI means, and you’ll hear a security..."
-  },
-  {
-    "title": "Building High-Quality and Trusted Data Products with Databricks",
-    "link": "https://www.databricks.com/blog/building-high-quality-and-trusted-data-products-databricks",
-    "pubDate": "Thu, 03 Sep 2026 19:55:00 GMT",
-    "source": "Databricks",
-    "summary": "用Databricks打造高质量可信数据产品",
-    "contentSnippet": "IntroductionOrganizations aiming to become AI and data-driven often need to provide..."
-  },
-  {
-    "title": "What is Data Transformation?",
-    "link": "https://www.databricks.com/blog/what-is-data-transformation",
-    "pubDate": "Thu, 03 Sep 2026 19:54:00 GMT",
-    "source": "Databricks",
-    "summary": "摘要生成失败",
-    "contentSnippet": "What is data transformation?Data transformation is the process of taking raw data..."
-  },
-  {
-    "title": "Upcoming deprecation of selected GitHub Copilot models",
-    "link": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
-    "pubDate": "Thu, 03 Sep 2026 19:40:14 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub Copilot部分模型将于2026年10月停用。",
-    "contentSnippet": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 2nd, 2026: Model Deprecation date…\nThe post Upcoming deprecation of selected GitHub Copilot models appeared first on The GitHub Blog."
   },
   {
     "title": "GitHub Copilot app for Beginners: Run several agents at once",
     "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
     "pubDate": "Thu, 03 Sep 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "初学者可在GitHub Copilot中并行运行多个代理",
+    "summary": "初学者用GitHub Copilot并行运行多个代理。",
     "contentSnippet": "Learn how to run parallel agents in the GitHub Copilot app, and experience the moment it stops feeling scary and starts feeling powerful.\nThe post GitHub Copilot app for Beginners: Run several agents at once appeared first on The GitHub Blog."
   },
   {
@@ -76,71 +108,39 @@
     "link": "https://openai.com/index/daybreak-for-frontline-defenders",
     "pubDate": "Thu, 03 Sep 2026 13:15:00 GMT",
     "source": "OpenAI",
-    "summary": "OpenAI拨款10亿美元保护关键服务前线。",
+    "summary": "OpenAI斥资10亿美元推出Daybreak，保护关键服务",
     "contentSnippet": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services."
-  },
-  {
-    "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-    "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
-    "pubDate": "Thu, 03 Sep 2026 12:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "Legora用GPT-6 Astra数分钟审阅41份文件，性能提升近40%。",
-    "contentSnippet": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
   },
   {
     "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
     "link": "https://openai.com/index/playco-game-prototyping-with-astra",
     "pubDate": "Thu, 03 Sep 2026 12:00:00 GMT",
     "source": "OpenAI",
-    "summary": "Playco用GPT-6 Astra将游戏原型",
+    "summary": "摘要生成失败",
     "contentSnippet": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
   },
   {
-    "title": "WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling",
-    "link": "https://arxiv.org/abs/2609.01608",
-    "pubDate": "Thu, 03 Sep 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "提出WMLLM自进化优化智能体，先预测后行动。",
-    "contentSnippet": "arXiv:2609.01608v1 Announce Type: new \nAbstract: Black-box optimization problems remain challenging because of large, weakly structured, and high-dimensional search spaces. Existing methods often suffer from poor sample efficiency because they rely on direct candidate generation or trial-and-error refinement. A natural way to improve search efficiency is to use world modeling, which can help identify promising optimization directions before costly evaluation. Large language models can predict the outcomes of these candidates with nontrivial accuracy because of their implicit knowledge. Motivated by this observation, we propose WMLLM, a self-evolving optimization-agent framework based on predict-then-act world modeling. The agent first predicts promising directions and then acts to generate candidates. Combined with agentic multi-turn refinement, population-based search, and reinforcement learning, WMLLM refines both its implicit world model and its optimization strategy during search. Experiments on black-box optimization tasks, especially multi-objective molecular optimization, show that WMLLM improves sample efficiency and final optimization performance. On the multi-objective molecular optimization benchmark, WMLLM achieves state-of-the-art results under a limited evaluation budget."
-  },
-  {
-    "title": "DiDrive: A Risk-Aware Hierarchical Diffusion Framework for Safe Offline Reinforcement Learning in Autonomous Driving",
-    "link": "https://arxiv.org/abs/2609.01609",
-    "pubDate": "Thu, 03 Sep 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "DiDrive：面向自动驾驶安全离线强化学习的风险感知分层扩散框架",
-    "contentSnippet": "arXiv:2609.01609v1 Announce Type: new \nAbstract: While diffusion models effectively capture multimodal behavioral priors for autonomous driving, offline reinforcement learning (RL) policies remain susceptible to distribution shift, heavy-tailed risk signals, out-of-distribution (OOD) action generation, and high-dimensional state redundancy. To address these challenges, we propose DiDrive, a distribution-guided offline diffusion framework featuring two synergistic components: the Risk-Aware Hierarchical Diffusion (RHDif) architecture and the 3DICE policy optimization paradigm. In the state space, RHDif utilizes a low-level risk-gated encoder and a high-level contextual modulator to filter environmental redundancy and focus on safety-critical threats. In the action space, 3DICE mitigates OOD overestimation and gradient oscillation through in-sample calibrated guidance, spatiotemporal optimization, and ensemble-based candidate ranking. Evaluations on the CARLA benchmark demonstrate DiDrive's superiority over baselines like IQL, CQL, and Diffusion-QL, particularly in complex, high-density traffic scenarios with 60 vehicles, where it achieves an 85% success rate and a 4295.68 average reward, providing a robust pathway for safe autonomous driving decision-making."
-  },
-  {
-    "title": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
-    "link": "https://arxiv.org/abs/2609.01611",
-    "pubDate": "Thu, 03 Sep 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "评估检测基准衡量前沿语言模型的评估意识",
-    "contentSnippet": "arXiv:2609.01611v1 Announce Type: new \nAbstract: Frontier large language models can often recognize when they are being evaluated, a capability known as evaluation awareness. If models behave differently in evaluations than in deployment, this undermines the validity of evaluation results, which are a crucial component of current AI safety frameworks. We introduce EvalDetectBench, an open pipeline and benchmark for measuring evaluation awareness that works with any Inspect-compatible evaluation, allowing practitioners to test against current and future benchmarks. EvalDetectBench ships with a newly curated transcript suite covering current frontier system-card evaluations and diverse deployment sources. The benchmark serves two purposes: measuring how reliably frontier LLMs recognize that they are being evaluated, and assessing how detectable individual benchmarks are as evaluations. We identify two methodological choices in the existing literature that introduce systematic bias: the identity of the model that generated the deployment transcripts accounts for 11.25% of measurement variance and can reorder model rankings; and elicitation prompts selected for high performance on one model can perform near chance on others. EvalDetectBench corrects for both via per-model probe calibration and a stratified generator-harmonisation procedure."
+    "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+    "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+    "pubDate": "Thu, 03 Sep 2026 12:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "摘要生成失败",
+    "contentSnippet": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
   },
   {
     "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
     "link": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
     "pubDate": "Wed, 02 Sep 2026 21:00:00 +0000",
     "source": "GitHub",
-    "summary": "解析开发者AI新术语：循环、约束、小队等。",
+    "summary": "解码AI新行话：循环、束具、小队、爬山。",
     "contentSnippet": "From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations.\nThe post Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my! appeared first on The GitHub Blog."
-  },
-  {
-    "title": "How we make AI coding more cost efficient without sacrificing task quality",
-    "link": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
-    "pubDate": "Wed, 02 Sep 2026 18:00:00 +0000",
-    "source": "GitHub",
-    "summary": "提升AI编程效率且不损质量的方法",
-    "contentSnippet": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task.\nThe post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog."
   },
   {
     "title": "Visual Studio Code 1.136",
     "link": "https://code.visualstudio.com/updates/v1_136",
     "pubDate": "2026-09-02T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.136 新功能一览",
+    "summary": "VS Code 1.136新功能概览",
     "contentSnippet": "Learn what is new in Visual Studio Code 1.136\nRead the full article"
   },
   {
@@ -148,7 +148,7 @@
     "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
     "pubDate": "Wed, 02 Sep 2026 16:24:24 +0000",
     "source": "DeepMind",
-    "summary": "政府与企业的主动网络防御",
+    "summary": "面向政府和企业的主动网络防御",
     "contentSnippet": ""
   },
   {
@@ -156,7 +156,7 @@
     "link": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
     "pubDate": "Wed, 02 Sep 2026 16:18:31 +0000",
     "source": "DeepMind",
-    "summary": "推出Gemini 3.8 Flash与Cyber版",
+    "summary": "发布Gemini 3.8 Flash及Cyber版",
     "contentSnippet": ""
   },
   {
@@ -164,7 +164,7 @@
     "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
     "pubDate": "Wed, 02 Sep 2026 15:40:00 +0000",
     "source": "Google AI",
-    "summary": "面向政府和企业的主动网络防御",
+    "summary": "摘要生成失败",
     "contentSnippet": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools."
   },
   {
@@ -172,7 +172,7 @@
     "link": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
     "pubDate": "Tue, 01 Sep 2026 20:45:00 +0000",
     "source": "Google AI",
-    "summary": "摘要生成失败",
+    "summary": "谷歌2026年8月公布最新AI消息。",
     "contentSnippet": "Here are Google’s latest AI updates from August 2026"
   },
   {
@@ -180,7 +180,7 @@
     "link": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
     "pubDate": "Tue, 01 Sep 2026 16:00:00 +0000",
     "source": "Google AI",
-    "summary": "摘要生成失败",
+    "summary": "谷歌Pics图像工具上线，基于Nano Banana模型，支持创建编辑。",
     "contentSnippet": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available."
   },
   {
@@ -188,7 +188,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
     "pubDate": "Mon, 31 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "两种高效病理基础模型降低计算需求以支持群体规模发现",
+    "summary": "高效病理基础模型助力大规模研究",
     "contentSnippet": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration.\nThe post GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models appeared first on Microsoft Research."
   },
   {
@@ -204,7 +204,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
     "pubDate": "Thu, 20 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "Skala访问扩大，预测DFT提速。",
+    "summary": "拓宽Skala访问，加速预测性DFT",
     "contentSnippet": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry ecosystem, and a living benchmark to track computational performance. \nThe post Broadening access to Skala creates a faster path to predictive DFT  appeared first on Microsoft Research."
   },
   {
@@ -212,7 +212,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
     "pubDate": "Wed, 12 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "微软新基准揭示视觉语言模型空间推理能力",
+    "summary": "微软新基准MindTopo揭示AI拓扑空间推理能力。",
     "contentSnippet": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and  highlights new opportunities to strengthen spatial reasoning and planning.\nThe post MindTopo reveals VLMs’ spatial reasoning abilities appeared first on Microsoft Research."
   }
 ]
