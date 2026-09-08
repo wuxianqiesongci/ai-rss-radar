@@ -8,115 +8,99 @@
     "contentSnippet": "Learn what is new in Visual Studio Code Insiders.\nRead the full article"
   },
   {
-    "title": "EXAONE Forecast for Finance",
-    "link": "https://arxiv.org/abs/2609.04239",
-    "pubDate": "Mon, 07 Sep 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "EXAONE金融预测：线性时序基础模型登顶FinVerse基准。",
-    "contentSnippet": "arXiv:2609.04239v1 Announce Type: new \nAbstract: This technical report presents EXAONE Forecast for Finance (EXAONE Finance), a financial time series (TS) foundation model (TSFM) tailored to financial forecasting. Recent TSFMs achieve strong zero-shot performance through large-scale pretraining. However, they are primarily developed for general-domain TS and largely rely on self-attention backbones whose computational cost grows quadratically with sequence length and variate count. Moreover, they assume fully observed inputs and are pretrained on corpora that fail to capture the unique dynamics of financial markets. These limitations hinder their applicability to finance, where long, many-channel, intermittently observed panels are common. To address these challenges, EXAONE Finance adopts an attention-free architecture, replacing self-attention with two simple yet effective linear-time operators: 1) a causal 1D convolution for temporal mixing and 2) a group-aware pooling multi-layer perceptron (MLP) for variate mixing. Furthermore, a masked context augmentation exposes the model to contiguous missing spans during training, improving robustness to the missingness pervasive in financial markets. EXAONE Finance is pretrained on a large-scale financial corpus covering not only equities but also foreign exchange, commodities, crypto-assets, fixed income, and macroeconomic indicators. On FinVerse, a financial forecasting benchmark covering diverse asset classes, EXAONE Finance attains state-of-the-art performance, ranking first across all three evaluation tiers---point-forecast accuracy, cross-sectional asset ranking, and portfolio profitability."
+    "title": "GitHub Enterprise Server 3.22 is now generally available",
+    "link": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
+    "pubDate": "Tue, 08 Sep 2026 21:52:42 +0000",
+    "source": "GitHub Changelog",
+    "summary": "GitHub企业服务器3.22正式发布。",
+    "contentSnippet": "GitHub Enterprise Server (GHES) 3.22 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.22 release: Administrators can configure Copilot CLI to…\nThe post GitHub Enterprise Server 3.22 is now generally available appeared first on The GitHub Blog."
   },
   {
-    "title": "Spectral-Target Physical Latent Structuring for JEPA-Style World Models",
-    "link": "https://arxiv.org/abs/2609.04264",
-    "pubDate": "Mon, 07 Sep 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "提出傅里叶辅助头解决潜世界模型物理表征惰性问题。",
-    "contentSnippet": "arXiv:2609.04264v1 Announce Type: new \nAbstract: Latent world models have become increasingly popular as a method to predict and plan in latent space rather than pixel space. Recent architectures, such as LeWorldModel (LeWM), jointly train the encoder and predictor using regularization techniques like SIGReg to prevent representation collapse. Even with such regularization preventing representation collapse, we identify a new world model failure mode of \\textit{physical representation laziness}, particularly noted in highly dynamic environments. For these lazy cases, the learned latent states do not collapse but nonetheless fail to represent key physical properties, causing ubiquitous downstream planning failure. To resolve this issue, we propose training-time auxiliary supervision with a lightweight \"Fourier auxiliary head\", which enforces physically-informed structuring of the latent space with no additional inference-time cost and can be generalized to any environment. Experimentally, we show that the auxiliary head substantially improves planning success rates in dynamic environments where the baseline LeWM exhibits physical representation laziness. It also leads to modest improvements in other environments, even when the baseline does not exhibit physical representation laziness. We further observe superior planning performance being accompanied by higher latent space correlations with key physical properties, indicating both the ability of our method to physically structure latent states and the potential planning-side benefit to the learned representation being physically structured. We also see in low-data regimes, auxiliary supervision is particularly impactful in increasing success rate. These findings support the use of our Fourier auxiliary head method to improve both overall success rate and data efficiency, while avoiding representation laziness in latent world models."
+    "title": "New customer portal help.github.com",
+    "link": "https://github.blog/changelog/2026-09-08-new-customer-portal-help-github-com",
+    "pubDate": "Tue, 08 Sep 2026 18:00:10 +0000",
+    "source": "GitHub Changelog",
+    "summary": "GitHub新客户门户整合支持文档学习社区资源",
+    "contentSnippet": "The support portal has been redesigned and moved to a new home at help.github.com. It brings support, docs, learning, community, and account resources together in one place with Copilot-powered search…\nThe post New customer portal help.github.com appeared first on The GitHub Blog."
   },
   {
-    "title": "ProToMEx: Rapid, Interpretable Explanations via Structured Representations",
-    "link": "https://arxiv.org/abs/2609.04265",
-    "pubDate": "Mon, 07 Sep 2026 00:00:00 -0400",
-    "source": "arXiv",
-    "summary": "ProToMEx：基于结构化表示的快速可解释方法",
-    "contentSnippet": "arXiv:2609.04265v1 Announce Type: new \nAbstract: Existing post-hoc explainers for machine learning classifiers primarily focus on feature attribution, assigning importance scores to individual features. While valuable, this approach struggles to articulate the complex, combinatorial patterns that often drive a model's decision-making process. To overcome this limitation, we introduce ProToMEx, a new paradigm for explainability that leverages Probabilistic Topic Models (PTMs). Our model-agnostic framework learns latent ''topics'' that represent distinct, high-level reasons for a classification, moving beyond simple feature importance to reveal underlying semantic structures. ProToMEx naturally provides both global explanations of a model's overall behaviour and local explanations that can disentangle multiple co-existing reasons for a specific prediction. We demonstrate empirically that ProToMEx not only produces explanations of comparable fidelity to popular methods like SHAP and LIME but also drastically reduces the amortised computational cost of generating local explanations, making it highly suitable for real-time applications. Specifically, we show that ProToMEx is ~30-40x faster than SHAP and LIME over standardised tabular datasets and synthetic datasets."
+    "title": "SQL Data Types: Reference and Best Practices",
+    "link": "https://www.databricks.com/blog/sql-data-types",
+    "pubDate": "Tue, 08 Sep 2026 17:16:06 GMT",
+    "source": "Databricks",
+    "summary": "SQL数据类型参考与最佳实践指南",
+    "contentSnippet": "A SQL data type is a fundamental specification that defines what values a column..."
   },
   {
-    "title": "Supporting independent journalism in Ukraine",
-    "link": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-    "pubDate": "Mon, 07 Sep 2026 00:00:00 GMT",
+    "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+    "link": "https://openai.com/index/codex-quantum-computing-experiments",
+    "pubDate": "Tue, 08 Sep 2026 17:00:00 GMT",
     "source": "OpenAI",
+    "summary": "GPT-5.6 Sol辅助运行量子计算实验。",
+    "contentSnippet": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits."
+  },
+  {
+    "title": "Automatic Dependabot access to GitHub-hosted registries",
+    "link": "https://github.blog/changelog/2026-09-08-automatic-dependabot-access-to-github-hosted-registries",
+    "pubDate": "Tue, 08 Sep 2026 16:46:05 +0000",
+    "source": "GitHub Changelog",
+    "summary": "Dependabot自动访问GitHub注册表",
+    "contentSnippet": "Dependabot can now read from private GitHub Packages registries without a personal access token. If a package has granted your repository access through “Manage Actions access” in the package settings,…\nThe post Automatic Dependabot access to GitHub-hosted registries appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Build durable agents with Temporal and Lakebase",
+    "link": "https://www.databricks.com/blog/build-durable-agents-temporal-and-lakebase",
+    "pubDate": "Tue, 08 Sep 2026 15:46:40 GMT",
+    "source": "Databricks",
     "summary": "摘要生成失败",
-    "contentSnippet": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism."
+    "contentSnippet": "A personal-loan underwriting agent gathers evidence, applies policy, and may wait..."
   },
   {
-    "title": "An Alien Mind",
-    "link": "https://openai.com/index/an-alien-mind",
-    "pubDate": "Sun, 06 Sep 2026 09:00:00 GMT",
+    "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+    "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+    "pubDate": "Tue, 08 Sep 2026 14:00:15 +0000",
+    "source": "DeepMind",
+    "summary": "AlphaGenome图集：预测人类基因组全部90亿单字母变异效应。",
+    "contentSnippet": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome."
+  },
+  {
+    "title": "The Work Now Within Reach",
+    "link": "https://openai.com/index/the-work-now-within-reach",
+    "pubDate": "Tue, 08 Sep 2026 13:00:00 GMT",
     "source": "OpenAI",
-    "summary": "日益强大的AI是异类心智，需对齐和国际协作。",
-    "contentSnippet": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination."
+    "summary": "更实惠的AI让更多工作触手可及。",
+    "contentSnippet": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical."
   },
   {
-    "title": "Research acceleration: The view inside OpenAI",
-    "link": "https://openai.com/index/research-acceleration-view-inside-openai",
-    "pubDate": "Sun, 06 Sep 2026 08:00:00 GMT",
+    "title": "Introducing ChatGPT Images 2.5",
+    "link": "https://openai.com/index/introducing-chatgpt-images-2-5",
+    "pubDate": "Tue, 08 Sep 2026 11:30:00 GMT",
     "source": "OpenAI",
-    "summary": "OpenAI内部研究加速透视",
-    "contentSnippet": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration."
+    "summary": "图像生成模型2.5将想法草图照片化为个性化精美图像",
+    "contentSnippet": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas."
   },
   {
-    "title": "GitHub Copilot weekly releases — August 31",
-    "link": "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31",
-    "pubDate": "Fri, 04 Sep 2026 21:05:01 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub Copilot八月周更：扩展模型选择与内容保护。",
-    "contentSnippet": "This week, GitHub Copilot expands model choice and content protections, while VS Code adds new ways to manage agent sessions and get pull requests merge-ready. GitHub Copilot, general Claude Fable…\nThe post GitHub Copilot weekly releases — August 31 appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Achieving Extreme Efficiency through Specialized GPU Kernel Generation",
-    "link": "https://www.databricks.com/blog/achieving-extreme-efficiency-through-specialized-gpu-kernel-generation",
-    "pubDate": "Fri, 04 Sep 2026 20:00:00 GMT",
+    "title": "The 40-year-old database rule agents just broke: How LTAP unifies OLTP and OLAP workloads",
+    "link": "https://www.databricks.com/blog/40-year-old-database-rule-agents-just-broke-how-ltap-unifies-oltp-and-olap-workloads",
+    "pubDate": "Mon, 07 Sep 2026 12:48:05 GMT",
     "source": "Databricks",
-    "summary": "专用GPU内核生成实现极致效率。",
-    "contentSnippet": "Traditionally, production inference systems rely on generic kernels to handle diverse..."
-  },
-  {
-    "title": "Five ways marketers can use Genie One",
-    "link": "https://www.databricks.com/blog/five-ways-marketers-can-use-genie-one",
-    "pubDate": "Fri, 04 Sep 2026 19:00:00 GMT",
-    "source": "Databricks",
-    "summary": "营销者使用Genie One的五种方法。",
-    "contentSnippet": "Every marketing team sits on a goldmine of data: campaign performance metrics, customer..."
-  },
-  {
-    "title": "GPT-6 Astra is generally available in GitHub Copilot",
-    "link": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
-    "pubDate": "Fri, 04 Sep 2026 18:59:51 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GPT-6 Astra现已在GitHub Copilot中全面可用。",
-    "contentSnippet": "GPT-6 Astra from OpenAI is now available in GitHub Copilot. OpenAI’s latest general-purpose model, GPT-6 Astra, is designed for long-horizon, autonomous coding and agentic tasks. In our internal testing, GPT-6…\nThe post GPT-6 Astra is generally available in GitHub Copilot appeared first on The GitHub Blog."
-  },
-  {
-    "title": "New API endpoint provides privacy-safe star history data",
-    "link": "https://github.blog/changelog/2026-09-04-new-api-endpoint-provides-privacy-safe-star-history-data",
-    "pubDate": "Fri, 04 Sep 2026 16:43:56 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub新API端点提供隐私安全的星标历史数据。",
-    "contentSnippet": "Track repository star growth over time with the new star history REST API endpoint without exposing stargazer identities. Earlier this year, stargazer listing endpoints were restricted to admins and collaborators…\nThe post New API endpoint provides privacy-safe star history data appeared first on The GitHub Blog."
+    "summary": "LTAP打破40年数据库规则，统一OLTP与OLAP。",
+    "contentSnippet": "Jonathan Katz has spent his career on both sides of a line that most of the data..."
   },
   {
     "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
     "link": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
     "pubDate": "Fri, 04 Sep 2026 16:04:14 +0000",
     "source": "GitHub",
-    "summary": "摘要生成失败",
+    "summary": "HydraFusion项目通过多模型编排实现前沿质量。",
     "contentSnippet": "In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost. Now available as a research preview in GitHub Copilot.\nThe post Project HydraFusion: Frontier quality via multi-model orchestration appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Governance beyond security: knowledge, context & ontology on the lakehouse",
-    "link": "https://www.databricks.com/blog/governance-beyond-security-knowledge-context-ontology-lakehouse",
-    "pubDate": "Thu, 03 Sep 2026 20:20:00 GMT",
-    "source": "Databricks",
-    "summary": "湖仓治理不止于安全：知识、语境与本体",
-    "contentSnippet": "Ask most organizations what data governance for AI means, and you’ll hear a security..."
   },
   {
     "title": "GitHub Copilot app for Beginners: Run several agents at once",
     "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
     "pubDate": "Thu, 03 Sep 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "GitHub Copilot初学者教程：同时运行多个代理。",
+    "summary": "GitHub Copilot初学者可同时运行多个代理。",
     "contentSnippet": "Learn how to run parallel agents in the GitHub Copilot app, and experience the moment it stops feeling scary and starts feeling powerful.\nThe post GitHub Copilot app for Beginners: Run several agents at once appeared first on The GitHub Blog."
   },
   {
@@ -124,7 +108,7 @@
     "link": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
     "pubDate": "Thu, 03 Sep 2026 15:02:08 +0000",
     "source": "DeepMind",
-    "summary": "摘要生成失败",
+    "summary": "发布WeatherNext 3，最先进准确的全球天气AI模型",
     "contentSnippet": ""
   },
   {
@@ -132,7 +116,7 @@
     "link": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
     "pubDate": "Wed, 02 Sep 2026 21:00:00 +0000",
     "source": "GitHub",
-    "summary": "GitHub播客解读AI新术语：循环、工具、小队等。",
+    "summary": "GitHub播客解读AI新术语：循环、团队、爬山等。",
     "contentSnippet": "From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations.\nThe post Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my! appeared first on The GitHub Blog."
   },
   {
@@ -140,7 +124,7 @@
     "link": "https://code.visualstudio.com/updates/v1_136",
     "pubDate": "2026-09-02T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "Visual Studio Code 1.136新功能概览",
+    "summary": "VS Code 1.136版本新特性介绍",
     "contentSnippet": "Learn what is new in Visual Studio Code 1.136\nRead the full article"
   },
   {
@@ -148,15 +132,7 @@
     "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
     "pubDate": "Wed, 02 Sep 2026 16:24:24 +0000",
     "source": "DeepMind",
-    "summary": "政府与企业主动网络防御",
-    "contentSnippet": ""
-  },
-  {
-    "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-    "link": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-    "pubDate": "Wed, 02 Sep 2026 16:18:31 +0000",
-    "source": "DeepMind",
-    "summary": "推出Gemini 3.8 Flash及Cyber版",
+    "summary": "政府与企业的主动网络防御",
     "contentSnippet": ""
   },
   {
@@ -164,7 +140,7 @@
     "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
     "pubDate": "Wed, 02 Sep 2026 15:40:00 +0000",
     "source": "Google AI",
-    "summary": "面向政府与企业的主动网络防御",
+    "summary": "面向政府和企业的主动网络防御项目。",
     "contentSnippet": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools."
   },
   {
@@ -172,7 +148,7 @@
     "link": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
     "pubDate": "Tue, 01 Sep 2026 20:45:00 +0000",
     "source": "Google AI",
-    "summary": "摘要生成失败",
+    "summary": "谷歌2026年8月最新AI动态",
     "contentSnippet": "Here are Google’s latest AI updates from August 2026"
   },
   {
@@ -188,7 +164,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
     "pubDate": "Mon, 31 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "高效病理基础模型助力人群规模发现。",
+    "summary": "新型高效病理基础模型降计算保性能，推动人群规模研究。",
     "contentSnippet": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration.\nThe post GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models appeared first on Microsoft Research."
   },
   {
@@ -196,7 +172,7 @@
     "link": "https://code.visualstudio.com/updates/v1_135",
     "pubDate": "2026-08-26T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.135 新特性速览",
+    "summary": "VS Code 1.135新特性概览",
     "contentSnippet": "Learn what's new in Visual Studio Code 1.135\nRead the full article"
   },
   {
@@ -204,7 +180,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
     "pubDate": "Thu, 20 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "微软Skala 1.1更精准更普及，加速预测性DFT。",
+    "summary": "扩大Skala获取渠道，打造预测DFT快车道",
     "contentSnippet": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry ecosystem, and a living benchmark to track computational performance. \nThe post Broadening access to Skala creates a faster path to predictive DFT  appeared first on Microsoft Research."
   },
   {
@@ -212,7 +188,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
     "pubDate": "Wed, 12 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "MindTopo新基准揭示视觉模型空间推理能力。",
+    "summary": "新基准测试揭示视觉语言模型的空间推理能力",
     "contentSnippet": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and  highlights new opportunities to strengthen spatial reasoning and planning.\nThe post MindTopo reveals VLMs’ spatial reasoning abilities appeared first on Microsoft Research."
   }
 ]
