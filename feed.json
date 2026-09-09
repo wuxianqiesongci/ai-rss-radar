@@ -1,98 +1,146 @@
 [
   {
-    "title": "Visual Studio Code 1.137 (Insiders)",
+    "title": "Visual Studio Code 1.138 (Insiders)",
+    "link": "https://code.visualstudio.com/updates/v1_138",
+    "pubDate": "2026-09-16T17:00:00.000Z",
+    "source": "VS Code",
+    "summary": "VS Code 1.138预览版新特性介绍。",
+    "contentSnippet": "Learn what's new in Visual Studio Code 1.138 (Insiders)\nRead the full article"
+  },
+  {
+    "title": "CodeQL 2.27.0 adds support for Linux ARM64",
+    "link": "https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64",
+    "pubDate": "Wed, 09 Sep 2026 21:45:06 +0000",
+    "source": "GitHub Changelog",
+    "summary": "CodeQL 2.27.0新增支持Linux ARM64。",
+    "contentSnippet": "CodeQL 2.27.0 is now available on Linux ARM64, adds a new Rust security query, expanded framework coverage for Java/Kotlin and C#, and analysis accuracy improvements across multiple languages. CodeQL is…\nThe post CodeQL 2.27.0 adds support for Linux ARM64 appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Enterprise managed permissions for GitHub Copilot agent operations",
+    "link": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
+    "pubDate": "Wed, 09 Sep 2026 20:08:14 +0000",
+    "source": "GitHub Changelog",
+    "summary": "企业级GitHub Copilot代理操作权限管理。",
+    "contentSnippet": "If you administer GitHub Copilot Business or GitHub Copilot Enterprise, you can now centrally control which agent operations are blocked, require human approval, or can proceed without a prompt. Managed…\nThe post Enterprise managed permissions for GitHub Copilot agent operations appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Five AI Questions We're Hearing from Financial Services Leaders",
+    "link": "https://www.databricks.com/blog/five-ai-questions-were-hearing-financial-services-leaders",
+    "pubDate": "Wed, 09 Sep 2026 18:09:29 GMT",
+    "source": "Databricks",
+    "summary": "金融服务领导者关注的五大AI问题",
+    "contentSnippet": "Last year at Sibos Frankfurt, the question was whether AI works. This year: can your..."
+  },
+  {
+    "title": "GitHub Advanced Security expands trial availability",
+    "link": "https://github.blog/changelog/2026-09-09-github-advanced-security-expands-trial-availability",
+    "pubDate": "Wed, 09 Sep 2026 17:33:34 +0000",
+    "source": "GitHub Changelog",
+    "summary": "GitHub高级安全扩大试用范围",
+    "contentSnippet": "More GitHub Enterprise Cloud customers can now start a self-serve GitHub Advanced Security trial to evaluate GitHub Code Security and GitHub Secret Protection. Eligibility has expanded from enterprises with up…\nThe post GitHub Advanced Security expands trial availability appeared first on The GitHub Blog."
+  },
+  {
+    "title": "Paul Christiano joins OpenAI Foundation Board",
+    "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+    "pubDate": "Wed, 09 Sep 2026 17:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "Paul Christiano加入OpenAI董事会及安全委员会。",
+    "contentSnippet": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards."
+  },
+  {
+    "title": "Visual Studio Code 1.137",
     "link": "https://code.visualstudio.com/updates/v1_137",
     "pubDate": "2026-09-09T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "摘要生成失败",
-    "contentSnippet": "Learn what is new in Visual Studio Code Insiders.\nRead the full article"
+    "summary": "了解VS Code 1.137的新功能。",
+    "contentSnippet": "Learn what's new in Visual Studio Code 1.137\nRead the full article"
   },
   {
-    "title": "GitHub Enterprise Server 3.22 is now generally available",
-    "link": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
-    "pubDate": "Tue, 08 Sep 2026 21:52:42 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub企业服务器3.22正式发布。",
-    "contentSnippet": "GitHub Enterprise Server (GHES) 3.22 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.22 release: Administrators can configure Copilot CLI to…\nThe post GitHub Enterprise Server 3.22 is now generally available appeared first on The GitHub Blog."
-  },
-  {
-    "title": "New customer portal help.github.com",
-    "link": "https://github.blog/changelog/2026-09-08-new-customer-portal-help-github-com",
-    "pubDate": "Tue, 08 Sep 2026 18:00:10 +0000",
-    "source": "GitHub Changelog",
-    "summary": "GitHub新客户门户整合支持文档学习社区资源",
-    "contentSnippet": "The support portal has been redesigned and moved to a new home at help.github.com. It brings support, docs, learning, community, and account resources together in one place with Copilot-powered search…\nThe post New customer portal help.github.com appeared first on The GitHub Blog."
-  },
-  {
-    "title": "SQL Data Types: Reference and Best Practices",
-    "link": "https://www.databricks.com/blog/sql-data-types",
-    "pubDate": "Tue, 08 Sep 2026 17:16:06 GMT",
+    "title": "A practical approach to end-to-end Solvency II reporting in Databricks",
+    "link": "https://www.databricks.com/blog/practical-approach-end-end-solvency-ii-reporting-databricks",
+    "pubDate": "Wed, 09 Sep 2026 16:20:00 GMT",
     "source": "Databricks",
-    "summary": "SQL数据类型参考与最佳实践指南",
-    "contentSnippet": "A SQL data type is a fundamental specification that defines what values a column..."
+    "summary": "利用Databricks实现端到端Solvency II报告的实用方法。",
+    "contentSnippet": "Solvency II reporting is not only a regulatory submission. It is a business process..."
+  },
+  {
+    "title": "Get ready for the game with new football features in Search",
+    "link": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+    "pubDate": "Wed, 09 Sep 2026 16:00:00 +0000",
+    "source": "Google AI",
+    "summary": "搜索新增足球功能：实时赛况、统计与个性推荐。",
+    "contentSnippet": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season."
+  },
+  {
+    "title": "Recreating a 70-year love story frame by frame",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+    "pubDate": "Wed, 09 Sep 2026 16:00:00 +0000",
+    "source": "Google AI",
+    "summary": "AI逐帧重现70年爱情故事",
+    "contentSnippet": "Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\""
+  },
+  {
+    "title": "Beyond embedding: How to secure AI/BI Dashboards for every viewer",
+    "link": "https://www.databricks.com/blog/beyond-embedding-how-secure-aibi-dashboards-every-viewer",
+    "pubDate": "Wed, 09 Sep 2026 14:04:44 GMT",
+    "source": "Databricks",
+    "summary": "超越嵌入：保护面向所有用户的AI/BI仪表板安全",
+    "contentSnippet": "The challengeEmbedding a Databricks AI/BI Dashboard in a customer-facing application is relatively straightforward..."
+  },
+  {
+    "title": "GPT-6 Astra: The next generation in intelligence for work",
+    "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
+    "pubDate": "Wed, 09 Sep 2026 11:00:00 GMT",
+    "source": "OpenAI",
+    "summary": "GPT-6 Astra：面向工作的下一代智能。",
+    "contentSnippet": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment."
+  },
+  {
+    "title": "AhaBench: Do Agents Learn from Prior Experience? A Benchmark for Long-Horizon Continual Learning",
+    "link": "https://arxiv.org/abs/2609.05435",
+    "pubDate": "Wed, 09 Sep 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "AhaBench：智能体能否从先前经验中长期持续学习？",
+    "contentSnippet": "arXiv:2609.05435v1 Announce Type: new \nAbstract: Modern language agents are expected to operate over long horizons: they ask follow-up questions, reuse worked examples, handle tool feedback, and adapt to delayed consequences. Most evaluations still reset the agent after a prompt or score only the final state of one trajectory. AhaBench asks a more operational question: when a fixed model receives useful experience, does its later behavior improve under a related evaluation condition where the obvious support has been removed, changed, or delayed? The suite contains three components. Aha-Puzzle tests no-hint exploration after solved hidden-state puzzles; Aha-Euler turns Project-Euler-style mathematical ideas into generated taught/held-out tasks with exact validators; and Aha-Vending, an open-source implementation inspired by Vending-Bench, tests whether a simulated vending agent remains profitable while handling delayed feedback and operational incidents. AhaBench reports a three-part scorecard: Initial Score measures starting competence, Post-Experience Score measures the later empirical outcome, and Learning Lift is their difference. This decomposition is the main empirical message: models that use visible support well, models that reach high post-experience scores, and models that improve most during a run are not always the same. On the common eight-model panel, Claude Opus 4.6 leads aggregate Post-Experience Score at 64.3 and aggregate Learning Lift at +25.8, with Gemini 3.1 Pro close behind at 63.4. The component results explain the split: puzzle traces raise supported scores but often fail to become no-hint exploration behavior; Aha-Euler full teaching reaches 78.6-100.0% while answer-only transfer ranges from 0.0 to 73.9%; and Aha-Vending separates profitable incident handling from bankruptcy and no-order failure. We release benchmark tasks, rubrics, validators, simulator code, and interfaces for evaluating new agents."
+  },
+  {
+    "title": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
+    "link": "https://arxiv.org/abs/2609.05437",
+    "pubDate": "Wed, 09 Sep 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "超越对错：评估大语言模型的二阶社会推理能力",
+    "contentSnippet": "arXiv:2609.05437v1 Announce Type: new \nAbstract: Previous AI alignment efforts have focused primarily on first-order social norms -- teaching models what is socially acceptable or unacceptable (e.g., `do not steal'). However, social intelligence depends not only on norm recognition, but also on anticipating who will enforce it and how (e.g., public shame or even imprisonment). These second-order expectations, known as metanorms, govern how people respond when social rules are broken. We introduce a novel framework for evaluating metanorm reasoning in Large Language Models (LLMs) along two dimensions: emotional appraisal and behavioral response, and propose new classification tasks, namely, predicting self-regulation in violators, and other-regulation in observers. We release a multi-perspective dataset, NormReact, of 450 norm violation scenarios, hand-annotated for emotions and behavioral responses across norm violators' gender and observers' social closeness. Current LLMs portray a harsher social world: across six models, they overpredict negative sanctions where humans would expect inaction, and alignment with human judgments deteriorates as social distance increases. These findings suggest that AI systems in norm-sensitive domains from conflict mediation to policy simulation, may risk producing a distorted picture of social regulation: one that over-represents punishment and under-represents the tolerance, restraint, and relational calibration that characterize actual norm enforcement in real world."
+  },
+  {
+    "title": "CriticGen: Generation-Aware Evaluation as Actionable Feedback",
+    "link": "https://arxiv.org/abs/2609.05439",
+    "pubDate": "Wed, 09 Sep 2026 00:00:00 -0400",
+    "source": "arXiv",
+    "summary": "CriticGen提出生成感知评估框架，将评估转化为可操作反馈以改进答案。",
+    "contentSnippet": "arXiv:2609.05439v1 Announce Type: new \nAbstract: Current evaluation methods for large language models are coarse-grained and decoupled from generation, producing generic explanations that fail to provide actionable feedback for model improvement. We propose CriticGen, a fine-grained, generation-aware evaluation framework that turns evaluation into actionable control for answer improvement. CriticGen first generates sample-specific evaluation dimensions and scoring criteria under high-level categories such as subjective, objective, and self-derived constraints. These criteria then serve as a dynamic rubric for jointly producing a score, a reason, an executable refinement suggestion, and a refined answer. This rubric-conditioned refinement process enables models to diagnose flaws and perform targeted answer improvement. Experimental results show that fine-grained evaluation should be both instance-specific and actionable. CriticGen induces higher-quality rubrics, improving relevance/coverage from 3.33/4.03 to 3.97/4.24. CriticGen also achieves the best score correlations, with 0.9556 Pearson and 0.9560 Spearman, and raises the F1 of criterion-grounded reasons and executable suggestions from 0.6369/0.5994 to 0.7554/0.7900. Crucially, its feedback translates into reliable answer improvement, improving 73.17% of answers with a 93.28% non-degradation rate."
   },
   {
     "title": "How GPT-5.6 Sol helps run quantum computing experiments",
     "link": "https://openai.com/index/codex-quantum-computing-experiments",
     "pubDate": "Tue, 08 Sep 2026 17:00:00 GMT",
     "source": "OpenAI",
-    "summary": "GPT-5.6 Sol辅助运行量子计算实验。",
-    "contentSnippet": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits."
-  },
-  {
-    "title": "Automatic Dependabot access to GitHub-hosted registries",
-    "link": "https://github.blog/changelog/2026-09-08-automatic-dependabot-access-to-github-hosted-registries",
-    "pubDate": "Tue, 08 Sep 2026 16:46:05 +0000",
-    "source": "GitHub Changelog",
-    "summary": "Dependabot自动访问GitHub注册表",
-    "contentSnippet": "Dependabot can now read from private GitHub Packages registries without a personal access token. If a package has granted your repository access through “Manage Actions access” in the package settings,…\nThe post Automatic Dependabot access to GitHub-hosted registries appeared first on The GitHub Blog."
-  },
-  {
-    "title": "Build durable agents with Temporal and Lakebase",
-    "link": "https://www.databricks.com/blog/build-durable-agents-temporal-and-lakebase",
-    "pubDate": "Tue, 08 Sep 2026 15:46:40 GMT",
-    "source": "Databricks",
     "summary": "摘要生成失败",
-    "contentSnippet": "A personal-loan underwriting agent gathers evidence, applies policy, and may wait..."
+    "contentSnippet": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits."
   },
   {
     "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
     "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
     "pubDate": "Tue, 08 Sep 2026 14:00:15 +0000",
     "source": "DeepMind",
-    "summary": "AlphaGenome图集：预测人类基因组全部90亿单字母变异效应。",
+    "summary": "阿尔法基因组图谱预测人类所有可能的单碱基变化效应",
     "contentSnippet": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome."
-  },
-  {
-    "title": "The Work Now Within Reach",
-    "link": "https://openai.com/index/the-work-now-within-reach",
-    "pubDate": "Tue, 08 Sep 2026 13:00:00 GMT",
-    "source": "OpenAI",
-    "summary": "更实惠的AI让更多工作触手可及。",
-    "contentSnippet": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical."
-  },
-  {
-    "title": "Introducing ChatGPT Images 2.5",
-    "link": "https://openai.com/index/introducing-chatgpt-images-2-5",
-    "pubDate": "Tue, 08 Sep 2026 11:30:00 GMT",
-    "source": "OpenAI",
-    "summary": "图像生成模型2.5将想法草图照片化为个性化精美图像",
-    "contentSnippet": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas."
-  },
-  {
-    "title": "The 40-year-old database rule agents just broke: How LTAP unifies OLTP and OLAP workloads",
-    "link": "https://www.databricks.com/blog/40-year-old-database-rule-agents-just-broke-how-ltap-unifies-oltp-and-olap-workloads",
-    "pubDate": "Mon, 07 Sep 2026 12:48:05 GMT",
-    "source": "Databricks",
-    "summary": "LTAP打破40年数据库规则，统一OLTP与OLAP。",
-    "contentSnippet": "Jonathan Katz has spent his career on both sides of a line that most of the data..."
   },
   {
     "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
     "link": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
     "pubDate": "Fri, 04 Sep 2026 16:04:14 +0000",
     "source": "GitHub",
-    "summary": "HydraFusion项目通过多模型编排实现前沿质量。",
+    "summary": "HydraFusion项目：多模型编排达前沿质量。",
     "contentSnippet": "In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost. Now available as a research preview in GitHub Copilot.\nThe post Project HydraFusion: Frontier quality via multi-model orchestration appeared first on The GitHub Blog."
   },
   {
@@ -100,7 +148,7 @@
     "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
     "pubDate": "Thu, 03 Sep 2026 16:00:00 +0000",
     "source": "GitHub",
-    "summary": "GitHub Copilot初学者可同时运行多个代理。",
+    "summary": "GitHub Copilot并行运行多个智能体的入门指南。",
     "contentSnippet": "Learn how to run parallel agents in the GitHub Copilot app, and experience the moment it stops feeling scary and starts feeling powerful.\nThe post GitHub Copilot app for Beginners: Run several agents at once appeared first on The GitHub Blog."
   },
   {
@@ -108,7 +156,7 @@
     "link": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
     "pubDate": "Thu, 03 Sep 2026 15:02:08 +0000",
     "source": "DeepMind",
-    "summary": "发布WeatherNext 3，最先进准确的全球天气AI模型",
+    "summary": "摘要生成失败",
     "contentSnippet": ""
   },
   {
@@ -116,7 +164,7 @@
     "link": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
     "pubDate": "Wed, 02 Sep 2026 21:00:00 +0000",
     "source": "GitHub",
-    "summary": "GitHub播客解读AI新术语：循环、团队、爬山等。",
+    "summary": "GitHub播客解码AI新术语，助你听懂开发者行话。",
     "contentSnippet": "From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations.\nThe post Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my! appeared first on The GitHub Blog."
   },
   {
@@ -124,7 +172,7 @@
     "link": "https://code.visualstudio.com/updates/v1_136",
     "pubDate": "2026-09-02T17:00:00.000Z",
     "source": "VS Code",
-    "summary": "VS Code 1.136版本新特性介绍",
+    "summary": "VS Code 1.136 新功能概览",
     "contentSnippet": "Learn what is new in Visual Studio Code 1.136\nRead the full article"
   },
   {
@@ -140,47 +188,23 @@
     "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
     "pubDate": "Wed, 02 Sep 2026 15:40:00 +0000",
     "source": "Google AI",
-    "summary": "面向政府和企业的主动网络防御项目。",
-    "contentSnippet": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools."
-  },
-  {
-    "title": "The latest AI news we announced in August 2026",
-    "link": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-    "pubDate": "Tue, 01 Sep 2026 20:45:00 +0000",
-    "source": "Google AI",
-    "summary": "谷歌2026年8月最新AI动态",
-    "contentSnippet": "Here are Google’s latest AI updates from August 2026"
-  },
-  {
-    "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
-    "link": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-    "pubDate": "Tue, 01 Sep 2026 16:00:00 +0000",
-    "source": "Google AI",
     "summary": "摘要生成失败",
-    "contentSnippet": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available."
+    "contentSnippet": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools."
   },
   {
     "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
     "link": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
     "pubDate": "Mon, 31 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "新型高效病理基础模型降计算保性能，推动人群规模研究。",
+    "summary": "高效病理模型助力大规模研究发现。",
     "contentSnippet": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration.\nThe post GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models appeared first on Microsoft Research."
-  },
-  {
-    "title": "Visual Studio Code 1.135",
-    "link": "https://code.visualstudio.com/updates/v1_135",
-    "pubDate": "2026-08-26T17:00:00.000Z",
-    "source": "VS Code",
-    "summary": "VS Code 1.135新特性概览",
-    "contentSnippet": "Learn what's new in Visual Studio Code 1.135\nRead the full article"
   },
   {
     "title": "Broadening access to Skala creates a faster path to predictive DFT ",
     "link": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
     "pubDate": "Thu, 20 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "扩大Skala获取渠道，打造预测DFT快车道",
+    "summary": "微软Skala 1.1：拓宽访问，加速预测性DFT。",
     "contentSnippet": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry ecosystem, and a living benchmark to track computational performance. \nThe post Broadening access to Skala creates a faster path to predictive DFT  appeared first on Microsoft Research."
   },
   {
@@ -188,7 +212,7 @@
     "link": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
     "pubDate": "Wed, 12 Aug 2026 16:00:00 +0000",
     "source": "Microsoft Research",
-    "summary": "新基准测试揭示视觉语言模型的空间推理能力",
+    "summary": "MindTopo新基准揭示AI空间推理能力。",
     "contentSnippet": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and  highlights new opportunities to strengthen spatial reasoning and planning.\nThe post MindTopo reveals VLMs’ spatial reasoning abilities appeared first on Microsoft Research."
   }
 ]
